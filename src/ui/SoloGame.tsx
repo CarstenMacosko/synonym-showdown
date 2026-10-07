@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { Forgiveness } from '../game/match';
 import {
   createSolo,
+  findSoloRepeat,
   guessSolo,
   soloTimeLeft,
   tickSolo,
@@ -27,7 +28,7 @@ export const SOLO_TITLES: Record<SoloMode, string> = {
 };
 
 const FEEDBACK: Record<Exclude<GuessResult, 'ok'>, string> = {
-  repeat: 'Already got that one!',
+  repeat: 'Already guessed that one!',
   wrong: 'Not a synonym!',
   starter: 'That’s the word itself!',
   empty: 'Type a word first!',
@@ -139,6 +140,8 @@ function SoloRun({
   }
 
   const left = soloTimeLeft(state, now);
+  // Warn while typing if this word (or a form/spelling of it) was already guessed.
+  const repeat = findSoloRepeat(state, input);
   const best = mode === 'daily' ? null : getBest(mode, variant);
 
   return (
@@ -200,7 +203,18 @@ function SoloRun({
 
       <div className="feedback-slot">
         <AnimatePresence mode="popLayout">
-          {feedback && (
+          {repeat ? (
+            <motion.p
+              key="repeat"
+              className="repeat-hint"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              {repeat.correct ? `You already got “${repeat.word}”` : `You already tried “${repeat.word}” (not a synonym)`}
+            </motion.p>
+          ) : (
+            feedback && (
             <motion.p
               key={feedback.id}
               className={`feedback ${feedback.good ? 'good' : 'bad'}`}
@@ -211,6 +225,7 @@ function SoloRun({
             >
               {feedback.text}
             </motion.p>
+            )
           )}
         </AnimatePresence>
       </div>
@@ -218,7 +233,13 @@ function SoloRun({
       {mode !== 'survival' && (
         <div className="word-cloud found">
           {state.found.map((w, i) => (
-            <motion.span key={w} initial={{ scale: 0 }} animate={{ scale: 1, rotate: ((i * 37) % 9) - 4 }} transition={{ type: 'spring', bounce: 0.6 }}>
+            <motion.span
+              key={w}
+              className={repeat?.correct && repeat.word === w ? 'echo' : ''}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1, rotate: ((i * 37) % 9) - 4 }}
+              transition={{ type: 'spring', bounce: 0.6 }}
+            >
               {w}
             </motion.span>
           ))}

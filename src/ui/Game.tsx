@@ -10,6 +10,7 @@ import {
   challenge,
   continueGame,
   createGame,
+  findRepeat,
   lastPlay,
   player,
   submitWord,
@@ -172,6 +173,11 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   useEffect(() => {
     if (myTurn) inputRef.current?.focus();
   }, [myTurn]);
+  const repeatIndex = myTurn ? findRepeat(state, input)?.index : undefined;
+  useEffect(() => {
+    if (repeatIndex === undefined) return;
+    chainRef.current?.querySelector(`[data-index="${repeatIndex}"]`)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, [repeatIndex]);
 
   function say(e: FormEvent) {
     e.preventDefault();
@@ -209,6 +215,9 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   }
 
   const prev = lastPlay(state);
+  // Warn while typing if the word (or a form/spelling of it) was already said this round.
+  const repeat = myTurn && !error ? findRepeat(state, input) : null;
+  const repeatBy = repeat && (repeat.play.playerId === state.currentId ? 'You' : player(state, repeat.play.playerId).name);
   const budget = turnBudget(state);
   const isClock = state.settings.timeControl === 'clock';
 
@@ -287,7 +296,8 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
             return (
               <motion.div
                 key={`${state.starter.word}-${i}`}
-                className={`bubble-row ${play.playerId === YOU ? 'mine' : ''}`}
+                data-index={i}
+                className={`bubble-row ${play.playerId === YOU ? 'mine' : ''} ${repeat?.index === i ? 'echo' : ''}`}
                 initial={{ scale: 0.5, opacity: 0, y: 20 }}
                 animate={{ scale: 1, opacity: 1, y: 0 }}
                 transition={{ type: 'spring', bounce: 0.6 }}
@@ -334,7 +344,15 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
                 Say it!
               </SketchButton>
             </motion.form>
-            {error && <p className="error">{error}</p>}
+            {error ? (
+              <p className="error">{error}</p>
+            ) : (
+              repeat && (
+                <motion.p className="repeat-hint" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
+                  {repeatBy} already said “{repeat.play.word}”
+                </motion.p>
+              )
+            )}
             {canChallenge(state) && prev && (
               <SketchButton className="challenge-btn" color="#ff6b6b" onClick={callChallenge}>
                 Challenge “{prev.word}”!

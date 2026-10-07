@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { createSolo, dailyStarter, guessSolo, survivalMs, tickSolo, type SoloState } from './solo';
+import { createSolo, dailyStarter, findSoloRepeat, guessSolo, survivalMs, tickSolo, type SoloState } from './solo';
 import { STARTERS } from './words';
 
 const rng = () => 0;
@@ -22,6 +22,16 @@ describe('score attack', () => {
     expect(r.result).toBe('wrong');
     expect(r.state.over).toBe(false);
     expect(r.state.deadline).toBe(58_000);
+  });
+  it('flags repeats of right and wrong guesses, without a second penalty', () => {
+    let s = guessSolo(score(), 'joyful', 1, rng).state;
+    expect(findSoloRepeat(s, 'joyfully')).toEqual({ word: 'joyful', correct: true });
+    s = guessSolo(s, 'Lucky', 2, rng).state;
+    expect(findSoloRepeat(s, 'lucky ')).toEqual({ word: 'lucky', correct: false });
+    const again = guessSolo(s, 'lucky', 3, rng);
+    expect(again.result).toBe('repeat');
+    expect(again.state.deadline).toBe(s.deadline);
+    expect(findSoloRepeat(s, 'glad')).toBeNull();
   });
   it('ends when time runs out', () => {
     expect(tickSolo(score(), 60_000).over).toBe(true);

@@ -69,7 +69,7 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
         <motion.h1 initial={{ scale: 0.6, rotate: -6 }} animate={{ scale: 1, rotate: -2 }} transition={{ type: 'spring', bounce: 0.55 }}>
           Synonym <span className="hl">Showdown</span>
         </motion.h1>
-        <p className="tagline">Name a synonym… or call their bluff.</p>
+        <p className="tagline">Name a synonym… or call a bluff.</p>
       </header>
 
       <section className="modes" role="radiogroup" aria-label="Game mode">

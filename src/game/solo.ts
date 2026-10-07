@@ -20,6 +20,8 @@ export interface SoloState {
   usedStarters: string[];
   /** Canonical synonyms found for the current starter. */
   found: string[];
+  /** Wrong guesses for the current starter (so repeating one doesn't cost time twice). */
+  tried: string[];
   score: number;
   round: number;
   /** When the clock runs out (ms timestamp). */
@@ -81,6 +83,7 @@ export function createSolo(
     starter,
     usedStarters: [starter.word],
     found: [],
+    tried: [],
     score: 0,
     round: 1,
     deadline: now + roundMs,
@@ -101,6 +104,19 @@ export function tickSolo(s: SoloState, now: number): SoloState {
   return { ...s, over: true, endReason: 'time' };
 }
 
+/**
+ * If `raw` repeats an earlier guess for this word, return that guess and whether it was correct.
+ * Matches other forms and spellings too ("joyfully" after "joyful").
+ */
+export function findSoloRepeat(s: SoloState, raw: string): { word: string; correct: boolean } | null {
+  const word = raw.trim();
+  if (!/[a-z]{2,}/i.test(word)) return null;
+  const canonical = findSynonym(word, s.starter, s.forgiveness);
+  if (canonical && s.found.includes(canonical)) return { word: canonical, correct: true };
+  const wrong = s.tried.find((t) => isSameWord(word, t, s.forgiveness));
+  return wrong ? { word: wrong, correct: false } : null;
+}
+
 export function guessSolo(
   s: SoloState,
   raw: string,
@@ -112,14 +128,15 @@ export function guessSolo(
   if (!/[a-z]{2,}/i.test(word)) return { state: s, result: 'empty', canonical: null };
   if (isSameWord(word, s.starter.word, s.forgiveness)) return { state: s, result: 'starter', canonical: null };
 
+  if (findSoloRepeat(s, word)) return { state: s, result: 'repeat', canonical: null };
   const canonical = findSynonym(word, s.starter, s.forgiveness);
   if (!canonical) {
     if (s.mode === 'survival') {
       return { state: { ...s, over: true, endReason: 'wrong', lastWrong: word }, result: 'wrong', canonical: null };
     }
-    return { state: { ...s, deadline: s.deadline - WRONG_PENALTY_MS }, result: 'wrong', canonical: null };
+    const tried = [...s.tried, word.toLowerCase()];
+    return { state: { ...s, tried, deadline: s.deadline - WRONG_PENALTY_MS }, result: 'wrong', canonical: null };
   }
-  if (s.found.includes(canonical)) return { state: s, result: 'repeat', canonical };
 
   if (s.mode === 'survival') {
     const round = s.round + 1;
@@ -137,6 +154,7 @@ export function guessSolo(
         starter,
         usedStarters: [...s.usedStarters, starter.word],
         found: [],
+        tried: [],
         deadline: now + roundMs,
         roundMs,
       },

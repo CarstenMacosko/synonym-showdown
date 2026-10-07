@@ -24,14 +24,22 @@ body {
 }
 
 body {
-  /* faint pencil doodles in the background */
-  background-image:
-    radial-gradient(circle at 12% 18%, transparent 22px, #f1f3f5 23px, transparent 25px),
-    radial-gradient(circle at 88% 72%, transparent 30px, #f1f3f5 31px, transparent 33px),
-    radial-gradient(#eceff1 1px, transparent 1.4px);
-  background-size: 520px 520px, 640px 640px, 26px 26px;
+  /* faint dot-grid "paper" */
+  background-image: radial-gradient(#eceff1 1px, transparent 1.4px);
+  background-size: 26px 26px;
   min-height: 100vh;
   min-height: 100dvh;
+}
+
+/* Pencil rings in the empty side margins on wide screens only, so they never sit behind content. */
+@media (min-width: 1180px) {
+  body {
+    --ring: radial-gradient(circle closest-side, transparent 86%, #f1f3f5 89%, #f1f3f5 95%, transparent 98%);
+    background-image: var(--ring), var(--ring), var(--ring), radial-gradient(#eceff1 1px, transparent 1.4px);
+    background-size: 56px 56px, 70px 70px, 48px 48px, 26px 26px;
+    background-position: calc(50% - 500px) 150px, calc(50% + 510px) 430px, calc(50% - 520px) 720px, 0 0;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  }
 }
 
 button,
@@ -725,4 +733,28 @@ h2 {
   min-height: 90px;
   margin: 18px auto 0;
   max-width: 728px;
+}
+
+/* ---------- "already said" warning ---------- */
+
+.repeat-hint {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #e8590c;
+}
+
+/* The earlier word being repeated gets a highlighter swipe and a wiggle. */
+.bubble-row.echo .bubble,
+.word-cloud span.echo {
+  background: linear-gradient(transparent 15%, #ffe066 15%, #ffe066 85%, transparent 85%);
+  animation: echo-wiggle 0.5s ease-in-out 2;
+}
+
+@keyframes echo-wiggle {
+  25% {
+    transform: rotate(-3deg) scale(1.06);
+  }
+  75% {
+    transform: rotate(3deg) scale(1.06);
+  }
 }

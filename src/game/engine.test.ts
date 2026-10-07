@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { canChallenge, challenge, continueGame, createGame, submitWord, timeLeft, timeout, type GameState, type Settings } from './engine';
+import { canChallenge, challenge, findRepeat, continueGame, createGame, submitWord, timeLeft, timeout, type GameState, type Settings } from './engine';
 import { decideBotMove } from './bot';
 import { STARTERS } from './words';
 
@@ -23,6 +23,14 @@ describe('turns', () => {
     expect(submitWord(s, 'b', 'Joyfully', 2).error).toBe('repeat');
     expect(submitWord(s, 'b', 'happiness', 2).error).toBe('starter');
     expect(submitWord(s, 'c', 'glad', 2).error).toBe('notYourTurn');
+  });
+  it('reports which earlier play a word repeats', () => {
+    let s = submitWord(start(), 'a', 'joyful', 1).state;
+    s = submitWord(s, 'b', 'glad', 2).state;
+    expect(findRepeat(s, 'Joyfully')).toMatchObject({ index: 0, play: { playerId: 'a', word: 'joyful' } });
+    expect(findRepeat(s, 'glad')).toMatchObject({ index: 1, play: { playerId: 'b' } });
+    expect(findRepeat(s, 'merry')).toBeNull();
+    expect(findRepeat(s, 'g')).toBeNull();
   });
   it('cannot challenge before any word is said', () => {
     expect(canChallenge(start())).toBe(false);

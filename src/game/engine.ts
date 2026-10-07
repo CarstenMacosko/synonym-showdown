@@ -169,17 +169,27 @@ export function createGame(settings: Settings, setups: PlayerSetup[], rng: Rng, 
 }
 
 /** Checks a word without playing it. Returns an error, or null if it may be played. */
+/**
+ * The earlier play that `raw` repeats, if any: the same word, another form of it ("joyfully" after "joyful"),
+ * or another spelling ("wilful" after "willful"). Used to block repeats and to warn players while they type.
+ */
+export function findRepeat(state: GameState, raw: string): { play: Play; index: number } | null {
+  const word = raw.trim();
+  if (!/[a-z]{2,}/i.test(word)) return null;
+  const f = state.settings.forgiveness;
+  // Compare by the synonym it resolves to (so "cheerfull" repeats "cheerful" in typo mode) and by form.
+  const canon = findSynonym(word, state.starter, f);
+  const index = state.chain.findIndex(
+    (play) => isSameWord(word, play.word, f) || (canon !== null && findSynonym(play.word, state.starter, f) === canon),
+  );
+  return index === -1 ? null : { play: state.chain[index], index };
+}
+
 export function checkWord(state: GameState, raw: string): SubmitError | null {
   const word = raw.trim();
   if (!/[a-z]{2,}/i.test(word)) return 'empty';
-  const f = state.settings.forgiveness;
-  if (isSameWord(word, state.starter.word, f)) return 'starter';
-  // Compare by the synonym it resolves to (so "cheerfull" repeats "cheerful" in typo mode) and by form.
-  const canon = findSynonym(word, state.starter, f);
-  for (const play of state.chain) {
-    if (isSameWord(word, play.word, f)) return 'repeat';
-    if (canon && findSynonym(play.word, state.starter, f) === canon) return 'repeat';
-  }
+  if (isSameWord(word, state.starter.word, state.settings.forgiveness)) return 'starter';
+  if (findRepeat(state, word)) return 'repeat';
   return null;
 }
 
