@@ -18,9 +18,9 @@ interface Profile {
 }
 
 export const BOT_PROFILES: Record<BotLevel, Profile> = {
-  easy: { vocab: 0.35, detect: 0.5, suspicion: 0.35, bluff: 0.12, think: [2500, 6500] },
-  medium: { vocab: 0.6, detect: 0.75, suspicion: 0.25, bluff: 0.07, think: [1800, 5000] },
-  hard: { vocab: 0.88, detect: 0.93, suspicion: 0.12, bluff: 0.04, think: [1200, 3800] },
+  easy: { vocab: 0.35, detect: 0.5, suspicion: 0.15, bluff: 0.12, think: [2500, 6500] },
+  medium: { vocab: 0.6, detect: 0.75, suspicion: 0.1, bluff: 0.07, think: [1800, 5000] },
+  hard: { vocab: 0.88, detect: 0.93, suspicion: 0.05, bluff: 0.04, think: [1200, 3800] },
 };
 
 export const BOT_NAMES = ['Thesaurus Rex', 'Lexi', 'Wordsworth', 'Penny', 'Doodle', 'Professor Quill', 'Scribbles', 'Gus'];

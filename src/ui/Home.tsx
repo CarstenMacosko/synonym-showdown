@@ -6,6 +6,7 @@ import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl }
 import type { Forgiveness } from '../game/match';
 import { todayKey } from '../game/solo';
 import type { Tier } from '../game/words';
+import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { PASS_MAX, type GameConfig, type ModeId } from './config';
 import { getBest, getDaily } from './records';
@@ -252,6 +253,7 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
           <li>If it really is a synonym, the challenger is out. If not, the bluffer is out. Last one standing wins.</li>
         </ol>
       </SketchBox>
+      <AdSlot placement="home" />
     </div>
   );
 }

@@ -14,6 +14,7 @@ import {
   type SoloState,
 } from '../game/solo';
 import { synonymWords, type Tier } from '../game/words';
+import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { getBest, getDaily, recordBest, saveDaily, type DailyResult } from './records';
 import { SketchBox, SketchButton } from './sketch';
@@ -316,6 +317,7 @@ function SoloOver({
         )}
         <SketchButton onClick={onExit}>Menu</SketchButton>
       </div>
+      <AdSlot placement="gameover" />
     </div>
   );
 }

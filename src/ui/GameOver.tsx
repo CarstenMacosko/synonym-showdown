@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { alivePlayers, player, type GameState } from '../game/engine';
 import { findSynonym } from '../game/match';
 import { synonymWords } from '../game/words';
+import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { SketchBox, SketchButton } from './sketch';
 
@@ -77,6 +78,7 @@ export function GameOver({
         </SketchButton>
         <SketchButton onClick={onMenu}>Menu</SketchButton>
       </div>
+      <AdSlot placement="gameover" />
     </div>
   );
 }
