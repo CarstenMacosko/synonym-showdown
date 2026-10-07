@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { findSynonym, isSameWord, soundKey, stem } from './match';
-import { STARTERS } from './words';
+import { STARTERS, synonymWords } from './words';
 
 const happy = STARTERS.find((s) => s.word === 'happy')!;
 const fast = STARTERS.find((s) => s.word === 'fast')!;
@@ -44,10 +44,19 @@ describe('spelling forgiveness', () => {
   });
 });
 
+describe('spelling variants', () => {
+  const obstinate = STARTERS.find((s) => s.word === 'obstinate')!;
+  it('accepts either spelling and reports the main one', () => {
+    expect(findSynonym('wilful', obstinate, 'strict')).toBe('willful');
+    expect(findSynonym('willful', obstinate, 'strict')).toBe('willful');
+    expect(synonymWords(obstinate)).not.toContain('wilful');
+  });
+});
+
 describe('word list sanity', () => {
   it('no starter lists itself or a decoy as a synonym', () => {
     for (const s of STARTERS) {
-      for (const syn of s.synonyms) expect(stem(syn), `${s.word}: ${syn}`).not.toBe(stem(s.word));
+      for (const syn of s.synonyms.flatMap((e) => e.split('/'))) expect(stem(syn), `${s.word}: ${syn}`).not.toBe(stem(s.word));
       for (const d of s.decoys) expect(findSynonym(d, s, 'strict'), `${s.word} decoy ${d}`).toBeNull();
     }
   });

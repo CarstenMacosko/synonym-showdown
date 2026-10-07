@@ -1,6 +1,6 @@
 // Word matching: word forms ("joyful" == "joyfully") and spelling forgiveness.
 
-import type { StarterWord } from './words';
+import { primary, type StarterWord } from './words';
 
 /** How forgiving the game is about spelling. Ranked always uses 'strict'. */
 export type Forgiveness = 'strict' | 'typos' | 'soundalike';
@@ -117,15 +117,17 @@ function sameWord(guess: string, target: string, forgiveness: Forgiveness): bool
 }
 
 /**
- * If `guess` matches one of the starter's synonyms, return that synonym (its "canonical" spelling).
+ * If `guess` matches one of the starter's synonyms, return that synonym's main spelling.
  * Exact/form matches win over fuzzy ones so "cool" never gets read as a typo of "coal".
  */
 export function findSynonym(guess: string, starter: StarterWord, forgiveness: Forgiveness): string | null {
   const g = stem(guess);
-  const exact = starter.synonyms.find((s) => stem(s) === g || key(s) === key(guess));
-  if (exact) return exact;
+  const spellings = (entry: string) => entry.split('/');
+  const exact = starter.synonyms.find((e) => spellings(e).some((s) => stem(s) === g || key(s) === key(guess)));
+  if (exact) return primary(exact);
   if (forgiveness === 'strict') return null;
-  return starter.synonyms.find((s) => sameWord(guess, s, forgiveness)) ?? null;
+  const fuzzy = starter.synonyms.find((e) => spellings(e).some((s) => sameWord(guess, s, forgiveness)));
+  return fuzzy ? primary(fuzzy) : null;
 }
 
 /** Is `guess` some form/spelling of `word`? Used for "already said" and "that's the starter word". */

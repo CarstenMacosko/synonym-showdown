@@ -21,7 +21,7 @@ import {
   type SubmitError,
 } from '../game/engine';
 import { Avatar, type Mood } from './Avatar';
-import { PLAYER_COLORS, type BotGameConfig } from './config';
+import { PLAYER_COLORS, type GameConfig } from './config';
 import { GameOver } from './GameOver';
 import { SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
@@ -38,7 +38,11 @@ const ERRORS: Record<SubmitError, string> = {
   notYourTurn: 'Wait for your turn!',
 };
 
-function newGame(config: BotGameConfig): GameState {
+function newGame(config: GameConfig): GameState {
+  if (config.mode === 'pass') {
+    const humans = config.passNames.map((name, i) => ({ id: `p${i}`, name, isBot: false, color: PLAYER_COLORS[i] }));
+    return createGame(config.settings, humans, Math.random, Date.now());
+  }
   const names = [...BOT_NAMES].sort(() => Math.random() - 0.5);
   const setups = [
     { id: YOU, name: config.name, isBot: false, color: PLAYER_COLORS[0] },
@@ -53,7 +57,7 @@ function newGame(config: BotGameConfig): GameState {
   return createGame(config.settings, setups, Math.random, Date.now());
 }
 
-export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => void }) {
+export function Game({ config, onExit }: { config: GameConfig; onExit: () => void }) {
   const [state, setStateRaw] = useState(() => newGame(config));
   const stateRef = useRef(state);
   const setState = useCallback((s: GameState) => {
@@ -69,9 +73,10 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
   const inputRef = useRef<HTMLInputElement>(null);
   const chainRef = useRef<HTMLDivElement>(null);
 
-  const me = player(state, YOU);
-  const myTurn = state.phase === 'playing' && state.currentId === YOU;
+  const passPlay = config.mode === 'pass';
   const current = player(state, state.currentId);
+  // In pass-and-play every human types on this device; otherwise only "you" do.
+  const myTurn = state.phase === 'playing' && !current.isBot;
 
   // Clock: redraw timers and enforce timeouts.
   useEffect(() => {
@@ -88,7 +93,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
         return;
       }
       const sec = Math.ceil(left / 1000);
-      if (s.currentId === YOU && sec <= 3 && sec !== lastSec) sfx.tick();
+      if (!player(s, s.currentId).isBot && sec <= 3 && sec !== lastSec) sfx.tick();
       lastSec = sec;
     }, 100);
     return () => clearInterval(id);
@@ -124,7 +129,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
     const ev = state.lastEvent;
     const showVerdict = () => {
       setStage('verdict');
-      if (ev.eliminatedId === YOU) sfx.bad();
+      if (ev.eliminatedId === YOU || passPlay) sfx.bad();
       else if (ev.kind === 'challenge') sfx.good();
     };
     let t1: ReturnType<typeof setTimeout> | undefined;
@@ -146,7 +151,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
     const s = stateRef.current;
     if (s.phase !== 'result') return;
     // Knocked out: end here so the end screen shows the word you went out on.
-    if (!player(s, YOU).alive) {
+    if (!passPlay && !player(s, YOU).alive) {
       setFinished(true);
       return;
     }
@@ -154,7 +159,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
     if (next.phase === 'over') {
       setState(next);
       setFinished(true);
-      if (next.winnerId === YOU) sfx.win();
+      if (next.winnerId === YOU || passPlay) sfx.win();
       return;
     }
     setState(next);
@@ -171,7 +176,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
   function say(e: FormEvent) {
     e.preventDefault();
     if (!myTurn) return;
-    const r = submitWord(state, YOU, input, Date.now());
+    const r = submitWord(state, state.currentId, input, Date.now());
     if (r.error) {
       setError(ERRORS[r.error]);
       setShake((n) => n + 1);
@@ -189,7 +194,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
     sfx.challenge();
     setInput('');
     setError(null);
-    setState(challenge(state, YOU, Date.now()));
+    setState(challenge(state, state.currentId, Date.now()));
   }
 
   function restart() {
@@ -200,7 +205,7 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
   }
 
   if (finished) {
-    return <GameOver state={state} youId={YOU} onAgain={restart} onMenu={onExit} />;
+    return <GameOver state={state} youId={passPlay ? null : YOU} onAgain={restart} onMenu={onExit} />;
   }
 
   const prev = lastPlay(state);
@@ -272,7 +277,8 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
       <div className="chain" ref={chainRef}>
         {state.chain.length === 0 && (
           <p className="chain-empty">
-            {state.phase === 'playing' && (myTurn ? 'You go first. Say a synonym!' : `${current.name} goes first…`)}
+            {state.phase === 'playing' &&
+              (myTurn && !passPlay ? 'You go first. Say a synonym!' : `${current.name} goes first…`)}
           </p>
         )}
         <AnimatePresence initial={false}>
@@ -300,8 +306,13 @@ export function Game({ config, onExit }: { config: BotGameConfig; onExit: () => 
       </div>
 
       <div className="controls">
-        {me.alive && myTurn ? (
+        {myTurn ? (
           <>
+            {passPlay && (
+              <p className="turn-label">
+                <span className="hl">{current.name}</span>’s turn
+              </p>
+            )}
             <motion.form key={shake} onSubmit={say} className="say-form" animate={shake ? { x: [0, -10, 10, -6, 6, 0] } : {}}>
               <SketchBox className="input-wrap big">
                 <input

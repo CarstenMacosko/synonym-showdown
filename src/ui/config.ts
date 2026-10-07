@@ -2,23 +2,31 @@
 
 import type { BotLevel, Settings } from '../game/engine';
 
-export interface BotGameConfig {
+export type ModeId = 'bots' | 'score' | 'daily' | 'survival' | 'pass';
+
+export interface GameConfig {
+  mode: ModeId;
   name: string;
+  /** Player names for pass-and-play. */
+  passNames: string[];
   bots: number;
   botLevel: BotLevel;
   settings: Settings;
 }
 
-export const DEFAULT_CONFIG: BotGameConfig = {
+export const DEFAULT_CONFIG: GameConfig = {
+  mode: 'bots',
   name: 'You',
+  passNames: ['Player 1', 'Player 2'],
   bots: 2,
   botLevel: 'medium',
   settings: { tier: 'easy', timeControl: 'rapid', forgiveness: 'typos', afterElimination: 'newWord' },
 };
 
 const KEY = 'ss-config';
+export const PASS_MAX = 5;
 
-export function loadConfig(): BotGameConfig {
+export function loadConfig(): GameConfig {
   try {
     const saved = JSON.parse(localStorage.getItem(KEY) ?? 'null');
     if (saved) return { ...DEFAULT_CONFIG, ...saved, settings: { ...DEFAULT_CONFIG.settings, ...saved.settings } };
@@ -28,7 +36,7 @@ export function loadConfig(): BotGameConfig {
   return DEFAULT_CONFIG;
 }
 
-export function saveConfig(c: BotGameConfig) {
+export function saveConfig(c: GameConfig) {
   try {
     localStorage.setItem(KEY, JSON.stringify(c));
   } catch {

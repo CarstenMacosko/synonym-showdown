@@ -4,6 +4,7 @@
 // (both free for commercial use) and reviewed, so every ranked ruling is the same for everyone.
 //
 // `decoys` are related-but-wrong words that bots use when they bluff.
+// A synonym entry like "willful/wilful" lists spellings of one word: either is accepted, and they count as the same word.
 
 export type Tier = 'easy' | 'medium' | 'hard';
 
@@ -122,13 +123,13 @@ export const STARTERS: StarterWord[] = [
     tier: 'medium',
     synonyms: list(`exhausted, weary, sleepy, fatigued, drained, drowsy, spent, beat, bushed, pooped, wiped,
       wearied, jaded, burnt-out, haggard, lethargic, sluggish, listless, flagging, enervated, depleted,
-      knackered, run-down, tuckered, dog-tired, worn, stale, hackneyed, trite, overused, clichéd, cliched`),
+      knackered, run-down, tuckered, dog-tired, worn, stale, hackneyed, trite, overused, clichéd`),
     decoys: list('sick, lazy, sad, slow, old, hungry, weak, calm'),
   },
   {
     word: 'ask',
     tier: 'medium',
-    synonyms: list(`inquire, enquire, question, query, quiz, interrogate, request, beg, plead, petition, demand,
+    synonyms: list(`inquire/enquire, question, query, quiz, interrogate, request, beg, plead, petition, demand,
       invite, implore, entreat, solicit, appeal, seek, pose, probe, examine, grill, pump, beseech, apply,
       summon, bid, require, canvass, poll`),
     decoys: list('tell, answer, wonder, say, speak, think, call, talk'),
@@ -166,7 +167,7 @@ export const STARTERS: StarterWord[] = [
   {
     word: 'obstinate',
     tier: 'hard',
-    synonyms: list(`stubborn, headstrong, willful, wilful, pigheaded, mulish, inflexible, intransigent, obdurate,
+    synonyms: list(`stubborn, headstrong, willful/wilful, pigheaded, mulish, inflexible, intransigent, obdurate,
       recalcitrant, unyielding, uncompromising, adamant, immovable, persistent, dogged, tenacious, perverse,
       contrary, refractory, intractable, bullheaded, strong-willed, determined, steadfast, firm, rigid,
       self-willed, wayward, unbending, implacable, relentless, opinionated, ornery, balky, pertinacious,
@@ -184,7 +185,7 @@ export const STARTERS: StarterWord[] = [
   {
     word: 'gregarious',
     tier: 'hard',
-    synonyms: list(`sociable, outgoing, friendly, convivial, extroverted, extraverted, extrovert, affable,
+    synonyms: list(`sociable, outgoing, friendly, convivial, extroverted/extraverted/extrovert, affable,
       amiable, cordial, genial, companionable, social, hospitable, neighborly, chummy, clubby, warm, jovial,
       fun-loving, congenial, amicable, personable, approachable, people-oriented`),
     decoys: list('loud, popular, talkative, funny, generous, energetic, polite, confident'),
@@ -218,7 +219,7 @@ export const STARTERS: StarterWord[] = [
     word: 'melancholy',
     tier: 'hard',
     synonyms: list(`sad, sorrowful, gloomy, mournful, despondent, dejected, downcast, depressed, forlorn, glum,
-      morose, somber, sombre, doleful, woeful, wistful, pensive, blue, unhappy, lugubrious, dispirited,
+      morose, somber/sombre, doleful, woeful, wistful, pensive, blue, unhappy, lugubrious, dispirited,
       disconsolate, desolate, heavyhearted, low, down, sadness, sorrow, gloom, despair, misery, dejection,
       depression, woe, unhappiness, melancholia`),
     decoys: list('lonely, tired, quiet, angry, bored, dark, sleepy, nostalgic'),
@@ -239,6 +240,16 @@ export const STARTERS: StarterWord[] = [
     decoys: list('brave, rude, kind, loud, polite, simple, humble, clear'),
   },
 ];
+
+/** The main spelling of a synonym entry: "willful/wilful" -> "willful". */
+export function primary(entry: string): string {
+  return entry.split('/')[0];
+}
+
+/** Every synonym of a starter, one spelling each. */
+export function synonymWords(starter: StarterWord): string[] {
+  return starter.synonyms.map(primary);
+}
 
 export function startersForTier(tier: Tier): StarterWord[] {
   return STARTERS.filter((s) => s.tier === tier);

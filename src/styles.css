@@ -216,6 +216,20 @@ h2 {
   }
 }
 
+.mode-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mode-btn:disabled {
+  cursor: default;
+}
+
 .mode-card {
   padding: 14px 14px 12px;
   min-height: 82px;
@@ -240,6 +254,38 @@ h2 {
 
 .mode-card.soon {
   opacity: 0.55;
+}
+
+.mode-card.active span {
+  color: var(--ink);
+}
+
+.soon-tag.done {
+  background: #b2f2bb;
+}
+
+.hint {
+  margin: 0 0 12px;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.turn-label {
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .soon-tag {
@@ -608,4 +654,69 @@ h2 {
 .word-cloud span {
   font-size: 1.25rem;
   display: inline-block;
+}
+
+/* ---------- solo modes ---------- */
+
+.solo-hud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 4px 0 14px;
+}
+
+.solo-score {
+  font-family: var(--display);
+  font-size: 3rem;
+  line-height: 1;
+  min-width: 56px;
+  text-align: center;
+}
+
+.timer.solo-timer {
+  width: min(320px, 60vw);
+  height: 24px;
+}
+
+.solo-timer .timer-text {
+  line-height: 21px;
+  font-size: 0.95rem;
+}
+
+.feedback-slot {
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.feedback.good {
+  color: var(--good);
+}
+
+.feedback.bad {
+  color: var(--bad);
+}
+
+.word-cloud.found {
+  justify-content: center;
+  max-width: 560px;
+  margin: 6px auto 0;
+}
+
+.new-best {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 1.6rem;
+  color: var(--bad);
+  border: 3px solid currentColor;
+  border-radius: 8px 3px 10px 4px;
+  padding: 0 12px;
+  margin: 8px 0 0;
 }

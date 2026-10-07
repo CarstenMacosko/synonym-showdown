@@ -2,7 +2,7 @@
 
 import { canChallenge, checkWord, lastPlay, timeLeft, type BotLevel, type GameState, type Player, type Rng } from './engine';
 import { findSynonym, key } from './match';
-import { STARTERS } from './words';
+import { STARTERS, synonymWords } from './words';
 
 interface Profile {
   /** Share of each synonym list the bot "knows". */
@@ -48,14 +48,14 @@ function pick<T>(arr: T[], rng: Rng): T | undefined {
 
 /** Real synonyms this bot knows that haven't been said yet. */
 function knownFreshWords(state: GameState, bot: Player): string[] {
-  return state.starter.synonyms.filter((w) => knows(bot, w) && checkWord(state, w) === null);
+  return synonymWords(state.starter).filter((w) => knows(bot, w) && checkWord(state, w) === null);
 }
 
 /** Plausible-sounding wrong words: the starter's decoys, then synonyms of other words. */
 function bluffWords(state: GameState): string[] {
   const own = state.starter.decoys.filter((w) => checkWord(state, w) === null && !findSynonym(w, state.starter, 'strict'));
   if (own.length) return own;
-  return STARTERS.flatMap((s) => s.synonyms).filter(
+  return STARTERS.flatMap(synonymWords).filter(
     (w) => checkWord(state, w) === null && !findSynonym(w, state.starter, 'strict'),
   );
 }

@@ -80,6 +80,14 @@ describe('time', () => {
   });
 });
 
+describe('spelling variants', () => {
+  it('count as a repeat', () => {
+    const obstinate = STARTERS.find((s) => s.word === 'obstinate')!;
+    const s = submitWord({ ...start(), starter: obstinate }, 'a', 'willful', 1).state;
+    expect(submitWord(s, 'b', 'wilful', 2).error).toBe('repeat');
+  });
+});
+
 describe('bots', () => {
   it('always produce a legal move', () => {
     const bot = { ...setups[1], isBot: true, botLevel: 'hard' as const, alive: true, bankMs: 0 };
