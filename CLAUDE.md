@@ -10,6 +10,9 @@ See README.md for modes, file layout, and roadmap.
 - Run commands from this folder: `npm run dev` (http://localhost:5173), `npm test`, `npm run build`.
 - Code lives in the private GitHub repo https://github.com/CarstenMacosko/synonym-showdown (branch `main`).
   GitHub CLI is at `~/.local/bin/gh` (official binary), logged in as CarstenMacosko.
+- Live site: https://synonym-showdown.carstenmacosko.workers.dev (Cloudflare Worker with static assets,
+  connected to the GitHub repo: every push to `main` runs `npm run build` + `npx wrangler deploy`).
+  The owner manages the Cloudflare account; don't ask for Cloudflare credentials.
 - No full Xcode installed yet (macOS 14.6, Command Line Tools only), so `npm run ios` won't work until it is.
 
 ## Architecture rules
