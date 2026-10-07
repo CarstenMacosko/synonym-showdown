@@ -24,7 +24,7 @@ import {
 import { Avatar, type Mood } from './Avatar';
 import { PLAYER_COLORS, type GameConfig } from './config';
 import { GameOver } from './GameOver';
-import { SketchBox, SketchButton } from './sketch';
+import { JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
 
 const YOU = 'you';
@@ -68,7 +68,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   const [now, setNow] = useState(Date.now());
   const [input, setInput] = useState('');
   const [error, setError] = useState<string | null>(null);
-  // Shakes the input row in place (re-creating it would lose the cursor).
+  // Jiggles the text box in place (re-creating it would lose the cursor).
   const [formScope, animateForm] = useAnimate<HTMLFormElement>();
   const [stage, setStage] = useState<'checking' | 'verdict'>('verdict');
   const [finished, setFinished] = useState(false);
@@ -186,7 +186,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
     const r = submitWord(state, state.currentId, input, Date.now());
     if (r.error) {
       setError(ERRORS[r.error]);
-      animateForm(formScope.current, { x: [0, -10, 10, -6, 6, 0] }, { duration: 0.4 });
+      animateForm('.input-wrap', JIGGLE.keyframes, JIGGLE.options);
       sfx.error();
       inputRef.current?.focus();
       return;

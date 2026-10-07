@@ -1,6 +1,6 @@
 // Score Attack, Daily Word and Survival: type synonyms, each checked instantly.
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, useAnimate } from 'framer-motion';
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { Forgiveness } from '../game/match';
 import {
@@ -18,7 +18,7 @@ import { synonymWords, type Tier } from '../game/words';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { getBest, getDaily, recordBest, saveDaily, type DailyResult } from './records';
-import { SketchBox, SketchButton } from './sketch';
+import { JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
 
 export const SOLO_TITLES: Record<SoloMode, string> = {
@@ -78,6 +78,7 @@ function SoloRun({
   const stateRef = useRef(state);
   stateRef.current = state;
   const inputRef = useRef<HTMLInputElement>(null);
+  const [formScope, animateForm] = useAnimate<HTMLFormElement>();
 
   const variant = mode === 'score' ? `${tier}-${forgiveness}` : forgiveness;
 
@@ -128,7 +129,10 @@ function SoloRun({
       sfx.error();
       const penalty = r.result === 'wrong' && mode !== 'survival' ? ' (−2s)' : '';
       setFeedback({ id, text: FEEDBACK[r.result] + penalty, good: false });
-      if (r.result !== 'empty') setInput('');
+      animateForm('.input-wrap', JIGGLE.keyframes, JIGGLE.options);
+      // Repeats and the starter word stay in the box for the player to delete; a wrong guess
+      // is cleared so its "Not a synonym" message isn't replaced by the "already tried" warning.
+      if (r.result === 'wrong') setInput('');
     }
     setState(r.state);
     if (r.state.over) finish(r.state);
@@ -182,7 +186,7 @@ function SoloRun({
         </div>
       </div>
 
-      <form onSubmit={guess} className="say-form">
+      <form ref={formScope} onSubmit={guess} className="say-form">
         <SketchBox className="input-wrap big">
           <input
             ref={inputRef}

@@ -7,6 +7,12 @@ import type { Options } from 'roughjs/bin/core';
 
 export const INK = '#2b2b2b';
 
+/** A quick wobble for the text box when a guess is rejected. Use with framer-motion's `useAnimate`. */
+export const JIGGLE = {
+  keyframes: { x: [0, -7, 7, -5, 5, -2, 0], rotate: [0, -3, 3, -2, 2, -1, 0] },
+  options: { duration: 0.45 },
+};
+
 type Shape = 'rect' | 'ellipse';
 
 /** Draws a rough outline that fills its parent and redraws when the parent resizes. */
