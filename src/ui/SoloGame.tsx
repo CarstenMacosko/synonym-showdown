@@ -196,7 +196,8 @@ function SoloRun({
             enterKeyHint="send"
           />
         </SketchBox>
-        <SketchButton type="submit" color="#69db7c">
+        {/* preventDefault on mousedown keeps the cursor (and phone keyboard) in the text box */}
+        <SketchButton type="submit" color="#69db7c" onMouseDown={(e) => e.preventDefault()}>
           Go!
         </SketchButton>
       </form>

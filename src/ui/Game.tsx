@@ -1,7 +1,7 @@
 // The game table: starter word, players, word chain, and your controls.
 // This file wires the pure rules (game/engine.ts) to timers, bots and the screen.
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, useAnimate } from 'framer-motion';
 import { useCallback, useEffect, useRef, useState, type FormEvent } from 'react';
 import { botThinkMs, BOT_NAMES, decideBotMove } from '../game/bot';
 import {
@@ -68,7 +68,8 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   const [now, setNow] = useState(Date.now());
   const [input, setInput] = useState('');
   const [error, setError] = useState<string | null>(null);
-  const [shake, setShake] = useState(0);
+  // Shakes the input row in place (re-creating it would lose the cursor).
+  const [formScope, animateForm] = useAnimate<HTMLFormElement>();
   const [stage, setStage] = useState<'checking' | 'verdict'>('verdict');
   const [finished, setFinished] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -185,8 +186,9 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
     const r = submitWord(state, state.currentId, input, Date.now());
     if (r.error) {
       setError(ERRORS[r.error]);
-      setShake((n) => n + 1);
+      animateForm(formScope.current, { x: [0, -10, 10, -6, 6, 0] }, { duration: 0.4 });
       sfx.error();
+      inputRef.current?.focus();
       return;
     }
     sfx.pop();
@@ -323,7 +325,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
                 <span className="hl">{current.name}</span>’s turn
               </p>
             )}
-            <motion.form key={shake} onSubmit={say} className="say-form" animate={shake ? { x: [0, -10, 10, -6, 6, 0] } : {}}>
+            <form ref={formScope} onSubmit={say} className="say-form">
               <SketchBox className="input-wrap big">
                 <input
                   ref={inputRef}
@@ -340,10 +342,11 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
                   enterKeyHint="send"
                 />
               </SketchBox>
-              <SketchButton type="submit" color="#69db7c">
+              {/* preventDefault on mousedown keeps the cursor (and phone keyboard) in the text box */}
+              <SketchButton type="submit" color="#69db7c" onMouseDown={(e) => e.preventDefault()}>
                 Say it!
               </SketchButton>
-            </motion.form>
+            </form>
             {error ? (
               <p className="error">{error}</p>
             ) : (
