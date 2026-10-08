@@ -46,6 +46,8 @@ export interface SocketUser {
   id: number;
   username: string;
   rating: number;
+  /** Tagged by the cheat detector: still plays, but others see an "under review" tag. */
+  flagged?: boolean;
 }
 
 interface Seat {
@@ -56,6 +58,7 @@ interface Seat {
   color: string;
   userId: number | null;
   rating: number | null;
+  flagged: boolean;
   connected: boolean;
 }
 
@@ -241,6 +244,7 @@ export class GameRoom extends DurableObject<Env> {
         color: COLORS.find((c) => !used.has(c)) ?? COLORS[0],
         userId: user?.id ?? null,
         rating: user ? Math.round(user.rating) : null,
+        flagged: !!user?.flagged,
         connected: true,
       };
       room.seats.push(seat);
@@ -448,6 +452,7 @@ export class GameRoom extends DurableObject<Env> {
           connected: s.connected,
           guest: s.userId === null,
           rating: s.rating,
+          flagged: !!s.flagged,
           alive: p ? p.alive : true,
           bankMs: p?.bankMs ?? 0,
         };

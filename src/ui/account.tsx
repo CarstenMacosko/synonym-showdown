@@ -66,7 +66,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
 }
 
 /** "Sign in" button, or the signed-in player's name, rating and points (shown on the home screen). */
-export function AccountBar() {
+export function AccountBar({ onAdmin }: { onAdmin?: () => void }) {
   const { user, openSignIn: onSignIn, signOut: onSignOut } = useAccount();
   const [menu, setMenu] = useState(false);
   if (!user) {
@@ -89,6 +89,13 @@ export function AccountBar() {
             {user.provisional && <small> (rating still settling)</small>}
           </p>
           <p>Games played: {user.games}</p>
+          {user.isAdmin && onAdmin && (
+            <p>
+              <button className="disagree" onClick={onAdmin}>
+                Admin page
+              </button>
+            </p>
+          )}
           <button className="disagree" onClick={onSignOut}>
             Sign out
           </button>

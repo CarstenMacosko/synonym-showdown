@@ -50,11 +50,13 @@ export function Home({
   config,
   onPlay,
   onOnline,
+  onAdmin,
   notice,
 }: {
   config: GameConfig;
   onPlay: (c: GameConfig) => void;
   onOnline: (c: GameConfig, action: OnlineAction) => void;
+  onAdmin: () => void;
   notice?: string | null;
 }) {
   const [c, setC] = useState(config);
@@ -91,7 +93,7 @@ export function Home({
 
   return (
     <div className="page home">
-      <AccountBar />
+      <AccountBar onAdmin={onAdmin} />
       <header className="title-block">
         <motion.div className="title-faces" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: 'spring', bounce: 0.6 }}>
           <Avatar id="t1" color="#4dabf7" size={54} />

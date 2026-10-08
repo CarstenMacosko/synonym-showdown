@@ -10,6 +10,26 @@ export interface Account {
   rankedWins: number;
   games: number;
   points: number;
+  isAdmin: boolean;
+}
+
+export interface AdminReport {
+  starter: string;
+  word: string;
+  ruling: 'accepted' | 'rejected';
+  range: string;
+  n: number;
+  last: number;
+}
+
+export interface AdminFlag {
+  username: string;
+  suspicious: number;
+  rating: number;
+  ranked_games: number;
+  source: string;
+  reasons: string;
+  created_at: number;
 }
 
 async function call<T>(path: string, init?: { method?: string; body?: unknown }): Promise<T> {
@@ -34,6 +54,11 @@ export const api = {
   createRoom: () => call<{ code: string }>('/api/rooms', { method: 'POST', body: {} }).then((r) => r.code),
   submitSolo: (run: SoloSubmission) =>
     call<{ counted: boolean; score?: number; points?: number; reason?: string }>('/api/solo', { method: 'POST', body: run }),
+  adminReports: () => call<{ reports: AdminReport[] }>('/api/admin/reports').then((r) => r.reports),
+  resolveReport: (starter: string, word: string, status: 'fixed' | 'dismissed') =>
+    call('/api/admin/reports/resolve', { method: 'POST', body: { starter, word, status } }),
+  adminFlags: () => call<{ flags: AdminFlag[] }>('/api/admin/flags').then((r) => r.flags),
+  clearFlag: (username: string) => call('/api/admin/flags/clear', { method: 'POST', body: { username } }),
   leaderboard: () =>
     call<{ players: { username: string; rating: number; provisional: boolean; games: number; wins: number }[] }>('/api/leaderboard'),
 };

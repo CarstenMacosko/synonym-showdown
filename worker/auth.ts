@@ -33,6 +33,7 @@ export function publicUser(u: User) {
     rankedWins: u.ranked_wins,
     games: u.games,
     points: u.points,
+    isAdmin: u.is_admin === 1,
   };
 }
 

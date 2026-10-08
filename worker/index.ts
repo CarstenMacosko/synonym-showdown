@@ -9,6 +9,7 @@
 //   GET  /api/rooms/:code/ws       join a room (WebSocket)
 //   GET  /api/queue/ws             ranked matchmaking (WebSocket, signed in)
 
+import { adminApi } from './admin.ts';
 import { currentUser, login, logout, publicUser, register, type User } from './auth.ts';
 import { error, ipHash, json, rateLimited, recordEvent, sameOrigin } from './http.ts';
 import { leaderboard, saveReport, saveSoloRun } from './records.ts';
@@ -22,7 +23,9 @@ export { Matchmaker } from './matchmaker.ts';
 function forward(stub: { fetch: (r: Request) => Promise<Response> }, req: Request, user: User | null): Promise<Response> {
   const headers = new Headers(req.headers);
   headers.delete('x-ss-user');
-  if (user) headers.set('x-ss-user', JSON.stringify({ id: user.id, username: user.username, rating: user.rating }));
+  if (user) {
+    headers.set('x-ss-user', JSON.stringify({ id: user.id, username: user.username, rating: user.rating, flagged: user.suspicious > 0 }));
+  }
   return stub.fetch(new Request(req, { headers }));
 }
 
@@ -41,6 +44,7 @@ async function api(req: Request, env: Env, path: string): Promise<Response> {
   if (path === '/api/login' && method === 'POST') return login(db, req);
   if (path === '/api/logout' && method === 'POST') return logout(db, req);
   if (path === '/api/leaderboard' && method === 'GET') return leaderboard(db);
+  if (path.startsWith('/api/admin/')) return adminApi(db, req, path, await currentUser(db, req));
   if (path === '/api/report' && method === 'POST') return saveReport(db, req, await currentUser(db, req));
   if (path === '/api/solo' && method === 'POST') {
     const user = await currentUser(db, req);

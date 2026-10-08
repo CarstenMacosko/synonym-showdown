@@ -130,7 +130,7 @@ export async function leaderboard(db: D1Database): Promise<Response> {
   const { results } = await db
     .prepare(
       `SELECT username, rating, rd, ranked_games, ranked_wins FROM users
-       WHERE ranked_games > 0 ORDER BY rating DESC LIMIT 25`,
+       WHERE ranked_games > 0 AND suspicious = 0 ORDER BY rating DESC LIMIT 25`,
     )
     .all<{ username: string; rating: number; rd: number; ranked_games: number; ranked_wins: number }>();
   return json({

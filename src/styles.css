@@ -1104,3 +1104,35 @@ h2 {
   display: inline-block;
   min-width: 60%;
 }
+
+/* ---------- flags & admin ---------- */
+
+.flag-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #e8590c;
+  border: 1.5px dashed #ffa94d;
+  border-radius: 8px;
+  padding: 0 5px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.admin .choice-row {
+  margin-bottom: 14px;
+}
+
+.admin-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #dee2e6;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}

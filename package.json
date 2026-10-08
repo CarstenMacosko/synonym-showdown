@@ -15,7 +15,8 @@
     "words:grade": "node --max-old-space-size=6144 tools/wordbank/grade.ts",
     "words:build": "node tools/wordbank/build.ts",
     "reports": "node tools/admin/review.ts reports",
-    "flags": "node tools/admin/review.ts flags"
+    "flags": "node tools/admin/review.ts flags",
+    "make-admin": "node tools/admin/make-admin.ts"
   },
   "dependencies": {
     "@capacitor/core": "^8.5.2",

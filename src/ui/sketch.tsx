@@ -24,7 +24,10 @@ function useRoughOutline(shape: Shape, opts: Options, deps: unknown[]) {
     const host = svg?.parentElement;
     if (!svg || !host) return;
     const draw = () => {
-      const { width, height } = host.getBoundingClientRect();
+      // Layout size, not on-screen size: a box inside something that's zooming in (like a dialog
+      // popping open) would otherwise be measured mid-animation and get a too-small outline.
+      const width = host.offsetWidth;
+      const height = host.offsetHeight;
       svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
       svg.replaceChildren();
       if (width < 4 || height < 4) return;

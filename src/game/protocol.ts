@@ -35,6 +35,8 @@ export interface RoomPlayerView {
   color: string;
   connected: boolean;
   guest: boolean;
+  /** Tagged by the cheat detector ("under review"). */
+  flagged: boolean;
   /** Ranked rating, shown for signed-in players. */
   rating: number | null;
   alive: boolean;

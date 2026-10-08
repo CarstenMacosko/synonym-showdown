@@ -7,6 +7,7 @@ import { AccountProvider } from './ui/account';
 import { loadConfig, saveConfig, type GameConfig } from './ui/config';
 import { Game } from './ui/Game';
 import { Home, type OnlineAction } from './ui/Home';
+import { AdminPage } from './ui/Admin';
 import { OnlineGame, RankedQueue } from './ui/OnlineGame';
 import { SoloGame } from './ui/SoloGame';
 import { isMuted, setMuted } from './ui/sound';
@@ -25,7 +26,7 @@ function onlineName(name: string): string {
   }
 }
 
-type Screen = { kind: 'home' } | { kind: 'local' } | { kind: 'room'; code: string } | { kind: 'queue' };
+type Screen = { kind: 'home' } | { kind: 'local' } | { kind: 'room'; code: string } | { kind: 'queue' } | { kind: 'admin' };
 
 /** An invite link like synonymshowdown.com/?room=ABCD opens that room directly. */
 function initialScreen(): Screen {
@@ -72,7 +73,9 @@ export function App() {
       >
         {muted ? '🔇' : '🔊'}
       </button>
-      {screen.kind === 'room' ? (
+      {screen.kind === 'admin' ? (
+        <AdminPage onExit={home} />
+      ) : screen.kind === 'room' ? (
         <OnlineGame key={screen.code} code={screen.code} name={onlineName(config.name)} onExit={home} onFindMatch={() => setScreen({ kind: 'queue' })} />
       ) : screen.kind === 'queue' ? (
         <RankedQueue onMatched={matched} onCancel={home} />
@@ -96,6 +99,7 @@ export function App() {
             setScreen({ kind: 'local' });
           }}
           onOnline={online}
+          onAdmin={() => setScreen({ kind: 'admin' })}
         />
       )}
     </AccountProvider>

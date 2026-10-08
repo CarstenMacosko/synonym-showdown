@@ -202,6 +202,7 @@ function Lobby({ room, send, onExit, notice }: { room: RoomView; send: (m: Clien
                 {p.id === room.hostId ? 'host · ' : ''}
                 {p.guest ? 'guest' : `${p.rating ?? ''}`}
               </small>
+              {p.flagged && <FlagTag />}
             </motion.div>
           ))}
         </div>
@@ -262,6 +263,15 @@ function Lobby({ room, send, onExit, notice }: { room: RoomView; send: (m: Clien
         </SketchBox>
       )}
     </div>
+  );
+}
+
+/** Shown next to players the cheat detector has tagged. They can still play. */
+function FlagTag() {
+  return (
+    <span className="flag-tag" title="Our cheat detector flagged unusual play. This player is under review.">
+      under review
+    </span>
   );
 }
 
@@ -433,6 +443,7 @@ function Board({
               </AnimatePresence>
               <Avatar id={p.id + p.name} color={p.color} mood={moodFor(p.id, p.alive)} size={58} />
               <span className="seat-name">{p.id === room.you ? `${p.name} (you)` : p.name}</span>
+              {p.flagged && <FlagTag />}
               {p.alive && (
                 <div className="timer">
                   <div className={`timer-fill ${t < 3000 && active ? 'low' : ''}`} style={{ width: `${(t / budget) * 100}%`, background: p.color }} />
