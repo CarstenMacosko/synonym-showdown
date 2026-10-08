@@ -1,6 +1,6 @@
 // Word matching: word forms ("joyful" == "joyfully") and spelling forgiveness.
 
-import { primary, type StarterWord } from './words.ts';
+import { RANGE_MAX, type Range, type StarterWord, type Synonym } from './words.ts';
 
 /** How forgiving the game is about spelling. Ranked always uses 'strict'. */
 export type Forgiveness = 'strict' | 'typos' | 'soundalike';
@@ -117,17 +117,25 @@ function sameWord(guess: string, target: string, forgiveness: Forgiveness): bool
 }
 
 /**
- * If `guess` matches one of the starter's synonyms, return that synonym's main spelling.
+ * The synonym entry `guess` refers to, at any closeness, or null if it isn't a synonym at all.
  * Exact/form matches win over fuzzy ones so "cool" never gets read as a typo of "coal".
  */
-export function findSynonym(guess: string, starter: StarterWord, forgiveness: Forgiveness): string | null {
+export function findEntry(guess: string, starter: StarterWord, forgiveness: Forgiveness): Synonym | null {
   const g = stem(guess);
-  const spellings = (entry: string) => entry.split('/');
-  const exact = starter.synonyms.find((e) => spellings(e).some((s) => stem(s) === g || key(s) === key(guess)));
-  if (exact) return primary(exact);
+  const exact = starter.synonyms.find((e) => stem(e.word) === g || key(e.word) === key(guess));
+  if (exact) return exact;
   if (forgiveness === 'strict') return null;
-  const fuzzy = starter.synonyms.find((e) => spellings(e).some((s) => sameWord(guess, s, forgiveness)));
-  return fuzzy ? primary(fuzzy) : null;
+  // Prefer the closest synonym when a typo could match more than one.
+  return starter.synonyms.find((e) => sameWord(guess, e.word, forgiveness)) ?? null;
+}
+
+/**
+ * If `guess` is a synonym that counts in this range, return the synonym's spelling; otherwise null.
+ * A distant synonym typed in a Standard game is not a synonym (findEntry tells you it was close, though).
+ */
+export function findSynonym(guess: string, starter: StarterWord, forgiveness: Forgiveness, range: Range): string | null {
+  const entry = findEntry(guess, starter, forgiveness);
+  return entry && entry.closeness <= RANGE_MAX[range] ? entry.word : null;
 }
 
 /** Is `guess` some form/spelling of `word`? Used for "already said" and "that's the starter word". */

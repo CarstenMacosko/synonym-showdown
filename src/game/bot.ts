@@ -1,8 +1,8 @@
 // How computer opponents decide what to do on their turn.
 
 import { canChallenge, checkWord, lastPlay, timeLeft, type BotLevel, type GameState, type Player, type Rng } from './engine.ts';
-import { findSynonym, key } from './match.ts';
-import { STARTERS, synonymWords } from './words.ts';
+import { findEntry, findSynonym, key } from './match.ts';
+import { RANGE_MAX, STARTERS, type Synonym } from './words.ts';
 
 interface Profile {
   /** Share of each synonym list the bot "knows". */
@@ -37,26 +37,31 @@ function hash01(s: string): number {
   return ((h >>> 0) % 10_000) / 10_000;
 }
 
-function knows(bot: Player, word: string): boolean {
+function knows(bot: Player, word: string, rarity: Synonym['rarity'] = 1): boolean {
   const level = bot.botLevel ?? 'medium';
-  return hash01(bot.id + ':' + key(word)) < BOT_PROFILES[level].vocab;
+  // Rare words are known less often, like with people.
+  const vocab = BOT_PROFILES[level].vocab * (rarity === 3 ? 0.5 : rarity === 2 ? 0.8 : 1);
+  return hash01(bot.id + ':' + key(word)) < vocab;
 }
 
 function pick<T>(arr: T[], rng: Rng): T | undefined {
   return arr.length ? arr[Math.floor(rng() * arr.length)] : undefined;
 }
 
-/** Real synonyms this bot knows that haven't been said yet. */
+/** Real synonyms this bot knows that haven't been said yet (core and solid ones only, even in Loose games). */
 function knownFreshWords(state: GameState, bot: Player): string[] {
-  return synonymWords(state.starter).filter((w) => knows(bot, w) && checkWord(state, w) === null);
+  const max = Math.min(2, RANGE_MAX[state.settings.range]);
+  return state.starter.synonyms
+    .filter((s) => s.closeness <= max && knows(bot, s.word, s.rarity) && checkWord(state, s.word) === null)
+    .map((s) => s.word);
 }
 
 /** Plausible-sounding wrong words: the starter's decoys, then synonyms of other words. */
 function bluffWords(state: GameState): string[] {
-  const own = state.starter.decoys.filter((w) => checkWord(state, w) === null && !findSynonym(w, state.starter, 'strict'));
+  const own = state.starter.decoys.filter((w) => checkWord(state, w) === null && !findEntry(w, state.starter, 'strict'));
   if (own.length) return own;
-  return STARTERS.flatMap(synonymWords).filter(
-    (w) => checkWord(state, w) === null && !findSynonym(w, state.starter, 'strict'),
+  return STARTERS.flatMap((s) => s.decoys).filter(
+    (w) => checkWord(state, w) === null && !findEntry(w, state.starter, 'strict'),
   );
 }
 
@@ -66,10 +71,11 @@ export function decideBotMove(state: GameState, bot: Player, rng: Rng): BotMove 
 
   if (canChallenge(state)) {
     const prev = lastPlay(state)!;
-    const isReal = findSynonym(prev.word, state.starter, state.settings.forgiveness) !== null;
+    const isReal = findSynonym(prev.word, state.starter, state.settings.forgiveness, state.settings.range) !== null;
+    const rarity = findEntry(prev.word, state.starter, state.settings.forgiveness)?.rarity;
     let chance: number;
     if (!isReal) chance = p.detect;
-    else if (knows(bot, prev.word)) chance = 0.01;
+    else if (knows(bot, prev.word, rarity)) chance = 0.01;
     else chance = p.suspicion;
     // Running out of words makes a bot desperate enough to gamble on a challenge.
     if (fresh.length === 0) chance = Math.min(0.95, chance + 0.35);

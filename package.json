@@ -12,7 +12,8 @@
     "words:download": "node tools/wordbank/download.ts",
     "words:candidates": "node tools/wordbank/candidates.ts",
     "words:review": "node --env-file-if-exists=tools/wordbank/.env tools/wordbank/review.ts",
-    "words:grade": "node --max-old-space-size=6144 tools/wordbank/grade.ts"
+    "words:grade": "node --max-old-space-size=6144 tools/wordbank/grade.ts",
+    "words:build": "node tools/wordbank/build.ts"
   },
   "dependencies": {
     "@capacitor/core": "^8.5.2",

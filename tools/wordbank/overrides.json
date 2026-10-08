@@ -1,0 +1,55 @@
+{
+  "_about": "Hand corrections applied on top of graded/*.json by build.ts. 'set' adds a word or changes its closeness (1 close, 2 solid, 3 distant); 'remove' takes words out. Resolved 'Disagree?' reports go here too.",
+  "euphoria": {
+    "remove": ["apathy", "lethargy", "dejection", "mania"],
+    "set": { "elation": 1, "ecstasy": 1, "bliss": 1, "exhilaration": 2, "rapture": 2, "joy": 2, "jubilation": 2, "exuberance": 2, "glee": 2, "happiness": 2, "delight": 2, "thrill": 3 }
+  },
+  "hubris": {
+    "remove": ["courage", "boldness"],
+    "set": { "arrogance": 1, "pride": 1, "conceit": 1, "overconfidence": 1, "egotism": 2, "haughtiness": 2, "vanity": 2, "presumption": 2, "smugness": 2, "cockiness": 2, "pomposity": 2 }
+  },
+  "jealous": {
+    "set": { "envious": 1, "covetous": 1, "possessive": 2, "resentful": 2, "grudging": 2, "green-eyed": 2, "begrudging": 2, "distrustful": 3, "protective": 3 }
+  },
+  "admire": {
+    "set": { "respect": 1, "esteem": 1, "appreciate": 2, "idolize": 2, "adore": 2, "praise": 2, "applaud": 2, "honor": 2, "revere": 2, "worship": 3 }
+  },
+  "celebrate": {
+    "remove": ["dedicate"],
+    "set": { "commemorate": 1, "honor": 1, "observe": 2, "rejoice": 2, "party": 2, "toast": 2, "praise": 2, "applaud": 2, "acclaim": 2, "extol": 2, "laud": 2, "glorify": 2 }
+  },
+  "ubiquitous": {
+    "remove": ["plain", "pure", "regular", "veritable", "downright", "perfect", "clean", "sheer", "limitless", "omnipotent", "clear", "luminous", "unchanging", "unrestricted"],
+    "set": { "widespread": 1, "ever-present": 1, "universal": 2, "prevalent": 2, "common": 2, "rife": 2, "inescapable": 2, "worldwide": 3, "global": 3 }
+  },
+  "facade": {
+    "remove": ["proscenium"],
+    "set": { "front": 1, "exterior": 1, "face": 2, "frontage": 2, "veneer": 2, "pretense": 2, "mask": 2, "show": 2, "guise": 2, "appearance": 2, "disguise": 3, "sham": 3, "charade": 3 }
+  },
+  "debacle": {
+    "set": { "fiasco": 1, "disaster": 1, "catastrophe": 2, "failure": 2, "mess": 2, "flop": 2, "calamity": 2, "collapse": 2, "shambles": 2, "rout": 3 }
+  },
+  "menace": {
+    "remove": ["confront"],
+    "set": { "threat": 1, "danger": 1, "threaten": 1, "peril": 2, "risk": 2, "nuisance": 2, "pest": 2, "intimidate": 2, "endanger": 2, "jeopardize": 2, "terrorize": 3, "bully": 3 }
+  },
+  "scrutinize": {
+    "set": { "examine": 1, "inspect": 1, "study": 1, "analyze": 2, "review": 2, "survey": 2, "probe": 2, "check": 2, "investigate": 2, "peruse": 2, "audit": 3, "dissect": 3 }
+  },
+  "ancient": {
+    "set": { "old": 1, "age-old": 1, "antique": 2, "archaic": 2, "aged": 2, "prehistoric": 2, "primeval": 2, "bygone": 2, "olden": 2, "antiquated": 2, "venerable": 3, "timeworn": 3 }
+  },
+  "loyal": {
+    "remove": ["ardent"],
+    "set": { "faithful": 1, "devoted": 1, "true": 2, "steadfast": 2, "dedicated": 2, "staunch": 2, "reliable": 2, "dependable": 2, "constant": 2, "committed": 2, "true-blue": 3, "patriotic": 3 }
+  },
+  "hate": {
+    "set": { "loathe": 1, "detest": 1, "despise": 1, "hatred": 1, "abhor": 2, "dislike": 2, "resent": 2, "scorn": 2, "loathing": 2, "animosity": 2, "enmity": 2, "hostility": 3 }
+  },
+  "grumpy": {
+    "set": { "grouchy": 1, "cranky": 1, "crabby": 1, "irritable": 1, "bad-tempered": 1, "cantankerous": 2, "surly": 2, "testy": 2, "cross": 2, "sullen": 2, "peevish": 2, "tetchy": 2, "curmudgeonly": 3, "sour": 3 }
+  },
+  "tiny": {
+    "set": { "small": 1, "little": 1, "minuscule": 1, "teeny": 1, "minute": 1, "miniature": 2, "wee": 2, "petite": 2, "microscopic": 2, "diminutive": 2, "pint-sized": 2, "itty-bitty": 3, "compact": 3 }
+  }
+}

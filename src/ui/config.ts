@@ -20,7 +20,7 @@ export const DEFAULT_CONFIG: GameConfig = {
   passNames: ['Player 1', 'Player 2'],
   bots: 2,
   botLevel: 'medium',
-  settings: { tier: 'easy', timeControl: 'rapid', forgiveness: 'typos', afterElimination: 'newWord' },
+  settings: { tier: 'easy', timeControl: 'rapid', forgiveness: 'typos', afterElimination: 'newWord', range: 'standard' },
 };
 
 const KEY = 'ss-config';

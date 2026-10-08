@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl } from '../game/engine';
 import type { Forgiveness } from '../game/match';
 import { todayKey } from '../game/solo';
-import type { Tier } from '../game/words';
+import type { Range, Tier } from '../game/words';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { PASS_MAX, type GameConfig, type ModeId } from './config';
@@ -25,6 +25,12 @@ const TIER_OPTIONS: { value: Tier; label: string; detail: string }[] = [
   { value: 'easy', label: 'Easy', detail: 'happy, big' },
   { value: 'medium', label: 'Medium', detail: 'brave, calm' },
   { value: 'hard', label: 'Hard', detail: 'obstinate' },
+];
+
+const RANGE_OPTIONS: { value: Range; label: string; detail: string }[] = [
+  { value: 'close', label: 'Close only', detail: 'core synonyms' },
+  { value: 'standard', label: 'Standard', detail: 'close + solid' },
+  { value: 'loose', label: 'Loose', detail: '+ distant ones' },
 ];
 
 const SPELLING_OPTIONS: { value: Forgiveness; label: string; detail: string }[] = [
@@ -52,10 +58,16 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
     </div>
   );
   const spellingField = (
-    <div className="field">
-      <span>Spelling</span>
-      <Choice<Forgiveness> value={c.settings.forgiveness} onChange={(v) => set({ forgiveness: v })} color="#da77f2" options={SPELLING_OPTIONS} />
-    </div>
+    <>
+      <div className="field">
+        <span>Synonym range</span>
+        <Choice<Range> value={c.settings.range} onChange={(v) => set({ range: v })} color="#38d9a9" options={RANGE_OPTIONS} />
+      </div>
+      <div className="field">
+        <span>Spelling</span>
+        <Choice<Forgiveness> value={c.settings.forgiveness} onChange={(v) => set({ forgiveness: v })} color="#da77f2" options={SPELLING_OPTIONS} />
+      </div>
+    </>
   );
 
   return (
@@ -207,10 +219,10 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
         {mode === 'score' && (
           <>
             <h2>Score Attack</h2>
-            <p className="muted hint">60 seconds, one word. Every correct synonym is a point; wrong guesses cost 2 seconds.</p>
+            <p className="muted hint">60 seconds, one word. Each synonym scores 1 point, uncommon ones 2, rare ones 3; wrong guesses cost 2 seconds.</p>
             {tierField}
             {spellingField}
-            <p className="muted">Best: {getBest('score', `${c.settings.tier}-${c.settings.forgiveness}`)}</p>
+            <p className="muted">Best: {getBest('score', `${c.settings.tier}-${c.settings.forgiveness}-${c.settings.range}`)}</p>
           </>
         )}
 
@@ -219,7 +231,7 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
             <h2>Survival</h2>
             <p className="muted hint">Name one synonym to get a new word. The clock gets shorter and the words get harder. One miss and it’s over.</p>
             {spellingField}
-            <p className="muted">Best: {getBest('survival', c.settings.forgiveness)} rounds</p>
+            <p className="muted">Best: {getBest('survival', `${c.settings.forgiveness}-${c.settings.range}`)} rounds</p>
           </>
         )}
 

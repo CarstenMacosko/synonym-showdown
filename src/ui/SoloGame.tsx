@@ -14,9 +14,11 @@ import {
   type SoloMode,
   type SoloState,
 } from '../game/solo';
-import { synonymWords, type Tier } from '../game/words';
+import { STARTERS, type Range, type Tier } from '../game/words';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
+import { MeaningMap } from './MeaningMap';
+import { reportRuling } from './reports';
 import { getBest, getDaily, recordBest, saveDaily, type DailyResult } from './records';
 import { JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
@@ -38,6 +40,7 @@ interface Props {
   mode: SoloMode;
   tier: Tier;
   forgiveness: Forgiveness;
+  range: Range;
   onExit: () => void;
 }
 
@@ -65,22 +68,31 @@ function SoloRun({
   mode,
   tier,
   forgiveness,
+  range,
   onExit,
   dateKey,
   onDailyDone,
   onAgain,
 }: Props & { dateKey: string; onDailyDone: (r: DailyResult) => void; onAgain: () => void }) {
-  const [state, setState] = useState<SoloState>(() => createSolo(mode, { tier, forgiveness, dateKey }, Math.random, Date.now()));
+  const [state, setState] = useState<SoloState>(() => createSolo(mode, { tier, forgiveness, range, dateKey }, Math.random, Date.now()));
   const [now, setNow] = useState(Date.now());
   const [input, setInput] = useState('');
-  const [feedback, setFeedback] = useState<{ id: number; text: string; good: boolean } | null>(null);
+  const [feedback, setFeedback] = useState<{
+    id: number;
+    text: string;
+    good: boolean;
+    /** A rejected word the player can dispute. */
+    disputable?: string;
+    disputed?: boolean;
+  } | null>(null);
   const [newBest, setNewBest] = useState(false);
   const stateRef = useRef(state);
   stateRef.current = state;
   const inputRef = useRef<HTMLInputElement>(null);
   const [formScope, animateForm] = useAnimate<HTMLFormElement>();
 
-  const variant = mode === 'score' ? `${tier}-${forgiveness}` : forgiveness;
+  // Bests are kept per rule set, so a Loose game can't beat a Standard record.
+  const variant = mode === 'score' ? `${tier}-${forgiveness}-${range}` : `${forgiveness}-${range}`;
 
   function finish(s: SoloState) {
     if (mode === 'daily') {
@@ -121,14 +133,17 @@ function SoloRun({
     if (state.over) return;
     const r = guessSolo(state, input, Date.now(), Math.random);
     const id = Date.now();
-    if (r.result === 'ok') {
+    if (r.result === 'ok' && r.entry) {
       sfx.pop();
-      setFeedback({ id, text: `+1  ${r.canonical}`, good: true });
+      const bonus = mode === 'survival' ? '' : r.entry.rarity === 3 ? '  · rare word!' : r.entry.rarity === 2 ? '  · nice one!' : '';
+      setFeedback({ id, text: `+${r.points}  ${r.entry.word}${bonus}`, good: true });
       setInput('');
     } else {
       sfx.error();
       const penalty = r.result === 'wrong' && mode !== 'survival' ? ' (−2s)' : '';
-      setFeedback({ id, text: FEEDBACK[r.result] + penalty, good: false });
+      // A real synonym that's too distant for this game's range gets a kinder message.
+      const text = r.result === 'wrong' && r.entry ? 'Only a distant synonym; it counts in Loose games' : FEEDBACK[r.result as Exclude<GuessResult, 'ok'>];
+      setFeedback({ id, text: text + penalty, good: false, disputable: r.result === 'wrong' ? input.trim().toLowerCase() : undefined });
       animateForm('.input-wrap', JIGGLE.keyframes, JIGGLE.options);
       // Repeats and the starter word stay in the box for the player to delete; a wrong guess
       // is cleared so its "Not a synonym" message isn't replaced by the "already tried" warning.
@@ -140,7 +155,7 @@ function SoloRun({
   }
 
   if (state.over && mode !== 'daily') {
-    return <SoloOver mode={mode} tier={tier} forgiveness={forgiveness} onExit={onExit} state={state} daily={null} dateKey={dateKey} newBest={newBest} onAgain={onAgain} />;
+    return <SoloOver mode={mode} tier={tier} forgiveness={forgiveness} range={range} onExit={onExit} state={state} daily={null} dateKey={dateKey} newBest={newBest} onAgain={onAgain} />;
   }
 
   const left = soloTimeLeft(state, now);
@@ -229,6 +244,21 @@ function SoloRun({
               transition={{ type: 'spring', bounce: 0.6 }}
             >
               {feedback.text}
+              {feedback.disputable &&
+                (feedback.disputed ? (
+                  <span className="disagree done"> · thanks, noted!</span>
+                ) : (
+                  <button
+                    className="disagree"
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => {
+                      reportRuling({ starter: state.starter.word, word: feedback.disputable!, ruling: 'rejected', range: state.range, mode });
+                      setFeedback({ ...feedback, disputed: true });
+                    }}
+                  >
+                    Disagree?
+                  </button>
+                ))}
             </motion.p>
             )
           )}
@@ -256,7 +286,8 @@ function SoloRun({
 
 function shareText(dateKey: string, d: DailyResult): string {
   const squares = '🟨'.repeat(Math.min(d.score, 20)) + (d.score > 20 ? '+' : '');
-  return `Synonym Showdown · Daily ${dateKey}\n“${d.word}”: ${d.score} synonym${d.score === 1 ? '' : 's'} in 60s\n${squares || '⬜'}`;
+  const n = d.found.length;
+  return `Synonym Showdown · Daily ${dateKey}\n“${d.word}”: ${d.score} points, ${n} synonym${n === 1 ? '' : 's'} in 60s\n${squares || '⬜'}`;
 }
 
 function SoloOver({
@@ -271,12 +302,9 @@ function SoloOver({
   const [copied, setCopied] = useState(false);
   const word = daily?.word ?? state!.starter.word;
   const score = daily?.score ?? state!.score;
-  const starter = state?.starter;
-  const [missed] = useState(() => {
-    const found = new Set(daily?.found ?? state?.found ?? []);
-    const syns = starter ? synonymWords(starter) : [];
-    return syns.filter((w) => !found.has(w)).sort(() => Math.random() - 0.5).slice(0, 12);
-  });
+  const starter = state?.starter ?? STARTERS.find((s) => s.word === word);
+  const found = new Set(daily?.found ?? state?.found ?? []);
+  const wordCount = found.size;
 
   async function share() {
     const text = shareText(dateKey, daily!);
@@ -289,8 +317,7 @@ function SoloOver({
     }
   }
 
-  const headline =
-    mode === 'survival' ? `${score} round${score === 1 ? '' : 's'}` : `${score} synonym${score === 1 ? '' : 's'}`;
+  const headline = mode === 'survival' ? `${score} round${score === 1 ? '' : 's'}` : `${score} point${score === 1 ? '' : 's'}`;
 
   return (
     <div className="page gameover">
@@ -311,24 +338,14 @@ function SoloOver({
           “{state.lastWrong}” isn’t a synonym for “{word}”.
         </p>
       )}
+      {mode !== 'survival' && (
+        <p className="tagline">
+          {wordCount} word{wordCount === 1 ? '' : 's'} found · rarer words score more
+        </p>
+      )}
       {mode === 'daily' && <p className="tagline">Come back tomorrow for a new word!</p>}
 
-      {(missed.length > 0 || daily) && (
-        <SketchBox className="panel missed">
-          <h2>
-            {daily ? 'Your words for ' : 'Other synonyms for '}
-            <span className="hl">{word}</span>
-          </h2>
-          <div className="word-cloud">
-            {(daily ? daily.found : missed).map((w, i) => (
-              <motion.span key={w} initial={{ scale: 0 }} animate={{ scale: 1, rotate: ((i * 37) % 9) - 4 }} transition={{ delay: 0.3 + i * 0.04, type: 'spring', bounce: 0.6 }}>
-                {w}
-              </motion.span>
-            ))}
-            {daily && daily.found.length === 0 && <span className="muted">none this time</span>}
-          </div>
-        </SketchBox>
-      )}
+      {starter && <MeaningMap starter={starter} said={found} range={state?.range ?? 'standard'} />}
 
       <div className="play-row">
         {daily && (

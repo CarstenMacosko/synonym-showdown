@@ -2,8 +2,8 @@
 // No timers, DOM or randomness of its own; the caller passes `now` and `rng`,
 // so the same code can referee a solo game in the browser or an online game on a server.
 
-import { findSynonym, isSameWord, type Forgiveness } from './match.ts';
-import { startersForTier, type StarterWord, type Tier } from './words.ts';
+import { findEntry, isSameWord, type Forgiveness } from './match.ts';
+import { RANGE_MAX, startersForTier, type Range, type StarterWord, type Synonym, type Tier } from './words.ts';
 
 export type TimeControl = 'blitz' | 'rapid' | 'clock';
 export type AfterElimination = 'newWord' | 'sameWord';
@@ -21,6 +21,8 @@ export interface Settings {
   timeControl: TimeControl;
   forgiveness: Forgiveness;
   afterElimination: AfterElimination;
+  /** Which closeness levels count as synonyms (Close / Standard / Loose). */
+  range: Range;
 }
 
 export interface PlayerSetup {
@@ -53,7 +55,8 @@ export type GameEvent =
       accusedId: string;
       word: string;
       valid: boolean;
-      canonical: string | null;
+      /** The synonym the word matched at any closeness (shown in the reveal), even if out of range. */
+      entry: Synonym | null;
       eliminatedId: string;
     }
   | { kind: 'timeout'; playerId: string; eliminatedId: string };
@@ -178,9 +181,9 @@ export function findRepeat(state: GameState, raw: string): { play: Play; index: 
   if (!/[a-z]{2,}/i.test(word)) return null;
   const f = state.settings.forgiveness;
   // Compare by the synonym it resolves to (so "cheerfull" repeats "cheerful" in typo mode) and by form.
-  const canon = findSynonym(word, state.starter, f);
+  const canon = findEntry(word, state.starter, f);
   const index = state.chain.findIndex(
-    (play) => isSameWord(word, play.word, f) || (canon !== null && findSynonym(play.word, state.starter, f) === canon),
+    (play) => isSameWord(word, play.word, f) || (canon !== null && findEntry(play.word, state.starter, f) === canon),
   );
   return index === -1 ? null : { play: state.chain[index], index };
 }
@@ -221,8 +224,8 @@ export function submitWord(
 export function challenge(state: GameState, playerId: string, now: number): GameState {
   if (playerId !== state.currentId || !canChallenge(state)) return state;
   const prev = lastPlay(state)!;
-  const canonical = findSynonym(prev.word, state.starter, state.settings.forgiveness);
-  const valid = canonical !== null;
+  const entry = findEntry(prev.word, state.starter, state.settings.forgiveness);
+  const valid = entry !== null && entry.closeness <= RANGE_MAX[state.settings.range];
   const eliminatedId = valid ? playerId : prev.playerId;
   const chain = state.chain.map((p, i) =>
     i === state.chain.length - 1 ? { ...p, rejected: !valid, confirmed: valid } : p,
@@ -233,7 +236,7 @@ export function challenge(state: GameState, playerId: string, now: number): Game
     accusedId: prev.playerId,
     word: prev.word,
     valid,
-    canonical,
+    entry,
     eliminatedId,
   });
 }

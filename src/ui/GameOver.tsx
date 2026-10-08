@@ -1,13 +1,12 @@
-// End screen: who won, your placement, and words nobody thought of.
+// End screen: who won, your placement, and the map of the word's meanings and synonyms.
 
 import { motion } from 'framer-motion';
-import { useState } from 'react';
 import { alivePlayers, player, type GameState } from '../game/engine';
-import { findSynonym } from '../game/match';
-import { synonymWords } from '../game/words';
+import { findEntry } from '../game/match';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
-import { SketchBox, SketchButton } from './sketch';
+import { MeaningMap } from './MeaningMap';
+import { SketchButton } from './sketch';
 
 /** `youId` is null in pass-and-play, where the screen just celebrates the winner. */
 export function GameOver({
@@ -26,11 +25,9 @@ export function GameOver({
   const me = youId ? player(state, youId) : winner!;
   const place = won ? 1 : alivePlayers(state).length + 1;
   const myWords = state.chain.filter((p) => p.playerId === me.id).length;
-  // Picked once, so the list doesn't reshuffle on every re-render.
-  const [missed] = useState(() => {
-    const said = new Set(state.chain.map((p) => findSynonym(p.word, state.starter, 'strict')));
-    return synonymWords(state.starter).filter((w) => !said.has(w)).sort(() => Math.random() - 0.5).slice(0, 12);
-  });
+  const said = new Set(
+    state.chain.map((p) => findEntry(p.word, state.starter, state.settings.forgiveness)?.word).filter((w): w is string => !!w),
+  );
   const ordinal = ['1st', '2nd', '3rd', '4th', '5th'][place - 1];
 
   return (
@@ -53,24 +50,8 @@ export function GameOver({
       </motion.h1>
       {youId && !won && winner && <p className="tagline">{winner.name} won the showdown.</p>}
 
-      <SketchBox className="panel missed">
-        <h2>
-          Other synonyms for <span className="hl">{state.starter.word}</span>
-        </h2>
-        <div className="word-cloud">
-          {missed.map((w, i) => (
-            <motion.span
-              key={w}
-              initial={{ scale: 0 }}
-              animate={{ scale: 1, rotate: ((i * 37) % 9) - 4 }}
-              transition={{ delay: 0.3 + i * 0.04, type: 'spring', bounce: 0.6 }}
-            >
-              {w}
-            </motion.span>
-          ))}
-        </div>
-        {youId && <p className="muted">You said {myWords} word{myWords === 1 ? '' : 's'} on this one.</p>}
-      </SketchBox>
+      {youId && <p className="muted">You said {myWords} word{myWords === 1 ? '' : 's'} on this one.</p>}
+      <MeaningMap starter={state.starter} said={said} range={state.settings.range} />
 
       <div className="play-row">
         <SketchButton big color="#ffd43b" onClick={onAgain}>

@@ -1,0 +1,1483 @@
+{
+ "word": "insolent",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "brazen",
+   "definition": "unrestrained by convention or propriety",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "brazen",
+     "closeness": 1,
+     "score": 9.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "audacious",
+     "closeness": 1,
+     "score": 9.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brassy",
+     "closeness": 1,
+     "score": 9.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "arrogant",
+     "closeness": 1,
+     "score": 9.36,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "haughty",
+     "closeness": 1,
+     "score": 9.18,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cocky",
+     "closeness": 1,
+     "score": 9.06,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "presumptuous",
+     "closeness": 1,
+     "score": 8.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "saucy",
+     "closeness": 1,
+     "score": 8.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "irreverent",
+     "closeness": 1,
+     "score": 8.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impertinent",
+     "closeness": 1,
+     "score": 7.92,
+     "similarity": 0.52,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pompous",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overbearing",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sanctimonious",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disdainful",
+     "closeness": 1,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snooty",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flippant",
+     "closeness": 1,
+     "score": 6.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pert",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boastful",
+     "closeness": 1,
+     "score": 6.06,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uppity",
+     "closeness": 1,
+     "score": 8.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "egotistical",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snotty",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "supercilious",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheeky",
+     "closeness": 1,
+     "score": 8.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overweening",
+     "closeness": 1,
+     "score": 8.52,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impious",
+     "closeness": 1,
+     "score": 6.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bombastic",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "holier-than-thou",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "high-hat",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brazen-faced",
+     "closeness": 1,
+     "score": 6,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "conceited",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "petulant",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-important",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pretentious",
+     "closeness": 2,
+     "score": 5.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vain",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snobbish",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bold",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sassy",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "turgid",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grandiose",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insubordinate",
+     "closeness": 2,
+     "score": 4.9,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "ostentatious",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "authoritarian",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "familiar",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fresh",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "airy",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smart",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brash",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pushy",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inflated",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glorious",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "high-handed",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "domineering",
+     "closeness": 2,
+     "score": 5.78,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "upstage",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imperious",
+     "closeness": 2,
+     "score": 5.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "priggish",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "barefaced",
+     "closeness": 2,
+     "score": 4.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lordly",
+     "closeness": 2,
+     "score": 4.82,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hoity-toity",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tumid",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flatulent",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blustery",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "improvident",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unashamed",
+     "closeness": 2,
+     "score": 3.74,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uppish",
+     "closeness": 2,
+     "score": 5.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "la-di-da",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chesty",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "toplofty",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "obtrusive",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unwary",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stout",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "offensive",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "daring",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "defiant",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "entitled",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": -0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forward",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "lofty",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shameless",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scornful",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ill-mannered",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stuck-up",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blatant",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unabashed",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bumptious",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "obdurate",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cocksure",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "arrant",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immodest",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bald-faced",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "bodacious",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "sniffy",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "malapert",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "impudent",
+   "definition": "marked by casual disrespect",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "impudent",
+     "closeness": 1,
+     "score": 12.72,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disrespectful",
+     "closeness": 1,
+     "score": 9.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flip",
+     "closeness": 1,
+     "score": 6,
+     "similarity": -0.05,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impolite",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contemptuous",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "indiscreet",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rude",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "callous",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overconfident",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncivil",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imprudent",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incautious",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "injudicious",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discourteous",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insulting",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "condescending",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.5,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cavalier",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abusive",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "outrageous",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sneering",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rash",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cool",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scurrilous",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "atrocious",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "hardened",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disparaging",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snobby",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "derisive",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ungracious",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unrepentant",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "contumelious",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disregardful",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snotty-nosed",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "overbold",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unaccommodating",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "obsequious",
+  "egocentric",
+  "self-righteous",
+  "idiotic",
+  "uncouth",
+  "thoughtless",
+  "ungrateful",
+  "ingenuous"
+ ],
+ "flagged": [
+  {
+   "word": "flip",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "challenging",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "cold",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "degrading",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "dictatorial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "familiar",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "forward",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "fresh",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "offensive",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "unspeakable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "would-be",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "self-appointed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "entitled",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.09"
+  },
+  {
+   "word": "glorious",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "stout",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "blatant",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "unabashed",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

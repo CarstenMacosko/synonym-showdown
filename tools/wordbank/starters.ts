@@ -26,12 +26,12 @@ export const STARTER_TIERS: Record<Tier, string[]> = {
   hard: words(`
     obstinate ephemeral gregarious benevolent meticulous loquacious melancholy ubiquitous candid frugal
     mundane lethargic cryptic arrogant zealous
-    ambiguous arduous audacious belligerent cantankerous capricious conspicuous diligent eloquent elusive
+    ambiguous arduous audacious belligerent cantankerous capricious conspicuous diligent eloquent insolent
     enigmatic exuberant fastidious ferocious flamboyant frivolous gullible haughty immaculate impetuous
     intrepid jovial lavish lucid malicious nonchalant obscure ominous opulent ostentatious pensive pompous
     precarious prudent resilient robust serene shrewd tenacious tranquil trivial turbulent vivid voracious
     wary whimsical wistful callous docile eccentric inept vigilant bleak abundant adamant astute blatant
-    abandon alleviate scrutinize exacerbate mitigate deceive procrastinate condemn bolster diminish emulate
+    abandon alleviate scrutinize exacerbate mitigate deceive procrastinate condemn bolster diminish relinquish
     ponder squander thwart vanquish rebuke coerce placate
     chaos dilemma euphoria fervor solace tirade facade hubris debacle menace`),
 };

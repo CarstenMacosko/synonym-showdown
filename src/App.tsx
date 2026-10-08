@@ -29,6 +29,7 @@ export function App() {
           mode={config.mode}
           tier={config.settings.tier}
           forgiveness={config.settings.forgiveness}
+          range={config.settings.range}
           onExit={() => setPlaying(false)}
         />
       ) : playing ? (

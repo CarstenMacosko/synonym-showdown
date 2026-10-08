@@ -758,3 +758,111 @@ h2 {
     transform: rotate(3deg) scale(1.06);
   }
 }
+
+/* ---------- closeness chips & meaning map ---------- */
+
+.chip {
+  display: inline-block;
+  padding: 1px 10px 2px;
+  border: 2px solid var(--ink);
+  border-radius: 14px 10px 13px 9px; /* slightly uneven, like a hand-drawn bubble */
+  font-size: 1.05rem;
+  line-height: 1.3;
+  background: #fff;
+}
+
+.chip.c1 {
+  background: #2f9e44;
+  border-color: #2b8a3e;
+  color: #fff;
+}
+
+.chip.c2 {
+  background: #b2f2bb;
+  border-color: #69db7c;
+}
+
+.chip.c3 {
+  background: #fff;
+  border: 2px dashed #8ce99a;
+  color: #2b8a3e;
+}
+
+.chip.said {
+  box-shadow: 0 0 0 3px var(--highlight);
+  font-weight: bold;
+}
+
+.chip.out {
+  opacity: 0.45;
+}
+
+.chip.more {
+  border-style: dotted;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.meaning-map {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.meaning-map .legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+
+.meaning-map .legend .chip {
+  font-size: 0.85rem;
+}
+
+.meaning-map .sense {
+  margin: 12px 0;
+}
+
+.sense-head i {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.meaning-map .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+/* ---------- ruling reveal & disagree ---------- */
+
+.ruling-sense {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.result-foot {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.disagree {
+  background: none;
+  border: none;
+  color: var(--muted);
+  text-decoration: underline dotted;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0 4px;
+}
+
+.disagree.done {
+  text-decoration: none;
+  color: var(--good);
+}

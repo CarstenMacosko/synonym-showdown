@@ -1,15 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { canChallenge, challenge, findRepeat, continueGame, createGame, submitWord, timeLeft, timeout, type GameState, type Settings } from './engine.ts';
 import { decideBotMove } from './bot.ts';
-import { STARTERS } from './words.ts';
+import { HAPPY } from './testFixtures.ts';
 
-const settings: Settings = { tier: 'easy', timeControl: 'blitz', forgiveness: 'strict', afterElimination: 'newWord' };
+const settings: Settings = { tier: 'easy', timeControl: 'blitz', forgiveness: 'strict', afterElimination: 'newWord', range: 'standard' };
 const setups = ['a', 'b', 'c'].map((id) => ({ id, name: id.toUpperCase(), isBot: false, color: '#000' }));
 const rng = () => 0; // always picks the first option: first player 'a'
 
 function start(over: Partial<Settings> = {}): GameState {
   const g = createGame({ ...settings, ...over }, setups, rng, 0);
-  return { ...g, starter: STARTERS.find((s) => s.word === 'happy')! };
+  return { ...g, starter: HAPPY };
 }
 
 describe('turns', () => {
@@ -45,12 +45,12 @@ describe('challenges', () => {
     expect(r.players.find((p) => p.id === 'b')!.alive).toBe(false);
   });
   it('a bluff eliminates the bluffer', () => {
-    const s = submitWord(start(), 'a', 'lucky', 1).state;
+    const s = submitWord(start(), 'a', 'banana', 1).state;
     const r = challenge(s, 'b', 2);
     expect(r.lastEvent).toMatchObject({ valid: false, eliminatedId: 'a' });
   });
   it('next round starts after the eliminated player with a new word', () => {
-    const s = challenge(submitWord(start(), 'a', 'lucky', 1).state, 'b', 2);
+    const s = challenge(submitWord(start(), 'a', 'banana', 1).state, 'b', 2);
     const n = continueGame(s, () => 0.99, 3);
     expect(n.phase).toBe('playing');
     expect(n.currentId).toBe('b');
@@ -66,7 +66,7 @@ describe('challenges', () => {
   });
   it('last player standing wins', () => {
     const two = createGame(settings, setups.slice(0, 2), rng, 0);
-    const s = challenge(submitWord({ ...two, starter: STARTERS[0] }, 'a', 'lucky', 1).state, 'b', 2);
+    const s = challenge(submitWord({ ...two, starter: HAPPY }, 'a', 'banana', 1).state, 'b', 2);
     const over = continueGame(s, rng, 3);
     expect(over.phase).toBe('over');
     expect(over.winnerId).toBe('b');
@@ -88,11 +88,16 @@ describe('time', () => {
   });
 });
 
-describe('spelling variants', () => {
-  it('count as a repeat', () => {
-    const obstinate = STARTERS.find((s) => s.word === 'obstinate')!;
-    const s = submitWord({ ...start(), starter: obstinate }, 'a', 'willful', 1).state;
-    expect(submitWord(s, 'b', 'wilful', 2).error).toBe('repeat');
+describe('ranges and spelling', () => {
+  it('a distant synonym is a bluff in a Standard game but fine in a Loose one', () => {
+    const std = challenge(submitWord(start(), 'a', 'upbeat', 1).state, 'b', 2);
+    expect(std.lastEvent).toMatchObject({ valid: false, eliminatedId: 'a', entry: { word: 'upbeat', closeness: 3 } });
+    const loose = challenge(submitWord(start({ range: 'loose' }), 'a', 'upbeat', 1).state, 'b', 2);
+    expect(loose.lastEvent).toMatchObject({ valid: true, eliminatedId: 'b' });
+  });
+  it('a misspelling of an earlier word counts as a repeat in typo mode', () => {
+    const s = submitWord(start({ forgiveness: 'typos' }), 'a', 'cheerful', 1).state;
+    expect(submitWord(s, 'b', 'cheerfull', 2).error).toBe('repeat');
   });
 });
 

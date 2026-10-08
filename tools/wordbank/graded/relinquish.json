@@ -1,0 +1,548 @@
+{
+ "word": "relinquish",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "renounce",
+   "definition": "turn away from; give up",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "renounce",
+     "closeness": 1,
+     "score": 7.8,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quit",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abandon",
+     "closeness": 2,
+     "score": 6.44,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cede",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.76,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abdicate",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "withdraw",
+     "closeness": 2,
+     "score": 3.95,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "retract",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recant",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "retire",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "halt",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cease",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dump",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desist",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "concede",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refuse",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "waive",
+   "definition": "do without or cease to hold or adhere to",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "waive",
+     "closeness": 1,
+     "score": 8.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vacate",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "capitulate",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forsake",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forgo",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "forego",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "discontinue",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cancel",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abort",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "terminate",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refrain",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discard",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "renege",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disclaim",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abjure",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disgorge",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foreswear",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "resign",
+   "definition": "part with a possession or right",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "resign",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "surrender",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "release",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "sacrifice",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stay",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "free",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "spare",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drop",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "give",
+     "closeness": 3,
+     "score": 2.17,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "hold",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "yield",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "superannuate",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "assume",
+  "retain",
+  "reclaim",
+  "accept",
+  "wrest",
+  "accede",
+  "regain",
+  "reassert"
+ ],
+ "flagged": [
+  {
+   "word": "free",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "desert",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "leave",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "scrub",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "belay",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "renege",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

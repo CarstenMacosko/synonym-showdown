@@ -4,8 +4,8 @@
 //  - survival: a new word after every correct answer, with less time each round; one miss ends it.
 
 import type { Rng } from './engine.ts';
-import { findSynonym, isSameWord, type Forgiveness } from './match.ts';
-import { STARTERS, startersForTier, type StarterWord, type Tier } from './words.ts';
+import { findEntry, isSameWord, type Forgiveness } from './match.ts';
+import { RANGE_MAX, STARTERS, startersForTier, type Range, type StarterWord, type Synonym, type Tier } from './words.ts';
 
 export type SoloMode = 'score' | 'daily' | 'survival';
 
@@ -15,6 +15,7 @@ export const WRONG_PENALTY_MS = 2_000;
 export interface SoloState {
   mode: SoloMode;
   forgiveness: Forgiveness;
+  range: Range;
   tier: Tier;
   starter: StarterWord;
   usedStarters: string[];
@@ -35,6 +36,11 @@ export interface SoloState {
 }
 
 export type GuessResult = 'ok' | 'repeat' | 'wrong' | 'starter' | 'empty';
+
+/** Points for a correct word in Score Attack / Daily: rarer words are worth more. */
+export function pointsFor(entry: Synonym): number {
+  return entry.rarity;
+}
 
 /** Survival gets faster: 10s, then 0.4s less per round, never below 4s. */
 export function survivalMs(round: number): number {
@@ -68,7 +74,7 @@ function pickFrom(pool: StarterWord[], used: string[], rng: Rng): StarterWord {
 
 export function createSolo(
   mode: SoloMode,
-  opts: { tier: Tier; forgiveness: Forgiveness; dateKey?: string },
+  opts: { tier: Tier; forgiveness: Forgiveness; range: Range; dateKey?: string },
   rng: Rng,
   now: number,
 ): SoloState {
@@ -79,6 +85,7 @@ export function createSolo(
     mode,
     // The daily puzzle uses fixed rules so everyone's score is comparable.
     forgiveness: mode === 'daily' ? 'typos' : opts.forgiveness,
+    range: mode === 'daily' ? 'standard' : opts.range,
     tier: starter.tier,
     starter,
     usedStarters: [starter.word],
@@ -111,10 +118,18 @@ export function tickSolo(s: SoloState, now: number): SoloState {
 export function findSoloRepeat(s: SoloState, raw: string): { word: string; correct: boolean } | null {
   const word = raw.trim();
   if (!/[a-z]{2,}/i.test(word)) return null;
-  const canonical = findSynonym(word, s.starter, s.forgiveness);
-  if (canonical && s.found.includes(canonical)) return { word: canonical, correct: true };
+  const entry = findEntry(word, s.starter, s.forgiveness);
+  if (entry && s.found.includes(entry.word)) return { word: entry.word, correct: true };
   const wrong = s.tried.find((t) => isSameWord(word, t, s.forgiveness));
   return wrong ? { word: wrong, correct: false } : null;
+}
+
+export interface GuessOutcome {
+  state: SoloState;
+  result: GuessResult;
+  /** The synonym matched, if any (also set for a 'wrong' that is a real but out-of-range synonym). */
+  entry: Synonym | null;
+  points: number;
 }
 
 export function guessSolo(
@@ -122,21 +137,21 @@ export function guessSolo(
   raw: string,
   now: number,
   rng: Rng,
-): { state: SoloState; result: GuessResult; canonical: string | null } {
+): GuessOutcome {
   const word = raw.trim();
-  if (s.over) return { state: s, result: 'empty', canonical: null };
-  if (!/[a-z]{2,}/i.test(word)) return { state: s, result: 'empty', canonical: null };
-  if (isSameWord(word, s.starter.word, s.forgiveness)) return { state: s, result: 'starter', canonical: null };
+  const none = (state: SoloState, result: GuessResult, entry: Synonym | null = null): GuessOutcome => ({ state, result, entry, points: 0 });
+  if (s.over) return none(s, 'empty');
+  if (!/[a-z]{2,}/i.test(word)) return none(s, 'empty');
+  if (isSameWord(word, s.starter.word, s.forgiveness)) return none(s, 'starter');
 
-  if (findSoloRepeat(s, word)) return { state: s, result: 'repeat', canonical: null };
-  const canonical = findSynonym(word, s.starter, s.forgiveness);
-  if (!canonical) {
-    if (s.mode === 'survival') {
-      return { state: { ...s, over: true, endReason: 'wrong', lastWrong: word }, result: 'wrong', canonical: null };
-    }
+  if (findSoloRepeat(s, word)) return none(s, 'repeat');
+  const entry = findEntry(word, s.starter, s.forgiveness);
+  if (!entry || entry.closeness > RANGE_MAX[s.range]) {
+    if (s.mode === 'survival') return none({ ...s, over: true, endReason: 'wrong', lastWrong: word }, 'wrong', entry);
     const tried = [...s.tried, word.toLowerCase()];
-    return { state: { ...s, tried, deadline: s.deadline - WRONG_PENALTY_MS }, result: 'wrong', canonical: null };
+    return none({ ...s, tried, deadline: s.deadline - WRONG_PENALTY_MS }, 'wrong', entry);
   }
+  const canonical = entry.word;
 
   if (s.mode === 'survival') {
     const round = s.round + 1;
@@ -145,7 +160,8 @@ export function guessSolo(
     const roundMs = survivalMs(round);
     return {
       result: 'ok',
-      canonical,
+      entry,
+      points: 1,
       state: {
         ...s,
         score: s.score + 1,
@@ -160,5 +176,6 @@ export function guessSolo(
       },
     };
   }
-  return { result: 'ok', canonical, state: { ...s, score: s.score + 1, found: [...s.found, canonical] } };
+  const points = pointsFor(entry);
+  return { result: 'ok', entry, points, state: { ...s, score: s.score + points, found: [...s.found, canonical] } };
 }

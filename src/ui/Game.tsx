@@ -23,6 +23,7 @@ import {
 } from '../game/engine';
 import { Avatar, type Mood } from './Avatar';
 import { PLAYER_COLORS, type GameConfig } from './config';
+import { reportRuling } from './reports';
 import { GameOver } from './GameOver';
 import { JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
@@ -377,7 +378,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
 
       <AnimatePresence>
         {state.phase === 'result' && state.lastEvent && (
-          <ResultOverlay key={state.log.length} state={state} ev={state.lastEvent} stage={stage} onNext={advance} />
+          <ResultOverlay key={state.log.length} state={state} ev={state.lastEvent} stage={stage} mode={config.mode} onNext={advance} />
         )}
       </AnimatePresence>
     </div>
@@ -388,13 +389,16 @@ function ResultOverlay({
   state,
   ev,
   stage,
+  mode,
   onNext,
 }: {
   state: GameState;
   ev: GameEvent;
   stage: 'checking' | 'verdict';
+  mode: string;
   onNext: () => void;
 }) {
+  const [disputed, setDisputed] = useState(false);
   const name = (id: string) => (id === YOU ? 'You' : player(state, id).name);
   const out = player(state, ev.eliminatedId);
   const outText = ev.eliminatedId === YOU ? 'You’re out!' : `${out.name} is out!`;
@@ -431,15 +435,72 @@ function ResultOverlay({
               >
                 {ev.valid ? 'Synonym!' : 'Bluff!'}
               </motion.div>
-              <p>
-                “{ev.word}” {ev.valid ? 'is' : 'is not'} a synonym for “{state.starter.word}”.
-              </p>
+              <Ruling state={state} ev={ev} />
               <p className="result-out">{outText}</p>
-              <small className="tap">tap to continue</small>
+              <div className="result-foot">
+                <small className="tap">tap to continue</small>
+                {disputed ? (
+                  <small className="disagree done">Thanks, we’ll review it!</small>
+                ) : (
+                  <button
+                    className="disagree"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      reportRuling({
+                        starter: state.starter.word,
+                        word: ev.word,
+                        ruling: ev.valid ? 'accepted' : 'rejected',
+                        range: state.settings.range,
+                        mode,
+                      });
+                      setDisputed(true);
+                    }}
+                  >
+                    Disagree?
+                  </button>
+                )}
+              </div>
             </>
           )}
         </SketchBox>
       </motion.div>
     </motion.div>
+  );
+}
+
+const CLOSENESS_NAME = { 1: 'close', 2: 'solid', 3: 'distant' } as const;
+
+/** Explains the ruling: which meaning a synonym matched and how close it is, or why it didn't count. */
+function Ruling({ state, ev }: { state: GameState; ev: Extract<GameEvent, { kind: 'challenge' }> }) {
+  const starter = state.starter.word;
+  const entry = ev.entry;
+  if (ev.valid && entry) {
+    const sense = state.starter.senses[entry.sense];
+    return (
+      <div className="ruling">
+        <p>
+          <span className={`chip c${entry.closeness}`}>{entry.word}</span> is a {CLOSENESS_NAME[entry.closeness]} synonym for “
+          {starter}”
+        </p>
+        {sense && (
+          <p className="ruling-sense">
+            meaning <b>{sense.label}</b>: {sense.definition}
+          </p>
+        )}
+      </div>
+    );
+  }
+  if (entry) {
+    return (
+      <p>
+        <span className={`chip c${entry.closeness}`}>{entry.word}</span> is only a {CLOSENESS_NAME[entry.closeness]} synonym for “
+        {starter}”. It doesn’t count in {state.settings.range === 'close' ? 'Close-only' : 'Standard'} games.
+      </p>
+    );
+  }
+  return (
+    <p>
+      “{ev.word}” is not a synonym for “{starter}”.
+    </p>
   );
 }
