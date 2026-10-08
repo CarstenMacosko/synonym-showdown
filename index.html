@@ -3,12 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Synonym Showdown: Free Multiplayer Synonym Game Online</title>
+    <meta
+      name="description"
+      content="Name a synonym… or call a bluff! A free online word game you can play with friends by room code, in ranked 1v1, against bots, or solo in Score Attack, Survival and the Daily Word. No download."
+    />
+    <link rel="canonical" href="https://synonymshowdown.com/" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='52' r='40' fill='%2369db7c' stroke='%232b2b2b' stroke-width='6'/><circle cx='36' cy='44' r='5' fill='%232b2b2b'/><circle cx='64' cy='44' r='5' fill='%232b2b2b'/><path d='M34 62 Q50 76 66 62' fill='none' stroke='%232b2b2b' stroke-width='6' stroke-linecap='round'/></svg>" />
-    <title>Synonym Showdown</title>
+
+    <!-- Link previews (iMessage, Discord, WhatsApp, social media) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Synonym Showdown" />
+    <meta property="og:title" content="Synonym Showdown: name a synonym… or call a bluff" />
+    <meta property="og:description" content="A free multiplayer word game. Take turns naming synonyms, challenge bluffs, climb the ranked ladder. Play in your browser." />
+    <meta property="og:url" content="https://synonymshowdown.com/" />
+    <meta property="og:image" content="https://synonymshowdown.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Three doodle faces wearing a party hat, a crown and a wizard hat above the words Synonym Showdown" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Synonym Showdown: name a synonym… or call a bluff" />
+    <meta name="twitter:description" content="A free multiplayer word game. Play friends, bots or ranked in your browser." />
+    <meta name="twitter:image" content="https://synonymshowdown.com/og-image.png" />
+
+    <!-- Icons and "Add to Home Screen" -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Tells search engines this is a free browser game -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Synonym Showdown",
+        "url": "https://synonymshowdown.com/",
+        "image": "https://synonymshowdown.com/og-image.png",
+        "description": "A free online multiplayer word game: take turns naming synonyms of a starter word, and challenge anyone you think is bluffing.",
+        "genre": ["Word game", "Party game", "Educational game"],
+        "gamePlatform": "Web browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "playMode": ["SinglePlayer", "MultiPlayer"],
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you play Synonym Showdown?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Everyone gets the same starter word. On your turn, say a synonym nobody has said yet before the timer runs out. If you think the last player made a word up, challenge it: if it really is a synonym the challenger is out, if not the bluffer is out. The last player standing wins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Synonym Showdown free?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. It is free to play in any web browser on a phone, tablet or computer, with no download." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play with friends?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Create a room and share the four-letter code or invite link; 2 to 6 players can join, no account needed. You can also pass one device around, play ranked 1v1 online, or play against bots."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it good for the classroom?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Players only need a room code, chat is limited to emoji reactions, and every game ends with a map of the starter word's meanings and synonyms, which makes it a fun vocabulary activity."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Readable content for search engines and anyone without JavaScript. The game replaces it on load. -->
+      <main class="seo-shell">
+        <h1>Synonym Showdown</h1>
+        <p><strong>Name a synonym… or call a bluff.</strong> A free online multiplayer synonym game you play in your browser.</p>
+        <h2>How to play</h2>
+        <ol>
+          <li>Everyone gets the same starter word, like <em>happy</em> or <em>obstinate</em>.</li>
+          <li>On your turn, name a synonym nobody has said yet before the timer runs out.</li>
+          <li>Think the last player made one up? Challenge them!</li>
+          <li>A real synonym knocks out the challenger; a bluff knocks out the bluffer. Last one standing wins.</li>
+        </ol>
+        <h2>Ways to play</h2>
+        <ul>
+          <li><strong>Play Friends:</strong> share a room code or invite link (2–6 players, no account needed).</li>
+          <li><strong>Ranked 1v1:</strong> get matched with players near your rating and climb the leaderboard.</li>
+          <li><strong>Vs. Bots</strong> and <strong>Pass &amp; Play</strong> on one device.</li>
+          <li><strong>Score Attack</strong>, <strong>Survival</strong> and the <strong>Daily Word</strong> for solo practice.</li>
+        </ul>
+        <p>300 starter words and over 27,000 synonyms, graded from closest to distant. Great for vocabulary practice and classrooms.</p>
+        <p><a href="/synonyms/">Browse synonyms by word</a></p>
+        <noscript><p>Turn on JavaScript to play.</p></noscript>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

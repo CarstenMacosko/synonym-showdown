@@ -1305,3 +1305,58 @@ h2 {
 .topbar {
   padding-right: 84px;
 }
+
+/* ---------- dev-only brand art (share image, app icon) ---------- */
+
+.og-card {
+  width: 1200px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  text-align: center;
+}
+
+.og-faces {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.og-card h1 {
+  font-size: 118px;
+  line-height: 1;
+  margin: 6px 0 4px;
+  transform: rotate(-2deg);
+}
+
+.og-card p {
+  font-size: 44px;
+  margin: 8px 0 6px;
+}
+
+.og-card small {
+  font-size: 28px;
+  color: var(--muted);
+}
+
+.app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff3bf;
+}
+
+/* Pre-load content (seen by search engines; replaced by the game when it loads). */
+.seo-shell {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  line-height: 1.5;
+}
+
+.seo-shell h1 {
+  font-size: 2.6rem;
+}

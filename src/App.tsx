@@ -9,6 +9,7 @@ import { Game } from './ui/Game';
 import { Home, type OnlineAction } from './ui/Home';
 import { AdminPage } from './ui/Admin';
 import { AvatarGallery } from './ui/AvatarGallery';
+import { AppIcon, OgCard } from './ui/BrandArt';
 import { OnlineGame, RankedQueue } from './ui/OnlineGame';
 import { ProfilePage } from './ui/Profile';
 import { SoloGame } from './ui/SoloGame';
@@ -42,7 +43,12 @@ function initialScreen(): Screen {
 }
 
 export function App() {
-  if (import.meta.env.DEV && new URLSearchParams(window.location.search).has('gallery')) return <AvatarGallery />;
+  if (import.meta.env.DEV) {
+    const q = new URLSearchParams(window.location.search);
+    if (q.has('gallery')) return <AvatarGallery />;
+    if (q.has('og')) return <OgCard />;
+    if (q.has('icon')) return <AppIcon size={Number(q.get('icon')) || 512} />;
+  }
   return <MainApp />;
 }
 
