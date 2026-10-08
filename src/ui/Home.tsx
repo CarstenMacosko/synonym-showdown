@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { ROOM_CODE_RE } from '../game/protocol';
 import { api } from '../net/api';
 import { AccountBar, useAccount } from './account';
+import { useMusic } from './music';
 import { botAvatar, useMyAvatar } from './myAvatar';
 import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl } from '../game/engine';
 import type { Forgiveness } from '../game/match';
@@ -65,6 +66,7 @@ export function Home({
   const [c, setC] = useState(config);
   const { user, openSignIn } = useAccount();
   const { avatar: myAvatar } = useMyAvatar();
+  useMusic('home');
   const [joinCode, setJoinCode] = useState('');
   const set = (patch: Partial<GameConfig['settings']>) => setC({ ...c, settings: { ...c.settings, ...patch } });
   const mode = c.mode;

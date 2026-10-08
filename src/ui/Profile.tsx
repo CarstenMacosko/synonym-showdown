@@ -6,6 +6,7 @@ import { AVATAR_COLORS, AVATAR_PARTS, defaultAvatar, randomAvatar, type AvatarCo
 import { api, type RecentMatch } from '../net/api';
 import { useAccount } from './account';
 import { Avatar, type Mood } from './Avatar';
+import { useMusic } from './music';
 import { useMyAvatar } from './myAvatar';
 import { Choice, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
@@ -45,6 +46,7 @@ const MOODS: Mood[] = ['normal', 'think', 'worried', 'win'];
 export function ProfilePage({ onExit }: { onExit: () => void }) {
   const { user, openSignIn } = useAccount();
   const { avatar, save } = useMyAvatar();
+  useMusic('studio');
   const [draft, setDraft] = useState<AvatarConfig>(() => avatar ?? defaultAvatar(user?.username ?? 'guest'));
   const [tab, setTab] = useState<Tab>('hat');
   const [saved, setSaved] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');

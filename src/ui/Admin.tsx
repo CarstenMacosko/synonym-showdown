@@ -3,10 +3,12 @@
 import { useEffect, useState } from 'react';
 import { api, type AdminFlag, type AdminReport, type AdminUser } from '../net/api';
 import { useAccount } from './account';
+import { useMusic } from './music';
 import { Choice, SketchBox, SketchButton } from './sketch';
 
 export function AdminPage({ onExit }: { onExit: () => void }) {
   const { user } = useAccount();
+  useMusic('studio');
   const [tab, setTab] = useState<'reports' | 'flags' | 'accounts'>('reports');
   const [accounts, setAccounts] = useState<{ total: number; users: AdminUser[] } | null>(null);
   const [reports, setReports] = useState<AdminReport[] | null>(null);

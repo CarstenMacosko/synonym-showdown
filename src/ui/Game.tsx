@@ -24,6 +24,7 @@ import {
 import type { Range } from '../game/words';
 import { Avatar, type Mood } from './Avatar';
 import { PLAYER_COLORS, type GameConfig } from './config';
+import { useMusic } from './music';
 import { botAvatar, useMyAvatar } from './myAvatar';
 import { reportRuling } from './reports';
 import { GameOver } from './GameOver';
@@ -79,6 +80,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   const chainRef = useRef<HTMLDivElement>(null);
 
   const passPlay = config.mode === 'pass';
+  useMusic(null); // quiet while playing
   const { avatar: myAvatar } = useMyAvatar();
   // You get your own face; bots get their own fun ones; pass-and-play friends get plain faces in their color.
   const faceOf = (p: { id: string; name: string; isBot: boolean }) => (p.id === YOU ? myAvatar : p.isBot ? botAvatar(p.name) : null);

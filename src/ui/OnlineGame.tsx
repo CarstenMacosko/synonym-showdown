@@ -16,6 +16,7 @@ import { MeaningMap } from './MeaningMap';
 import { reportRuling } from './reports';
 import { Choice, JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
+import { useMusic } from './music';
 import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 
@@ -105,6 +106,8 @@ function useRoomSocket(code: string, name: string, avatar: AvatarConfig | null) 
 export function OnlineGame({ code, name, onExit, onFindMatch }: { code: string; name: string; onExit: () => void; onFindMatch: () => void }) {
   const { avatar: myAvatar } = useMyAvatar();
   const { room, fatal, notice, emotes, connected, deadline, send } = useRoomSocket(code, name, myAvatar);
+  // Lobby music while waiting and after the game; quiet during play.
+  useMusic(room?.stage === 'playing' ? null : room?.ranked ? 'ranked' : 'room');
   const { refresh } = useAccount();
   const stage = room?.stage;
   useEffect(() => {
@@ -672,6 +675,7 @@ function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: C
 export function RankedQueue({ onMatched, onCancel }: { onMatched: (code: string) => void; onCancel: () => void }) {
   const { user } = useAccount();
   const { avatar: myAvatar } = useMyAvatar();
+  useMusic('ranked');
   const [status, setStatus] = useState<string>('Connecting…');
   const [elapsed, setElapsed] = useState(0);
   useEffect(() => {

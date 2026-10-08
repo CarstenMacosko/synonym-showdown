@@ -18,6 +18,7 @@ import type { SoloRound } from '../game/soloVerify';
 import { STARTERS, type Range, type Tier } from '../game/words';
 import { api } from '../net/api';
 import { useAccount } from './account';
+import { useMusic } from './music';
 import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 import { AdSlot } from './AdSlot';
@@ -52,6 +53,7 @@ interface Props {
 export function SoloGame(props: Props) {
   const { mode } = props;
   const dateKey = todayKey();
+  useMusic(null); // quiet while playing
   const [done, setDone] = useState<DailyResult | null>(() => (mode === 'daily' ? getDaily(dateKey) : null));
   const [runId, setRunId] = useState(0);
 

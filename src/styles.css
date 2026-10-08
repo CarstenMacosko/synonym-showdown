@@ -1285,3 +1285,23 @@ h2 {
 .recent .down {
   color: var(--bad);
 }
+
+.music-toggle {
+  position: fixed;
+  top: max(10px, env(safe-area-inset-top));
+  right: 50px;
+  z-index: 20;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.music-toggle.off {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.topbar {
+  padding-right: 84px;
+}

@@ -12,6 +12,7 @@ import { AvatarGallery } from './ui/AvatarGallery';
 import { OnlineGame, RankedQueue } from './ui/OnlineGame';
 import { ProfilePage } from './ui/Profile';
 import { SoloGame } from './ui/SoloGame';
+import { isMusicOn, refreshMusic, setMusicOn } from './ui/music';
 import { isMuted, setMuted } from './ui/sound';
 
 /** Online, a guest who never picked a name gets "Guest 37" rather than "You" (which reads oddly to others). */
@@ -50,6 +51,7 @@ function MainApp() {
   const [screen, setScreen] = useState<Screen>(initialScreen);
   const [notice, setNotice] = useState<string | null>(null);
   const [muted, setMutedState] = useState(isMuted);
+  const [music, setMusicState] = useState(isMusicOn);
   const home = useCallback(() => setScreen({ kind: 'home' }), []);
   const matched = useCallback((code: string) => setScreen({ kind: 'room', code }), []);
 
@@ -76,9 +78,21 @@ function MainApp() {
         onClick={() => {
           setMuted(!muted);
           setMutedState(!muted);
+          refreshMusic();
         }}
       >
         {muted ? '🔇' : '🔊'}
+      </button>
+      <button
+        className={`music-toggle ${music && !muted ? '' : 'off'}`}
+        aria-label={music ? 'Turn music off' : 'Turn music on'}
+        title={music ? 'Music on' : 'Music off'}
+        onClick={() => {
+          setMusicOn(!music);
+          setMusicState(!music);
+        }}
+      >
+        🎵
       </button>
       {screen.kind === 'profile' ? (
         <ProfilePage onExit={home} />
