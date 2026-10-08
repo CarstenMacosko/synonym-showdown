@@ -42,11 +42,11 @@ function setup(): AudioContext {
   comp.connect(meter);
   // A soft echo send for ambience.
   echo = ctx.createGain();
-  echo.gain.value = 0.22;
+  echo.gain.value = 0.07; // kept light: just a touch of space
   const delay = ctx.createDelay(1);
-  delay.delayTime.value = 0.36;
+  delay.delayTime.value = 0.25;
   const feedback = ctx.createGain();
-  feedback.gain.value = 0.28;
+  feedback.gain.value = 0.12; // echoes die out quickly
   const tone = ctx.createBiquadFilter();
   tone.type = 'lowpass';
   tone.frequency.value = 1800;
