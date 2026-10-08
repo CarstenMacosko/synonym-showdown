@@ -104,7 +104,7 @@ ${opts.body}
 function wordPage(s: StarterWord): string {
   const syns = shown(s);
   const close = syns.filter((x) => x.closeness === 1);
-  const top = [...close, ...syns.filter((x) => x.closeness === 2)].slice(0, 8).map((x) => x.word);
+  const top = [...close, ...syns.filter((x) => x.closeness === 2)].slice(0, 5).map((x) => x.word);
   const senses = s.senses
     .map((sense, i) => ({ sense, words: syns.filter((x) => x.sense === i).sort((a, b) => a.closeness - b.closeness || a.rarity - b.rarity) }))
     .filter((g) => g.words.length);
@@ -133,7 +133,7 @@ ${senses
     .join(' ')}</p>`;
   return page({
     title: `Synonyms for ${W}: ${syns.length} Words by Meaning | Synonym Showdown`,
-    description: `Synonyms for ${s.word}: ${top.join(', ')} and ${Math.max(0, syns.length - top.length)} more, grouped by meaning from closest to looser. Can you name more? Play the free synonym game.`,
+    description: `Synonyms for ${s.word}: ${top.join(', ')} + ${Math.max(0, syns.length - top.length)} more, by meaning. Can you name more? Play the free synonym game.`,
     path: `/synonyms/${s.word}/`,
     body,
     jsonld: {
