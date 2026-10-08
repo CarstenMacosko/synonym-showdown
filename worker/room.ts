@@ -39,6 +39,8 @@ const COLORS = ['#4dabf7', '#ff8787', '#69db7c', '#ffd43b', '#da77f2', '#ffa94d'
 const RESULT_MS = 4200;
 const EMPTY_ROOM_TTL_MS = 30 * 60_000;
 const MAX_MSGS_PER_10S = 40;
+/** A ranked opponent who doesn't connect within this time forfeits the match-up (nobody is rated). */
+const RANKED_JOIN_MS = 45_000;
 
 export interface SocketUser {
   id: number;
@@ -145,7 +147,7 @@ export class GameRoom extends DurableObject<Env> {
       emptySince: Date.now(),
     };
     await this.save();
-    await this.ctx.storage.setAlarm(Date.now() + EMPTY_ROOM_TTL_MS);
+    await this.ctx.storage.setAlarm(Date.now() + (opts.ranked ? RANKED_JOIN_MS : EMPTY_ROOM_TTL_MS));
     return true;
   }
 
@@ -315,6 +317,13 @@ export class GameRoom extends DurableObject<Env> {
       }
       return this.commit();
     }
+    if (room.ranked && room.stage === 'lobby' && now - room.createdAt >= RANKED_JOIN_MS) {
+      // The other player never showed up: send whoever is here back to the queue.
+      for (const ws of this.ctx.getWebSockets()) ws.close(4001, 'Opponent did not connect');
+      this.room = null;
+      await this.ctx.storage.deleteAll();
+      return;
+    }
     if (!room.seats.some((s) => s.connected) && room.emptySince && now - room.emptySince >= EMPTY_ROOM_TTL_MS) {
       this.room = null;
       await this.ctx.storage.deleteAll();
@@ -412,6 +421,7 @@ export class GameRoom extends DurableObject<Env> {
     let at: number;
     if (room.stage === 'playing' && game?.phase === 'playing') at = now + Math.max(0, timeLeft(game, now)) + 50;
     else if (room.stage === 'playing' && game?.phase === 'result') at = room.resultAt ?? now + RESULT_MS;
+    else if (room.ranked && room.stage === 'lobby') at = room.createdAt + RANKED_JOIN_MS;
     else at = (room.emptySince ?? now) + EMPTY_ROOM_TTL_MS;
     await this.ctx.storage.setAlarm(at);
   }

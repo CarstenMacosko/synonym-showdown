@@ -33,5 +33,7 @@
     ]
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GameRoom", "Matchmaker"] }],
+  // Nightly cleanup of expired sessions and rate-limit records (worker/index.ts "scheduled").
+  "triggers": { "crons": ["17 9 * * *"] },
   "observability": { "enabled": true }
 }

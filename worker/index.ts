@@ -10,7 +10,7 @@
 //   GET  /api/queue/ws             ranked matchmaking (WebSocket, signed in)
 
 import { currentUser, login, logout, publicUser, register, type User } from './auth.ts';
-import { error, json, sameOrigin } from './http.ts';
+import { error, ipHash, json, rateLimited, recordEvent, sameOrigin } from './http.ts';
 import { leaderboard, saveReport, saveSoloRun } from './records.ts';
 import { createRoom } from './rooms.ts';
 import { ROOM_CODE_RE } from '../src/game/protocol.ts';
@@ -46,7 +46,12 @@ async function api(req: Request, env: Env, path: string): Promise<Response> {
     const user = await currentUser(db, req);
     return user ? saveSoloRun(db, req, user) : error('Sign in to save scores.', 401);
   }
-  if (path === '/api/rooms' && method === 'POST') return json({ code: await createRoom(env, false, null) });
+  if (path === '/api/rooms' && method === 'POST') {
+    const ip = await ipHash(req);
+    if (await rateLimited(db, `room:${ip}`, 30, 3_600_000)) return error('Too many rooms from here. Try again in a bit.', 429);
+    await recordEvent(db, `room:${ip}`);
+    return json({ code: await createRoom(env, false, null) });
+  }
 
   const room = /^\/api\/rooms\/([A-Za-z]{4})\/ws$/.exec(path);
   if (room && isUpgrade) {
@@ -74,5 +79,14 @@ export default {
       }
     }
     return env.ASSETS.fetch(req);
+  },
+
+  /** Nightly housekeeping (see "triggers" in wrangler.jsonc): drop expired sessions and old rate-limit records. */
+  async scheduled(_event, env): Promise<void> {
+    const now = Date.now();
+    await env.DB.batch([
+      env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now),
+      env.DB.prepare('DELETE FROM rate_events WHERE at < ?').bind(now - 86_400_000),
+    ]);
   },
 } satisfies ExportedHandler<Env>;

@@ -77,6 +77,7 @@ function useRoomSocket(code: string, name: string) {
         setConnected(false);
         if (stopped) return;
         if (e.code === 4000) return setFatal('This game is open in another tab.');
+        if (e.code === 4001) return setFatal('Your opponent didn’t connect. Try finding another match!');
         if (tries < 6) setTimeout(open, Math.min(8000, 500 * 2 ** tries++));
         else setFatal('Lost the connection to the game.');
       };
