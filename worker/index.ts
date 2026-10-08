@@ -10,9 +10,9 @@
 //   GET  /api/queue/ws             ranked matchmaking (WebSocket, signed in)
 
 import { adminApi } from './admin.ts';
-import { currentUser, login, logout, publicUser, register, type User } from './auth.ts';
+import { currentUser, login, logout, publicUser, register, userAvatar, type User } from './auth.ts';
 import { error, ipHash, json, rateLimited, recordEvent, sameOrigin } from './http.ts';
-import { leaderboard, saveReport, saveSoloRun } from './records.ts';
+import { getProfile, leaderboard, saveProfile, saveReport, saveSoloRun } from './records.ts';
 import { createRoom } from './rooms.ts';
 import { ROOM_CODE_RE } from '../src/game/protocol.ts';
 
@@ -24,7 +24,10 @@ function forward(stub: { fetch: (r: Request) => Promise<Response> }, req: Reques
   const headers = new Headers(req.headers);
   headers.delete('x-ss-user');
   if (user) {
-    headers.set('x-ss-user', JSON.stringify({ id: user.id, username: user.username, rating: user.rating, flagged: user.suspicious > 0 }));
+    headers.set(
+      'x-ss-user',
+      JSON.stringify({ id: user.id, username: user.username, rating: user.rating, flagged: user.suspicious > 0, avatar: userAvatar(user) }),
+    );
   }
   return stub.fetch(new Request(req, { headers }));
 }
@@ -44,6 +47,12 @@ async function api(req: Request, env: Env, path: string): Promise<Response> {
   if (path === '/api/login' && method === 'POST') return login(db, req);
   if (path === '/api/logout' && method === 'POST') return logout(db, req);
   if (path === '/api/leaderboard' && method === 'GET') return leaderboard(db);
+  if (path === '/api/profile') {
+    const user = await currentUser(db, req);
+    if (!user) return error('Sign in first.', 401);
+    if (method === 'GET') return getProfile(db, user);
+    if (method === 'POST') return saveProfile(db, req, user);
+  }
   if (path.startsWith('/api/admin/')) return adminApi(db, req, path, await currentUser(db, req));
   if (path === '/api/report' && method === 'POST') return saveReport(db, req, await currentUser(db, req));
   if (path === '/api/solo' && method === 'POST') {

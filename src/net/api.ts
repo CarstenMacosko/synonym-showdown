@@ -1,5 +1,6 @@
 // Talking to the game server (worker/index.ts). Session cookies are handled by the browser.
 
+import type { AvatarConfig } from '../game/avatar';
 import type { SoloSubmission } from '../game/soloVerify';
 
 export interface Account {
@@ -11,6 +12,18 @@ export interface Account {
   games: number;
   points: number;
   isAdmin: boolean;
+  avatar: AvatarConfig | null;
+  joined: number;
+}
+
+export interface RecentMatch {
+  at: number;
+  ranked: boolean;
+  place: number | null;
+  players: number;
+  opponents: string[];
+  change: { before: number; after: number } | null;
+  word: string;
 }
 
 export interface AdminReport {
@@ -68,6 +81,8 @@ export const api = {
   login: (username: string, password: string) =>
     call<{ user: Account }>('/api/login', { method: 'POST', body: { username, password } }).then((r) => r.user),
   logout: () => call('/api/logout', { method: 'POST', body: {} }),
+  profile: () => call<{ user: Account; recent: RecentMatch[] }>('/api/profile'),
+  saveAvatar: (avatar: AvatarConfig) => call<{ user: Account }>('/api/profile', { method: 'POST', body: { avatar } }).then((r) => r.user),
   createRoom: () => call<{ code: string }>('/api/rooms', { method: 'POST', body: {} }).then((r) => r.code),
   submitSolo: (run: SoloSubmission) =>
     call<{ counted: boolean; score?: number; points?: number; reason?: string }>('/api/solo', { method: 'POST', body: run }),

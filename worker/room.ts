@@ -22,6 +22,7 @@ import {
   type Settings,
   type SubmitError,
 } from '../src/game/engine.ts';
+import { sanitizeAvatar, type AvatarConfig } from '../src/game/avatar.ts';
 import { findEntry } from '../src/game/match.ts';
 import {
   EMOTES,
@@ -48,6 +49,7 @@ export interface SocketUser {
   rating: number;
   /** Tagged by the cheat detector: still plays, but others see an "under review" tag. */
   flagged?: boolean;
+  avatar?: AvatarConfig | null;
 }
 
 interface Seat {
@@ -59,6 +61,7 @@ interface Seat {
   userId: number | null;
   rating: number | null;
   flagged: boolean;
+  avatar: AvatarConfig | null;
   connected: boolean;
 }
 
@@ -251,6 +254,8 @@ export class GameRoom extends DurableObject<Env> {
         userId: user?.id ?? null,
         rating: user ? Math.round(user.rating) : null,
         flagged: !!user?.flagged,
+        // Signed-in players' faces come from their account; guests send theirs (checked against known parts).
+        avatar: user ? (user.avatar ?? null) : sanitizeAvatar(msg.avatar),
         connected: true,
       };
       room.seats.push(seat);
@@ -468,6 +473,7 @@ export class GameRoom extends DurableObject<Env> {
           guest: s.userId === null,
           rating: s.rating,
           flagged: !!s.flagged,
+          avatar: s.avatar ?? null,
           alive: p ? p.alive : true,
           bankMs: p?.bankMs ?? 0,
         };

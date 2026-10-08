@@ -1,6 +1,7 @@
 // Accounts: username + password, sessions in an HttpOnly cookie.
 
 import { error, ipHash, json, rateLimited, readJson, recordEvent, sha256Hex } from './http.ts';
+import { sanitizeAvatar } from '../src/game/avatar.ts';
 import { isProvisional } from '../src/game/rating.ts';
 
 const COOKIE = 'ss_session';
@@ -23,6 +24,17 @@ export interface User {
   points: number;
   suspicious: number;
   is_admin: number;
+  avatar: string | null;
+  created_at: number;
+}
+
+/** The stored avatar, re-checked (null = never customized). */
+export function userAvatar(u: User) {
+  try {
+    return u.avatar ? sanitizeAvatar(JSON.parse(u.avatar)) : null;
+  } catch {
+    return null;
+  }
 }
 
 /** What the browser is told about the signed-in player. */
@@ -36,6 +48,8 @@ export function publicUser(u: User) {
     games: u.games,
     points: u.points,
     isAdmin: u.is_admin === 1,
+    avatar: userAvatar(u),
+    joined: u.created_at,
   };
 }
 

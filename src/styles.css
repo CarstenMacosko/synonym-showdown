@@ -1141,3 +1141,147 @@ h2 {
   justify-content: center;
   margin-bottom: 4px;
 }
+
+/* ---------- profile & avatars ---------- */
+
+.my-face {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+  padding: 0;
+}
+
+.my-face small {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-top: -4px;
+}
+
+.title-faces {
+  align-items: flex-end;
+}
+
+.account-bar.signed-in > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-hero {
+  text-align: center;
+}
+
+.profile-hero .sketch-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-hero h2 {
+  margin: 0;
+}
+
+.small-note {
+  font-size: 0.9rem;
+  margin: 6px 0 0;
+}
+
+.tab-row .choice-row {
+  margin-bottom: 12px;
+}
+
+.part-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
+  gap: 8px;
+}
+
+.part-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 2px solid #e9ecef;
+  border-radius: 14px 10px 13px 9px;
+  padding: 4px 2px 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+.part-option.selected {
+  border-color: var(--ink);
+  background: #fff9db;
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.swatch {
+  width: 34px;
+  height: 34px;
+  border-radius: 50% 45% 52% 48%;
+  border: 2px solid var(--ink);
+  cursor: pointer;
+}
+
+.swatch.selected {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--ink);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 6px 0 10px;
+}
+
+@media (max-width: 480px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat b {
+  font-family: var(--display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.stat small {
+  color: var(--muted);
+}
+
+.subhead {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 10px 0 4px;
+}
+
+.recent {
+  margin: 4px 0;
+}
+
+.recent .up {
+  color: var(--good);
+}
+
+.recent .down {
+  color: var(--bad);
+}

@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { ROOM_CODE_RE } from '../game/protocol';
 import { api } from '../net/api';
 import { AccountBar, useAccount } from './account';
+import { botAvatar, useMyAvatar } from './myAvatar';
 import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl } from '../game/engine';
 import type { Forgiveness } from '../game/match';
 import { todayKey } from '../game/solo';
@@ -51,16 +52,19 @@ export function Home({
   onPlay,
   onOnline,
   onAdmin,
+  onProfile,
   notice,
 }: {
   config: GameConfig;
   onPlay: (c: GameConfig) => void;
   onOnline: (c: GameConfig, action: OnlineAction) => void;
   onAdmin: () => void;
+  onProfile: () => void;
   notice?: string | null;
 }) {
   const [c, setC] = useState(config);
   const { user, openSignIn } = useAccount();
+  const { avatar: myAvatar } = useMyAvatar();
   const [joinCode, setJoinCode] = useState('');
   const set = (patch: Partial<GameConfig['settings']>) => setC({ ...c, settings: { ...c.settings, ...patch } });
   const mode = c.mode;
@@ -93,12 +97,15 @@ export function Home({
 
   return (
     <div className="page home">
-      <AccountBar onAdmin={onAdmin} />
+      <AccountBar onAdmin={onAdmin} onProfile={onProfile} />
       <header className="title-block">
         <motion.div className="title-faces" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: 'spring', bounce: 0.6 }}>
-          <Avatar id="t1" color="#4dabf7" size={54} />
-          <Avatar id="t2" color="#ff8787" mood="worried" size={54} />
-          <Avatar id="t3" color="#69db7c" mood="think" size={54} />
+          <Avatar id="Lexi" config={botAvatar('Lexi')} mood="worried" size={54} />
+          <button className="my-face" onClick={onProfile} aria-label="Customize your face">
+            <Avatar id={user?.username ?? 'me'} config={myAvatar} color="#4dabf7" size={70} />
+            <small>{myAvatar ? 'you' : 'make your face!'}</small>
+          </button>
+          <Avatar id="Wordsworth" config={botAvatar('Wordsworth')} mood="think" size={54} />
         </motion.div>
         <motion.h1 initial={{ scale: 0.6, rotate: -6 }} animate={{ scale: 1, rotate: -2 }} transition={{ type: 'spring', bounce: 0.55 }}>
           Synonym <span className="hl">Showdown</span>

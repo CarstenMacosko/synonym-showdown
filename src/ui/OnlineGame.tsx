@@ -4,6 +4,7 @@
 import { AnimatePresence, motion, useAnimate } from 'framer-motion';
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { TIME_CONTROLS, type AfterElimination, type Settings, type TimeControl } from '../game/engine';
+import type { AvatarConfig } from '../game/avatar';
 import { isSameWord, type Forgiveness } from '../game/match';
 import { EMOTES, type ClientMessage, type Emote, type QueueMessage, type RoomView, type ServerMessage } from '../game/protocol';
 import type { Range, Tier } from '../game/words';
@@ -15,6 +16,7 @@ import { MeaningMap } from './MeaningMap';
 import { reportRuling } from './reports';
 import { Choice, JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
+import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 
 const TIER_LABEL: Record<Tier, string> = { easy: 'Easy', medium: 'Medium', hard: 'Hard' };
@@ -23,7 +25,7 @@ const SPELLING_LABEL: Record<Forgiveness, string> = { strict: 'Strict', typos: '
 
 // ---------- connection ----------
 
-function useRoomSocket(code: string, name: string) {
+function useRoomSocket(code: string, name: string, avatar: AvatarConfig | null) {
   const [room, setRoom] = useState<RoomView | null>(null);
   const [fatal, setFatal] = useState<string | null>(null);
   const [notice, setNotice] = useState<{ id: number; text: string } | null>(null);
@@ -49,7 +51,7 @@ function useRoomSocket(code: string, name: string) {
         } catch {
           /* storage unavailable */
         }
-        ws.send(JSON.stringify({ t: 'hello', name, key } satisfies ClientMessage));
+        ws.send(JSON.stringify({ t: 'hello', name, key, avatar } satisfies ClientMessage));
       };
       ws.onmessage = (e) => {
         const m = JSON.parse(e.data) as ServerMessage;
@@ -101,7 +103,8 @@ function useRoomSocket(code: string, name: string) {
 // ---------- screen ----------
 
 export function OnlineGame({ code, name, onExit, onFindMatch }: { code: string; name: string; onExit: () => void; onFindMatch: () => void }) {
-  const { room, fatal, notice, emotes, connected, deadline, send } = useRoomSocket(code, name);
+  const { avatar: myAvatar } = useMyAvatar();
+  const { room, fatal, notice, emotes, connected, deadline, send } = useRoomSocket(code, name, myAvatar);
   const { refresh } = useAccount();
   const stage = room?.stage;
   useEffect(() => {
@@ -194,7 +197,7 @@ function Lobby({ room, send, onExit, notice }: { room: RoomView; send: (m: Clien
         <div className="lobby-players">
           {room.players.map((p) => (
             <motion.div key={p.id} className={`lobby-player ${p.connected ? '' : 'away'}`} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: 'spring', bounce: 0.6 }}>
-              <Avatar id={p.id + p.name} color={p.color} size={48} mood={p.connected ? 'normal' : 'think'} />
+              <Avatar id={p.id + p.name} config={p.avatar} color={p.color} size={48} mood={p.connected ? 'normal' : 'think'} />
               <span>
                 {p.name}
                 {p.id === room.you && ' (you)'}
@@ -443,7 +446,7 @@ function Board({
                   </motion.span>
                 )}
               </AnimatePresence>
-              <Avatar id={p.id + p.name} color={p.color} mood={moodFor(p.id, p.alive)} size={58} />
+              <Avatar id={p.id + p.name} config={p.avatar} color={p.color} mood={moodFor(p.id, p.alive)} size={58} />
               <span className="seat-name">{p.id === room.you ? `${p.name} (you)` : p.name}</span>
               {p.flagged && <FlagTag />}
               {p.alive && (
@@ -473,7 +476,7 @@ function Board({
                 animate={{ scale: 1, opacity: 1, y: 0 }}
                 transition={{ type: 'spring', bounce: 0.6 }}
               >
-                <Avatar id={(p?.id ?? '') + (p?.name ?? '')} color={p?.color ?? '#ccc'} size={30} mood={p?.alive ? 'normal' : 'out'} />
+                <Avatar id={(p?.id ?? '') + (p?.name ?? '')} config={p?.avatar} color={p?.color ?? '#ccc'} size={30} mood={p?.alive ? 'normal' : 'out'} />
                 <SketchBox className={`bubble ${c.rejected ? 'rejected' : ''} ${c.confirmed ? 'confirmed' : ''}`}>
                   <small>{c.playerId === room.you ? 'you' : p?.name}</small>
                   <span>{c.word}</span>
@@ -620,7 +623,7 @@ function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: C
   return (
     <div className="page gameover">
       <motion.div initial={{ scale: 0.4, rotate: -8 }} animate={{ scale: 1, rotate: -2 }} transition={{ type: 'spring', bounce: 0.6 }}>
-        <Avatar id={(me?.id ?? '') + (me?.name ?? '')} color={me?.color ?? '#4dabf7'} mood={won ? 'win' : 'out'} size={110} />
+        <Avatar id={(me?.id ?? '') + (me?.name ?? '')} config={me?.avatar} color={me?.color ?? '#4dabf7'} mood={won ? 'win' : 'out'} size={110} />
       </motion.div>
       <motion.h1 initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
         {won ? (
@@ -668,6 +671,7 @@ function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: C
 
 export function RankedQueue({ onMatched, onCancel }: { onMatched: (code: string) => void; onCancel: () => void }) {
   const { user } = useAccount();
+  const { avatar: myAvatar } = useMyAvatar();
   const [status, setStatus] = useState<string>('Connecting…');
   const [elapsed, setElapsed] = useState(0);
   useEffect(() => {
@@ -694,7 +698,7 @@ export function RankedQueue({ onMatched, onCancel }: { onMatched: (code: string)
   return (
     <div className="page gameover">
       <motion.div animate={{ rotate: [0, -8, 8, 0] }} transition={{ repeat: Infinity, duration: 1.6 }}>
-        <Avatar id="queue" color="#4dabf7" mood="think" size={110} />
+        <Avatar id="queue" config={myAvatar} color="#4dabf7" mood="think" size={110} />
       </motion.div>
       <h1>Ranked</h1>
       <p className="tagline">

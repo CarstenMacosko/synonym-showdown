@@ -1,6 +1,7 @@
 // End screen: who won, your placement, and the map of the word's meanings and synonyms.
 
 import { motion } from 'framer-motion';
+import type { AvatarConfig } from '../game/avatar';
 import { alivePlayers, player, type GameState } from '../game/engine';
 import { findEntry } from '../game/match';
 import { AdSlot } from './AdSlot';
@@ -12,11 +13,13 @@ import { SketchButton } from './sketch';
 export function GameOver({
   state,
   youId,
+  faceOf,
   onAgain,
   onMenu,
 }: {
   state: GameState;
   youId: string | null;
+  faceOf: (p: { id: string; name: string; isBot: boolean }) => AvatarConfig | null;
   onAgain: () => void;
   onMenu: () => void;
 }) {
@@ -33,7 +36,7 @@ export function GameOver({
   return (
     <div className="page gameover">
       <motion.div initial={{ scale: 0.4, rotate: -8 }} animate={{ scale: 1, rotate: -2 }} transition={{ type: 'spring', bounce: 0.6 }}>
-        <Avatar id={me.id + me.name} color={me.color} mood={won || !youId ? 'win' : 'out'} size={120} />
+        <Avatar id={me.id + me.name} config={faceOf(me)} color={me.color} mood={won || !youId ? 'win' : 'out'} size={120} />
       </motion.div>
       <motion.h1 initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.15 }}>
         {!youId ? (

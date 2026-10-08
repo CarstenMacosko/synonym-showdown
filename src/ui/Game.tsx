@@ -24,6 +24,7 @@ import {
 import type { Range } from '../game/words';
 import { Avatar, type Mood } from './Avatar';
 import { PLAYER_COLORS, type GameConfig } from './config';
+import { botAvatar, useMyAvatar } from './myAvatar';
 import { reportRuling } from './reports';
 import { GameOver } from './GameOver';
 import { JIGGLE, SketchBox, SketchButton } from './sketch';
@@ -78,6 +79,9 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   const chainRef = useRef<HTMLDivElement>(null);
 
   const passPlay = config.mode === 'pass';
+  const { avatar: myAvatar } = useMyAvatar();
+  // You get your own face; bots get their own fun ones; pass-and-play friends get plain faces in their color.
+  const faceOf = (p: { id: string; name: string; isBot: boolean }) => (p.id === YOU ? myAvatar : p.isBot ? botAvatar(p.name) : null);
   const current = player(state, state.currentId);
   // In pass-and-play every human types on this device; otherwise only "you" do.
   const myTurn = state.phase === 'playing' && !current.isBot;
@@ -215,7 +219,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
   }
 
   if (finished) {
-    return <GameOver state={state} youId={passPlay ? null : YOU} onAgain={restart} onMenu={onExit} />;
+    return <GameOver state={state} youId={passPlay ? null : YOU} faceOf={faceOf} onAgain={restart} onMenu={onExit} />;
   }
 
   const prev = lastPlay(state);
@@ -271,7 +275,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
               animate={active ? { y: [0, -6, 0] } : { y: 0 }}
               transition={active ? { repeat: Infinity, duration: 1.1 } : undefined}
             >
-              <Avatar id={p.id + p.name} color={p.color} mood={moodFor(p.id)} size={58} />
+              <Avatar id={p.id + p.name} config={faceOf(p)} color={p.color} mood={moodFor(p.id)} size={58} />
               <span className="seat-name">{p.id === YOU && p.name !== 'You' ? `${p.name} (you)` : p.name}</span>
               {p.alive && (
                 <div className="timer">
@@ -306,7 +310,7 @@ export function Game({ config, onExit }: { config: GameConfig; onExit: () => voi
                 animate={{ scale: 1, opacity: 1, y: 0 }}
                 transition={{ type: 'spring', bounce: 0.6 }}
               >
-                <Avatar id={p.id + p.name} color={p.color} size={30} mood={p.alive ? 'normal' : 'out'} />
+                <Avatar id={p.id + p.name} config={faceOf(p)} color={p.color} size={30} mood={p.alive ? 'normal' : 'out'} />
                 <SketchBox className={`bubble ${play.rejected ? 'rejected' : ''} ${play.confirmed ? 'confirmed' : ''}`}>
                   <small>{p.id === YOU ? 'you' : p.name}</small>
                   <span>{play.word}</span>

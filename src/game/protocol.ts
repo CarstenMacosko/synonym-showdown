@@ -2,6 +2,7 @@
 // The server is the referee: browsers only send intentions ("say this word"), never results.
 
 import type { BotLevel, GameEvent, Settings } from './engine.ts';
+import type { AvatarConfig } from './avatar.ts';
 import type { StarterWord, Tier } from './words.ts';
 
 export const ROOM_CODE_LETTERS = 'ABCDEFGHJKLMNPQRSTUVWXYZ'; // no I or O (look like 1 and 0)
@@ -20,7 +21,7 @@ export const RANKED_SETTINGS: Settings = {
 };
 
 export type ClientMessage =
-  | { t: 'hello'; name: string; key?: string }
+  | { t: 'hello'; name: string; key?: string; avatar?: AvatarConfig | null }
   | { t: 'settings'; settings: Settings }
   | { t: 'start' }
   | { t: 'say'; word: string; typedMs?: number | null; pasted?: boolean; touch?: boolean }
@@ -37,6 +38,7 @@ export interface RoomPlayerView {
   guest: boolean;
   /** Tagged by the cheat detector ("under review"). */
   flagged: boolean;
+  avatar: AvatarConfig | null;
   /** Ranked rating, shown for signed-in players. */
   rating: number | null;
   alive: boolean;

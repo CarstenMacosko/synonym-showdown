@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { api, type Account } from '../net/api';
+import { Avatar } from './Avatar';
 import { Choice, SketchBox, SketchButton } from './sketch';
 
 interface AccountState {
@@ -66,7 +67,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
 }
 
 /** "Sign in" button, or the signed-in player's name, rating and points (shown on the home screen). */
-export function AccountBar({ onAdmin }: { onAdmin?: () => void }) {
+export function AccountBar({ onAdmin, onProfile }: { onAdmin?: () => void; onProfile?: () => void }) {
   const { user, openSignIn: onSignIn, signOut: onSignOut } = useAccount();
   const [menu, setMenu] = useState(false);
   if (!user) {
@@ -79,6 +80,7 @@ export function AccountBar({ onAdmin }: { onAdmin?: () => void }) {
   return (
     <div className="account-bar signed-in">
       <button onClick={() => setMenu(!menu)} aria-expanded={menu}>
+        <Avatar id={user.username} config={user.avatar} color="#4dabf7" size={26} />
         <b>{user.username}</b> · {user.rating}
         {user.provisional ? '?' : ''} · {user.points} pts
       </button>
@@ -89,6 +91,13 @@ export function AccountBar({ onAdmin }: { onAdmin?: () => void }) {
             {user.provisional && <small> (rating still settling)</small>}
           </p>
           <p>Games played: {user.games}</p>
+          {onProfile && (
+            <p>
+              <button className="disagree" onClick={onProfile}>
+                Profile & face
+              </button>
+            </p>
+          )}
           {user.isAdmin && onAdmin && (
             <p>
               <button className="disagree" onClick={onAdmin}>

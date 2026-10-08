@@ -1,6 +1,7 @@
 // Database writes for scores, ratings, reports and cheat-detection tags.
 
-import type { User } from './auth.ts';
+import { publicUser, type User } from './auth.ts';
+import { sanitizeAvatar } from '../src/game/avatar.ts';
 import { dailyWindow, error, ipHash, json, rateLimited, readJson, recordEvent } from './http.ts';
 import { inflate, rateGame, type Rating } from '../src/game/rating.ts';
 import { verifySoloRun, type SoloSubmission } from '../src/game/soloVerify.ts';
@@ -155,4 +156,38 @@ export async function leaderboard(db: D1Database): Promise<Response> {
       wins: r.ranked_wins,
     })),
   });
+}
+
+/** GET /api/profile: your account, plus your last few online games. */
+export async function getProfile(db: D1Database, user: User): Promise<Response> {
+  const { results } = await db
+    .prepare(
+      `SELECT m.ranked, m.players, m.changes, m.created_at, m.starters FROM matches m, json_each(m.players) p
+       WHERE json_extract(p.value, '$.userId') = ? ORDER BY m.created_at DESC LIMIT 10`,
+    )
+    .bind(user.id)
+    .all<{ ranked: number; players: string; changes: string; created_at: number; starters: string }>();
+  const recent = results.map((m) => {
+    const players = JSON.parse(m.players) as MatchPlayer[];
+    const changes = JSON.parse(m.changes || '{}') as Record<string, { before: number; after: number }>;
+    return {
+      at: m.created_at,
+      ranked: m.ranked === 1,
+      place: players.find((p) => p.userId === user.id)?.place ?? null,
+      players: players.length,
+      opponents: players.filter((p) => p.userId !== user.id).map((p) => p.name),
+      change: changes[user.id] ?? null,
+      word: (JSON.parse(m.starters) as string[]).at(-1) ?? '',
+    };
+  });
+  return json({ user: publicUser(user), recent });
+}
+
+/** POST /api/profile: save your avatar. */
+export async function saveProfile(db: D1Database, req: Request, user: User): Promise<Response> {
+  const body = await readJson<{ avatar?: unknown }>(req, 2_000);
+  const avatar = sanitizeAvatar(body?.avatar);
+  if (!avatar) return error('That face has an unknown part.');
+  await db.prepare('UPDATE users SET avatar = ? WHERE id = ?').bind(JSON.stringify(avatar), user.id).run();
+  return json({ user: publicUser({ ...user, avatar: JSON.stringify(avatar) }) });
 }

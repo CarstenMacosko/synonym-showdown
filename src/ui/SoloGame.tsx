@@ -18,6 +18,7 @@ import type { SoloRound } from '../game/soloVerify';
 import { STARTERS, type Range, type Tier } from '../game/words';
 import { api } from '../net/api';
 import { useAccount } from './account';
+import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
@@ -329,6 +330,7 @@ function SoloOver({
   saved,
 }: Props & { state: SoloState | null; daily: DailyResult | null; dateKey: string; newBest: boolean; onAgain: (() => void) | null; saved?: string | null }) {
   const [copied, setCopied] = useState(false);
+  const { avatar: myAvatar } = useMyAvatar();
   const word = daily?.word ?? state!.starter.word;
   const score = daily?.score ?? state!.score;
   const starter = state?.starter ?? STARTERS.find((s) => s.word === word);
@@ -351,7 +353,7 @@ function SoloOver({
   return (
     <div className="page gameover">
       <motion.div initial={{ scale: 0.4, rotate: -8 }} animate={{ scale: 1, rotate: -2 }} transition={{ type: 'spring', bounce: 0.6 }}>
-        <Avatar id="solo" color="#4dabf7" mood={score > 0 ? 'win' : 'out'} size={110} />
+        <Avatar id="solo" config={myAvatar} color="#4dabf7" mood={score > 0 ? 'win' : 'out'} size={110} />
       </motion.div>
       <p className="tagline">{SOLO_TITLES[mode]}{mode === 'daily' ? ` · ${dateKey}` : ''}</p>
       <motion.h1 initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.15 }}>
