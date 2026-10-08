@@ -22,6 +22,16 @@ export async function adminApi(db: D1Database, req: Request, path: string, user:
     await db.prepare("UPDATE reports SET status = ? WHERE starter = ? AND word = ? AND status = 'open'").bind(b.status, b.starter, b.word).run();
     return json({ ok: true });
   }
+  if (path === '/api/admin/users' && req.method === 'GET') {
+    const { results } = await db
+      .prepare(
+        `SELECT username, created_at, rating, rd, ranked_games, ranked_wins, games, points, suspicious, is_admin
+         FROM users ORDER BY created_at DESC LIMIT 1000`,
+      )
+      .all();
+    const total = await db.prepare('SELECT COUNT(*) AS n FROM users').first<{ n: number }>();
+    return json({ total: total?.n ?? 0, users: results });
+  }
   if (path === '/api/admin/flags' && req.method === 'GET') {
     const { results } = await db
       .prepare(

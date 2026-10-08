@@ -3,6 +3,7 @@
 //   npm run reports            open "Disagree?" reports, grouped by word (fix them in tools/wordbank/overrides.json)
 //   npm run reports -- close   mark all open reports as handled after you've updated overrides.json
 //   npm run flags              accounts the cheat detector tagged as suspicious
+//   npm run accounts           every registered account
 
 import { execFileSync } from 'node:child_process';
 
@@ -40,6 +41,15 @@ if (what === 'reports') {
   for (const r of rows) {
     console.log(`${new Date(r.created_at).toISOString().slice(0, 16)}  ${r.username} (${r.suspicious} tag(s), ${r.source}): ${JSON.parse(r.reasons).join('; ')}`);
   }
+} else if (what === 'accounts') {
+  const rows = query<{ username: string; created_at: number; rating: number; points: number; is_admin: number; suspicious: number }>(
+    'SELECT username, created_at, rating, points, is_admin, suspicious FROM users ORDER BY created_at',
+  );
+  console.log(`${rows.length} account(s)`);
+  for (const r of rows) {
+    const tags = [r.is_admin ? 'admin' : '', r.suspicious ? 'flagged' : ''].filter(Boolean).join(', ');
+    console.log(`  ${r.username.padEnd(17)} joined ${new Date(r.created_at).toISOString().slice(0, 10)}  rating ${Math.round(r.rating)}  ${r.points} pts${tags ? `  [${tags}]` : ''}`);
+  }
 } else {
-  console.log('Usage: npm run reports [-- close] | npm run flags');
+  console.log('Usage: npm run reports [-- close] | npm run flags | npm run accounts');
 }

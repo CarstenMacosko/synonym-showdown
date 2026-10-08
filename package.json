@@ -16,7 +16,8 @@
     "words:build": "node tools/wordbank/build.ts",
     "reports": "node tools/admin/review.ts reports",
     "flags": "node tools/admin/review.ts flags",
-    "make-admin": "node tools/admin/make-admin.ts"
+    "make-admin": "node tools/admin/make-admin.ts",
+    "accounts": "node tools/admin/review.ts accounts"
   },
   "dependencies": {
     "@capacitor/core": "^8.5.2",

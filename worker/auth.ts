@@ -8,6 +8,8 @@ const SESSION_DAYS = 30;
 const PBKDF2_ITERATIONS = 100_000; // the maximum Cloudflare Workers allow
 const USERNAME_RE = /^[A-Za-z0-9_]{3,16}$/;
 const BAD_NAME = /(fuck|shit|bitch|cunt|nigg|fag|slut|whore|rape|nazi|hitler|admin|moderator)/i;
+// "admin"/"moderator" names are blocked so nobody can pose as staff, except the owner's own account name.
+const STAFF_NAMES = new Set(['carstenmadmin']);
 
 export interface User {
   id: number;
@@ -105,7 +107,7 @@ export async function register(db: D1Database, req: Request): Promise<Response> 
   if (await rateLimited(db, `signup:${ip}`, 20, 3_600_000)) return error('Too many new accounts from here. Try again later.', 429);
   const creds = checkCredentials(await readJson<Credentials>(req));
   if (typeof creds === 'string') return error(creds);
-  if (BAD_NAME.test(creds.username)) return error('Please pick a different username.');
+  if (BAD_NAME.test(creds.username) && !STAFF_NAMES.has(creds.username.toLowerCase())) return error('Please pick a different username.');
   const exists = await db.prepare('SELECT 1 FROM users WHERE username = ?').bind(creds.username).first();
   if (exists) return error('That username is taken.');
 

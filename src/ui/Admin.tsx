@@ -1,13 +1,14 @@
 // Admin page (admin accounts only): review players' "Disagree?" reports and the cheat detector's tags.
 
 import { useEffect, useState } from 'react';
-import { api, type AdminFlag, type AdminReport } from '../net/api';
+import { api, type AdminFlag, type AdminReport, type AdminUser } from '../net/api';
 import { useAccount } from './account';
 import { Choice, SketchBox, SketchButton } from './sketch';
 
 export function AdminPage({ onExit }: { onExit: () => void }) {
   const { user } = useAccount();
-  const [tab, setTab] = useState<'reports' | 'flags'>('reports');
+  const [tab, setTab] = useState<'reports' | 'flags' | 'accounts'>('reports');
+  const [accounts, setAccounts] = useState<{ total: number; users: AdminUser[] } | null>(null);
   const [reports, setReports] = useState<AdminReport[] | null>(null);
   const [flags, setFlags] = useState<AdminFlag[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -16,6 +17,7 @@ export function AdminPage({ onExit }: { onExit: () => void }) {
     setError(null);
     api.adminReports().then(setReports).catch((e: Error) => setError(e.message));
     api.adminFlags().then(setFlags).catch((e: Error) => setError(e.message));
+    api.adminUsers().then(setAccounts).catch((e: Error) => setError(e.message));
   };
   useEffect(load, []);
 
@@ -40,12 +42,13 @@ export function AdminPage({ onExit }: { onExit: () => void }) {
         </SketchButton>
         <span className="pill">Admin</span>
       </div>
-      <Choice<'reports' | 'flags'>
+      <Choice<'reports' | 'flags' | 'accounts'>
         value={tab}
         onChange={setTab}
         options={[
           { value: 'reports', label: `Word reports${reports ? ` (${reports.length})` : ''}` },
           { value: 'flags', label: `Flagged players${flags ? ` (${players.size})` : ''}` },
+          { value: 'accounts', label: `Accounts${accounts ? ` (${accounts.total})` : ''}` },
         ]}
       />
       {error && <p className="error">{error}</p>}
@@ -76,6 +79,26 @@ export function AdminPage({ onExit }: { onExit: () => void }) {
                     {status === 'fixed' ? 'Fixed' : 'Dismiss'}
                   </button>
                 ))}
+              </div>
+            </div>
+          ))}
+        </SketchBox>
+      )}
+
+      {tab === 'accounts' && (
+        <SketchBox className="panel">
+          <h2>Accounts ({accounts?.total ?? '…'})</h2>
+          {accounts?.users.map((u) => (
+            <div key={u.username} className="admin-row">
+              <div>
+                <b>{u.username}</b>
+                {u.is_admin ? <small> · admin</small> : null}
+                {u.suspicious ? <span className="flag-tag"> flagged</span> : null}
+                <br />
+                <small className="muted">
+                  joined {new Date(u.created_at).toLocaleDateString()} · rating {Math.round(u.rating)}
+                  {u.rd > 110 ? '?' : ''} · ranked {u.ranked_wins}–{u.ranked_games - u.ranked_wins} · {u.games} games · {u.points} pts
+                </small>
               </div>
             </div>
           ))}

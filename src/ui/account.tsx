@@ -1,9 +1,9 @@
 // Signed-in state, the account bar at the top of the page, and the sign-in / create-account dialog.
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { createContext, useCallback, useContext, useEffect, useState, type FormEvent, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { api, type Account } from '../net/api';
-import { SketchBox, SketchButton } from './sketch';
+import { Choice, SketchBox, SketchButton } from './sketch';
 
 interface AccountState {
   user: Account | null;
@@ -105,8 +105,20 @@ export function AccountBar({ onAdmin }: { onAdmin?: () => void }) {
   );
 }
 
+const KNOWN = 'ss-has-account';
+
 function AuthDialog({ onClose, onDone }: { onClose: () => void; onDone: (u: Account) => void }) {
-  const [mode, setMode] = useState<'signin' | 'create'>('signin');
+  // First-time visitors most likely want to create an account; returning ones want to sign in.
+  const [mode, setMode] = useState<'signin' | 'create'>(() => {
+    try {
+      return localStorage.getItem(KNOWN) ? 'signin' : 'create';
+    } catch {
+      return 'create';
+    }
+  });
+  // Only close when a click both starts and ends on the dark backdrop (not when a text selection
+  // that began inside the form ends outside it).
+  const pressedBackdrop = useRef(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -117,18 +129,47 @@ function AuthDialog({ onClose, onDone }: { onClose: () => void; onDone: (u: Acco
     setBusy(true);
     setError(null);
     try {
-      onDone(mode === 'create' ? await api.register(username.trim(), password) : await api.login(username.trim(), password));
+      const user = mode === 'create' ? await api.register(username.trim(), password) : await api.login(username.trim(), password);
+      try {
+        localStorage.setItem(KNOWN, '1');
+      } catch {
+        /* storage unavailable */
+      }
+      onDone(user);
     } catch (err) {
-      setError((err as Error).message);
+      const msg = (err as Error).message;
+      setError(mode === 'signin' && /wrong username/i.test(msg) ? `${msg} New here? Use “Create account” above.` : msg);
     }
     setBusy(false);
   }
 
   return (
-    <motion.div className="overlay" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
-      <motion.div initial={{ scale: 0.6, rotate: -3 }} animate={{ scale: 1, rotate: 0 }} transition={{ type: 'spring', bounce: 0.5 }} onClick={(e) => e.stopPropagation()}>
+    <motion.div
+      className="overlay"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      onPointerDown={(e) => (pressedBackdrop.current = e.target === e.currentTarget)}
+      onClick={(e) => {
+        if (pressedBackdrop.current && e.target === e.currentTarget) onClose();
+        pressedBackdrop.current = false;
+      }}
+    >
+      <motion.div initial={{ scale: 0.6, rotate: -3 }} animate={{ scale: 1, rotate: 0 }} transition={{ type: 'spring', bounce: 0.5 }}>
         <SketchBox className="result-card auth-card" fill="#fff">
-          <h2>{mode === 'create' ? 'Create account' : 'Sign in'}</h2>
+          <div className="auth-tabs">
+            <Choice<'create' | 'signin'>
+              value={mode}
+              onChange={(m) => {
+                setMode(m);
+                setError(null);
+              }}
+              options={[
+                { value: 'create', label: 'Create account' },
+                { value: 'signin', label: 'Sign in' },
+              ]}
+            />
+          </div>
           <p className="muted">Keep your ranking and points across devices.</p>
           <form onSubmit={submit} className="auth-form">
             <label>
@@ -154,8 +195,8 @@ function AuthDialog({ onClose, onDone }: { onClose: () => void; onDone: (u: Acco
               {busy ? '…' : mode === 'create' ? 'Create account' : 'Sign in'}
             </SketchButton>
           </form>
-          <button className="disagree" onClick={() => (setMode(mode === 'create' ? 'signin' : 'create'), setError(null))}>
-            {mode === 'create' ? 'Already have an account? Sign in' : 'New here? Create an account'}
+          <button className="disagree" onClick={onClose}>
+            Cancel
           </button>
         </SketchBox>
       </motion.div>

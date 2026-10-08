@@ -22,6 +22,19 @@ export interface AdminReport {
   last: number;
 }
 
+export interface AdminUser {
+  username: string;
+  created_at: number;
+  rating: number;
+  rd: number;
+  ranked_games: number;
+  ranked_wins: number;
+  games: number;
+  points: number;
+  suspicious: number;
+  is_admin: number;
+}
+
 export interface AdminFlag {
   username: string;
   suspicious: number;
@@ -57,6 +70,7 @@ export const api = {
   adminReports: () => call<{ reports: AdminReport[] }>('/api/admin/reports').then((r) => r.reports),
   resolveReport: (starter: string, word: string, status: 'fixed' | 'dismissed') =>
     call('/api/admin/reports/resolve', { method: 'POST', body: { starter, word, status } }),
+  adminUsers: () => call<{ total: number; users: AdminUser[] }>('/api/admin/users'),
   adminFlags: () => call<{ flags: AdminFlag[] }>('/api/admin/flags').then((r) => r.flags),
   clearFlag: (username: string) => call('/api/admin/flags/clear', { method: 'POST', body: { username } }),
   leaderboard: () =>

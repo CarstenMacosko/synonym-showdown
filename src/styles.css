@@ -1136,3 +1136,8 @@ h2 {
   gap: 4px;
   flex-shrink: 0;
 }
+
+.auth-tabs .choice-row {
+  justify-content: center;
+  margin-bottom: 4px;
+}
