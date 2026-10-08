@@ -1,0 +1,2097 @@
+{
+ "word": "quiet",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "calm",
+   "definition": "(of a body of water) free from disturbance by heavy waves",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "calm",
+     "closeness": 1,
+     "score": 15.3,
+     "similarity": 0.67,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tranquil",
+     "closeness": 1,
+     "score": 14.04,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "placid",
+     "closeness": 1,
+     "score": 11.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unruffled",
+     "closeness": 1,
+     "score": 10.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "peaceful",
+     "closeness": 1,
+     "score": 9.87,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "serene",
+     "closeness": 1,
+     "score": 9.3,
+     "similarity": 0.5,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mellow",
+     "closeness": 1,
+     "score": 8.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "peaceable",
+     "closeness": 1,
+     "score": 8.07,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "relaxed",
+     "closeness": 1,
+     "score": 7.32,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "steady",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pacific",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smooth",
+     "closeness": 1,
+     "score": 6.78,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sedate",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "phlegmatic",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentle",
+     "closeness": 2,
+     "score": 5.55,
+     "similarity": 0.5,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "composed",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "collected",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "secluded",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "orderly",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comfortable",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mild",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idyllic",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "laid-back",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stoic",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imperturbable",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unflappable",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unexcited",
+     "closeness": 2,
+     "score": 5.98,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "level-headed",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "even-tempered",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "equanimous",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "quiesce",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "composure",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ease",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sheltered",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "soothe",
+     "closeness": 3,
+     "score": 2.9,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "temperate",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pastoral",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resting",
+     "closeness": 3,
+     "score": 2.68,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleepy",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "unaffected",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "warm",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "equable",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tranquillise",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "tranquillize",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "restrained",
+   "definition": "not showy or obtrusive",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "simple",
+     "closeness": 1,
+     "score": 7.62,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cool",
+     "closeness": 1,
+     "score": 7.2,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plain",
+     "closeness": 1,
+     "score": 6.46,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "restrained",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chaste",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "modest",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "distant",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aloof",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "austere",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "remote",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "frosty",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "bare",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "sober",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unadorned",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "standoffish",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "spartan",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "undemonstrative",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unpretentious",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "unapproachable",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "severe",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "strange",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "stolid",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easygoing",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "humble",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "philosophical",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "understated",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "unbending",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unvarnished",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "laconic",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "uninvolved",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "offish",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "untrimmed",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": -0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unornamented",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unembellished",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unpretending",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "quiescent",
+   "definition": "characterized by an absence or near absence of agitation or activity",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "slow",
+     "closeness": 1,
+     "score": 6.68,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passive",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quiescent",
+     "closeness": 1,
+     "score": 9.08,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idle",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dull",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inactive",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inert",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "languid",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dormant",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unoccupied",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "untroubled",
+     "closeness": 2,
+     "score": 5.57,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nonactive",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "undisturbed",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impassive",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unmoved",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suspended",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sedentary",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unemployed",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hush-hush",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "soft-pedal",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reposeful",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unperturbed",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noiselessness",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "taciturnity",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "torpid",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inaudibility",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "still",
+   "definition": "free of noise or uproar; or making little if any sound",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "still",
+     "closeness": 1,
+     "score": 13.79,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "soft",
+     "closeness": 2,
+     "score": 9.29,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rest",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noiseless",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "isolated",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "low",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "soundless",
+     "closeness": 2,
+     "score": 4.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flat",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mute",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "settle",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sad",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleep",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easy",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dumb",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweet",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rock",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "constant",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "close",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "bloodless",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stilly",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "hushed",
+   "definition": "in a softened tone",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "hushed",
+     "closeness": 1,
+     "score": 11.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silence",
+     "closeness": 1,
+     "score": 10.34,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subdued",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "taciturn",
+     "closeness": 1,
+     "score": 6.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "reserved",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "inaudible",
+     "closeness": 2,
+     "score": 3.81,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appease",
+     "closeness": 2,
+     "score": 3.69,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reticent",
+     "closeness": 2,
+     "score": 3.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "muted",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "muffled",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "tame",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stifle",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "allay",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pacify",
+     "closeness": 3,
+     "score": 2.97,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quell",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mollify",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dwindling",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "serenity",
+   "definition": "a disposition free from stress or emotion",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "lull",
+     "closeness": 1,
+     "score": 8.91,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hush",
+     "closeness": 1,
+     "score": 8.57,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "serenity",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quieten",
+     "closeness": 1,
+     "score": 9.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "repose",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stillness",
+     "closeness": 2,
+     "score": 4.83,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "halcyon",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "placidity",
+     "closeness": 2,
+     "score": 3.88,
+     "similarity": 0.03,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tranquillity",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "calmness",
+     "closeness": 3,
+     "score": 3.32,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "restful",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contemplation",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comfort",
+     "closeness": 3,
+     "score": 2.84,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "peacefulness",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tranquility",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "tranquilize",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": -0.12,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "unassuming",
+  "pleasant",
+  "polite",
+  "happy",
+  "kind",
+  "usual",
+  "discreet",
+  "cautious"
+ ],
+ "flagged": [
+  {
+   "word": "placidity",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "quieten",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "tranquilize",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.12"
+  },
+  {
+   "word": "unpretending",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "appease",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "compose",
+   "ruling": "rejected",
+   "reason": "borderline score 1.77"
+  },
+  {
+   "word": "mollify",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "order",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "brief",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "cease",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "delicate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "disposition",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "fixed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "halt",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "harmony",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "holiday",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "homely",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "light",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "motionless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "pale",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "pastel",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "peace",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "pure",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "routine",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "snug",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "squelch",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "subdue",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "subtle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "throttle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "peacetime",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "unobtrusive",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "becalm",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "imperturbability",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "quiescence",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "quietude",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "restfulness",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "softened",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "tacitness",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "unexcited",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "collected",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "equable",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "abeyant",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.02"
+  },
+  {
+   "word": "fallow",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.86"
+  },
+  {
+   "word": "hibernating",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.5"
+  },
+  {
+   "word": "latent",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.92"
+  },
+  {
+   "word": "torpid",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "offish",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "thorny",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.68"
+  },
+  {
+   "word": "unembellished",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "unornamented",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "untrimmed",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.13"
+  },
+  {
+   "word": "unattended",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.62"
+  },
+  {
+   "word": "faint",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "piano",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  }
+ ]
+}

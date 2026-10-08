@@ -1,0 +1,1383 @@
+{
+ "word": "clever",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "ingenious",
+   "definition": "showing inventiveness and skill",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "ingenious",
+     "closeness": 1,
+     "score": 12.8,
+     "similarity": 0.65,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cunning",
+     "closeness": 1,
+     "score": 11.28,
+     "similarity": 0.58,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adroit",
+     "closeness": 1,
+     "score": 9.08,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crafty",
+     "closeness": 1,
+     "score": 8.22,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talented",
+     "closeness": 1,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deft",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.63,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inventive",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.62,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliant",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.56,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subtle",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.5,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "artful",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resourceful",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sly",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "masterful",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adept",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sneaky",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nimble",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imaginative",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wily",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "graceful",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deceitful",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tactful",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insidious",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whimsical",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scintillating",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick-witted",
+     "closeness": 2,
+     "score": 5.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scheming",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stealthy",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "virtuoso",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "masterly",
+     "closeness": 3,
+     "score": 3.34,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wicked",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devious",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.49,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "facile",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tactical",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magical",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "skilled",
+     "closeness": 3,
+     "score": 3.04,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "proficient",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slippery",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "supple",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jocular",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "feline",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "malleable",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "arch",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "agile",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "workmanlike",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "statesmanlike",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-done",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "politic",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sagacious",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mordant",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "serpentine",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "canny",
+   "definition": "showing self-interest and shrewdness in dealing with others",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "canny",
+     "closeness": 1,
+     "score": 7.92,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smart",
+     "closeness": 2,
+     "score": 8.78,
+     "similarity": 0.58,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shrewd",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brainy",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "witty",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.63,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "neat",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astute",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stylish",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "keen",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tricky",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slick",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "droll",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cagey",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "perceptive",
+     "closeness": 3,
+     "score": 3.28,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sharp",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shifty",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smooth",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "diplomatic",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expert",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slim",
+     "closeness": 3,
+     "score": 2.44,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "strategic",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "biting",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foxy",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wary",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pliable",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "piquant",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "guileful",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jocose",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snaky",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sprightly",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "goodish",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cagy",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "apt",
+   "definition": "mentally quick and resourceful",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "apt",
+     "closeness": 1,
+     "score": 6.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intelligent",
+     "closeness": 2,
+     "score": 8.54,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 2,
+     "score": 6.6,
+     "similarity": 0.55,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bright",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "humorous",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.55,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fancy",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funny",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gifted",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pretty",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amusing",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excellent",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knowing",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wise",
+     "closeness": 3,
+     "score": 3.4,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "designing",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "entertaining",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "handy",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "artistic",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creative",
+     "closeness": 3,
+     "score": 2.68,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "authoritative",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clean",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "capable",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deep",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "coordinated",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "professional",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ready",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "willing",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "receptive",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "motivated",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "susceptible",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alert",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "silly",
+  "cheeky",
+  "delightful",
+  "playful",
+  "hilarious",
+  "charming",
+  "snappy",
+  "cynical"
+ ],
+ "flagged": [
+  {
+   "word": "acute",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "alert",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "competent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "crack",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "docile",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "impressionable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "joking",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "plastic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "pungent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "salty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "some",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "sparkling",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "discerning",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "magisterial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "teachable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "sophistical",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "trainable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "vulpine",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  }
+ ]
+}

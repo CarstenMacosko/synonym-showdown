@@ -1,0 +1,777 @@
+{
+ "word": "enormous",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "tremendous",
+   "definition": "extraordinarily large in size or extent or amount or power or degree",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "tremendous",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.79,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "huge",
+     "closeness": 2,
+     "score": 8.3,
+     "similarity": 0.84,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "massive",
+     "closeness": 2,
+     "score": 8.3,
+     "similarity": 0.62,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "large",
+     "closeness": 2,
+     "score": 6.92,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "gigantic",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.61,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "colossal",
+     "closeness": 2,
+     "score": 6.72,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "giant",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mammoth",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immense",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.89,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vast",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prodigious",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stupendous",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "big",
+     "closeness": 2,
+     "score": 5,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "profound",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monumental",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "awesome",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extensive",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immeasurable",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "towering",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "substantial",
+     "closeness": 2,
+     "score": 3.8,
+     "similarity": 0.59,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boundless",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gargantuan",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elephantine",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "titanic",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outsize",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "infinite",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monstrous",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mighty",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "considerable",
+     "closeness": 3,
+     "score": 3.2,
+     "similarity": 0.72,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weighty",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "staggering",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cosmic",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "undue",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astronomical",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excessive",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heroic",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inordinate",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voluminous",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bulky",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jumbo",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "steep",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "terrible",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hefty",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overwhelming",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "epic",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exorbitant",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ample",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extreme",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mountainous",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "awful",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "galactic",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spacious",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exaggerated",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gross",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wonderful",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wide",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abysmal",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overgrown",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incalculable",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extravagant",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "broad",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astronomic",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overlarge",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "significant",
+  "incredible",
+  "unprecedented",
+  "extraordinary",
+  "increasing",
+  "remarkable",
+  "untold",
+  "accumulated"
+ ],
+ "flagged": [
+  {
+   "word": "dire",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "fabulous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "fancy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "high",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "horrible",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "outrageous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "shocking",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "stiff",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "unreasonable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "unbridled",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "herculean",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "overweening",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "broad",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

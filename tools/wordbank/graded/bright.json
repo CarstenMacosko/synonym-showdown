@@ -1,0 +1,2446 @@
+{
+ "word": "bright",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "shiny",
+   "definition": "emitting or reflecting light readily or in large amounts",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "shiny",
+     "closeness": 1,
+     "score": 13.1,
+     "similarity": 0.55,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliant",
+     "closeness": 1,
+     "score": 12.98,
+     "similarity": 0.53,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shining",
+     "closeness": 1,
+     "score": 12.68,
+     "similarity": 0.48,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lustrous",
+     "closeness": 1,
+     "score": 11.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glorious",
+     "closeness": 2,
+     "score": 7.64,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "luminous",
+     "closeness": 2,
+     "score": 6.68,
+     "similarity": 0.48,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "radiant",
+     "closeness": 2,
+     "score": 6.26,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sunny",
+     "closeness": 2,
+     "score": 6.24,
+     "similarity": 0.49,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "polished",
+     "closeness": 2,
+     "score": 6.21,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beaming",
+     "closeness": 2,
+     "score": 5.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glossy",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blinding",
+     "closeness": 2,
+     "score": 4.94,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glittering",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glaring",
+     "closeness": 2,
+     "score": 4.58,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glowing",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sparkling",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleek",
+     "closeness": 2,
+     "score": 4.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gorgeous",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aglow",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slick",
+     "closeness": 2,
+     "score": 3.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blazing",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "resplendent",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliantly",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "dazzling",
+     "closeness": 2,
+     "score": 6.38,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gleaming",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scintillating",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "effulgent",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refulgent",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "twinkling",
+     "closeness": 2,
+     "score": 3.74,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lambent",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sheeny",
+     "closeness": 2,
+     "score": 3.8,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "burnished",
+     "closeness": 2,
+     "score": 3.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "glistening",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "garish",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "splendid",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silver",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "heavenly",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lighted",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "iridescent",
+     "closeness": 3,
+     "score": 2.72,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "elegant",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flaming",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stylish",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silvery",
+     "closeness": 3,
+     "score": 2.48,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "sublime",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "animate",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mellow",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "starry",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spotless",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "winsome",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "genial",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silky",
+     "closeness": 3,
+     "score": 2.72,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "satiny",
+     "closeness": 3,
+     "score": 2.18,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ravishing",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blooming",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wide-awake",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sprightly",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shimmery",
+     "closeness": 3,
+     "score": 2.12,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glittery",
+     "closeness": 3,
+     "score": 2.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "agleam",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "aglitter",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "splendorous",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sparkly",
+     "closeness": 3,
+     "score": 2.48,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "unblinking",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "undimmed",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": -0.02,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "sunshiny",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsoiled",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fulgent",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "glary",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "gleamy",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "lucent",
+     "closeness": 3,
+     "score": 2.48,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "beamy",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "nitid",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "scintillant",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "silvern",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "happy",
+   "definition": "characterized by happiness or gladness",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "happy",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheerful",
+     "closeness": 1,
+     "score": 7.92,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheery",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vivacious",
+     "closeness": 2,
+     "score": 5.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hearty",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perky",
+     "closeness": 2,
+     "score": 5.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "content",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exuberant",
+     "closeness": 2,
+     "score": 5.5,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "joyous",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "merry",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gay",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glad",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jovial",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enthusiastic",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "buoyant",
+     "closeness": 2,
+     "score": 4.58,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excited",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweet",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "giddy",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blithe",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "joyful",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pleased",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delighted",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thrilled",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clean",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "euphoric",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elated",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overjoyed",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ebullient",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blithesome",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gladsome",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pleasant",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pacific",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ecstatic",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "satisfied",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "triumphant",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smiling",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contented",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alive",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ready",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knowing",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "awake",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magic",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "laughing",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lucky",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "berserk",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": -0.14,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exultant",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": -0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wonderful",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "willing",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "convivial",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gleeful",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chirpy",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chuffed",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cock-a-hoop",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "smart",
+   "definition": "characterized by quickness and ease in learning",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "smart",
+     "closeness": 1,
+     "score": 11.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intelligent",
+     "closeness": 1,
+     "score": 10.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sharp",
+     "closeness": 1,
+     "score": 8.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick",
+     "closeness": 1,
+     "score": 7.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "keen",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talented",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ingenious",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brainy",
+     "closeness": 1,
+     "score": 6.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clever",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gifted",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wise",
+     "closeness": 2,
+     "score": 5.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intellectual",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astute",
+     "closeness": 2,
+     "score": 4.96,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knowledgeable",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rational",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "witty",
+     "closeness": 2,
+     "score": 4.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "piquant",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick-witted",
+     "closeness": 2,
+     "score": 4.12,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "educated",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "charismatic",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attentive",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "apt",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alert",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spirited",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "energetic",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "agile",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nimble",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funny",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brave",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excellent",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sagacious",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "light",
+   "definition": "having lots of light either natural or artificial",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "light",
+     "closeness": 2,
+     "score": 6.86,
+     "similarity": 0.56,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "hot",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "white",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fresh",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intense",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "golden",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incandescent",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "burning",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "divine",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pointed",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clear",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fluorescent",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.44,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "lit",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pure",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devastating",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "hopeful",
+   "definition": "likely to turn out well in the future",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "hopeful",
+     "closeness": 1,
+     "score": 6,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "promising",
+     "closeness": 2,
+     "score": 5.76,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "auspicious",
+     "closeness": 2,
+     "score": 3.92,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rosy",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "optimistic",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "receptive",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "upbeat",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bold",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prompt",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sanguine",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "vivid",
+   "definition": "having strong or striking color",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "vivid",
+     "closeness": 1,
+     "score": 7.74,
+     "similarity": 0.49,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lively",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stunning",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rich",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beautiful",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.53,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exotic",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plastic",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "animated",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flamboyant",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "distinguished",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fancy",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magnificent",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "yellow",
+  "dark",
+  "pink",
+  "purple",
+  "vibrant",
+  "red",
+  "green",
+  "orange"
+ ],
+ "flagged": [
+  {
+   "word": "undimmed",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "ardent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "silken",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "agleam",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "aglitter",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "glittery",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity 0.26"
+  },
+  {
+   "word": "beamy",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "nitid",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "scintillant",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "silvern",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "alight",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "animate",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "benign",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "blithe",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "brainy",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "dainty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "devastating",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "flushed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "fortunate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "gay",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "high",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "illustrious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "immaculate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "impressionable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "irrepressible",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "killing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "lucid",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "malleable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "mild",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "motivated",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "outstanding",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "pliable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "prosperous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "sensible",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "sleepless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "susceptible",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "understanding",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "elated",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "quick-witted",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "stainless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "wakeful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "benignant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "berserk",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.14"
+  },
+  {
+   "word": "chuffed",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "convivial",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "exhilarated",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.76"
+  },
+  {
+   "word": "exultant",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.09"
+  },
+  {
+   "word": "gleeful",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "overjoyed",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "sagacious",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.04"
+  }
+ ]
+}

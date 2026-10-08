@@ -1,0 +1,1568 @@
+{
+ "word": "lethargic",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "listless",
+   "definition": "deficient in alertness or activity",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "listless",
+     "closeness": 1,
+     "score": 11.8,
+     "similarity": 0.75,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "languid",
+     "closeness": 1,
+     "score": 11.12,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "languorous",
+     "closeness": 1,
+     "score": 10.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sluggish",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.59,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "indifferent",
+     "closeness": 1,
+     "score": 8.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "apathetic",
+     "closeness": 1,
+     "score": 8.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uninterested",
+     "closeness": 1,
+     "score": 8.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dull",
+     "closeness": 1,
+     "score": 8.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slow",
+     "closeness": 1,
+     "score": 8.34,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unconcerned",
+     "closeness": 1,
+     "score": 8.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impassive",
+     "closeness": 1,
+     "score": 7.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inert",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "phlegmatic",
+     "closeness": 1,
+     "score": 7.2,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sullen",
+     "closeness": 1,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nonchalant",
+     "closeness": 1,
+     "score": 7.08,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tepid",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slack",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inactive",
+     "closeness": 1,
+     "score": 6.87,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leaden",
+     "closeness": 1,
+     "score": 6.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lazy",
+     "closeness": 1,
+     "score": 6.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unmoved",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passive",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lukewarm",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tardy",
+     "closeness": 1,
+     "score": 6.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jaded",
+     "closeness": 1,
+     "score": 8.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "halfhearted",
+     "closeness": 1,
+     "score": 6.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lackadaisical",
+     "closeness": 1,
+     "score": 11.6,
+     "similarity": 0.55,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "torpid",
+     "closeness": 1,
+     "score": 8.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spiritless",
+     "closeness": 1,
+     "score": 8.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncaring",
+     "closeness": 1,
+     "score": 7.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "supine",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insouciant",
+     "closeness": 1,
+     "score": 7,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "world-weary",
+     "closeness": 1,
+     "score": 6.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "otiose",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unenthusiastic",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mopey",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plodding",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ponderous",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drowsy",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disinterested",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dormant",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idle",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tedious",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "untouched",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blithe",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "groggy",
+     "closeness": 2,
+     "score": 5.06,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "steady",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shiftless",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dispassionate",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sedentary",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lifeless",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dreamy",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "latent",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deaf",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "numb",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weary",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stately",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cool",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "indolent",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aloof",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleepy",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stolid",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unoccupied",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glacial",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bored",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stagnant",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slothful",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silent",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uninspired",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.56,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hopeless",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weak",
+     "closeness": 2,
+     "score": 3.58,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lumbering",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nonplussed",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insensible",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quiescent",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "meh",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "somnolent",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fallow",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nonactive",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "draggy",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "logy",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enervated",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "stuporous",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "unemployed",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "feeble",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.52,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suspended",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "laggard",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dazed",
+     "closeness": 3,
+     "score": 2.72,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "impotent",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stodgy",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exhausted",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stupid",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "detached",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flabby",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "limp",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insipid",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "powerless",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spineless",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unintelligent",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "careless",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dismal",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inanimate",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monotonous",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "despondent",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wan",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavy",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resigned",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leisurely",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cautious",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "relaxed",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "callous",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unimaginative",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comatose",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "soporific",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stoic",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stupefied",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inattentive",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flaccid",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dispirited",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unresponsive",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "faltering",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flagging",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "moribund",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "droopy",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dilatory",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cataleptic",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drugged",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lumpish",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unemotional",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unhurried",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "catatonic",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vegetative",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "circumspect",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dozy",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavy-footed",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "slow-moving",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "unenergetic",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "disjointed",
+  "timid",
+  "flustered",
+  "indecisive",
+  "sloppy",
+  "dejected",
+  "ineffectual",
+  "inept"
+ ],
+ "flagged": [
+  {
+   "word": "heavy",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "resigned",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "withdrawn",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "napping",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "unmoving",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.22"
+  },
+  {
+   "word": "abeyant",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.34"
+  },
+  {
+   "word": "hibernating",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.64"
+  },
+  {
+   "word": "suspended",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "unemployed",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "meh",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "leisurely",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "cautious",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "circumspect",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "flagging",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "relaxed",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "callous",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

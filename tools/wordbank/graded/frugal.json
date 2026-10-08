@@ -1,0 +1,653 @@
+{
+ "word": "frugal",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "economical",
+   "definition": "avoiding waste",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "economical",
+     "closeness": 1,
+     "score": 9.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sparing",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thrifty",
+     "closeness": 2,
+     "score": 9.5,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prudent",
+     "closeness": 2,
+     "score": 7.08,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "canny",
+     "closeness": 2,
+     "score": 6.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheap",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ascetic",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stingy",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "austere",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "moderate",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "miserly",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sober",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "provident",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "parsimonious",
+     "closeness": 2,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abstemious",
+     "closeness": 2,
+     "score": 6.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "penny-pinching",
+     "closeness": 2,
+     "score": 4.3,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chary",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stinting",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.09,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "saving",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lean",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "careful",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "skimpy",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "puny",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scrawny",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "economic",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "sensible",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wary",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scotch",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "paltry",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "restrained",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "watery",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scanty",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spare",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tight",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impoverished",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inexpensive",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shabby",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "temperate",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thin",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discreet",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mean",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slim",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scant",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slender",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exiguous",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "niggardly",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "penurious",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jejune",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheeseparing",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "penny-wise",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "profligate",
+  "diligent",
+  "carefree",
+  "adventurous",
+  "resourceful",
+  "tightfisted",
+  "healthful",
+  "industrious"
+ ],
+ "flagged": [
+  {
+   "word": "easy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "economic",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "limited",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "manageable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "measured",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "meticulous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "modest",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "narrow",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "reasonable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "slender",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "watered",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "dwarfish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  }
+ ]
+}

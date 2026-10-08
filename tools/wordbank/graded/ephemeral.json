@@ -1,0 +1,527 @@
+{
+ "word": "ephemeral",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "transitory",
+   "definition": "lasting a very short time",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "transitory",
+     "closeness": 1,
+     "score": 13.8,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "temporary",
+     "closeness": 1,
+     "score": 10.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fleeting",
+     "closeness": 1,
+     "score": 10.86,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "short-lived",
+     "closeness": 1,
+     "score": 10.78,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "transient",
+     "closeness": 1,
+     "score": 9.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "volatile",
+     "closeness": 1,
+     "score": 8.76,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "momentary",
+     "closeness": 1,
+     "score": 8.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passing",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": -0.04,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fugacious",
+     "closeness": 1,
+     "score": 6,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "ephemeron",
+     "closeness": 1,
+     "score": 6,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "perishable",
+     "closeness": 2,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "earthly",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insubstantial",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "short",
+     "closeness": 2,
+     "score": 4.36,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "moby"
+     ]
+    },
+    {
+     "word": "deciduous",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "instant",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "capricious",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "changeable",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "transitive",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fragile",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brief",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fickle",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "worldly",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impermanent",
+     "closeness": 2,
+     "score": 5.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impetuous",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brittle",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "corruptible",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impulsive",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unstable",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fugitive",
+     "closeness": 3,
+     "score": 3,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flying",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": -0.06,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mortal",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "malleable",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "temporal",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fading",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "frail",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seasonable",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mutable",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fly-by-night",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inconstant",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "protean",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "illusory",
+  "unimportant",
+  "inconsequential",
+  "otherworldly",
+  "transcendent",
+  "unchanging",
+  "immaterial",
+  "ethereal"
+ ],
+ "flagged": [
+  {
+   "word": "passing",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "dying",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "flying",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "fugitive",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "quick",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  }
+ ]
+}

@@ -1,0 +1,714 @@
+{
+ "word": "lazy",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "indolent",
+   "definition": "disinclined to work or exertion",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "indolent",
+     "closeness": 1,
+     "score": 9.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idle",
+     "closeness": 1,
+     "score": 9.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slothful",
+     "closeness": 1,
+     "score": 9.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "otiose",
+     "closeness": 1,
+     "score": 8.8,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "work-shy",
+     "closeness": 1,
+     "score": 8.8,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lethargic",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inert",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shiftless",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leisurely",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "careless",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easygoing",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "languid",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "indifferent",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lackadaisical",
+     "closeness": 2,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "torpid",
+     "closeness": 2,
+     "score": 5.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "supine",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "faineant",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "lax",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bum",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "languorous",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foolish",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "listless",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heedless",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passive",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inactive",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remiss",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heartless",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thoughtless",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "bored",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good-for-nothing",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lumbering",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jaded",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "strolling",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unhurried",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dilatory",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "circumspect",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loitering",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "do-nothing",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "slow",
+   "definition": "moving slowly and gently",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "sluggish",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slow",
+     "closeness": 2,
+     "score": 5.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentle",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easy",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "relaxed",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slack",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cautious",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reckless",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silly",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deliberate",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reluctant",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "negligent",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tentative",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unenterprising",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disregardful",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "stupid",
+  "arrogant",
+  "greedy",
+  "ignorant",
+  "selfish",
+  "sloppy",
+  "incompetent",
+  "cynical"
+ ],
+ "flagged": [
+  {
+   "word": "airy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "casual",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "cursory",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "flippant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "forgetful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "gradual",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "inconsiderate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "laggard",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "moderate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "neglectful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "oblivious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "parasitic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "perfunctory",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "staggering",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "trifling",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "halting",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "unthinking",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "insouciant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "untactful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

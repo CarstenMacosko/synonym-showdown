@@ -1,0 +1,963 @@
+{
+ "word": "wise",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "smart",
+   "definition": "improperly forward or bold",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "smart",
+     "closeness": 1,
+     "score": 8.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intelligent",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astute",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "saucy",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fresh",
+     "closeness": 2,
+     "score": 4.48,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sassy",
+     "closeness": 2,
+     "score": 4.36,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bright",
+     "closeness": 2,
+     "score": 4.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impertinent",
+     "closeness": 2,
+     "score": 4,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impudent",
+     "closeness": 2,
+     "score": 3.88,
+     "similarity": 0.03,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sophisticated",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thoughtful",
+     "closeness": 3,
+     "score": 3.28,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "savvy",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cunning",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forward",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "sharp",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discreet",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clever",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bold",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crafty",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slick",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliant",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brash",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cocky",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insightful",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overbold",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "knowing",
+   "definition": "evidencing the possession of inside information",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "knowing",
+     "closeness": 1,
+     "score": 6.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "keen",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reasonable",
+     "closeness": 2,
+     "score": 4.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "profound",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deep",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knowledgeable",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aware",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "conscious",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "understanding",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "educated",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mindful",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tactical",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "informed",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "practical",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "manner",
+     "closeness": 3,
+     "score": 2.3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "way",
+     "closeness": 3,
+     "score": 2.3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "look",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "careful",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "prudent",
+   "definition": "having or prompted by wisdom or discernment",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "prudent",
+     "closeness": 2,
+     "score": 10.61,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sage",
+     "closeness": 2,
+     "score": 8.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "omniscient",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perceptive",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "advisable",
+     "closeness": 2,
+     "score": 3.51,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sapient",
+     "closeness": 2,
+     "score": 6.62,
+     "similarity": -0.03,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sagacious",
+     "closeness": 2,
+     "score": 6.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perspicacious",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sane",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "erudite",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enlightened",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "worldly",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intuitive",
+     "closeness": 3,
+     "score": 2.08,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discerning",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick-witted",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "percipient",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sapiential",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "judicious",
+   "definition": "marked by the exercise of good judgment or common sense in practical matters",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "judicious",
+     "closeness": 1,
+     "score": 9.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sensible",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shrewd",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "politic",
+     "closeness": 2,
+     "score": 3.99,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heady",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "canny",
+     "closeness": 3,
+     "score": 2.98,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expedient",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "apprehensive",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "courageous",
+  "brave",
+  "honest",
+  "minded",
+  "stupid",
+  "dumb",
+  "loving",
+  "wrong"
+ ],
+ "flagged": [
+  {
+   "word": "heady",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "impudent",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "perspicacious",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "sapient",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "sapiential",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "well-advised",
+   "ruling": "rejected",
+   "reason": "borderline score 1.95"
+  },
+  {
+   "word": "politic",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "acute",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "alert",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "apprehensive",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "approach",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "appropriate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "decent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "fit",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "happy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "realistic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "regard",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "respect",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "scholarly",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "smooth",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "studious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "tricky",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "useful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "wily",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "hardheaded",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "provident",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "cheeky",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "foresighted",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "hot",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.04"
+  },
+  {
+   "word": "clairvoyant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  }
+ ]
+}

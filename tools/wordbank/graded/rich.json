@@ -1,0 +1,1092 @@
+{
+ "word": "rich",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "wealthy",
+   "definition": "possessing material wealth",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "wealthy",
+     "closeness": 1,
+     "score": 11.72,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loaded",
+     "closeness": 1,
+     "score": 9.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-to-do",
+     "closeness": 1,
+     "score": 7.64,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-heeled",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": -0.07,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abundant",
+     "closeness": 2,
+     "score": 8.51,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prosperous",
+     "closeness": 2,
+     "score": 7.58,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affluent",
+     "closeness": 2,
+     "score": 5.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rolling",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easy",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comfortable",
+     "closeness": 2,
+     "score": 4.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flush",
+     "closeness": 2,
+     "score": 4.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "substantial",
+     "closeness": 2,
+     "score": 4.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "generous",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-off",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-fixed",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "liberal",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prevalent",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vast",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.49,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "privileged",
+     "closeness": 3,
+     "score": 2.09,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wholesale",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thriving",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "superabundant",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unguent",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tallowy",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-endowed",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": -0.06,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "plentiful",
+   "definition": "affording an abundant supply",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "plentiful",
+     "closeness": 1,
+     "score": 7.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ample",
+     "closeness": 1,
+     "score": 7.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "copious",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plenty",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plenteous",
+     "closeness": 2,
+     "score": 5.8,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bountiful",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rife",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rampant",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "priceless",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "profuse",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bottomless",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inexhaustible",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "fat",
+   "definition": "marked by great fruitfulness",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "fat",
+     "closeness": 1,
+     "score": 9.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "productive",
+     "closeness": 1,
+     "score": 8.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fertile",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "valuable",
+     "closeness": 2,
+     "score": 4.64,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fruitful",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flourishing",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pregnant",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prolific",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creative",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smooth",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "absurd",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fecund",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "lush",
+   "definition": "suggestive of or characterized by great expense",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "lush",
+     "closeness": 2,
+     "score": 6.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lavish",
+     "closeness": 2,
+     "score": 5.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "luxurious",
+     "closeness": 2,
+     "score": 5.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "opulent",
+     "closeness": 2,
+     "score": 5.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sumptuous",
+     "closeness": 2,
+     "score": 3.56,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "extravagant",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "replete",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plushy",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "deep",
+   "definition": "strong; intense",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "deep",
+     "closeness": 1,
+     "score": 7.62,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "warm",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "full",
+     "closeness": 3,
+     "score": 3.2,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "exuberant",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "numerous",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vibrant",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavy",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bright",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "diffuse",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slick",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vivid",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elaborate",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "much",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "racy",
+   "definition": "marked by richness and fullness of flavor",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "racy",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "robust",
+     "closeness": 3,
+     "score": 2.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-same",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "ridiculous",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "luxuriant",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sonorous",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "full-bodied",
+     "closeness": 3,
+     "score": 3.34,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "mineral",
+  "natural",
+  "diverse",
+  "beautiful",
+  "developing",
+  "enough",
+  "fabulous",
+  "huge"
+ ],
+ "flagged": [
+  {
+   "word": "full-bodied",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "grand",
+   "ruling": "rejected",
+   "reason": "borderline score 1.82"
+  },
+  {
+   "word": "plush",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "well-heeled",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "plushy",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "appealing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "brilliant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "elegant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "epidemic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "fatty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "galore",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "golden",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "gorgeous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "high",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "intense",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "interesting",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "many",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "oily",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "overflowing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "precious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "prevailing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "prodigal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "profitable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "resonant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "riotous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "spicy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "sweet",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "wholesale",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "seminal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "aplenty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "swarming",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "suety",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "well-endowed",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.06"
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "word": "famous",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "notable",
+   "definition": "widely known and esteemed",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "notable",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.61,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "renowned",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.69,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "famed",
+     "closeness": 1,
+     "score": 9.3,
+     "similarity": 0.72,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noted",
+     "closeness": 1,
+     "score": 8.34,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "celebrated",
+     "closeness": 1,
+     "score": 7.86,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "illustrious",
+     "closeness": 1,
+     "score": 6.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "legendary",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.64,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-known",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.74,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "distinguished",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "known",
+     "closeness": 2,
+     "score": 5.36,
+     "similarity": 0.56,
+     "evidence": [
+      "wn-similar",
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "prominent",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eminent",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prestigious",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noteworthy",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magnificent",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mythical",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fabled",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "far-famed",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "heroic",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "memorable",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.51,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glorious",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "marked",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "popular",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.52,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "noble",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "great",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "sublime",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "venerable",
+     "closeness": 3,
+     "score": 2.86,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "majestic",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "superb",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "towering",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "splendid",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "esteemed",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "royal",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "respected",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excellent",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grand",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lofty",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rare",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "conspicuous",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reputable",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remarkable",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revered",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elegant",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "admired",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "inspired",
+  "infamous",
+  "featured",
+  "beautiful",
+  "beloved",
+  "ancient",
+  "contemporary",
+  "included"
+ ],
+ "flagged": [
+  {
+   "word": "elevated",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "fine",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "good",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "kind",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "superior",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "soaring",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "proverbial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  }
+ ]
+}

@@ -1,0 +1,1013 @@
+{
+ "word": "wistful",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "sad",
+   "definition": "showing pensive sadness",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "melancholy",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.72,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sad",
+     "closeness": 1,
+     "score": 9.62,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pensive",
+     "closeness": 1,
+     "score": 9.2,
+     "similarity": 0.62,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mournful",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.65,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plaintive",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.61,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forlorn",
+     "closeness": 1,
+     "score": 7.92,
+     "similarity": 0.52,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "doleful",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sorrowful",
+     "closeness": 1,
+     "score": 7.62,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sullen",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "downcast",
+     "closeness": 1,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "despondent",
+     "closeness": 1,
+     "score": 7.08,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dejected",
+     "closeness": 1,
+     "score": 6.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disconsolate",
+     "closeness": 1,
+     "score": 6.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gloomy",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blue",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dull",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inconsolable",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unhappy",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "downhearted",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "morose",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wretched",
+     "closeness": 1,
+     "score": 6.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lugubrious",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "woebegone",
+     "closeness": 1,
+     "score": 6.12,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "melancholic",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.67,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elegiac",
+     "closeness": 1,
+     "score": 8.28,
+     "similarity": 0.58,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heartsick",
+     "closeness": 1,
+     "score": 6.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "low-spirited",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheerless",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spiritless",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mopey",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "miserable",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glum",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "depressed",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "moody",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crestfallen",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shattered",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rueful",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passionate",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "solemn",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dismal",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sorry",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contemplative",
+     "closeness": 2,
+     "score": 4.18,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "introspective",
+     "closeness": 2,
+     "score": 4.1,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disgruntled",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "poignant",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.58,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "damp",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nostalgic",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.65,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dispirited",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "musing",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lachrymose",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "saturnine",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "woeful",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "joyless",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "querulous",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "infelicitous",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lumpish",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grief-stricken",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chapfallen",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "ruthful",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "disheartened",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "thoughtful",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "regretful",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reflective",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sober",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "anguished",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "low",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "languid",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.5,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "peevish",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tearful",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "down",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": -0.11,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "pathetic",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fretful",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remorseful",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dour",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "petulant",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desolate",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bleak",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funky",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heartbreaking",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jaded",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "meditative",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whiny",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funereal",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "despairing",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plangent",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ruminative",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brooding",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plutonic",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "atrabilious",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "chopfallen",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "grieving",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "dreamy",
+  "sardonic",
+  "wry",
+  "soulful",
+  "bittersweet",
+  "fatalistic",
+  "sheepish",
+  "childlike"
+ ],
+ "flagged": [
+  {
+   "word": "blue",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "ruminant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "shamefaced",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "cogitative",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "desirous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "down",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.11"
+  },
+  {
+   "word": "low",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "bleak",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

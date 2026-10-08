@@ -1,0 +1,492 @@
+{
+ "word": "tirade",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "philippic",
+   "definition": "a speech of violent denunciation",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "diatribe",
+     "closeness": 1,
+     "score": 9.8,
+     "similarity": 0.62,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "harangue",
+     "closeness": 1,
+     "score": 8.94,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rant",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.65,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "polemic",
+     "closeness": 1,
+     "score": 6.78,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "philippic",
+     "closeness": 1,
+     "score": 10.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jeremiad",
+     "closeness": 1,
+     "score": 7.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "screed",
+     "closeness": 1,
+     "score": 7.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "condemnation",
+     "closeness": 2,
+     "score": 5.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "invective",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.54,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "admonition",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "broadside",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "dithyramb",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "oration",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "denunciation",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eulogy",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exhortation",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "speech",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outburst",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.59,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "pitch",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recitation",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "assault",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inaugural",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talk",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "debate",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "onslaught",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recital",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abuse",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sermon",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "address",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lecture",
+     "closeness": 3,
+     "score": 2.08,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "filibuster",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vituperation",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vilification",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "declamation",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "peroration",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contumely",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revilement",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "valedictory",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tongue-lashing",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "salutatory",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "valediction",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "expletive",
+  "profanity",
+  "slur",
+  "vulgarity",
+  "obscenity",
+  "tantrum",
+  "vitriol",
+  "ranting"
+ ],
+ "flagged": [
+  {
+   "word": "outcry",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "reading",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "execration",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  }
+ ]
+}

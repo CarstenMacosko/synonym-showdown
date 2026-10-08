@@ -1,0 +1,1436 @@
+{
+ "word": "improve",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "amend",
+   "definition": "to make better",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "amend",
+     "closeness": 1,
+     "score": 11.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "better",
+     "closeness": 1,
+     "score": 10,
+     "similarity": 0.67,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "ameliorate",
+     "closeness": 1,
+     "score": 13.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "meliorate",
+     "closeness": 1,
+     "score": 11.3,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enhance",
+     "closeness": 2,
+     "score": 7.55,
+     "similarity": 0.77,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reform",
+     "closeness": 2,
+     "score": 6.63,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refine",
+     "closeness": 2,
+     "score": 6.33,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "develop",
+     "closeness": 2,
+     "score": 6.05,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "upgrade",
+     "closeness": 2,
+     "score": 5.97,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "advance",
+     "closeness": 2,
+     "score": 5.91,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revamp",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "raise",
+     "closeness": 2,
+     "score": 5.55,
+     "similarity": 0.5,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boost",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.67,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "promote",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perfect",
+     "closeness": 2,
+     "score": 5.13,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "educate",
+     "closeness": 2,
+     "score": 5.07,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "strengthen",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.69,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rebuild",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lift",
+     "closeness": 2,
+     "score": 4.65,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "modify",
+     "closeness": 2,
+     "score": 4.64,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adjust",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "repair",
+     "closeness": 2,
+     "score": 4.51,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "progress",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enrich",
+     "closeness": 2,
+     "score": 4.47,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alter",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adapt",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revive",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "help",
+     "closeness": 2,
+     "score": 4.25,
+     "similarity": 0.66,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "diversify",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "transform",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elevate",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "restore",
+     "closeness": 2,
+     "score": 4.13,
+     "similarity": 0.53,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mend",
+     "closeness": 2,
+     "score": 4.11,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gain",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rectify",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hone",
+     "closeness": 2,
+     "score": 4.05,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revise",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mitigate",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "condition",
+     "closeness": 2,
+     "score": 3.93,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cultivate",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "correct",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prepare",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "renew",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foster",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reconstruct",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accommodate",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fit",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nurture",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "build",
+     "closeness": 2,
+     "score": 3.51,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "increase",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "restructure",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "emend",
+     "closeness": 2,
+     "score": 4.05,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reshape",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "break",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ready",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shift",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vary",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discipline",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "qualify",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recover",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "benefit",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expand",
+     "closeness": 3,
+     "score": 3.2,
+     "similarity": 0.61,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exercise",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "change",
+     "closeness": 3,
+     "score": 3.14,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "convert",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "broaden",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "encourage",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.57,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rehabilitate",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remedy",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uplift",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fix",
+     "closeness": 3,
+     "score": 3.03,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "complete",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accelerate",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.55,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intensify",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "turn",
+     "closeness": 3,
+     "score": 2.96,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "graduate",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recruit",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "achieve",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.53,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mature",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "augment",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "establish",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.52,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "redesign",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "renovate",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "breed",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fatten",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "train",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enlighten",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subvert",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alleviate",
+     "closeness": 3,
+     "score": 2.61,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enlarge",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grow",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "create",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "further",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.51,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "relieve",
+     "closeness": 3,
+     "score": 2.55,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exploit",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overcome",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stimulate",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "polish",
+     "closeness": 3,
+     "score": 2.45,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beautify",
+     "closeness": 3,
+     "score": 2.43,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crown",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "modulate",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overthrow",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "produce",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rear",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "widen",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "access",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overhaul",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extend",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "introduce",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clean",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recuperate",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heighten",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "evolve",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "surge",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remake",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "transfigure",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "housebreak",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "realign",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "acculturate",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "ensure",
+  "maintain",
+  "reduce",
+  "enable",
+  "facilitate",
+  "provide",
+  "continue",
+  "consolidate"
+ ],
+ "flagged": [
+  {
+   "word": "embellish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.97"
+  },
+  {
+   "word": "heal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.85"
+  },
+  {
+   "word": "regenerate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.71"
+  },
+  {
+   "word": "deform",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "deviate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "drill",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "form",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "forward",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "mutate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "nurse",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "rally",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "redeem",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "refurbish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "remodel",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "ripen",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "skyrocket",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "tack",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "denature",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "overbalance",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "preponderate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "re-create",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "overbear",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "heighten",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "evolve",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

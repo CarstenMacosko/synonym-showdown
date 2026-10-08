@@ -1,0 +1,861 @@
+{
+ "word": "eat",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "consume",
+   "definition": "take in solid food",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "consume",
+     "closeness": 1,
+     "score": 13.3,
+     "similarity": 0.63,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devour",
+     "closeness": 1,
+     "score": 9.75,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "feed",
+     "closeness": 1,
+     "score": 8.96,
+     "similarity": 0.56,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swallow",
+     "closeness": 1,
+     "score": 8.64,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dine",
+     "closeness": 2,
+     "score": 5.93,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kick",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spend",
+     "closeness": 2,
+     "score": 5.63,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excel",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bang",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rock",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rule",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slap",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "absorb",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shine",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slay",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drink",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bite",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ingest",
+     "closeness": 2,
+     "score": 4.58,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gobble",
+     "closeness": 2,
+     "score": 4.23,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "diet",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "taste",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "engorge",
+     "closeness": 2,
+     "score": 4.05,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fare",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "digest",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "breakfast",
+     "closeness": 3,
+     "score": 3.09,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nibble",
+     "closeness": 3,
+     "score": 3.09,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swill",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lunch",
+     "closeness": 3,
+     "score": 2.97,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "assimilate",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gulp",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "partake",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "forage",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "waste",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lose",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bread",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stomach",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "feast",
+     "closeness": 3,
+     "score": 2.49,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ignore",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stuff",
+     "closeness": 3,
+     "score": 2.37,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "graze",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snack",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "hunger",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "milk",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drop",
+     "closeness": 3,
+     "score": 2.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mess",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pass",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "banquet",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "expend",
+   "definition": "use up (resources or materials)",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "expend",
+     "closeness": 1,
+     "score": 6.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exhaust",
+     "closeness": 2,
+     "score": 5.85,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deplete",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disturb",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bother",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "worry",
+     "closeness": 2,
+     "score": 3.98,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "drain",
+     "closeness": 2,
+     "score": 3.81,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "finish",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "squander",
+     "closeness": 3,
+     "score": 3.33,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "use",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "burn",
+     "closeness": 3,
+     "score": 2.91,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "take",
+     "closeness": 3,
+     "score": 2.78,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "have",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "relish",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "erode",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impoverish",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wear",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "corrode",
+   "definition": "cause to deteriorate due to the action of water, air, or an acid",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "corrode",
+     "closeness": 1,
+     "score": 6.44,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rust",
+     "closeness": 1,
+     "score": 6.44,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gnaw",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dissolve",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imbibe",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ablate",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "prefer",
+  "sit",
+  "tend",
+  "forget",
+  "afford",
+  "tell",
+  "enjoy",
+  "learn"
+ ],
+ "flagged": [
+  {
+   "word": "corrode",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "blow",
+   "ruling": "rejected",
+   "reason": "borderline score 1.77"
+  },
+  {
+   "word": "pasture",
+   "ruling": "rejected",
+   "reason": "borderline score 1.71"
+  },
+  {
+   "word": "picnic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.77"
+  },
+  {
+   "word": "pig",
+   "ruling": "rejected",
+   "reason": "borderline score 1.95"
+  },
+  {
+   "word": "ingurgitate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.75"
+  },
+  {
+   "word": "down",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "impoverish",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "slay",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "wear",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

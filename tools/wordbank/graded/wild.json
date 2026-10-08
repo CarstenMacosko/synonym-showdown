@@ -1,0 +1,1393 @@
+{
+ "word": "wild",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "raging",
+   "definition": "(of the elements) as if showing violent anger",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "raging",
+     "closeness": 1,
+     "score": 10.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "furious",
+     "closeness": 1,
+     "score": 10.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ferocious",
+     "closeness": 1,
+     "score": 7.8,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fierce",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rabid",
+     "closeness": 1,
+     "score": 7.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rampant",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "angry",
+     "closeness": 1,
+     "score": 6,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "volatile",
+     "closeness": 2,
+     "score": 5.76,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tempestuous",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stormy",
+     "closeness": 2,
+     "score": 4.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passionate",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grim",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rough",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "roaring",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "howling",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tumultuous",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "turbulent",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desert",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fiery",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "mad",
+   "definition": "marked by extreme lack of restraint or control",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "mad",
+     "closeness": 2,
+     "score": 5.78,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "raving",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "frenzied",
+     "closeness": 2,
+     "score": 5,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enthusiastic",
+     "closeness": 2,
+     "score": 4.82,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delirious",
+     "closeness": 2,
+     "score": 4.76,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "frantic",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insane",
+     "closeness": 2,
+     "score": 4.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chaotic",
+     "closeness": 2,
+     "score": 4.46,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncontrolled",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unrestrained",
+     "closeness": 2,
+     "score": 3.92,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bizarre",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desperate",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excited",
+     "closeness": 3,
+     "score": 2.9,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hysterical",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "berserk",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ecstatic",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncontrollable",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abandoned",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disorderly",
+     "closeness": 3,
+     "score": 2.48,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "distracted",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wandering",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intoxicated",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rip-roaring",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ill-bred",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "high-flown",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "precipitant",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ungentle",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blusterous",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rough-and-ready",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maggoty",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsubdued",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "savage",
+   "definition": "in a natural state; not tamed or domesticated or cultivated",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "savage",
+     "closeness": 1,
+     "score": 14.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wilderness",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "feral",
+     "closeness": 1,
+     "score": 12.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "untamed",
+     "closeness": 1,
+     "score": 9.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "animal",
+     "closeness": 2,
+     "score": 6.12,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unbroken",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "undomesticated",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ferine",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby"
+     ]
+    },
+    {
+     "word": "indigenous",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "barren",
+     "closeness": 3,
+     "score": 2.55,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "frontier",
+     "closeness": 3,
+     "score": 2.41,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wasteland",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncultivated",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "barbaric",
+   "definition": "without civilizing influences",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "barbaric",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "barbarian",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wanton",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ruthless",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "primitive",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monstrous",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reckless",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "possessed",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inhuman",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uncivilized",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "fantastic",
+   "definition": "fanciful and unrealistic; foolish",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "fantastic",
+     "closeness": 1,
+     "score": 7.2,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crazy",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "waste",
+     "closeness": 2,
+     "score": 5.07,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incredible",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unfounded",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weird",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extravagant",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outlandish",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outrageous",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ridiculous",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "absurd",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amazing",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gaga",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "violent",
+   "definition": "(of colors or sounds) intensely vivid or loud",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "violent",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intense",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vicious",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brutal",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "murderous",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dangerous",
+     "closeness": 3,
+     "score": 2.72,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bloody",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "exotic",
+  "endangered",
+  "breeding",
+  "red",
+  "salmon",
+  "migratory",
+  "rare",
+  "native"
+ ],
+ "flagged": [
+  {
+   "word": "groundless",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.04"
+  },
+  {
+   "word": "hazardous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.86"
+  },
+  {
+   "word": "idle",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "risky",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.52"
+  },
+  {
+   "word": "unwarranted",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.68"
+  },
+  {
+   "word": "godforsaken",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.38"
+  },
+  {
+   "word": "baseless",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.98"
+  },
+  {
+   "word": "dotty",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.62"
+  },
+  {
+   "word": "rampantly",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.68"
+  },
+  {
+   "word": "uncivilised",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "manic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.94"
+  },
+  {
+   "word": "unrealistic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "bush",
+   "ruling": "rejected",
+   "reason": "borderline score 1.53"
+  },
+  {
+   "word": "anarchic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "atrocious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "barbarous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "bestial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "boisterous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "brush",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "brutish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "careless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "demented",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "dirty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "enraged",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "fanatical",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "fanciful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "foolish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "grotesque",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "haggard",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "harsh",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "hellish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "impetuous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "ludicrous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "madcap",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "maniac",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "maniacal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "merciless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "mindless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "preposterous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "ranting",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "storming",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "unkempt",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "unruly",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "upset",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "volcanic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "whimsical",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "woods",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "rambunctious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "contumacious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "harum-scarum",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "orgiastic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "sanguinary",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "madding",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "uncombed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "amazing",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

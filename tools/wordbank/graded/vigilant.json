@@ -1,0 +1,421 @@
+{
+ "word": "vigilant",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "watchful",
+   "definition": "carefully observant or attentive; on the lookout for possible danger",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "watchful",
+     "closeness": 1,
+     "score": 13.22,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alert",
+     "closeness": 1,
+     "score": 10.16,
+     "similarity": 0.56,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wary",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "careful",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "observant",
+     "closeness": 1,
+     "score": 6.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "circumspect",
+     "closeness": 1,
+     "score": 7.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wakeful",
+     "closeness": 1,
+     "score": 7,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aware",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prudent",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cautious",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attentive",
+     "closeness": 2,
+     "score": 4.12,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "open-eyed",
+     "closeness": 2,
+     "score": 5.8,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "argus-eyed",
+     "closeness": 2,
+     "score": 5.5,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby"
+     ]
+    },
+    {
+     "word": "mindful",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.51,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ready",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "guarded",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "diligent",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "keen",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scrupulous",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleepless",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "awake",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discreet",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "informed",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "preventive",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "conscious",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "protective",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "considerate",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "protecting",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eagle-eyed",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "custodial",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heedful",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hawk-eyed",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wide-awake",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "agog",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sharp-eyed",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lidless",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "proactive",
+  "concerned",
+  "advised",
+  "anxious",
+  "resolute",
+  "suspicious",
+  "steadfast",
+  "fearful"
+ ],
+ "flagged": [
+  {
+   "word": "sharp",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "chary",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "considerate",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

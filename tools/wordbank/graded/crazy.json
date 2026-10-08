@@ -1,0 +1,1600 @@
+{
+ "word": "crazy",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "mad",
+   "definition": "affected with madness or insanity",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "mad",
+     "closeness": 1,
+     "score": 12.12,
+     "similarity": 0.47,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insane",
+     "closeness": 1,
+     "score": 11.36,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weird",
+     "closeness": 1,
+     "score": 9.72,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "demented",
+     "closeness": 1,
+     "score": 9.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unbalanced",
+     "closeness": 1,
+     "score": 8.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lunatic",
+     "closeness": 1,
+     "score": 8.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nutty",
+     "closeness": 1,
+     "score": 8.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disturbed",
+     "closeness": 1,
+     "score": 7.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deranged",
+     "closeness": 1,
+     "score": 7.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "screwy",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "distraught",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nuts",
+     "closeness": 1,
+     "score": 6.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sick",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cracked",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "daft",
+     "closeness": 1,
+     "score": 6.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crackers",
+     "closeness": 1,
+     "score": 6.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crazed",
+     "closeness": 1,
+     "score": 6.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nut",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "psycho",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bonkers",
+     "closeness": 1,
+     "score": 6.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "daffy",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loco",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unhinged",
+     "closeness": 1,
+     "score": 6.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "harebrained",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cuckoo",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mental",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eccentric",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "zany",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stupid",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.62,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "psychotic",
+     "closeness": 2,
+     "score": 5.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "buggy",
+     "closeness": 2,
+     "score": 4.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bats",
+     "closeness": 2,
+     "score": 4.84,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fool",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "irrational",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loon",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "manic",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wandering",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "potty",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "batty",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loopy",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cray",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "barmy",
+     "closeness": 2,
+     "score": 5.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hatstand",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "starkers",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nutter",
+     "closeness": 2,
+     "score": 4.3,
+     "similarity": -0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sicko",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brainsick",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "whacko",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dizzy",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "senseless",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "twisted",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inept",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reckless",
+     "closeness": 3,
+     "score": 2.86,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "erratic",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dazed",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maudlin",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cranky",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delirious",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "madman",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "paranoid",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disoriented",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "infatuated",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "apish",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "screwball",
+   "definition": "foolish; totally unsound",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "screwball",
+     "closeness": 1,
+     "score": 8.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silly",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ridiculous",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.55,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "absurd",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dumb",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foolish",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idiotic",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "preposterous",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nonsensical",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ludicrous",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "futile",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sentimental",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "half-baked",
+     "closeness": 3,
+     "score": 2.98,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "impractical",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "thoughtless",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inane",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extravagant",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brainless",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsound",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flaky",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flighty",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "laughable",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "asinine",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sappy",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "softheaded",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "weirdo",
+   "definition": "someone deranged and possibly dangerous",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "weirdo",
+     "closeness": 1,
+     "score": 6.84,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crackpot",
+     "closeness": 1,
+     "score": 6.4,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loony",
+     "closeness": 1,
+     "score": 7.38,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "goofy",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unconventional",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "madcap",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maniac",
+     "closeness": 2,
+     "score": 3.8,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kook",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nutcase",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.02,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "schizo",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wacko",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "moronic",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crack",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "queer",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imbecile",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cockeyed",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fatuous",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wingnut",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": -0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dingbat",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "strange",
+   "definition": "bizarre or fantastic",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "strange",
+     "closeness": 2,
+     "score": 6.68,
+     "similarity": 0.48,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fantastic",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "odd",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amazing",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "funny",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.51,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outrageous",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bizarre",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incredible",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wet",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abnormal",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unusual",
+     "closeness": 3,
+     "score": 2.42,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quirky",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "irregular",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "wild",
+   "definition": "intensely enthusiastic about or preoccupied with",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "wild",
+     "closeness": 1,
+     "score": 7.2,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dotty",
+     "closeness": 1,
+     "score": 8.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gaga",
+     "closeness": 1,
+     "score": 9.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enthusiastic",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "doting",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "excited",
+   "definition": "possessed by inordinate excitement",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "excited",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fond",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "touched",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "pretty",
+  "kind",
+  "thinking",
+  "scared",
+  "cute",
+  "wrong",
+  "unbelievable",
+  "gone"
+ ],
+ "flagged": [
+  {
+   "word": "nutcase",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "looney",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.98"
+  },
+  {
+   "word": "balmy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "credulous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "dreadful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "grotesque",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "monstrous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "simple",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "unsettled",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "witless",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "zealous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "certifiable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "cockamamie",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "high-flown",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "dippy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "bughouse",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.64"
+  },
+  {
+   "word": "cray",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "nutter",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.09"
+  },
+  {
+   "word": "whacko",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "schizo",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "wingnut",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "delirious",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "madman",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

@@ -1,0 +1,642 @@
+{
+ "word": "greedy",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "avaricious",
+   "definition": "immoderately desirous of acquiring e.g. wealth",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "avaricious",
+     "closeness": 1,
+     "score": 10.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "covetous",
+     "closeness": 1,
+     "score": 9.24,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grasping",
+     "closeness": 1,
+     "score": 8.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "miserly",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sordid",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "piggish",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-centered",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stingy",
+     "closeness": 2,
+     "score": 3.52,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "egotistical",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "narcissistic",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rapacious",
+     "closeness": 2,
+     "score": 7.98,
+     "similarity": 0.53,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "acquisitive",
+     "closeness": 2,
+     "score": 6.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prehensile",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-serving",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grabby",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "itchy",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "possessive",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "limitless",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsatisfied",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "predatory",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-indulgent",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-seeking",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "individualistic",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-absorbed",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hoggish",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swinish",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "parsimonious",
+     "closeness": 3,
+     "score": 2.86,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "penny-pinching",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unquenchable",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intemperate",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "penurious",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "niggardly",
+     "closeness": 3,
+     "score": 2.08,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quenchless",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "avid",
+   "definition": "(often followed by ‘for’) ardently or excessively desirous",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "selfish",
+     "closeness": 2,
+     "score": 8.3,
+     "similarity": 0.68,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "avid",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desirous",
+     "closeness": 2,
+     "score": 5.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voracious",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ravenous",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "esurient",
+     "closeness": 2,
+     "score": 5.5,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby"
+     ]
+    },
+    {
+     "word": "devouring",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "mean",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bottomless",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-sufficient",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "miserable",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wishful",
+     "closeness": 3,
+     "score": 2,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "autistic",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "omnivorous",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "gluttonous",
+   "definition": "wanting to eat or drink more than one can reasonably consume",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "gluttonous",
+     "closeness": 1,
+     "score": 9.2,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mercenary",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "venal",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insatiable",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "materialistic",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "arrogant",
+  "unscrupulous",
+  "heartless",
+  "manipulative",
+  "ruthless",
+  "dishonest",
+  "scheming",
+  "hypocritical"
+ ],
+ "flagged": [
+  {
+   "word": "wishful",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity 0.25"
+  },
+  {
+   "word": "remote",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "self-contained",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "tight",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  }
+ ]
+}

@@ -1,0 +1,601 @@
+{
+ "word": "polite",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "courteous",
+   "definition": "showing regard for others in manners, speech, behavior, etc.",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "courteous",
+     "closeness": 2,
+     "score": 10.3,
+     "similarity": 0.77,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gracious",
+     "closeness": 2,
+     "score": 8.78,
+     "similarity": 0.58,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "respectful",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.71,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thoughtful",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.56,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "considerate",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.55,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nice",
+     "closeness": 2,
+     "score": 4.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affable",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.52,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attentive",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deferential",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "solicitous",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tactful",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cordial",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "agreeable",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accommodating",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amiable",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.54,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-mannered",
+     "closeness": 2,
+     "score": 9.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mannerly",
+     "closeness": 2,
+     "score": 7.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "complaisant",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "graceful",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "genial",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.5,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "obliging",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-bred",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "congenial",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hospitable",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sociable",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentle",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.5,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "decorous",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "friendly",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "studious",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dutiful",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fastidious",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reasonable",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "decent",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-behaved",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentlemanly",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mannered",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.52,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "genteel",
+   "definition": "marked by refinement in taste and manners",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "genteel",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "urbane",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refined",
+     "closeness": 2,
+     "score": 5.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cultured",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "polished",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cultivated",
+     "closeness": 2,
+     "score": 5.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "civilized",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-same",
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "elegant",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "erudite",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subtle",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "courtly",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "civilised",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "civil",
+   "definition": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "civil",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "proper",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "correct",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "cheerful",
+  "affectionate",
+  "businesslike",
+  "joking",
+  "dignified",
+  "personable",
+  "unassuming",
+  "easygoing"
+ ],
+ "flagged": [
+  {
+   "word": "diplomatic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "formal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "politic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  }
+ ]
+}

@@ -1,0 +1,2284 @@
+{
+ "word": "hit",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "reach",
+   "definition": "reach a destination, either real or abstract",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "reach",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "make",
+     "closeness": 1,
+     "score": 6.48,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "pound",
+     "closeness": 2,
+     "score": 6.57,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "touch",
+     "closeness": 2,
+     "score": 5.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tap",
+     "closeness": 2,
+     "score": 5.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impact",
+     "closeness": 2,
+     "score": 4.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-thes",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affect",
+     "closeness": 2,
+     "score": 4.78,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gain",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hurt",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attain",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drop",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crash",
+     "closeness": 2,
+     "score": 4.29,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attack",
+     "closeness": 2,
+     "score": 4.22,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "score",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "success",
+     "closeness": 2,
+     "score": 3.92,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "belt",
+     "closeness": 2,
+     "score": 3.69,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "get",
+     "closeness": 2,
+     "score": 3.65,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "impress",
+     "closeness": 2,
+     "score": 3.62,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whop",
+     "closeness": 2,
+     "score": 4.05,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "come",
+     "closeness": 3,
+     "score": 3.47,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "surprise",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drive",
+     "closeness": 3,
+     "score": 3.33,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plug",
+     "closeness": 3,
+     "score": 3.33,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "do",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "crunch",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "approach",
+     "closeness": 3,
+     "score": 3.02,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "play",
+     "closeness": 3,
+     "score": 2.97,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "exception",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "charge",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cut",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fix",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "move",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "encounter",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "storm",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "failure",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "single",
+     "closeness": 3,
+     "score": 2.37,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "occur",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-reverse",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "find",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "criticism",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fetch",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "go",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "cover",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spot",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "break",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clout",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fell",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "grab",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tell",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chance",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "push",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rise",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swap",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "faultfinding",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "concuss",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "animadversion",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "captiousness",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "censoriousness",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "priggishness",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "smash",
+   "definition": "the act of contacting one thing with another",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "smash",
+     "closeness": 1,
+     "score": 11.25,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blast",
+     "closeness": 2,
+     "score": 7.19,
+     "similarity": 0.44,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blow",
+     "closeness": 2,
+     "score": 7.14,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slam",
+     "closeness": 2,
+     "score": 6.15,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "punch",
+     "closeness": 2,
+     "score": 5.85,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crack",
+     "closeness": 2,
+     "score": 5.55,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rock",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nail",
+     "closeness": 2,
+     "score": 4.89,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bat",
+     "closeness": 2,
+     "score": 4.83,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pop",
+     "closeness": 2,
+     "score": 4.71,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "batter",
+     "closeness": 2,
+     "score": 4.64,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rap",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "striking",
+     "closeness": 2,
+     "score": 4.22,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "clash",
+     "closeness": 2,
+     "score": 3.81,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swing",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "buffet",
+     "closeness": 2,
+     "score": 3.67,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "homer",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beating",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bash",
+     "closeness": 3,
+     "score": 3.21,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hammer",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pitch",
+     "closeness": 3,
+     "score": 3.09,
+     "similarity": 0.44,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blitz",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jab",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "riot",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "box",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "volley",
+     "closeness": 3,
+     "score": 2.43,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "touchdown",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sensation",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thrash",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pinch",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "barrage",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "shoot",
+   "definition": "cause to move by striking",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "shoot",
+     "closeness": 1,
+     "score": 9.71,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knock",
+     "closeness": 2,
+     "score": 8.07,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "poke",
+     "closeness": 2,
+     "score": 6.03,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whack",
+     "closeness": 2,
+     "score": 4.89,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kick",
+     "closeness": 2,
+     "score": 4.59,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foul",
+     "closeness": 2,
+     "score": 4.47,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "catch",
+     "closeness": 2,
+     "score": 4.35,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "collision",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slap",
+     "closeness": 2,
+     "score": 3.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hole",
+     "closeness": 2,
+     "score": 3.93,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jump",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kill",
+     "closeness": 2,
+     "score": 3.67,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cannon",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stroke",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cuff",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "murder",
+     "closeness": 3,
+     "score": 3.08,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-same",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "shot",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "ball",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "assault",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deck",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clip",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "torpedo",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "killing",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gun",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slug",
+     "closeness": 3,
+     "score": 2.43,
+     "similarity": -0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pepper",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "butt",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pot",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ambush",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fly",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "burst",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "off",
+   "definition": "kill intentionally and with premeditation",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "off",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.53,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dash",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beat",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "slay",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "snap",
+     "closeness": 2,
+     "score": 3.87,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "remove",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swat",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "load",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bomb",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chop",
+     "closeness": 3,
+     "score": 3.09,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "arrive",
+     "closeness": 3,
+     "score": 2.69,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sock",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dig",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lick",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whip",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "detonate",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pull",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bag",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pan",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dispatch",
+     "closeness": 3,
+     "score": 2,
+     "similarity": 0,
+     "evidence": [
+      "wn-same",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "stumble",
+   "definition": "encounter by chance",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "smack",
+     "closeness": 2,
+     "score": 5.31,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pelt",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thump",
+     "closeness": 2,
+     "score": 4.71,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stumble",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bump",
+     "closeness": 2,
+     "score": 4.29,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smite",
+     "closeness": 2,
+     "score": 3.69,
+     "similarity": -0.06,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "collide",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pummel",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beset",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slog",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.03,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swipe",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.03,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tumble",
+     "closeness": 3,
+     "score": 2.44,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wallop",
+     "closeness": 3,
+     "score": 2.43,
+     "similarity": -0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glance",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spank",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plunk",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pip",
+     "closeness": 3,
+     "score": 3,
+     "similarity": -0.09,
+     "evidence": [
+      "wn-same",
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "fusillade",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bonk",
+     "closeness": 3,
+     "score": 3.43,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "bang",
+   "definition": "a conspicuous success",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "bang",
+     "closeness": 1,
+     "score": 11.25,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "strike",
+     "closeness": 1,
+     "score": 10.7,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thwack",
+     "closeness": 2,
+     "score": 5.19,
+     "similarity": -0.06,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clap",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boom",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tattoo",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wow",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wham",
+     "closeness": 3,
+     "score": 3.03,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "biff",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": -0.05,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "double",
+  "wave",
+  "bounce",
+  "triple",
+  "bottom",
+  "surge",
+  "fire",
+  "ground"
+ ],
+ "flagged": [
+  {
+   "word": "slay",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "pip",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.09"
+  },
+  {
+   "word": "smasher",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "dispatch",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "bop",
+   "ruling": "rejected",
+   "reason": "borderline score 1.65"
+  },
+  {
+   "word": "bounce",
+   "ruling": "rejected",
+   "reason": "borderline score 1.95"
+  },
+  {
+   "word": "buffet",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "carry",
+   "ruling": "rejected",
+   "reason": "borderline score 1.53"
+  },
+  {
+   "word": "clap",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "peak",
+   "ruling": "rejected",
+   "reason": "borderline score 1.59"
+  },
+  {
+   "word": "scale",
+   "ruling": "rejected",
+   "reason": "borderline score 1.53"
+  },
+  {
+   "word": "shell",
+   "ruling": "rejected",
+   "reason": "borderline score 1.83"
+  },
+  {
+   "word": "slog",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "slug",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "sock",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "swipe",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "wallop",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "plunk",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "biff",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "smite",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "thwack",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "bonk",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "contact",
+   "ruling": "rejected",
+   "reason": "borderline score 1.88"
+  },
+  {
+   "word": "dose",
+   "ruling": "rejected",
+   "reason": "borderline score 1.88"
+  },
+  {
+   "word": "wound",
+   "ruling": "rejected",
+   "reason": "borderline score 1.7"
+  },
+  {
+   "word": "clump",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "cuff",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "deal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "discharge",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "drumming",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "eject",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "fire",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "flak",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "goal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "harry",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "ice",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "impinge",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "lock",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "match",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "mug",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "paste",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "pelt",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "piece",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "pistol",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "show",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "soak",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "ten",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "vehicle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "waste",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "clobber",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "zap",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "carom",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "descry",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "ding",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "drubbing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "fusillade",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "osculate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "toke",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "ram",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "flap",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "patter",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "pat",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "spank",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "swap",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "burst",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

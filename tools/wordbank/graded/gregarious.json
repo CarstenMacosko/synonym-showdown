@@ -1,0 +1,330 @@
+{
+ "word": "gregarious",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "amiable",
+   "definition": "(of plants) growing in groups that are close together",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "amiable",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.56,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talkative",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.54,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "genial",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affable",
+     "closeness": 2,
+     "score": 4.1,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "garrulous",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.57,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "congenial",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "courteous",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loquacious",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "urbane",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chatty",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hospitable",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easygoing",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.55,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "verbose",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "effusive",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unassuming",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glib",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "companionable",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voluble",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "social",
+   "definition": "(of animals) tending to form a group with others of the same species",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "sociable",
+     "closeness": 1,
+     "score": 8.52,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "social",
+     "closeness": 1,
+     "score": 6.05,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "outgoing",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "communicative",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "candid",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "friendly",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clubbable",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "personable",
+  "studious",
+  "jovial",
+  "vivacious",
+  "introverted",
+  "taciturn",
+  "excitable",
+  "opinionated"
+ ],
+ "flagged": [
+  {
+   "word": "conversational",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "fluent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "long-winded",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "prolix",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "talky",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  }
+ ]
+}

@@ -1,0 +1,858 @@
+{
+ "word": "skill",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "accomplishment",
+   "definition": "an ability that has been acquired by training",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "ability",
+     "closeness": 1,
+     "score": 11.8,
+     "similarity": 0.63,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talent",
+     "closeness": 2,
+     "score": 8.3,
+     "similarity": 0.6,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "proficiency",
+     "closeness": 2,
+     "score": 8.1,
+     "similarity": 0.55,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knack",
+     "closeness": 2,
+     "score": 7.86,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aptitude",
+     "closeness": 2,
+     "score": 7.12,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dexterity",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.59,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prowess",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.59,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cunning",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "capability",
+     "closeness": 2,
+     "score": 5.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accomplishment",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "competence",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.52,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mastery",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.6,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "finesse",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ingenuity",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "artistry",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.52,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cleverness",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ease",
+     "closeness": 2,
+     "score": 4.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attainment",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "craftsmanship",
+     "closeness": 2,
+     "score": 4.49,
+     "similarity": 0.49,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "virtuosity",
+     "closeness": 2,
+     "score": 5.43,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quickness",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "competency",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seamanship",
+     "closeness": 2,
+     "score": 3.89,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "marksmanship",
+     "closeness": 2,
+     "score": 3.83,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "horsemanship",
+     "closeness": 2,
+     "score": 3.65,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "readiness",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resourcefulness",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.51,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "workmanship",
+     "closeness": 3,
+     "score": 3.23,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "strength",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "potential",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliance",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "success",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tact",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "guile",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flair",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "savvy",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gift",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shrewdness",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subtlety",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "efficiency",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "instinct",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maturity",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "timing",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "know-how",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smarts",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deftness",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adroitness",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expertness",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "handiness",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "acquirement",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.11,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adeptness",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "acuity",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nimbleness",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleight",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "moxie",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "science",
+   "definition": "ability to produce solutions in some problem domain",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "craft",
+     "closeness": 2,
+     "score": 7.53,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "technique",
+     "closeness": 2,
+     "score": 6.36,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "touch",
+     "closeness": 2,
+     "score": 5.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "capacity",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "science",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "facility",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expertise",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.58,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "experience",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "method",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mechanics",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "command",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knowledge",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.54,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "genius",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "faculty",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mind",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wit",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mechanism",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "learning",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excellence",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fitness",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "style",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "stamina",
+  "toughness",
+  "versatility",
+  "tenacity",
+  "acumen",
+  "creativity",
+  "agility",
+  "teamwork"
+ ],
+ "flagged": [
+  {
+   "word": "acquisition",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "greatness",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "seniority",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "technology",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

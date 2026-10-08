@@ -1,0 +1,1290 @@
+{
+ "word": "humble",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "humiliate",
+   "definition": "cause to feel shame; hurt the pride of",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "humiliate",
+     "closeness": 1,
+     "score": 9.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mortify",
+     "closeness": 1,
+     "score": 7.74,
+     "similarity": -0.01,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disgrace",
+     "closeness": 1,
+     "score": 7.59,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "demean",
+     "closeness": 1,
+     "score": 7.27,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "degrade",
+     "closeness": 1,
+     "score": 6.93,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "embarrass",
+     "closeness": 1,
+     "score": 6.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "downgrade",
+     "closeness": 1,
+     "score": 6.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "demote",
+     "closeness": 1,
+     "score": 6.12,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sink",
+     "closeness": 1,
+     "score": 6.1,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reduce",
+     "closeness": 1,
+     "score": 6,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abase",
+     "closeness": 1,
+     "score": 10.8,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abash",
+     "closeness": 1,
+     "score": 7.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discomfit",
+     "closeness": 1,
+     "score": 6.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shame",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disparage",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "defame",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "debase",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "relegate",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "discredit",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slur",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "depress",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chagrin",
+     "closeness": 2,
+     "score": 3.94,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "homely",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confuse",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confound",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "self-effacing",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disconcert",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lower",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "altruistic",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "respectful",
+     "closeness": 3,
+     "score": 2.47,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-also"
+     ]
+    },
+    {
+     "word": "self-sacrificing",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "diffident",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inglorious",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "teachable",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "modest",
+   "definition": "low or inferior in station or quality",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "modest",
+     "closeness": 1,
+     "score": 16.31,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lowly",
+     "closeness": 1,
+     "score": 9.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "low",
+     "closeness": 1,
+     "score": 8.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "unassuming",
+     "closeness": 1,
+     "score": 8.1,
+     "similarity": 0.55,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "simple",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "demure",
+     "closeness": 1,
+     "score": 6.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unpretentious",
+     "closeness": 1,
+     "score": 10.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "small",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "poor",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "inferior",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quiet",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ordinary",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "innocuous",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plain",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mean",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dedicated",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "straightforward",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devoted",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unobtrusive",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "undistinguished",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unman",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overmaster",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "meek",
+   "definition": "marked by meekness or modesty; not arrogant or prideful",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "meek",
+     "closeness": 2,
+     "score": 8.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mild",
+     "closeness": 2,
+     "score": 5.9,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subdue",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tame",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suppress",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subjugate",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "break",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resigned",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentle",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "broken",
+     "closeness": 3,
+     "score": 2.84,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subdued",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crush",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "honest",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gracious",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vulgar",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "menial",
+   "definition": "used of unskilled work (especially domestic work)",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "selfless",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unimportant",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "menial",
+     "closeness": 3,
+     "score": 3.08,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-same",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "subservient",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "obedient",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "servile",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "submissive",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disadvantaged",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disinterested",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "underprivileged",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "easygoing",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deferential",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unselfish",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unambitious",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unimposing",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "lowborn",
+   "definition": "of low birth or station (‘base’ is archaic in this sense)",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "lowborn",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "baseborn",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "base",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "polite",
+  "industrious",
+  "loving",
+  "heartfelt",
+  "dignified",
+  "affable",
+  "charming",
+  "sincere"
+ ],
+ "flagged": [
+  {
+   "word": "base",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "chagrin",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "mortify",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "broken",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "crush",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "degrade",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "abject",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "accommodating",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "amenable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "apologetic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "break",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "committed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "commonplace",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "debase",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "deflate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "demote",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "downgrade",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "embarrass",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "junior",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "lower",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "minor",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "obscure",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "passive",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "peaceable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "reduce",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "resigned",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "rude",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "subdue",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "subject",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "subordinate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "suppress",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "demeaning",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "acquiescent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "discomfit",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "ignoble",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "nonclerical",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "depress",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "disconcert",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "defame",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "discredit",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "relegate",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "slur",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.02"
+  }
+ ]
+}

@@ -1,0 +1,1304 @@
+{
+ "word": "fight",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "combat",
+   "definition": "a hostile meeting of opposing military forces in the course of a war",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "combat",
+     "closeness": 1,
+     "score": 8.91,
+     "similarity": 0.56,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "conflict",
+     "closeness": 1,
+     "score": 7.82,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "battle",
+     "closeness": 1,
+     "score": 7.75,
+     "similarity": 0.63,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "brawl",
+     "closeness": 2,
+     "score": 5.91,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "engagement",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contest",
+     "closeness": 2,
+     "score": 5.52,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dispute",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "controversy",
+     "closeness": 2,
+     "score": 5.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "war",
+     "closeness": 2,
+     "score": 4.95,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "clash",
+     "closeness": 2,
+     "score": 4.71,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quarrel",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "duel",
+     "closeness": 2,
+     "score": 4.53,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "feud",
+     "closeness": 2,
+     "score": 4.53,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "encounter",
+     "closeness": 2,
+     "score": 4.35,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "skirmish",
+     "closeness": 2,
+     "score": 4.17,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bout",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.58,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tussle",
+     "closeness": 2,
+     "score": 3.93,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fracas",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rumble",
+     "closeness": 2,
+     "score": 3.75,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scuffle",
+     "closeness": 2,
+     "score": 3.51,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "altercation",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "set-to",
+     "closeness": 2,
+     "score": 5.05,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "debate",
+     "closeness": 3,
+     "score": 3.46,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "action",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "strife",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "warfare",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "riot",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hostility",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "engage",
+     "closeness": 3,
+     "score": 2.97,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "spat",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aggression",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disagreement",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "match",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "tug",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tournament",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resolve",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "collide",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confrontation",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "commitment",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boxing",
+     "closeness": 3,
+     "score": 2,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "dogfight",
+     "closeness": 3,
+     "score": 3.49,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "joust",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fisticuffs",
+     "closeness": 3,
+     "score": 2.33,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-reverse",
+      "wn-narrower",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confute",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quarrelsomeness",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "oppose",
+   "definition": "be engaged in a fight; carry on a fight",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "oppose",
+     "closeness": 1,
+     "score": 9.15,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contend",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "defend",
+     "closeness": 1,
+     "score": 6.65,
+     "similarity": 0.55,
+     "evidence": [
+      "wn-same",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "argument",
+     "closeness": 2,
+     "score": 5.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resist",
+     "closeness": 2,
+     "score": 5.13,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "argue",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stand",
+     "closeness": 2,
+     "score": 3.63,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contention",
+     "closeness": 2,
+     "score": 3.62,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "withstand",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confront",
+     "closeness": 3,
+     "score": 3.34,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "repel",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "against",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.54,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "disagree",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prevent",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "claim",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bicker",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "differ",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "struggle",
+   "definition": "the act of fighting; any contest or struggle",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "struggle",
+     "closeness": 1,
+     "score": 8.8,
+     "similarity": 0.59,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scrap",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "row",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wrestle",
+     "closeness": 2,
+     "score": 4.47,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rival",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scramble",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "squabble",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spar",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grapple",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wrangle",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bickering",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "determination",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "push",
+   "definition": "make a strenuous or labored effort",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "push",
+     "closeness": 1,
+     "score": 7.39,
+     "similarity": 0.44,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wn-narrower",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "strive",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "box",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fray",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brush",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fence",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "buck",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "counter",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "go",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "rally",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tilt",
+     "closeness": 3,
+     "score": 2.48,
+     "similarity": 0.03,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attempt",
+     "closeness": 3,
+     "score": 2.3,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drive",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seek",
+     "closeness": 3,
+     "score": 2,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-broader",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "crusade",
+   "definition": "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "crusade",
+     "closeness": 2,
+     "score": 3.92,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "campaign",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "promote",
+     "closeness": 2,
+     "score": 3.7,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-similar",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "press",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "protest",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ruckus",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vendetta",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "hassle",
+   "definition": "an aggressive willingness to compete",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "hassle",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affray",
+     "closeness": 3,
+     "score": 3.49,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tourney",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.03,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "terrorism",
+  "stop",
+  "challenge",
+  "face",
+  "effort",
+  "rematch",
+  "boxer",
+  "defeat"
+ ],
+ "flagged": [
+  {
+   "word": "agitate",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "competitiveness",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "assault",
+   "ruling": "rejected",
+   "reason": "borderline score 1.71"
+  },
+  {
+   "word": "attack",
+   "ruling": "rejected",
+   "reason": "borderline score 1.79"
+  },
+  {
+   "word": "fend",
+   "ruling": "rejected",
+   "reason": "borderline score 1.65"
+  },
+  {
+   "word": "hassle",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "spar",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "free-for-all",
+   "ruling": "rejected",
+   "reason": "borderline score 1.83"
+  },
+  {
+   "word": "affray",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "joust",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "tourney",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "tilt",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "buffet",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "bullfight",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "close",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "collide",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "dissent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "game",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "meet",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "meeting",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "militancy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "polemic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "spirit",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "tiff",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "trial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "zeal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "scrimmage",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "tug-of-war",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "embroilment",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  }
+ ]
+}

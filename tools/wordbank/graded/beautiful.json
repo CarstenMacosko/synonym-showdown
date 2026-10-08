@@ -1,0 +1,1072 @@
+{
+ "word": "beautiful",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "lovely",
+   "definition": "delighting the senses or exciting intellectual or emotional admiration",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "lovely",
+     "closeness": 2,
+     "score": 10.3,
+     "similarity": 0.81,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exquisite",
+     "closeness": 2,
+     "score": 9.92,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gorgeous",
+     "closeness": 2,
+     "score": 8.8,
+     "similarity": 0.77,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pretty",
+     "closeness": 2,
+     "score": 8.72,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attractive",
+     "closeness": 2,
+     "score": 8.61,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "handsome",
+     "closeness": 2,
+     "score": 8.42,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comely",
+     "closeness": 2,
+     "score": 8.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stunning",
+     "closeness": 2,
+     "score": 7.88,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 2,
+     "score": 6.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glorious",
+     "closeness": 2,
+     "score": 6.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "splendid",
+     "closeness": 2,
+     "score": 6.54,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wonderful",
+     "closeness": 2,
+     "score": 6.3,
+     "similarity": 0.64,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "graceful",
+     "closeness": 2,
+     "score": 5.61,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fine",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elegant",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "divine",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excellent",
+     "closeness": 2,
+     "score": 5.08,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "personable",
+     "closeness": 2,
+     "score": 5.08,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resplendent",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magnificent",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.63,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "charming",
+     "closeness": 2,
+     "score": 4.78,
+     "similarity": 0.58,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delightful",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 2,
+     "score": 4.58,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "breathtaking",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pleasing",
+     "closeness": 2,
+     "score": 4.45,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spectacular",
+     "closeness": 2,
+     "score": 4.06,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perfect",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sublime",
+     "closeness": 2,
+     "score": 3.58,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scenic",
+     "closeness": 2,
+     "score": 3.52,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "picturesque",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "good-looking",
+     "closeness": 2,
+     "score": 7.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ravishing",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "captivating",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alluring",
+     "closeness": 2,
+     "score": 3.82,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beauteous",
+     "closeness": 2,
+     "score": 6.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pulchritudinous",
+     "closeness": 2,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavenly",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bright",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.53,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "superb",
+     "closeness": 3,
+     "score": 3.46,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stylish",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appealing",
+     "closeness": 3,
+     "score": 3.4,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "winsome",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brilliant",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "famous",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "radiant",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fascinating",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fetching",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "luxurious",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sensuous",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delicious",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amazing",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.5,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shapely",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "neat",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "terrific",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sparkling",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fabulous",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delicate",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voluptuous",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.37,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "majestic",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.46,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intriguing",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vivid",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gracious",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exotic",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fantastic",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knockout",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exceptional",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thrilling",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "golden",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sleek",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immaculate",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "proud",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rich",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shining",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sumptuous",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shiny",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enchanting",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.48,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dazzling",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.44,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sightly",
+     "closeness": 3,
+     "score": 2.9,
+     "similarity": -0.05,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-favored",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "esculent",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "pretty-pretty",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "pleasant",
+   "definition": "(of weather) highly enjoyable",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "pleasant",
+     "closeness": 2,
+     "score": 6.9,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hot",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nice",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.49,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sunny",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweet",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "happy",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fit",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "heavy",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "great",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "enjoyable",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loving",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.43,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inviting",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desirable",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cool",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "lush",
+  "sexy",
+  "seductive",
+  "interesting",
+  "romantic",
+  "evocative",
+  "serene",
+  "strange"
+ ],
+ "flagged": [
+  {
+   "word": "sightly",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "pretty-pretty",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "admirable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "artistic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "choice",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "proper",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "superior",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "tasteful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "inviting",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "immaculate",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "shining",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  },
+  {
+   "word": "desirable",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

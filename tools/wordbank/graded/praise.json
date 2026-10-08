@@ -1,0 +1,846 @@
+{
+ "word": "praise",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "kudos",
+   "definition": "an expression of approval and commendation",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "commend",
+     "closeness": 1,
+     "score": 10.17,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "applaud",
+     "closeness": 1,
+     "score": 9.33,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "laud",
+     "closeness": 1,
+     "score": 8.67,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "worship",
+     "closeness": 1,
+     "score": 8.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exalt",
+     "closeness": 1,
+     "score": 7.59,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "salute",
+     "closeness": 1,
+     "score": 7.53,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adore",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "worthy",
+     "closeness": 1,
+     "score": 7.32,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "puff",
+     "closeness": 1,
+     "score": 6.93,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revere",
+     "closeness": 1,
+     "score": 6.52,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kudos",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.47,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "venerate",
+     "closeness": 1,
+     "score": 6.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magnify",
+     "closeness": 1,
+     "score": 6.06,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "transfigure",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "compliment",
+     "closeness": 2,
+     "score": 7.11,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appraise",
+     "closeness": 2,
+     "score": 5.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "acclaim",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "congratulations",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "applause",
+     "closeness": 2,
+     "score": 5.22,
+     "similarity": 0.52,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accolade",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glory",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adulation",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "commendation",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tribute",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eulogy",
+     "closeness": 2,
+     "score": 3.99,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "approval",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hail",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appreciation",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "homage",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mention",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reverence",
+     "closeness": 2,
+     "score": 3.52,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "approbation",
+     "closeness": 2,
+     "score": 4.66,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "congratulation",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "paean",
+     "closeness": 2,
+     "score": 4.53,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "encomium",
+     "closeness": 2,
+     "score": 5.01,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overpraise",
+     "closeness": 2,
+     "score": 3.55,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extolment",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "recognition",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recommend",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bless",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "celebrate",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flattery",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hymn",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ovation",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "respect",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "encouragement",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.49,
+     "evidence": [
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "trumpet",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "regard",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "admire",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.38,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devotion",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flatter",
+     "closeness": 3,
+     "score": 2.55,
+     "similarity": 0,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thanks",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "appreciate",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.36,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glorification",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "affection",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "esteem",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rave",
+     "closeness": 3,
+     "score": 2.09,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "promote",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tout",
+     "closeness": 3,
+     "score": 2.78,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "idolatry",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enthrone",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adulate",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "panegyric",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deification",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blandishment",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "belaud",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "admiration",
+  "scorn",
+  "gratitude",
+  "attention",
+  "sympathy",
+  "success",
+  "enthusiasm",
+  "ire"
+ ],
+ "flagged": [
+  {
+   "word": "congratulate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.59"
+  },
+  {
+   "word": "flatter",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "puff",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "eulogium",
+   "ruling": "rejected",
+   "reason": "borderline score 1.75"
+  },
+  {
+   "word": "adoration",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "deify",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "dignify",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "exaltation",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "grace",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "magnify",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "veneration",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "apotheosis",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "cajolery",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "cajolement",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "enthrone",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  }
+ ]
+}

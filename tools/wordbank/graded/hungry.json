@@ -1,0 +1,219 @@
+{
+ "word": "hungry",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "famished",
+   "definition": "feeling hunger; feeling a need or desire to eat food",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "starving",
+     "closeness": 1,
+     "score": 7.8,
+     "similarity": 0.59,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "famished",
+     "closeness": 1,
+     "score": 9.2,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "peckish",
+     "closeness": 1,
+     "score": 7.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ravenous",
+     "closeness": 2,
+     "score": 6.8,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "starved",
+     "closeness": 2,
+     "score": 6.38,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "empty",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voracious",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "insatiable",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unfilled",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impoverished",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sharp-set",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "esurient",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "athirst",
+   "definition": "(usually followed by ‘for’) extremely desirous",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "athirst",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "desirous",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.2,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "eager",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "greedy",
+     "closeness": 3,
+     "score": 2.44,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "frightened",
+  "desperate",
+  "scared",
+  "needy",
+  "sick",
+  "malnourished",
+  "homeless",
+  "terrified"
+ ],
+ "flagged": [
+  {
+   "word": "esurient",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "hollow",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "wolfish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  }
+ ]
+}

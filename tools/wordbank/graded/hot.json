@@ -1,0 +1,2029 @@
+{
+ "word": "hot",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "sexy",
+   "definition": "sexually excited or exciting",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "sexy",
+     "closeness": 1,
+     "score": 10.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "horny",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "delicious",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beautiful",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exciting",
+     "closeness": 1,
+     "score": 6,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "salacious",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dreamy",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stunning",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nice",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fit",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attractive",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gorgeous",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seductive",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fine",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pretty",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desirable",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "provocative",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "buff",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inviting",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dirty",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exquisite",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavenly",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "raunchy",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alluring",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "toothsome",
+     "closeness": 2,
+     "score": 4.3,
+     "similarity": -0.17,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pulchritudinous",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lovely",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fascinating",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appealing",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "charming",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "handsome",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fetching",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tempting",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.12,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "engaging",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "taking",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "nigh",
+     "closeness": 3,
+     "score": 2.54,
+     "similarity": -0.01,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "divine",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "racy",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "knockout",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "personable",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "breathtaking",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good-looking",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "captivating",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enchanting",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "doable",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prepossessing",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "esculent",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "lovesome",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "heated",
+   "definition": "used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "heated",
+     "closeness": 1,
+     "score": 10.46,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "red-hot",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blistering",
+     "closeness": 1,
+     "score": 7.34,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "warm",
+     "closeness": 2,
+     "score": 6.47,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fiery",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intense",
+     "closeness": 2,
+     "score": 4.68,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "torrid",
+     "closeness": 2,
+     "score": 4.46,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tropical",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sultry",
+     "closeness": 2,
+     "score": 4.28,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cool",
+     "closeness": 2,
+     "score": 4.2,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "steamy",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fervent",
+     "closeness": 2,
+     "score": 3.86,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "burning",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scorching",
+     "closeness": 2,
+     "score": 5.48,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweltering",
+     "closeness": 2,
+     "score": 5,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sizzling",
+     "closeness": 2,
+     "score": 5.66,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "baking",
+     "closeness": 2,
+     "score": 5,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overheated",
+     "closeness": 2,
+     "score": 3.98,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "steaming",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweaty",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "raging",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "feverish",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glowing",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thermal",
+     "closeness": 3,
+     "score": 2.72,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spirited",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flushed",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seething",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "warming",
+     "closeness": 3,
+     "score": 2.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "scalding",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tropic",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "white-hot",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fervid",
+     "closeness": 3,
+     "score": 3.08,
+     "similarity": -0.02,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "febrile",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": -0.09,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rubicund",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "satyric",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blistery",
+     "closeness": 3,
+     "score": 2.6,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "calefacient",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "calefactory",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "calorifacient",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "sensual",
+   "definition": "(extended meanings, especially of psychological heat) marked by intensity or vehemence especially of passion or enthusiasm",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "sensual",
+     "closeness": 1,
+     "score": 7.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excited",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lewd",
+     "closeness": 2,
+     "score": 5.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flaming",
+     "closeness": 2,
+     "score": 5.06,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ablaze",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lascivious",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aroused",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "erotic",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impure",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wanton",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": -0.08,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "corny",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.01,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "passionate",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prurient",
+     "closeness": 2,
+     "score": 4.3,
+     "similarity": -0.11,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "randy",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "libidinous",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lustful",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": -0.08,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "concupiscent",
+     "closeness": 2,
+     "score": 5.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thirsty",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amorous",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stimulated",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lusty",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "frisky",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ravenous",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "obscene",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flustered",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "venereal",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drippy",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rutty",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": -0.13,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unchaste",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": -0.11,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ruttish",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "good",
+   "definition": "very good; often used in the negative",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "bad",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "rubber",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "new",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "near",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fast",
+     "closeness": 3,
+     "score": 3.2,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavy",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eager",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.11,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "popular",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "close",
+     "closeness": 3,
+     "score": 2.78,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "tough",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fresh",
+     "closeness": 3,
+     "score": 2.66,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "solid",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 2.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "serious",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lucky",
+     "closeness": 3,
+     "score": 2.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "mean",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blue",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "tasty",
+   "definition": "producing a burning sensation on the taste nerves",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "tasty",
+     "closeness": 1,
+     "score": 8.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spicy",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lively",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hearty",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "live",
+   "definition": "charged or energized with electricity",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "live",
+     "closeness": 1,
+     "score": 8.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "animal",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sexual",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "charged",
+     "closeness": 3,
+     "score": 2.6,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "radioactive",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "drunk",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abandoned",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "devoted",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "violent",
+     "closeness": 3,
+     "score": 2.18,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "dry",
+  "soft",
+  "wet",
+  "humid",
+  "weather",
+  "peaked",
+  "topped",
+  "sweet"
+ ],
+ "flagged": [
+  {
+   "word": "fervent",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "illegal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "lucky",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity 0.26"
+  },
+  {
+   "word": "nigh",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "warming",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity 0.26"
+  },
+  {
+   "word": "fervid",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "white-hot",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "calefacient",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "calefactory",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "calorifacient",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "ablaze",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "ardent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "bawdy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "bonzer",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "brisk",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "carnal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "dedicated",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "enthusiastic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "faithful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "hectic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "intimate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "keen",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "lascivious",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "loyal",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "lurid",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "quick",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "rum",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "smashing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "vigorous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "warmed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "inflamed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "intoxicated",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "prurient",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.11"
+  },
+  {
+   "word": "seasoned",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "tangy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "bang-up",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "febrile",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.09"
+  },
+  {
+   "word": "libidinous",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "lustful",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.08"
+  },
+  {
+   "word": "salacious",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "hunky-dory",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "rutty",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.13"
+  },
+  {
+   "word": "catchy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "bewitching",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "captivating",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "enchanting",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "enticing",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.34"
+  },
+  {
+   "word": "seducing",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "witching",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.86"
+  },
+  {
+   "word": "winning",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.64"
+  },
+  {
+   "word": "winsome",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "beauteous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.92"
+  },
+  {
+   "word": "breathtaking",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "comely",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "good-looking",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "knockout",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "personable",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "shapely",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.98"
+  },
+  {
+   "word": "sightly",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "doable",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "toothsome",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.17"
+  },
+  {
+   "word": "amorous",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "corny",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "desirous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "drippy",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "flustered",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "impure",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "lusty",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "unchaste",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.11"
+  },
+  {
+   "word": "venereal",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "wanton",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.08"
+  },
+  {
+   "word": "blue",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

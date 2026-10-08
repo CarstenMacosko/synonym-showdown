@@ -1,0 +1,237 @@
+{
+ "word": "celebrate",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "observe",
+   "definition": "behave as expected during holidays or rites",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "observe",
+     "closeness": 1,
+     "score": 10.88,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "keep",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "mark",
+     "closeness": 3,
+     "score": 2.91,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "remember",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "proclaim",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dedicate",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bless",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "fete",
+   "definition": "have a celebration",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "fete",
+     "closeness": 1,
+     "score": 8.52,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "commemorate",
+     "closeness": 2,
+     "score": 4.85,
+     "similarity": 0.7,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revel",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "salute",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "lionize",
+   "definition": "assign great social importance to",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "mourn",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "lionize",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "lionise",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "greet",
+  "coincide",
+  "pray",
+  "attend",
+  "enjoy",
+  "rejoice",
+  "prepare",
+  "thank"
+ ],
+ "flagged": [
+  {
+   "word": "party",
+   "ruling": "rejected",
+   "reason": "borderline score 1.81"
+  },
+  {
+   "word": "jollify",
+   "ruling": "rejected",
+   "reason": "borderline score 1.75"
+  },
+  {
+   "word": "communicate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "cry",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "hymn",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "praise",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "debauch",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "hallow",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "roister",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

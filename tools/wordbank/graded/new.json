@@ -1,0 +1,1046 @@
+{
+ "word": "new",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "novel",
+   "definition": "not of long duration; having just (or relatively recently) come into being or been made or acquired or discovered",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "novel",
+     "closeness": 1,
+     "score": 14.42,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fresh",
+     "closeness": 1,
+     "score": 12.95,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "young",
+     "closeness": 1,
+     "score": 10.73,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "recent",
+     "closeness": 1,
+     "score": 7.7,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "strange",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unused",
+     "closeness": 2,
+     "score": 7.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "virgin",
+     "closeness": 2,
+     "score": 6.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revolutionary",
+     "closeness": 2,
+     "score": 5.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unfamiliar",
+     "closeness": 2,
+     "score": 4.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hot",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "newborn",
+     "closeness": 2,
+     "score": 4.64,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revived",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "inexperienced",
+     "closeness": 2,
+     "score": 4.46,
+     "similarity": 0.11,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "anew",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "untried",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unfledged",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": null,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reformed",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "refreshed",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "afresh",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "newfangled",
+     "closeness": 3,
+     "score": 3,
+     "similarity": -0.05,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smart",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creative",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "radical",
+     "closeness": 3,
+     "score": 2.42,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "brand-new",
+     "closeness": 3,
+     "score": 2.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immature",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": -0.04,
+     "evidence": [
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "evergreen",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "instant",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unemployed",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rising",
+     "closeness": 3,
+     "score": 2.12,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "red-hot",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": -0.26,
+     "evidence": [
+      "wn-similar",
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "youthful",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imaginative",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spick-and-span",
+     "closeness": 3,
+     "score": 2.6,
+     "similarity": null,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maidenly",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "virginal",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": -0.15,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "untested",
+     "closeness": 3,
+     "score": 2.66,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unconsumed",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spic-and-span",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "unweathered",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "other",
+   "definition": "other than the former one(s); different",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "green",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "raw",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.14,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "other",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "extra",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "additional",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "more",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "another",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "spare",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "further",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "unusual",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plus",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "else",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "original",
+   "definition": "original and of a kind not seen before",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "current",
+     "closeness": 1,
+     "score": 6.75,
+     "similarity": 0.5,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "original",
+     "closeness": 2,
+     "score": 4.52,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "existing",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "maiden",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "singular",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "actual",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "present",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "intact",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "freshly",
+   "definition": "very recently",
+   "pos": "adverb",
+   "words": [
+    {
+     "word": "mint",
+     "closeness": 1,
+     "score": 7.08,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pristine",
+     "closeness": 1,
+     "score": 6.48,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recently",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "freshly",
+     "closeness": 2,
+     "score": 5.8,
+     "similarity": 0.05,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "early",
+   "definition": "(of crops) harvested at an early stage of development; before complete maturity",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "early",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "late",
+     "closeness": 3,
+     "score": 3.4,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "renewed",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suspended",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "latest",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "immediate",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unprecedented",
+     "closeness": 3,
+     "score": 2.6,
+     "similarity": 0.25,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "again",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "saved",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unbeaten",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "modern",
+   "definition": "used of a living language; being the current stage in its development",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "modern",
+     "closeness": 1,
+     "score": 7.41,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unique",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contemporary",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "firsthand",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "future",
+  "coming",
+  "announced",
+  "beginning",
+  "included",
+  "working",
+  "starting",
+  "opened"
+ ],
+ "flagged": [
+  {
+   "word": "unexampled",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "brand-new",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "newfangled",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "red-hot",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.26"
+  },
+  {
+   "word": "refreshing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "rising",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity 0.27"
+  },
+  {
+   "word": "spic-and-span",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "unweathered",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "immature",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "afresh",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "authentic",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "fashionable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "hip",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "popular",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "primary",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "running",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "surplus",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "trendy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "undeveloped",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "untouched",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "avant-garde",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "pristine",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "untapped",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "virginal",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.15"
+  },
+  {
+   "word": "born-again",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "singular",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  }
+ ]
+}

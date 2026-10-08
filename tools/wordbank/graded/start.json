@@ -1,0 +1,1273 @@
+{
+ "word": "start",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "go",
+   "definition": "begin or set in motion",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "go",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "run",
+     "closeness": 2,
+     "score": 5.37,
+     "similarity": 0.52,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "open",
+     "closeness": 2,
+     "score": 4.65,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "break",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.54,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leave",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "foundation",
+     "closeness": 2,
+     "score": 3.63,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scratch",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "move",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "turn",
+     "closeness": 3,
+     "score": 3.38,
+     "similarity": 0.48,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "advantage",
+     "closeness": 3,
+     "score": 3.32,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "offset",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "edge",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "skip",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drive",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "drop",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "play",
+     "closeness": 3,
+     "score": 2.75,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-narrower",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "make",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "come",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.58,
+     "evidence": [
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "course",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "line",
+     "closeness": 3,
+     "score": 2.54,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "chance",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.5,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "panic",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "institute",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "clear",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "set",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "shock",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "avoid",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "help",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.45,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "track",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "found",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "draw",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "send",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "begin",
+   "definition": "take the first step or steps in carrying out an action",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "begin",
+     "closeness": 1,
+     "score": 14.55,
+     "similarity": 0.78,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "commence",
+     "closeness": 1,
+     "score": 8.27,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "get",
+     "closeness": 1,
+     "score": 7.18,
+     "similarity": 0.53,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dawn",
+     "closeness": 2,
+     "score": 5.61,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "launch",
+     "closeness": 2,
+     "score": 4.95,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enter",
+     "closeness": 2,
+     "score": 4.71,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "embark",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "advance",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "develop",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "arise",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "proceed",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "emerge",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deadline",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "takeoff",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "beginning",
+   "definition": "the beginning of anything",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "beginning",
+     "closeness": 1,
+     "score": 10.3,
+     "similarity": 0.69,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "commencement",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outset",
+     "closeness": 1,
+     "score": 6.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "onset",
+     "closeness": 2,
+     "score": 5.61,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "first",
+     "closeness": 2,
+     "score": 5.42,
+     "similarity": 0.57,
+     "evidence": [
+      "wn-same",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "spring",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.51,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "opening",
+     "closeness": 2,
+     "score": 4.11,
+     "similarity": 0.56,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "birth",
+     "closeness": 2,
+     "score": 3.87,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rise",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kickoff",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "inauguration",
+     "closeness": 3,
+     "score": 3.49,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outbreak",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fall",
+     "closeness": 3,
+     "score": 2.63,
+     "similarity": 0.48,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "march",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "debut",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appearance",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inception",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "blast-off",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "initiate",
+   "definition": "bring into being",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "initiate",
+     "closeness": 1,
+     "score": 6.81,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "originate",
+     "closeness": 2,
+     "score": 5.49,
+     "similarity": -0.01,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "initiation",
+     "closeness": 2,
+     "score": 4.57,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "establish",
+     "closeness": 2,
+     "score": 4.29,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creation",
+     "closeness": 2,
+     "score": 4.17,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "introduce",
+     "closeness": 2,
+     "score": 4.17,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "create",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "establishment",
+     "closeness": 2,
+     "score": 3.73,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inaugurate",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "activate",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "origination",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": -0.08,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "jump",
+   "definition": "a sudden involuntary movement",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "jump",
+     "closeness": 1,
+     "score": 11.67,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shy",
+     "closeness": 2,
+     "score": 4.65,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "startle",
+     "closeness": 2,
+     "score": 4.6,
+     "similarity": -0.11,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bulge",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "oncoming",
+     "closeness": 3,
+     "score": 2.49,
+     "similarity": -0.01,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leap",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bounce",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flinch",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "protrude",
+     "closeness": 3,
+     "score": 2,
+     "similarity": -0.15,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "depart",
+   "definition": "depart for someplace",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "depart",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "part",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "split",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "institution",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "alpha",
+     "closeness": 3,
+     "score": 3.03,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "attack",
+     "closeness": 3,
+     "score": 2.55,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "origin",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "base",
+     "closeness": 3,
+     "score": 2.19,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "continue",
+  "expect",
+  "consider",
+  "prepare",
+  "happen",
+  "change",
+  "spend",
+  "follow"
+ ],
+ "flagged": [
+  {
+   "word": "bulge",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "originate",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "pop",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.46"
+  },
+  {
+   "word": "protrude",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.15"
+  },
+  {
+   "word": "startle",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.11"
+  },
+  {
+   "word": "showtime",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "get-go",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "fire",
+   "ruling": "rejected",
+   "reason": "borderline score 1.61"
+  },
+  {
+   "word": "flinch",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "oncoming",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "send-off",
+   "ruling": "rejected",
+   "reason": "borderline score 1.55"
+  },
+  {
+   "word": "origination",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.08"
+  },
+  {
+   "word": "basis",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "beat",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "bob",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "bolt",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  },
+  {
+   "word": "buck",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "burst",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "emergence",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "fade",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "genesis",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "hurdle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "issue",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "jolt",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "mark",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "negotiate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "odds",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "propose",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "recommend",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "shoot",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "snap",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "suggest",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "tackle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "term",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "dawning",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "joggle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  }
+ ]
+}

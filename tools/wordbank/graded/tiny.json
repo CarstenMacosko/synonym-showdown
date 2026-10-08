@@ -1,0 +1,248 @@
+{
+ "word": "tiny",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "diminutive",
+   "definition": "very small",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "diminutive",
+     "closeness": 1,
+     "score": 6.42,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "small",
+     "closeness": 2,
+     "score": 7,
+     "similarity": 0.73,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "little",
+     "closeness": 2,
+     "score": 4.82,
+     "similarity": 0.47,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "petite",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "midget",
+     "closeness": 2,
+     "score": 4.12,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bantam",
+     "closeness": 2,
+     "score": 3.58,
+     "similarity": -0.02,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lilliputian",
+     "closeness": 2,
+     "score": 4.72,
+     "similarity": 0.17,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "miniature",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slight",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "minute",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "microscopic",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "few",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "puny",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "teeny",
+     "closeness": 3,
+     "score": 2.5,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "micro",
+     "closeness": 3,
+     "score": 3.16,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "large",
+  "sized",
+  "size",
+  "isolated",
+  "inside",
+  "wedged",
+  "remote",
+  "shaped"
+ ],
+ "flagged": [
+  {
+   "word": "bantam",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "flyspeck",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.1"
+  },
+  {
+   "word": "dainty",
+   "ruling": "rejected",
+   "reason": "borderline score 1.66"
+  },
+  {
+   "word": "delicate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.78"
+  },
+  {
+   "word": "insignificant",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "low",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "wee",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "elfin",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "mini",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "teeny-weeny",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "teensy-weensy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  }
+ ]
+}

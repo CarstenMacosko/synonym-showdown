@@ -1,0 +1,1403 @@
+{
+ "word": "sweet",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "fragrant",
+   "definition": "having a natural fragrance",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "fragrant",
+     "closeness": 1,
+     "score": 8.72,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scented",
+     "closeness": 1,
+     "score": 9.42,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "odorous",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": -0.02,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "odoriferous",
+     "closeness": 1,
+     "score": 7.36,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "perfumed",
+     "closeness": 1,
+     "score": 7.44,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "sweet-scented",
+     "closeness": 1,
+     "score": 7,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "sugared",
+     "closeness": 1,
+     "score": 6.22,
+     "similarity": 0.12,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "spicy",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.54,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fruity",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unfermented",
+     "closeness": 2,
+     "score": 5.1,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-same",
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "sugariness",
+     "closeness": 2,
+     "score": 4.75,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-narrower"
+     ]
+    },
+    {
+     "word": "sweet-smelling",
+     "closeness": 2,
+     "score": 5.56,
+     "similarity": 0.01,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "aromatic",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "marmalade",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "musky",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "seraphic",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.03,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "redolent",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "compote",
+     "closeness": 3,
+     "score": 2.47,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweetmeat",
+     "closeness": 3,
+     "score": 2.07,
+     "similarity": 0.02,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "angelical",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "ambrosial",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.04,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweet-flavored",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "mellifluous",
+   "definition": "pleasing to the ear",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "mellifluous",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dulcet",
+     "closeness": 1,
+     "score": 6.96,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "honeyed",
+     "closeness": 1,
+     "score": 7.56,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "mellisonant",
+     "closeness": 1,
+     "score": 7,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "angelic",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.24,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "musical",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "melodious",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "melodic",
+     "closeness": 2,
+     "score": 3.92,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lovely",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.52,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "mellow",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "catchy",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "confection",
+   "definition": "a food rich in sugar",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "dessert",
+     "closeness": 1,
+     "score": 10.08,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "confection",
+     "closeness": 1,
+     "score": 8.52,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "candy",
+     "closeness": 1,
+     "score": 8.25,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweetened",
+     "closeness": 1,
+     "score": 7.12,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "sweetheart",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "pudding",
+     "closeness": 2,
+     "score": 4.39,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "honey",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.47,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "confectionery",
+     "closeness": 2,
+     "score": 5.97,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lolly",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mousse",
+     "closeness": 3,
+     "score": 3.21,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jelly",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dainty",
+     "closeness": 3,
+     "score": 2.84,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glaze",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creamy",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.44,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "frosting",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shiny",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "chocolate",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.44,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "luscious",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "meringue",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "sugary",
+   "definition": "having or denoting the characteristic taste of sugar",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "sugary",
+     "closeness": 1,
+     "score": 8.69,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "saccharine",
+     "closeness": 1,
+     "score": 6.74,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "syrupy",
+     "closeness": 2,
+     "score": 6.74,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bittersweet",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flowery",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "balmy",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sweetish",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sappy",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "tutti-frutti",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comfit",
+     "closeness": 3,
+     "score": 3.45,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "treacly",
+     "closeness": 3,
+     "score": 2.78,
+     "similarity": 0.13,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "unsoiled",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cloying",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "nectarous",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "pleasing",
+   "definition": "pleasing to the senses",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "pleasant",
+     "closeness": 1,
+     "score": 6.18,
+     "similarity": 0.43,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gracious",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cute",
+     "closeness": 2,
+     "score": 4.66,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "wicked",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "nice",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "kind",
+     "closeness": 2,
+     "score": 4.42,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "pleasing",
+     "closeness": 2,
+     "score": 4.22,
+     "similarity": 0.27,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "awesome",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "thoughtful",
+     "closeness": 2,
+     "score": 3.58,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "gratifying",
+     "closeness": 2,
+     "score": 4.26,
+     "similarity": 0.11,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "good",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "wonderful",
+     "closeness": 3,
+     "score": 3.46,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-reverse",
+      "moby"
+     ]
+    },
+    {
+     "word": "delicious",
+     "closeness": 3,
+     "score": 3.28,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavenly",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-reverse",
+      "moby"
+     ]
+    },
+    {
+     "word": "pure",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheerful",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "satisfying",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gentle",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.38,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "delightful",
+     "closeness": 3,
+     "score": 2.26,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beautiful",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.45,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "charming",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "appealing",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "fresh",
+   "definition": "not containing or composed of salt water",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "fresh",
+     "closeness": 1,
+     "score": 8.34,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "wholesome",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "taste",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.52,
+     "evidence": [
+      "moby",
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "sugar",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bright",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.4,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jam",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rich",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "soft",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tender",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "smooth",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "light",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "tart",
+  "earthy",
+  "tasty",
+  "caramel",
+  "tangy",
+  "ginger",
+  "pungent",
+  "baked"
+ ],
+ "flagged": [
+  {
+   "word": "cherubic",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.22"
+  },
+  {
+   "word": "odoriferous",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "odorous",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "seraphic",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "afters",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.26"
+  },
+  {
+   "word": "sweet-smelling",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "sweetmeat",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "confiture",
+   "ruling": "rejected",
+   "reason": "borderline score 1.75"
+  },
+  {
+   "word": "agreeable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "amiable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "baby",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "blissful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "clean",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "cordial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "delectable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "delicate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "easy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "engaging",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "enjoyable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "fine",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "genial",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "golden",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "icing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "kosher",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "lover",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "mild",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "palate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "precious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "preserve",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "quiet",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "relish",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "sad",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "sentimental",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "simple",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "subtle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "tongue",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "tuneful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "welcome",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "aftertaste",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "ambrosial",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "pleasureful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "silver-tongued",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "helpful",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.16"
+  },
+  {
+   "word": "sensitive",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.52"
+  },
+  {
+   "word": "rad",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.08"
+  },
+  {
+   "word": "bonbon",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.28"
+  },
+  {
+   "word": "lolly",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0"
+  }
+ ]
+}

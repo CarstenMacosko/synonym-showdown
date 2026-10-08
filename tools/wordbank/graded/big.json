@@ -1,0 +1,2336 @@
+{
+ "word": "big",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "great",
+   "definition": "above average in size or number or quantity or magnitude or extent",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "heavy",
+     "closeness": 1,
+     "score": 11.6,
+     "similarity": 0.4,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "great",
+     "closeness": 1,
+     "score": 11.06,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "large",
+     "closeness": 1,
+     "score": 11,
+     "similarity": 0.59,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "huge",
+     "closeness": 1,
+     "score": 10.3,
+     "similarity": 0.7,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gigantic",
+     "closeness": 1,
+     "score": 8.56,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "massive",
+     "closeness": 1,
+     "score": 8.5,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grand",
+     "closeness": 1,
+     "score": 8.36,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enormous",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.5,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "giant",
+     "closeness": 1,
+     "score": 8.24,
+     "similarity": 0.49,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tremendous",
+     "closeness": 1,
+     "score": 7.76,
+     "similarity": 0.41,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vast",
+     "closeness": 1,
+     "score": 7.72,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tall",
+     "closeness": 1,
+     "score": 7.41,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ample",
+     "closeness": 1,
+     "score": 7.32,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "considerable",
+     "closeness": 1,
+     "score": 7.29,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-also",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prodigious",
+     "closeness": 1,
+     "score": 7.28,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wide",
+     "closeness": 1,
+     "score": 7.28,
+     "similarity": 0.33,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hulking",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mammoth",
+     "closeness": 1,
+     "score": 7.22,
+     "similarity": 0.32,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spacious",
+     "closeness": 1,
+     "score": 7.22,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immense",
+     "closeness": 1,
+     "score": 7.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "colossal",
+     "closeness": 1,
+     "score": 7.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "substantial",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "broad",
+     "closeness": 1,
+     "score": 6.92,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hefty",
+     "closeness": 1,
+     "score": 6.9,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jumbo",
+     "closeness": 1,
+     "score": 6.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monumental",
+     "closeness": 1,
+     "score": 6.74,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "monstrous",
+     "closeness": 1,
+     "score": 6.64,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voluminous",
+     "closeness": 1,
+     "score": 6.62,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fat",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bulky",
+     "closeness": 1,
+     "score": 6.26,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cosmic",
+     "closeness": 1,
+     "score": 6.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gargantuan",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "whopping",
+     "closeness": 1,
+     "score": 7.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "titanic",
+     "closeness": 1,
+     "score": 7.7,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elephantine",
+     "closeness": 1,
+     "score": 6.5,
+     "similarity": -0.05,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overlarge",
+     "closeness": 1,
+     "score": 6.8,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "full",
+     "closeness": 2,
+     "score": 5.72,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "stupendous",
+     "closeness": 2,
+     "score": 5.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mountainous",
+     "closeness": 2,
+     "score": 5.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "roomy",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extensive",
+     "closeness": 2,
+     "score": 4.88,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "long",
+     "closeness": 2,
+     "score": 4.64,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "expansive",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heroic",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.09,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mighty",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "thick",
+     "closeness": 2,
+     "score": 4.08,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "super",
+     "closeness": 2,
+     "score": 4.04,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "deep",
+     "closeness": 2,
+     "score": 3.8,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "exceeding",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "epic",
+     "closeness": 2,
+     "score": 3.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astronomic",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": -0.13,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "commodious",
+     "closeness": 2,
+     "score": 3.8,
+     "similarity": -0.1,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "embonpoint",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": null,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "awesome",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rotund",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extravagant",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "double",
+     "closeness": 3,
+     "score": 2.66,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "chubby",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "plump",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "astronomical",
+     "closeness": 3,
+     "score": 2.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "galactic",
+     "closeness": 3,
+     "score": 2.54,
+     "similarity": 0.04,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fancy",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.34,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "imposing",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crowded",
+     "closeness": 3,
+     "score": 2.08,
+     "similarity": 0.23,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fleshy",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": -0.01,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "king-sized",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "large-scale",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.1,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tubby",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "queen-size",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "outsize",
+     "closeness": 3,
+     "score": 3.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pyramidal",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": -0.07,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "heavyset",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": -0.06,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bodacious",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "greathearted",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "largehearted",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "busty",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": -0.07,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "biggish",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "queen-sized",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "podgy",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "vauntingly",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "hulky",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "macroscopical",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "volumed",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "important",
+   "definition": "significant",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "significant",
+     "closeness": 1,
+     "score": 6.96,
+     "similarity": 0.46,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "important",
+     "closeness": 2,
+     "score": 6.14,
+     "similarity": 0.44,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "crucial",
+     "closeness": 2,
+     "score": 5.64,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "weighty",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "consequential",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "meaningful",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noticeable",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "remarkable",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "vital",
+     "closeness": 2,
+     "score": 4.5,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "essential",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "paramount",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "critical",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fateful",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.04,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "key",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "hugely",
+     "closeness": 2,
+     "score": 3.82,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "numerous",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outstanding",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "major",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.55,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "central",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "pivotal",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "valuable",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "greatly",
+     "closeness": 3,
+     "score": 2.98,
+     "similarity": 0.08,
+     "evidence": [
+      "wik-sense",
+      "moby"
+     ]
+    },
+    {
+     "word": "noted",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "historic",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "prominent",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "necessary",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "largely",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "much",
+     "closeness": 3,
+     "score": 2.56,
+     "similarity": 0.51,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "excellent",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "comprehensive",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rich",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "high",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fair",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.29,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "adult",
+   "definition": "(of animals) fully developed",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "adult",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grown",
+     "closeness": 1,
+     "score": 8.28,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mature",
+     "closeness": 1,
+     "score": 7.04,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "full-grown",
+     "closeness": 1,
+     "score": 6.7,
+     "similarity": -0.19,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "developed",
+     "closeness": 2,
+     "score": 5.04,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grownup",
+     "closeness": 2,
+     "score": 4.6,
+     "similarity": -0.12,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "healthy",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "proud",
+   "definition": "exhibiting self-importance",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "earnest",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bad",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.51,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "proud",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hearty",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "eager",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "wild",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "awful",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gone",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "intense",
+     "closeness": 3,
+     "score": 3.26,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excited",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "keen",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-sense",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mad",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "animated",
+     "closeness": 3,
+     "score": 2.94,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "tough",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "loud",
+     "closeness": 3,
+     "score": 2.54,
+     "similarity": 0.34,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "plenty",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sound",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rip-roaring",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "cock-a-hoop",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "braggy",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "self-aggrandising",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "liberal",
+   "definition": "given or giving freely",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "liberal",
+     "closeness": 1,
+     "score": 10.2,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "generous",
+     "closeness": 1,
+     "score": 8.48,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "handsome",
+     "closeness": 1,
+     "score": 6.6,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "giving",
+     "closeness": 2,
+     "score": 5.34,
+     "similarity": 0.44,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "magnanimous",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": -0.03,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "openhanded",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bighearted",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": -0.07,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bountiful",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.08,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "noble",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lofty",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bounteous",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": -0.07,
+     "evidence": [
+      "wn-same",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "freehanded",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "pregnant",
+   "definition": "in an advanced stage of pregnancy",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "pregnant",
+     "closeness": 1,
+     "score": 7.24,
+     "similarity": 0.09,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expectant",
+     "closeness": 1,
+     "score": 6.24,
+     "similarity": -0.06,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gravid",
+     "closeness": 1,
+     "score": 6.1,
+     "similarity": -0.19,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "expecting",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quick",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.39,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "enceinte",
+     "closeness": 2,
+     "score": 4,
+     "similarity": -0.16,
+     "evidence": [
+      "wn-same",
+      "wik-sense"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "coming",
+  "kind",
+  "enough",
+  "sure",
+  "looking",
+  "real",
+  "pretty",
+  "mean"
+ ],
+ "flagged": [
+  {
+   "word": "boastful",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.02"
+  },
+  {
+   "word": "boastfully",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "braggart",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.02"
+  },
+  {
+   "word": "expectant",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "magnanimous",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "bighearted",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "bounteous",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "grownup",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.12"
+  },
+  {
+   "word": "vainglorious",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "full-grown",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.19"
+  },
+  {
+   "word": "gravid",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.19"
+  },
+  {
+   "word": "self-aggrandizing",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "bragging",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.4"
+  },
+  {
+   "word": "crowing",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "enceinte",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.16"
+  },
+  {
+   "word": "swelled",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.16"
+  },
+  {
+   "word": "astronomical",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "galactic",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "king-size",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "king-sized",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "mountainous",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "thumping",
+   "ruling": "rejected",
+   "reason": "borderline score 1.82"
+  },
+  {
+   "word": "voluminous",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "queen-size",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "astronomic",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.13"
+  },
+  {
+   "word": "capacious",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "elephantine",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "man-sized",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "rangy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.76"
+  },
+  {
+   "word": "biggish",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "queen-sized",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "hulky",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "macroscopical",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "volumed",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "whacking",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "benevolent",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "consequential",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "elevated",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "grown-up",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "material",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "momentous",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "old",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "overflowing",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "packed",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "roomy",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "sublime",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "princely",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "commodious",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.1"
+  },
+  {
+   "word": "world-shaking",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "bodacious",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "rotund",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "pyramidal",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "chunky",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.98"
+  },
+  {
+   "word": "flabby",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "fleshy",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.01"
+  },
+  {
+   "word": "fulsome",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "heavyset",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "meaty",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.46"
+  },
+  {
+   "word": "paunchy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "portly",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.8"
+  },
+  {
+   "word": "potbellied",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "pudgy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.56"
+  },
+  {
+   "word": "roly-poly",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.6"
+  },
+  {
+   "word": "well-rounded",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "delicate",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.46"
+  },
+  {
+   "word": "hormonal",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "busty",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "stacked",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.22"
+  },
+  {
+   "word": "bosomy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.08"
+  },
+  {
+   "word": "buxom",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "chesty",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "curvy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "top-heavy",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "well-endowed",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "extraordinary",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.58"
+  },
+  {
+   "word": "fateful",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity 0.04"
+  },
+  {
+   "word": "life-or-death",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "observable",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "pertinent",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "relevant",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.04"
+  },
+  {
+   "word": "salient",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.62"
+  },
+  {
+   "word": "fanatical",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "ardent",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "avid",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "bubbly",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.74"
+  },
+  {
+   "word": "ebullient",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.38"
+  },
+  {
+   "word": "energetic",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.22"
+  },
+  {
+   "word": "enthusiastic",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.52"
+  },
+  {
+   "word": "exhilarated",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "fanatic",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.44"
+  },
+  {
+   "word": "fervent",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.62"
+  },
+  {
+   "word": "fervid",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "feverish",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "high-spirited",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "impassioned",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.32"
+  },
+  {
+   "word": "lively",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.4"
+  },
+  {
+   "word": "motivated",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.34"
+  },
+  {
+   "word": "passionate",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.46"
+  },
+  {
+   "word": "raring",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.02"
+  },
+  {
+   "word": "stimulated",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.44"
+  },
+  {
+   "word": "thrilled",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.52"
+  },
+  {
+   "word": "torrid",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.5"
+  },
+  {
+   "word": "vehement",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "vibrant",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.28"
+  },
+  {
+   "word": "vivacious",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "zealous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.2"
+  },
+  {
+   "word": "zestful",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "massively",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.92"
+  },
+  {
+   "word": "fair",
+   "ruling": "accepted (3)",
+   "reason": "only via-synonym, similarity 0.29"
+  }
+ ]
+}

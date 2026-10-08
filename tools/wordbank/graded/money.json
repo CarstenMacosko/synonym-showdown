@@ -1,0 +1,522 @@
+{
+ "word": "money",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "currency",
+   "definition": "the most common medium of exchange; functions as legal tender",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "currency",
+     "closeness": 2,
+     "score": 6.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "coin",
+     "closeness": 2,
+     "score": 6,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "bread",
+     "closeness": 2,
+     "score": 5.71,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funds",
+     "closeness": 2,
+     "score": 5.7,
+     "similarity": 0.78,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cash",
+     "closeness": 2,
+     "score": 5.3,
+     "similarity": 0.73,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scratch",
+     "closeness": 2,
+     "score": 4.99,
+     "similarity": 0.24,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "funding",
+     "closeness": 2,
+     "score": 4.7,
+     "similarity": 0.59,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jack",
+     "closeness": 2,
+     "score": 4.44,
+     "similarity": 0.19,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dough",
+     "closeness": 2,
+     "score": 4.39,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fund",
+     "closeness": 2,
+     "score": 4.25,
+     "similarity": 0.63,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "loot",
+     "closeness": 2,
+     "score": 4.15,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wealth",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.49,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cake",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wampum",
+     "closeness": 2,
+     "score": 4.93,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flow",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.37,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cheese",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.07,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "savings",
+     "closeness": 3,
+     "score": 3.1,
+     "similarity": 0.5,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "purse",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "paper",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tender",
+     "closeness": 3,
+     "score": 2.6,
+     "similarity": 0.15,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fortune",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "brass",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.03,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "property",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.39,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "take",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.47,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "capital",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "balance",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rhino",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gain",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "lucre",
+     "closeness": 3,
+     "score": 2.97,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swag",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.02,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boodle",
+     "closeness": 3,
+     "score": 2.77,
+     "similarity": -0.03,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mozzarella",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": -0.02,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mammon",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": -0.08,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "specie",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pelf",
+     "closeness": 3,
+     "score": 3.45,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lolly",
+     "closeness": 3,
+     "score": 3.31,
+     "similarity": -0.04,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "pay",
+  "amount",
+  "financing",
+  "taxpayer",
+  "raise",
+  "proceeds",
+  "keep",
+  "need"
+ ],
+ "flagged": [
+  {
+   "word": "sterling",
+   "ruling": "rejected",
+   "reason": "borderline score 1.79"
+  },
+  {
+   "word": "sugar",
+   "ruling": "rejected",
+   "reason": "borderline score 1.93"
+  },
+  {
+   "word": "boodle",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "wampum",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.02"
+  },
+  {
+   "word": "lolly",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.04"
+  },
+  {
+   "word": "brass",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "chips",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "coinage",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "gold",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "pocket",
+   "ruling": "rejected",
+   "reason": "borderline score 1.84"
+  },
+  {
+   "word": "pool",
+   "ruling": "rejected",
+   "reason": "borderline score 1.72"
+  },
+  {
+   "word": "rhino",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0"
+  },
+  {
+   "word": "substance",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "treasure",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "mammon",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.08"
+  },
+  {
+   "word": "swag",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "cream",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "gravy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "mozzarella",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.02"
+  }
+ ]
+}

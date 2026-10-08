@@ -1,0 +1,1087 @@
+{
+ "word": "walk",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "walkway",
+   "definition": "a path set aside for walking",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "stroll",
+     "closeness": 1,
+     "score": 8.19,
+     "similarity": 0.54,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sidewalk",
+     "closeness": 1,
+     "score": 7.95,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "path",
+     "closeness": 1,
+     "score": 6.98,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gait",
+     "closeness": 1,
+     "score": 6.35,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hike",
+     "closeness": 1,
+     "score": 6.21,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "footpath",
+     "closeness": 1,
+     "score": 6.04,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "walkway",
+     "closeness": 1,
+     "score": 7.02,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pavement",
+     "closeness": 2,
+     "score": 4.95,
+     "similarity": 0.25,
+     "evidence": [
+      "wik-sense",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "parade",
+     "closeness": 2,
+     "score": 4.59,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "promenade",
+     "closeness": 2,
+     "score": 4.53,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mall",
+     "closeness": 2,
+     "score": 4.35,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "boardwalk",
+     "closeness": 2,
+     "score": 4.29,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trot",
+     "closeness": 2,
+     "score": 4.17,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "amble",
+     "closeness": 2,
+     "score": 4.11,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "catwalk",
+     "closeness": 2,
+     "score": 4.05,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jog",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "limp",
+     "closeness": 2,
+     "score": 3.87,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "saunter",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trudge",
+     "closeness": 2,
+     "score": 3.57,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "traipse",
+     "closeness": 2,
+     "score": 4.29,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "runway",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trek",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "strut",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "paddle",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tread",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stagger",
+     "closeness": 3,
+     "score": 2.91,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tramp",
+     "closeness": 3,
+     "score": 2.85,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stalk",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swagger",
+     "closeness": 3,
+     "score": 2.73,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "jaunt",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pathway",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hobble",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "lurch",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prance",
+     "closeness": 3,
+     "score": 2.67,
+     "similarity": 0.12,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wander",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.49,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ramble",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gallop",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "toddle",
+     "closeness": 3,
+     "score": 2.37,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slink",
+     "closeness": 3,
+     "score": 2.35,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "waddle",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "creep",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "totter",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": 0.05,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gym",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "rut",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slither",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "mince",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": 0.03,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rack",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slouch",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.01,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "esplanade",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "towpath",
+     "closeness": 3,
+     "score": 2.76,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "berm",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "pass",
+   "definition": "(baseball) an advance to first base by a batter who receives four balls",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "full",
+     "closeness": 2,
+     "score": 4.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "track",
+     "closeness": 2,
+     "score": 4.34,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "step",
+     "closeness": 2,
+     "score": 4.11,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trail",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "foot",
+     "closeness": 2,
+     "score": 3.81,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stride",
+     "closeness": 2,
+     "score": 3.75,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "stretch",
+     "closeness": 2,
+     "score": 3.66,
+     "similarity": 0.41,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pace",
+     "closeness": 2,
+     "score": 3.59,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pass",
+     "closeness": 3,
+     "score": 3.48,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same"
+     ]
+    },
+    {
+     "word": "drag",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "be",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "hitch",
+     "closeness": 3,
+     "score": 3.09,
+     "similarity": 0.19,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "shuffle",
+     "closeness": 3,
+     "score": 3.03,
+     "similarity": 0.18,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "turn",
+     "closeness": 3,
+     "score": 2.91,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "roll",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "swing",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "floor",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "groove",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.11,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "go",
+     "closeness": 3,
+     "score": 2.36,
+     "similarity": 0.56,
+     "evidence": [
+      "wn-broader"
+     ]
+    },
+    {
+     "word": "loop",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.29,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "constitutional",
+     "closeness": 3,
+     "score": 2.31,
+     "similarity": 0.06,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leg",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "road",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.37,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "course",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "route",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "perambulate",
+   "definition": "the act of traveling by foot",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "perambulate",
+     "closeness": 3,
+     "score": 2.25,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "ambulate",
+     "closeness": 3,
+     "score": 3.25,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "let",
+  "throw",
+  "wait",
+  "bike",
+  "mile",
+  "stay",
+  "stand",
+  "inning"
+ ],
+ "flagged": [
+  {
+   "word": "paseo",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.1"
+  },
+  {
+   "word": "flounce",
+   "ruling": "rejected",
+   "reason": "borderline score 1.83"
+  },
+  {
+   "word": "march",
+   "ruling": "rejected",
+   "reason": "borderline score 1.83"
+  },
+  {
+   "word": "mince",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.03"
+  },
+  {
+   "word": "pad",
+   "ruling": "rejected",
+   "reason": "borderline score 1.71"
+  },
+  {
+   "word": "plod",
+   "ruling": "rejected",
+   "reason": "borderline score 1.89"
+  },
+  {
+   "word": "slog",
+   "ruling": "rejected",
+   "reason": "borderline score 1.81"
+  },
+  {
+   "word": "slouch",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.01"
+  },
+  {
+   "word": "calling",
+   "ruling": "rejected",
+   "reason": "borderline score 1.58"
+  },
+  {
+   "word": "career",
+   "ruling": "rejected",
+   "reason": "borderline score 1.76"
+  },
+  {
+   "word": "campus",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "circle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "field",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "game",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "ground",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "hall",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "idle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "inch",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "line",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "marathon",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "orbit",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "place",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "poke",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "race",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "range",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "sidle",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  },
+  {
+   "word": "stage",
+   "ruling": "rejected",
+   "reason": "borderline score 1.92"
+  },
+  {
+   "word": "tour",
+   "ruling": "rejected",
+   "reason": "borderline score 1.62"
+  },
+  {
+   "word": "velocity",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "work",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "purlieu",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

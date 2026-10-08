@@ -1,0 +1,254 @@
+{
+ "word": "gullible",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "naive",
+   "definition": "naive and easily deceived or tricked",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "naive",
+     "closeness": 1,
+     "score": 9.62,
+     "similarity": 0.57,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "credulous",
+     "closeness": 1,
+     "score": 8.4,
+     "similarity": 0.55,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "green",
+     "closeness": 1,
+     "score": 7,
+     "similarity": -0.16,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "fleeceable",
+     "closeness": 1,
+     "score": 6,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "wik-sense"
+     ]
+    },
+    {
+     "word": "innocent",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wide-eyed",
+     "closeness": 2,
+     "score": 5.5,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "naif",
+     "closeness": 2,
+     "score": 5.48,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "inexperienced",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trusting",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "immature",
+     "closeness": 3,
+     "score": 2.14,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "childlike",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.3,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "guileless",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "unwary",
+   "definition": "easily tricked because of being too trusting",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "unwary",
+     "closeness": 2,
+     "score": 5.28,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsophisticated",
+     "closeness": 2,
+     "score": 4.8,
+     "similarity": 0.5,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unsuspecting",
+     "closeness": 2,
+     "score": 4.38,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "susceptible",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "ingenuous",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "artless",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "persuadable",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "ignorant",
+  "jaded",
+  "uneducated",
+  "well-meaning",
+  "uninformed",
+  "shortsighted",
+  "cynical",
+  "pushy"
+ ],
+ "flagged": [
+  {
+   "word": "green",
+   "ruling": "accepted (1)",
+   "reason": "sources agree but similarity -0.16"
+  },
+  {
+   "word": "simple",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "exploitable",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  }
+ ]
+}

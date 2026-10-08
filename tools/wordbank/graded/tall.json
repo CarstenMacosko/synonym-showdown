@@ -1,0 +1,394 @@
+{
+ "word": "tall",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "lanky",
+   "definition": "great in vertical dimension; high in stature",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "lanky",
+     "closeness": 2,
+     "score": 6.98,
+     "similarity": 0.53,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "long",
+     "closeness": 2,
+     "score": 5.72,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "gangling",
+     "closeness": 2,
+     "score": 5.12,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "leggy",
+     "closeness": 2,
+     "score": 5.16,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rangy",
+     "closeness": 2,
+     "score": 5.4,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "statuesque",
+     "closeness": 2,
+     "score": 4.16,
+     "similarity": 0.26,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "gangly",
+     "closeness": 2,
+     "score": 4.02,
+     "similarity": 0.42,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    },
+    {
+     "word": "thick",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.55,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "towering",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "stately",
+     "closeness": 3,
+     "score": 2.9,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "tallish",
+     "closeness": 3,
+     "score": 2,
+     "similarity": null,
+     "evidence": [
+      "wn-similar"
+     ]
+    },
+    {
+     "word": "long-legged",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-similar",
+      "moby"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "high",
+   "definition": "impressively difficult",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "high",
+     "closeness": 1,
+     "score": 8.55,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "large",
+     "closeness": 2,
+     "score": 4.35,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "big",
+     "closeness": 2,
+     "score": 4.11,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-also",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "giant",
+     "closeness": 3,
+     "score": 2.88,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "huge",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.3,
+     "evidence": [
+      "wik-reverse",
+      "moby"
+     ]
+    },
+    {
+     "word": "thin",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elevated",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.17,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "incredible",
+   "definition": "too improbable to admit of belief",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "gigantic",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "incredible",
+     "closeness": 3,
+     "score": 2.9,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "improbable",
+     "closeness": 3,
+     "score": 2.86,
+     "similarity": 0.06,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "unbelievable",
+     "closeness": 3,
+     "score": 2.42,
+     "similarity": 0.07,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "colossal",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.2,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "magniloquent",
+   "definition": "lofty in style",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "magniloquent",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "lofty",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.2,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "rhetorical",
+     "closeness": 3,
+     "score": 2.12,
+     "similarity": 0.02,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "grandiloquent",
+     "closeness": 3,
+     "score": 3.24,
+     "similarity": -0.06,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "slender",
+  "erect",
+  "sturdy",
+  "handsome",
+  "haired",
+  "standing",
+  "wiry",
+  "wooden"
+ ],
+ "flagged": [
+  {
+   "word": "grandiloquent",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.06"
+  },
+  {
+   "word": "marvellous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1.5"
+  },
+  {
+   "word": "marvelous",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.1"
+  },
+  {
+   "word": "rhetorical",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity 0.02"
+  },
+  {
+   "word": "tallish",
+   "ruling": "accepted (3)",
+   "reason": "only wn-similar, similarity null"
+  },
+  {
+   "word": "lengthy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.56"
+  },
+  {
+   "word": "showy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "orotund",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

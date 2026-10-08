@@ -1,0 +1,182 @@
+{
+ "word": "jealous",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "envious",
+   "definition": "showing extreme cupidity; painfully desirous of another's advantages",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "envious",
+     "closeness": 1,
+     "score": 8.3,
+     "similarity": 0.64,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "covetous",
+     "closeness": 2,
+     "score": 4.92,
+     "similarity": 0.22,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desirous",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "greedy",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "unhappy",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "displeased",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.41,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "distrustful",
+   "definition": "suspicious or unduly suspicious or fearful of being displaced by a rival",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "distrustful",
+     "closeness": 2,
+     "score": 4.88,
+     "similarity": 0.38,
+     "evidence": [
+      "wn-similar",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resentful",
+     "closeness": 2,
+     "score": 4.1,
+     "similarity": 0.59,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "green-eyed",
+     "closeness": 2,
+     "score": 4.6,
+     "similarity": 0.15,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suspicious",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.3,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "uneasy",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.31,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "grudging",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.16,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overjealous",
+     "closeness": 3,
+     "score": 3,
+     "similarity": null,
+     "evidence": [
+      "wn-same"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "obsessed",
+  "estranged",
+  "annoyed",
+  "infatuated",
+  "angry",
+  "enraged",
+  "smitten",
+  "distraught"
+ ],
+ "flagged": [
+  {
+   "word": "bitter",
+   "ruling": "rejected",
+   "reason": "borderline score 1.9"
+  },
+  {
+   "word": "grasping",
+   "ruling": "rejected",
+   "reason": "borderline score 1.54"
+  },
+  {
+   "word": "mistrustful",
+   "ruling": "rejected",
+   "reason": "borderline score 1.96"
+  }
+ ]
+}

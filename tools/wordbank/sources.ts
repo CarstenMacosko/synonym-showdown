@@ -29,6 +29,8 @@ export interface WordNet {
   synsets: Map<string, Synset>;
   /** lemma -> synset ids, in WordNet's order (most common meaning first). */
   senses: Map<string, string[]>;
+  /** lemma -> its antonyms (happy -> unhappy). */
+  antonyms: Map<string, Set<string>>;
 }
 
 const POS: Record<string, Pos> = { a: 'adj', s: 'adj', n: 'noun', v: 'verb', r: 'adv' };
@@ -37,13 +39,18 @@ export function loadWordNet(): WordNet {
   const dir = join(SOURCES_DIR, 'oewn');
   const synsets = new Map<string, Synset>();
   const senses = new Map<string, string[]>();
+  const antonyms = new Map<string, Set<string>>();
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.json') || file === 'frames.json') continue;
     const data = JSON.parse(readFileSync(join(dir, file), 'utf8'));
     if (file.startsWith('entries-')) {
-      for (const [lemma, byPos] of Object.entries<Record<string, { sense: { synset: string }[] }>>(data)) {
+      for (const [lemma, byPos] of Object.entries<Record<string, { sense: { synset: string; antonym?: string[] }[] }>>(data)) {
+        const key = lemma.toLowerCase();
         const ids = Object.values(byPos).flatMap((e) => e.sense.map((s) => s.synset));
-        senses.set(lemma.toLowerCase(), [...(senses.get(lemma.toLowerCase()) ?? []), ...ids]);
+        senses.set(key, [...(senses.get(key) ?? []), ...ids]);
+        // Antonyms are sense keys like "unhappy%3:00:00::"; the part before % is the word.
+        const opp = Object.values(byPos).flatMap((e) => e.sense.flatMap((s) => s.antonym ?? []).map((a) => a.split('%')[0].toLowerCase()));
+        if (opp.length) antonyms.set(key, new Set([...(antonyms.get(key) ?? []), ...opp]));
       }
     } else {
       for (const [id, s] of Object.entries<any>(data)) {
@@ -62,7 +69,7 @@ export function loadWordNet(): WordNet {
     }
   }
   for (const s of synsets.values()) for (const h of s.hypernym) synsets.get(h)?.hyponym.push(s.id);
-  return { synsets, senses };
+  return { synsets, senses, antonyms };
 }
 
 /** headword -> related words, from the Moby Thesaurus. */

@@ -1,0 +1,309 @@
+{
+ "word": "hate",
+ "tier": "easy",
+ "senses": [
+  {
+   "label": "hatred",
+   "definition": "the emotion of intense dislike; a feeling of dislike so strong that it demands action",
+   "pos": "noun",
+   "words": [
+    {
+     "word": "hatred",
+     "closeness": 1,
+     "score": 8,
+     "similarity": 0.65,
+     "evidence": [
+      "wn-same",
+      "wik-reverse",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "dislike",
+     "closeness": 2,
+     "score": 4.22,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "hostility",
+     "closeness": 2,
+     "score": 3.51,
+     "similarity": 0.36,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abominate",
+     "closeness": 2,
+     "score": 5.05,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "execrate",
+     "closeness": 2,
+     "score": 4.95,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "spite",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.22,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disdain",
+     "closeness": 3,
+     "score": 3.31,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "scorn",
+     "closeness": 3,
+     "score": 2.95,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enmity",
+     "closeness": 3,
+     "score": 2.79,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "horror",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.28,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "disgust",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "malice",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "animosity",
+     "closeness": 3,
+     "score": 2.02,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "contemn",
+     "closeness": 3,
+     "score": 2.95,
+     "similarity": null,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "detest",
+   "definition": "dislike intensely; feel antipathy or aversion towards",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "detest",
+     "closeness": 1,
+     "score": 7.66,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "abhor",
+     "closeness": 2,
+     "score": 6.81,
+     "similarity": 0.31,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "despise",
+     "closeness": 2,
+     "score": 6.39,
+     "similarity": 0.44,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "resent",
+     "closeness": 3,
+     "score": 2.62,
+     "similarity": 0.27,
+     "evidence": [
+      "wik-thes",
+      "moby"
+     ]
+    },
+    {
+     "word": "abomination",
+     "closeness": 3,
+     "score": 2.61,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "racism",
+  "bigotry",
+  "crime",
+  "intolerance",
+  "fear",
+  "incitement",
+  "violence",
+  "prejudice"
+ ],
+ "flagged": [
+  {
+   "word": "abhorrence",
+   "ruling": "rejected",
+   "reason": "borderline score 1.57"
+  },
+  {
+   "word": "malevolence",
+   "ruling": "rejected",
+   "reason": "borderline score 1.59"
+  },
+  {
+   "word": "misogyny",
+   "ruling": "rejected",
+   "reason": "borderline score 1.91"
+  },
+  {
+   "word": "execration",
+   "ruling": "rejected",
+   "reason": "borderline score 1.53"
+  },
+  {
+   "word": "antagonism",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  },
+  {
+   "word": "antipathy",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "aversion",
+   "ruling": "rejected",
+   "reason": "borderline score 1.68"
+  },
+  {
+   "word": "conflict",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "revulsion",
+   "ruling": "rejected",
+   "reason": "borderline score 1.8"
+  },
+  {
+   "word": "spitefulness",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  },
+  {
+   "word": "quarrelsomeness",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  }
+ ]
+}

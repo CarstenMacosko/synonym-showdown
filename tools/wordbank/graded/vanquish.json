@@ -1,0 +1,373 @@
+{
+ "word": "vanquish",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "crush",
+   "definition": "come out better in a competition, race, or conflict",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "subdue",
+     "closeness": 2,
+     "score": 6.45,
+     "similarity": 0.4,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crush",
+     "closeness": 2,
+     "score": 5.88,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subjugate",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.36,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suppress",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trounce",
+     "closeness": 2,
+     "score": 4.74,
+     "similarity": 0.29,
+     "evidence": [
+      "wn-same",
+      "wik-reverse"
+     ]
+    },
+    {
+     "word": "overpower",
+     "closeness": 2,
+     "score": 4.65,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "defeat",
+     "closeness": 2,
+     "score": 4.56,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "beat",
+     "closeness": 2,
+     "score": 4.54,
+     "similarity": 0.09,
+     "evidence": [
+      "wn-same",
+      "wn-similar",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "overcome",
+     "closeness": 2,
+     "score": 4.31,
+     "similarity": 0.21,
+     "evidence": [
+      "wik-reverse",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "conquer",
+     "closeness": 2,
+     "score": 3.84,
+     "similarity": 0.34,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outwit",
+     "closeness": 2,
+     "score": 3.68,
+     "similarity": 0.43,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reduce",
+     "closeness": 2,
+     "score": 3.6,
+     "similarity": 0.05,
+     "evidence": [
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outsmart",
+     "closeness": 3,
+     "score": 3.32,
+     "similarity": 0.37,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "surmount",
+     "closeness": 3,
+     "score": 3.27,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "flatten",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "quell",
+     "closeness": 3,
+     "score": 3.06,
+     "similarity": 0.21,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overwhelm",
+     "closeness": 3,
+     "score": 2.91,
+     "similarity": 0.31,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smash",
+     "closeness": 3,
+     "score": 2.82,
+     "similarity": 0.17,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "repress",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.35,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "master",
+     "closeness": 3,
+     "score": 2.37,
+     "similarity": -0.03,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "subvert",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prostrate",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "humiliate",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "override",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.07,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outdo",
+     "closeness": 3,
+     "score": 2.15,
+     "similarity": 0.3,
+     "evidence": [
+      "wn-narrower",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rout",
+     "closeness": 3,
+     "score": 2.03,
+     "similarity": 0.18,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outfox",
+     "closeness": 3,
+     "score": 2.78,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-similar",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "overmaster",
+     "closeness": 3,
+     "score": 2.55,
+     "similarity": null,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outfight",
+     "closeness": 3,
+     "score": 2.01,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "banish",
+  "expunge",
+  "persecute",
+  "outrun",
+  "devour",
+  "eradicate",
+  "outplay",
+  "outshine"
+ ],
+ "flagged": [
+  {
+   "word": "shell",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 1"
+  },
+  {
+   "word": "master",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.03"
+  },
+  {
+   "word": "clobber",
+   "ruling": "rejected",
+   "reason": "borderline score 1.95"
+  },
+  {
+   "word": "bend",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  },
+  {
+   "word": "break",
+   "ruling": "rejected",
+   "reason": "borderline score 1.98"
+  },
+  {
+   "word": "humble",
+   "ruling": "rejected",
+   "reason": "borderline score 1.86"
+  }
+ ]
+}

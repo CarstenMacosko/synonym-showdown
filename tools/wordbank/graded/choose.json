@@ -1,0 +1,651 @@
+{
+ "word": "choose",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "select",
+   "definition": "pick out, select, or choose from a number of alternatives",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "select",
+     "closeness": 1,
+     "score": 11.8,
+     "similarity": 0.66,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prefer",
+     "closeness": 1,
+     "score": 10.55,
+     "similarity": 0.62,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "opt",
+     "closeness": 1,
+     "score": 10.05,
+     "similarity": 0.62,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "take",
+     "closeness": 1,
+     "score": 6.74,
+     "similarity": 0.54,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "decide",
+     "closeness": 2,
+     "score": 8.8,
+     "similarity": 0.69,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "determine",
+     "closeness": 2,
+     "score": 7.37,
+     "similarity": 0.47,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "pick",
+     "closeness": 2,
+     "score": 7.23,
+     "similarity": 0.53,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "elect",
+     "closeness": 2,
+     "score": 6.99,
+     "similarity": 0.49,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "appoint",
+     "closeness": 2,
+     "score": 6.68,
+     "similarity": 0.48,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "desire",
+     "closeness": 2,
+     "score": 5.58,
+     "similarity": 0.38,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "adopt",
+     "closeness": 2,
+     "score": 5.47,
+     "similarity": 0.42,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "accept",
+     "closeness": 2,
+     "score": 4.86,
+     "similarity": 0.51,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "embrace",
+     "closeness": 2,
+     "score": 4.84,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "wish",
+     "closeness": 2,
+     "score": 4.54,
+     "similarity": 0.54,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "designate",
+     "closeness": 2,
+     "score": 4.4,
+     "similarity": 0.35,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "nominate",
+     "closeness": 2,
+     "score": 4.31,
+     "similarity": 0.46,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cast",
+     "closeness": 2,
+     "score": 4.28,
+     "similarity": 0.28,
+     "evidence": [
+      "wik-thes",
+      "wik-reverse",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "crave",
+     "closeness": 2,
+     "score": 4.14,
+     "similarity": 0.14,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "assign",
+     "closeness": 2,
+     "score": 4.01,
+     "similarity": 0.41,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vote",
+     "closeness": 2,
+     "score": 3.95,
+     "similarity": 0.45,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "settle",
+     "closeness": 2,
+     "score": 3.86,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-thes",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "extract",
+     "closeness": 2,
+     "score": 3.71,
+     "similarity": 0.11,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "separate",
+     "closeness": 2,
+     "score": 3.54,
+     "similarity": 0.29,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "want",
+     "closeness": 2,
+     "score": 3.5,
+     "similarity": 0.61,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "espouse",
+     "closeness": 2,
+     "score": 4.33,
+     "similarity": 0.13,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "propose",
+     "closeness": 3,
+     "score": 3.39,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "resolve",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "please",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.33,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "will",
+     "closeness": 3,
+     "score": 3.18,
+     "similarity": 0.53,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "intend",
+     "closeness": 3,
+     "score": 3.12,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "sort",
+     "closeness": 3,
+     "score": 3.05,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "go",
+     "closeness": 3,
+     "score": 2.87,
+     "similarity": 0.52,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "follow",
+     "closeness": 3,
+     "score": 2.85,
+     "similarity": 0.5,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "decree",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "command",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.14,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "carry",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "poll",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.23,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fancy",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.22,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "require",
+     "closeness": 3,
+     "score": 2.52,
+     "similarity": 0.47,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fix",
+     "closeness": 3,
+     "score": 2.43,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "learn",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.45,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "specify",
+     "closeness": 3,
+     "score": 2.37,
+     "similarity": 0.32,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "establish",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "aim",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.33,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "direct",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.32,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "prepare",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "define",
+     "closeness": 3,
+     "score": 2.19,
+     "similarity": 0.39,
+     "evidence": [
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "excerpt",
+     "closeness": 3,
+     "score": 2.13,
+     "similarity": -0.07,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "like",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "approve",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "dictate",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "engage",
+     "closeness": 3,
+     "score": 2.04,
+     "similarity": 0.39,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "draw",
+     "closeness": 3,
+     "score": 2.03,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "winnow",
+     "closeness": 3,
+     "score": 3.15,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-thes",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "predestine",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "preponderate",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": null,
+     "evidence": [
+      "wik-thes",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "ask",
+  "allow",
+  "participate",
+  "consider",
+  "tend",
+  "agree",
+  "ignore",
+  "assume"
+ ],
+ "flagged": [
+  {
+   "word": "excerpt",
+   "ruling": "accepted (3)",
+   "reason": "sources agree but similarity -0.07"
+  },
+  {
+   "word": "limit",
+   "ruling": "rejected",
+   "reason": "borderline score 1.71"
+  },
+  {
+   "word": "sift",
+   "ruling": "rejected",
+   "reason": "borderline score 1.61"
+  },
+  {
+   "word": "covet",
+   "ruling": "rejected",
+   "reason": "borderline score 1.5"
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "word": "remember",
+ "tier": "medium",
+ "senses": [
+  {
+   "label": "recall",
+   "definition": "recall knowledge from memory; have a recollection",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "mind",
+     "closeness": 1,
+     "score": 10.23,
+     "similarity": 0.53,
+     "evidence": [
+      "wik-sense",
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recall",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.45,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "think",
+     "closeness": 1,
+     "score": 9,
+     "similarity": 0.61,
+     "evidence": [
+      "wn-same",
+      "wik-sense",
+      "wn-broader",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "recollect",
+     "closeness": 1,
+     "score": 7.68,
+     "similarity": 0.23,
+     "evidence": [
+      "wn-same",
+      "wik-thes",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "retain",
+     "closeness": 1,
+     "score": 6.15,
+     "similarity": 0.1,
+     "evidence": [
+      "wik-sense",
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reminisce",
+     "closeness": 2,
+     "score": 5.11,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-thes",
+      "moby",
+      "wn-narrower",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "retrospect",
+     "closeness": 2,
+     "score": 4.47,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "place",
+     "closeness": 2,
+     "score": 4.04,
+     "similarity": 0.34,
+     "evidence": [
+      "wik-sense",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "retrieve",
+     "closeness": 2,
+     "score": 3.96,
+     "similarity": 0.16,
+     "evidence": [
+      "wn-same",
+      "wik-thes"
+     ]
+    },
+    {
+     "word": "evoke",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "reflect",
+     "closeness": 3,
+     "score": 3.42,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "know",
+     "closeness": 3,
+     "score": 3.25,
+     "similarity": 0.71,
+     "evidence": [
+      "wn-narrower",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "review",
+     "closeness": 3,
+     "score": 3.03,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "wn-narrower",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "cite",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "wn-broader",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "suggest",
+     "closeness": 3,
+     "score": 2.46,
+     "similarity": 0.31,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "recapture",
+     "closeness": 3,
+     "score": 2.4,
+     "similarity": 0.1,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "observe",
+     "closeness": 3,
+     "score": 2.38,
+     "similarity": 0.28,
+     "evidence": [
+      "wn-broader",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "revive",
+     "closeness": 3,
+     "score": 2.34,
+     "similarity": 0.09,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "enjoy",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.4,
+     "evidence": [
+      "via-synonym"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "commemorate",
+   "definition": "call to remembrance; keep alive the memory of someone or something, as in a ceremony",
+   "pos": "verb",
+   "words": [
+    {
+     "word": "commemorate",
+     "closeness": 2,
+     "score": 4.98,
+     "similarity": 0.33,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "retrace",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.15,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "tell",
+  "imagine",
+  "understand",
+  "happen",
+  "learn",
+  "hear",
+  "ask",
+  "thank"
+ ],
+ "flagged": [
+  {
+   "word": "commend",
+   "ruling": "rejected",
+   "reason": "a dictionary lists it, score 2.28"
+  },
+  {
+   "word": "celebrate",
+   "ruling": "rejected",
+   "reason": "borderline score 1.94"
+  },
+  {
+   "word": "educe",
+   "ruling": "rejected",
+   "reason": "borderline score 1.6"
+  }
+ ]
+}

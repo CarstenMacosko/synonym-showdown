@@ -1,0 +1,331 @@
+{
+ "word": "eloquent",
+ "tier": "hard",
+ "senses": [
+  {
+   "label": "articulate",
+   "definition": "expressing yourself readily, clearly, effectively",
+   "pos": "adjective",
+   "words": [
+    {
+     "word": "articulate",
+     "closeness": 1,
+     "score": 11.2,
+     "similarity": 0.62,
+     "evidence": [
+      "wik-sense",
+      "wn-similar",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "fluent",
+     "closeness": 1,
+     "score": 6.3,
+     "similarity": 0.35,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "well-spoken",
+     "closeness": 1,
+     "score": 7.26,
+     "similarity": 0.26,
+     "evidence": [
+      "wik-sense",
+      "wik-reverse",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "facile",
+     "closeness": 2,
+     "score": 5.26,
+     "similarity": 0.36,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "glib",
+     "closeness": 2,
+     "score": 4.32,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silver",
+     "closeness": 2,
+     "score": 3.9,
+     "similarity": -0.05,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "outspoken",
+     "closeness": 2,
+     "score": 3.78,
+     "similarity": 0.43,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "talkative",
+     "closeness": 2,
+     "score": 3.72,
+     "similarity": 0.32,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "silver-tongued",
+     "closeness": 2,
+     "score": 5.2,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smooth-spoken",
+     "closeness": 2,
+     "score": 4,
+     "similarity": null,
+     "evidence": [
+      "wn-same",
+      "moby"
+     ]
+    },
+    {
+     "word": "expressive",
+     "closeness": 3,
+     "score": 3.36,
+     "similarity": 0.46,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "impassioned",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.69,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "persuasive",
+     "closeness": 3,
+     "score": 3,
+     "similarity": 0.63,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "forceful",
+     "closeness": 3,
+     "score": 2.92,
+     "similarity": 0.57,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "poignant",
+     "closeness": 3,
+     "score": 2.8,
+     "similarity": 0.55,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "passionate",
+     "closeness": 3,
+     "score": 2.74,
+     "similarity": 0.54,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "vivid",
+     "closeness": 3,
+     "score": 2.7,
+     "similarity": 0.45,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "speaking",
+     "closeness": 3,
+     "score": 2.64,
+     "similarity": 0.24,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "slick",
+     "closeness": 3,
+     "score": 2.58,
+     "similarity": 0.13,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "smooth",
+     "closeness": 3,
+     "score": 2.28,
+     "similarity": 0.08,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "graceful",
+     "closeness": 3,
+     "score": 2.22,
+     "similarity": 0.42,
+     "evidence": [
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "vocal",
+     "closeness": 3,
+     "score": 2.16,
+     "similarity": 0.26,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "meaningful",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "rhetorical",
+     "closeness": 3,
+     "score": 2.1,
+     "similarity": 0.35,
+     "evidence": [
+      "moby",
+      "moby-reverse"
+     ]
+    },
+    {
+     "word": "soft-spoken",
+     "closeness": 3,
+     "score": 2.32,
+     "similarity": 0.27,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "trenchant",
+     "closeness": 3,
+     "score": 2.2,
+     "similarity": 0.45,
+     "evidence": [
+      "moby"
+     ]
+    },
+    {
+     "word": "felicitous",
+     "closeness": 3,
+     "score": 3.3,
+     "similarity": 0.25,
+     "evidence": [
+      "moby",
+      "moby-reverse",
+      "via-synonym"
+     ]
+    },
+    {
+     "word": "voluble",
+     "closeness": 3,
+     "score": 3.22,
+     "similarity": 0.42,
+     "evidence": [
+      "moby",
+      "via-synonym"
+     ]
+    }
+   ]
+  }
+ ],
+ "decoys": [
+  "erudite",
+  "forthright",
+  "thoughtful",
+  "succinct",
+  "insightful",
+  "evocative",
+  "poetic",
+  "witty"
+ ],
+ "flagged": [
+  {
+   "word": "silver",
+   "ruling": "accepted (2)",
+   "reason": "sources agree but similarity -0.05"
+  },
+  {
+   "word": "declamatory",
+   "ruling": "rejected",
+   "reason": "borderline score 1.74"
+  }
+ ]
+}
