@@ -5,6 +5,8 @@ starter word; the next player may challenge the previous word. Real synonym → 
 See README.md for modes, file layout, and roadmap.
 
 ## Running
+- Project folder: `~/Desktop/ClaudeCodeProjects/Synonym-Showdown`. The owner's cross-project idea list lives in
+  `~/Desktop/ClaudeCodeProjects/Claude Project Ideas/Project Ideas.md` (its own private repo; only add/reorganize, never remove ideas).
 - Node lives in `~/.local/node/bin` (official binary, not Homebrew; `~/.zshrc` adds it to PATH).
   In a shell that predates that, prefix commands with `export PATH="$HOME/.local/node/bin:$PATH" &&`.
 - Run commands from this folder: `npm run dev` (http://localhost:5173), `npm test`, `npm run build`.
