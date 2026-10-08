@@ -866,3 +866,241 @@ h2 {
   text-decoration: none;
   color: var(--good);
 }
+
+/* ---------- accounts ---------- */
+
+.account-bar {
+  position: absolute;
+  top: max(12px, env(safe-area-inset-top));
+  left: 16px;
+  z-index: 15;
+  font-family: inherit;
+  font-size: 1rem;
+  background: none;
+  border: 2px solid var(--ink);
+  border-radius: 14px 10px 13px 9px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+.account-bar.signed-in {
+  border: none;
+  padding: 0;
+}
+
+.account-bar.signed-in > button {
+  font-family: inherit;
+  font-size: 1rem;
+  background: #fff;
+  border: 2px solid var(--ink);
+  border-radius: 14px 10px 13px 9px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+.account-menu {
+  margin-top: 6px;
+  padding: 10px 14px;
+  background: #fff;
+  min-width: 200px;
+}
+
+.account-menu p {
+  margin: 0 0 6px;
+}
+
+.home {
+  position: relative;
+  padding-top: 56px;
+}
+
+.auth-card h2 {
+  margin-bottom: 4px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  margin: 12px 0;
+}
+
+.auth-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.auth-form label > span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.signin-nudge {
+  text-align: center;
+  margin: 8px 0 0;
+}
+
+.saved-note {
+  color: var(--good);
+  font-size: 1.1rem;
+}
+
+/* ---------- online ---------- */
+
+.join-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.code-input {
+  flex: 0 0 110px;
+}
+
+.code-input input {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.lobby-code {
+  text-align: center;
+}
+
+.lobby-code .sketch-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.lobby-code .code {
+  font-family: var(--display);
+  font-size: clamp(3rem, 16vw, 4.6rem);
+  letter-spacing: 0.15em;
+  line-height: 1;
+}
+
+.lobby-players {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.lobby-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 96px;
+  text-align: center;
+}
+
+.lobby-player span {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lobby-player.away,
+.seat.away {
+  opacity: 0.4;
+}
+
+.reconnecting {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--highlight);
+  padding: 2px 14px;
+  border-radius: 0 0 10px 10px;
+  z-index: 30;
+  margin: 0;
+}
+
+.seat {
+  position: relative;
+}
+
+.emote-pop {
+  position: absolute;
+  top: -18px;
+  right: 6px;
+  font-size: 1.6rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.emote-bar {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.emote-bar button {
+  background: none;
+  border: 2px solid #dee2e6;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.rating-change {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  margin: 6px 0 0;
+}
+
+.rating-change.up {
+  color: var(--good);
+}
+
+.rating-change.down {
+  color: var(--bad);
+}
+
+.places {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.places p {
+  margin: 4px 0;
+  font-size: 1.15rem;
+}
+
+.places p.me {
+  background: linear-gradient(transparent 55%, var(--highlight) 55%);
+}
+
+.leaderboard {
+  margin-top: 16px;
+}
+
+.leaderboard h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0 0 4px;
+}
+
+.leaderboard ol {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.leaderboard li span {
+  display: inline-block;
+  min-width: 60%;
+}

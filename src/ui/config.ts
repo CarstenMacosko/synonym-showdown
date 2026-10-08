@@ -2,7 +2,7 @@
 
 import type { BotLevel, Settings } from '../game/engine';
 
-export type ModeId = 'bots' | 'score' | 'daily' | 'survival' | 'pass';
+export type ModeId = 'bots' | 'score' | 'daily' | 'survival' | 'pass' | 'friends' | 'ranked';
 
 export interface GameConfig {
   mode: ModeId;

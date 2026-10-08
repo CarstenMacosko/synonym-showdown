@@ -21,6 +21,7 @@ import {
   type GameState,
   type SubmitError,
 } from '../game/engine';
+import type { Range } from '../game/words';
 import { Avatar, type Mood } from './Avatar';
 import { PLAYER_COLORS, type GameConfig } from './config';
 import { reportRuling } from './reports';
@@ -435,7 +436,7 @@ function ResultOverlay({
               >
                 {ev.valid ? 'Synonym!' : 'Bluff!'}
               </motion.div>
-              <Ruling state={state} ev={ev} />
+              <Ruling starter={state.starter.word} range={state.settings.range} ev={ev} />
               <p className="result-out">{outText}</p>
               <div className="result-foot">
                 <small className="tap">tap to continue</small>
@@ -471,8 +472,7 @@ function ResultOverlay({
 const CLOSENESS_NAME = { 1: 'close', 2: 'solid', 3: 'distant' } as const;
 
 /** Explains the ruling: which meaning a synonym matched and how close it is, or why it didn't count. */
-function Ruling({ state, ev }: { state: GameState; ev: Extract<GameEvent, { kind: 'challenge' }> }) {
-  const starter = state.starter.word;
+export function Ruling({ starter, range, ev }: { starter: string; range: Range; ev: Extract<GameEvent, { kind: 'challenge' }> }) {
   const entry = ev.entry;
   if (ev.valid && entry) {
     const sense = ev.sense;
@@ -494,7 +494,7 @@ function Ruling({ state, ev }: { state: GameState; ev: Extract<GameEvent, { kind
     return (
       <p>
         <span className={`chip c${entry.closeness}`}>{entry.word}</span> is only a {CLOSENESS_NAME[entry.closeness]} synonym for “
-        {starter}”. It doesn’t count in {state.settings.range === 'close' ? 'Close-only' : 'Standard'} games.
+        {starter}”. It doesn’t count in {range === 'close' ? 'Close-only' : 'Standard'} games.
       </p>
     );
   }

@@ -101,7 +101,7 @@ function checkCredentials(body: Credentials | null): { username: string; passwor
 
 export async function register(db: D1Database, req: Request): Promise<Response> {
   const ip = await ipHash(req);
-  if (await rateLimited(db, `signup:${ip}`, 5, 3_600_000)) return error('Too many new accounts from here. Try again later.', 429);
+  if (await rateLimited(db, `signup:${ip}`, 20, 3_600_000)) return error('Too many new accounts from here. Try again later.', 429);
   const creds = checkCredentials(await readJson<Credentials>(req));
   if (typeof creds === 'string') return error(creds);
   if (BAD_NAME.test(creds.username)) return error('Please pick a different username.');

@@ -14,7 +14,10 @@ import {
   type SoloMode,
   type SoloState,
 } from '../game/solo';
+import type { SoloRound } from '../game/soloVerify';
 import { STARTERS, type Range, type Tier } from '../game/words';
+import { api } from '../net/api';
+import { useAccount } from './account';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { MeaningMap } from './MeaningMap';
@@ -86,6 +89,11 @@ function SoloRun({
     disputed?: boolean;
   } | null>(null);
   const [newBest, setNewBest] = useState(false);
+  const [saved, setSaved] = useState<string | null>(null);
+  const { user, refresh } = useAccount();
+  // Everything typed, with timing, so the server can replay the run before counting the points.
+  const startAt = useRef(state.deadline - state.roundMs);
+  const rounds = useRef<SoloRound[]>([{ starter: state.starter.word, guesses: [] }]);
   const stateRef = useRef(state);
   stateRef.current = state;
   const inputRef = useRef<HTMLInputElement>(null);
@@ -95,6 +103,15 @@ function SoloRun({
   const variant = mode === 'score' ? `${tier}-${forgiveness}-${range}` : `${forgiveness}-${range}`;
 
   function finish(s: SoloState) {
+    if (user) {
+      api
+        .submitSolo({ mode, tier, range: s.range, forgiveness: s.forgiveness, dateKey: mode === 'daily' ? dateKey : undefined, rounds: rounds.current })
+        .then((res) => {
+          setSaved(res.counted ? `+${res.score} points saved to ${user.username}` : (res.reason ?? null));
+          refresh();
+        })
+        .catch((e: Error) => setSaved(e.message));
+    }
     if (mode === 'daily') {
       const result = { word: s.starter.word, score: s.score, found: s.found };
       saveDaily(dateKey, result);
@@ -131,8 +148,11 @@ function SoloRun({
   function guess(e: FormEvent) {
     e.preventDefault();
     if (state.over) return;
-    const r = guessSolo(state, input, Date.now(), Math.random);
-    const id = Date.now();
+    const t0 = Date.now();
+    const r = guessSolo(state, input, t0, Math.random);
+    const id = t0;
+    if (input.trim()) rounds.current.at(-1)!.guesses.push({ word: input.trim(), t: t0 - startAt.current });
+    if (mode === 'survival' && r.result === 'ok') rounds.current.push({ starter: r.state.starter.word, guesses: [] });
     if (r.result === 'ok' && r.entry) {
       sfx.pop();
       const bonus = mode === 'survival' ? '' : r.entry.rarity === 3 ? '  · rare word!' : r.entry.rarity === 2 ? '  · nice one!' : '';
@@ -155,7 +175,7 @@ function SoloRun({
   }
 
   if (state.over && mode !== 'daily') {
-    return <SoloOver mode={mode} tier={tier} forgiveness={forgiveness} range={range} onExit={onExit} state={state} daily={null} dateKey={dateKey} newBest={newBest} onAgain={onAgain} />;
+    return <SoloOver mode={mode} tier={tier} forgiveness={forgiveness} range={range} onExit={onExit} state={state} daily={null} dateKey={dateKey} newBest={newBest} onAgain={onAgain} saved={saved} />;
   }
 
   const left = soloTimeLeft(state, now);
@@ -298,7 +318,8 @@ function SoloOver({
   dateKey,
   newBest,
   onAgain,
-}: Props & { state: SoloState | null; daily: DailyResult | null; dateKey: string; newBest: boolean; onAgain: (() => void) | null }) {
+  saved,
+}: Props & { state: SoloState | null; daily: DailyResult | null; dateKey: string; newBest: boolean; onAgain: (() => void) | null; saved?: string | null }) {
   const [copied, setCopied] = useState(false);
   const word = daily?.word ?? state!.starter.word;
   const score = daily?.score ?? state!.score;
@@ -343,6 +364,7 @@ function SoloOver({
           {wordCount} word{wordCount === 1 ? '' : 's'} found · rarer words score more
         </p>
       )}
+      {saved && <p className="saved-note">{saved}</p>}
       {mode === 'daily' && <p className="tagline">Come back tomorrow for a new word!</p>}
 
       {starter && <MeaningMap starter={starter} said={found} range={state?.range ?? 'standard'} />}

@@ -26,7 +26,15 @@ See README.md for modes, file layout, and roadmap.
   Wiktionary (kaikki.org), Moby Thesaurus, SCOWL, GloVe; they vote, then `grade.ts` assigns closeness
   1 close / 2 solid / 3 distant and meanings. Hand fixes go in `tools/wordbank/overrides.json`, never in the JSON.
   Tier 3 is noisy; game ranges: Close = 1, Standard = 1–2 (default, ranked), Loose = 1–3. Never scrape thesaurus.com.
-- "Disagree?" reports are saved in localStorage (`ss-reports`) and POSTed to `/api/report` (no server endpoint yet).
+- Online server: `worker/` (Cloudflare Worker + D1 database `synonym-showdown` + Durable Objects `GameRoom`
+  per room code and one `Matchmaker`). The server runs `src/game/engine.ts` as referee; clients never receive
+  the synonym list during play. Accounts = username + password (PBKDF2, HttpOnly session cookie). Ranked = 1v1
+  Glicko (`src/game/rating.ts`, start 1000 / RD 350). Solo runs are replayed server-side (`soloVerify.ts`) before
+  points count. Cheat detector (`suspicion.ts`) tags users (`users.suspicious`, `flags` table), never bans.
+  "Disagree?" reports land in the D1 `reports` table.
+- Deploying: pushing to `main` deploys via Cloudflare's GitHub build. Database schema changes need a new file in
+  `worker/migrations/` applied with `npx wrangler d1 migrations apply synonym-showdown --remote`
+  (wrangler is logged in on this Mac). Local full-stack dev: `npm run build && npx wrangler dev`.
 
 ## Product decisions (already made by the owner, don't re-ask)
 - Style: skribbl.io-like: mostly white, pencil-drawn shapes, bouncy animations; for all ages, not kids-only.
@@ -42,7 +50,8 @@ See README.md for modes, file layout, and roadmap.
 
 ## Status
 Done: Vs. Bots, Pass & Play, Score Attack, Daily Word, Survival; 300 generated starter words with meanings,
-closeness, rarity bonus points, meaning reveal, end-screen meaning map, Disagree button (client side).
+closeness, rarity bonus points, meaning reveal, end-screen meaning map, Disagree reports, accounts, online
+rooms with codes/invite links, ranked matchmaking + leaderboard, server-verified solo points, cheat tagging.
 Next: owner play-testing feedback → online multiplayer (Supabase) → deploy → iOS.
 
 ## Working with the owner

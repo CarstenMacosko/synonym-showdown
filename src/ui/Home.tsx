@@ -1,7 +1,10 @@
 // Title screen: pick a mode and its settings.
 
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { ROOM_CODE_RE } from '../game/protocol';
+import { api } from '../net/api';
+import { AccountBar, useAccount } from './account';
 import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl } from '../game/engine';
 import type { Forgiveness } from '../game/match';
 import { todayKey } from '../game/solo';
@@ -12,14 +15,18 @@ import { PASS_MAX, type GameConfig, type ModeId } from './config';
 import { getBest, getDaily } from './records';
 import { Choice, SketchBox, SketchButton } from './sketch';
 
-const MODES: { id: ModeId | 'friends' | 'ranked'; title: string; blurb: string; color?: string }[] = [
-  { id: 'bots', title: 'Vs. Bots', blurb: 'Outwit computer players', color: '#d0ebff' },
+const MODES: { id: ModeId; title: string; blurb: string; color?: string }[] = [
+  { id: 'friends', title: 'Play Friends', blurb: 'Online room codes', color: '#d0ebff' },
+  { id: 'ranked', title: 'Ranked', blurb: '1v1 with a rating', color: '#ffe8cc' },
+  { id: 'bots', title: 'Vs. Bots', blurb: 'Outwit computer players', color: '#e5dbff' },
   { id: 'pass', title: 'Pass & Play', blurb: 'Friends on one device', color: '#ffe3e3' },
   { id: 'score', title: 'Score Attack', blurb: 'Most synonyms in 60s', color: '#d3f9d8' },
   { id: 'daily', title: 'Daily Word', blurb: 'Same word for everyone', color: '#fff3bf' },
   { id: 'survival', title: 'Survival', blurb: 'One miss and you’re out', color: '#f3d9fa' },
-  { id: 'friends', title: 'Online', blurb: 'Room codes & ranked', },
 ];
+
+/** What the online buttons ask App to do. */
+export type OnlineAction = { kind: 'create' } | { kind: 'join'; code: string } | { kind: 'ranked' };
 
 const TIER_OPTIONS: { value: Tier; label: string; detail: string }[] = [
   { value: 'easy', label: 'Easy', detail: 'happy, big' },
@@ -39,8 +46,20 @@ const SPELLING_OPTIONS: { value: Forgiveness; label: string; detail: string }[] 
   { value: 'soundalike', label: 'Sounds-alike', detail: 'most forgiving' },
 ];
 
-export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameConfig) => void }) {
+export function Home({
+  config,
+  onPlay,
+  onOnline,
+  notice,
+}: {
+  config: GameConfig;
+  onPlay: (c: GameConfig) => void;
+  onOnline: (c: GameConfig, action: OnlineAction) => void;
+  notice?: string | null;
+}) {
   const [c, setC] = useState(config);
+  const { user, openSignIn } = useAccount();
+  const [joinCode, setJoinCode] = useState('');
   const set = (patch: Partial<GameConfig['settings']>) => setC({ ...c, settings: { ...c.settings, ...patch } });
   const mode = c.mode;
   const multiplayer = mode === 'bots' || mode === 'pass';
@@ -72,6 +91,7 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
 
   return (
     <div className="page home">
+      <AccountBar />
       <header className="title-block">
         <motion.div className="title-faces" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: 'spring', bounce: 0.6 }}>
           <Avatar id="t1" color="#4dabf7" size={54} />
@@ -86,7 +106,7 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
 
       <section className="modes" role="radiogroup" aria-label="Game mode">
         {MODES.map((m, i) => {
-          const ready = m.id !== 'friends' && m.id !== 'ranked';
+          const ready = true;
           const active = m.id === mode;
           return (
             <motion.button
@@ -235,6 +255,80 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
           </>
         )}
 
+        {mode === 'friends' && (
+          <>
+            <h2>Play Friends</h2>
+            <p className="muted hint">Make a room and send the code to your friends (2–6 players). The host picks the settings.</p>
+            {!user && (
+              <label className="field">
+                <span>Your name</span>
+                <SketchBox className="input-wrap">
+                  <input value={c.name} maxLength={16} onChange={(e) => setC({ ...c, name: e.target.value })} />
+                </SketchBox>
+              </label>
+            )}
+            <div className="play-row">
+              <SketchButton big color="#ffd43b" onClick={() => onOnline({ ...c, name: c.name.trim() || 'You' }, { kind: 'create' })}>
+                Create a room
+              </SketchButton>
+            </div>
+            <form
+              className="join-row"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const code = joinCode.trim().toUpperCase();
+                if (ROOM_CODE_RE.test(code)) onOnline({ ...c, name: c.name.trim() || 'You' }, { kind: 'join', code });
+              }}
+            >
+              <span className="muted">or join with a code</span>
+              <SketchBox className="input-wrap code-input">
+                <input
+                  value={joinCode}
+                  onChange={(e) => setJoinCode(e.target.value.replace(/[^a-z]/gi, '').toUpperCase().slice(0, 4))}
+                  placeholder="ABCD"
+                  aria-label="Room code"
+                  autoCapitalize="characters"
+                  autoComplete="off"
+                />
+              </SketchBox>
+              <SketchButton type="submit" disabled={!ROOM_CODE_RE.test(joinCode)}>
+                Join
+              </SketchButton>
+            </form>
+            {notice && <p className="error">{notice}</p>}
+          </>
+        )}
+
+        {mode === 'ranked' && (
+          <>
+            <h2>Ranked</h2>
+            <p className="muted hint">
+              1v1 against someone near your rating. Everyone starts at 1000; your first games move it a lot, then it settles.
+              Ranked always uses Medium words, Rapid time, Standard range and strict spelling.
+            </p>
+            {user ? (
+              <p>
+                Your rating: <b>{user.rating}</b>
+                {user.provisional ? ' (still settling)' : ''} · record {user.rankedWins}–{user.rankedGames - user.rankedWins}
+              </p>
+            ) : (
+              <p>Ranked games need an account, so your rating can follow you.</p>
+            )}
+            <div className="play-row">
+              {user ? (
+                <SketchButton big color="#ffd43b" onClick={() => onOnline(c, { kind: 'ranked' })}>
+                  Find a match
+                </SketchButton>
+              ) : (
+                <SketchButton big color="#ffd43b" onClick={openSignIn}>
+                  Sign in to play
+                </SketchButton>
+              )}
+            </div>
+            <Leaderboard />
+          </>
+        )}
+
         {mode === 'daily' && (
           <>
             <h2>Daily Word</h2>
@@ -249,11 +343,21 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
           </>
         )}
 
-        <div className="play-row">
-          <SketchButton big color="#ffd43b" onClick={start}>
-            {mode === 'daily' && daily ? 'See results' : 'Play!'}
-          </SketchButton>
-        </div>
+        {mode !== 'friends' && mode !== 'ranked' && (
+          <div className="play-row">
+            <SketchButton big color="#ffd43b" onClick={start}>
+              {mode === 'daily' && daily ? 'See results' : 'Play!'}
+            </SketchButton>
+          </div>
+        )}
+        {!user && (mode === 'score' || mode === 'daily' || mode === 'survival') && (
+          <p className="muted signin-nudge">
+            <button className="disagree" onClick={openSignIn}>
+              Sign in
+            </button>{' '}
+            to keep your points.
+          </p>
+        )}
       </SketchBox>
 
       <SketchBox className="panel how">
@@ -266,6 +370,33 @@ export function Home({ config, onPlay }: { config: GameConfig; onPlay: (c: GameC
         </ol>
       </SketchBox>
       <AdSlot placement="home" />
+    </div>
+  );
+}
+
+function Leaderboard() {
+  const [rows, setRows] = useState<{ username: string; rating: number; provisional: boolean; games: number }[] | null>(null);
+  useEffect(() => {
+    api
+      .leaderboard()
+      .then((r) => setRows(r.players))
+      .catch(() => setRows([]));
+  }, []);
+  if (!rows?.length) return null;
+  return (
+    <div className="leaderboard">
+      <h3>Top players</h3>
+      <ol>
+        {rows.slice(0, 10).map((r) => (
+          <li key={r.username}>
+            <span>{r.username}</span>
+            <b>
+              {r.rating}
+              {r.provisional ? '?' : ''}
+            </b>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
