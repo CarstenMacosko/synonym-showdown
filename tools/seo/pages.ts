@@ -92,7 +92,7 @@ ${opts.jsonld ? `<script type="application/ld+json">${JSON.stringify(opts.jsonld
 <header><a class="brand" href="/">Synonym <span class="hl">Showdown</span></a><a class="play" href="/">Play free</a></header>
 ${opts.body}
 <footer>
-<p><a href="/synonyms/">All synonym lists</a> · <a href="/">Play Synonym Showdown</a></p>
+<p><a href="/synonyms/">All synonym lists</a> · <a href="/">Play Synonym Showdown</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
 <p>Synonyms compiled from Open English WordNet (CC BY 4.0), Wiktionary (CC BY-SA 4.0), the Moby Thesaurus (public domain) and SCOWL word lists, graded by Synonym Showdown.</p>
 </footer>
 </main>
@@ -174,10 +174,51 @@ ${tiers
   });
 }
 
+const CONTACT = 'hello@synonymshowdown.com';
+const UPDATED = 'October 8, 2026';
+
+function privacyPage(): string {
+  const body = `
+<h1>Privacy <span class="hl">Policy</span></h1>
+<p class="lead">Last updated ${UPDATED}. Synonym Showdown is a free word game. We collect as little as we can.</p>
+<section><h2>Playing as a guest</h2>
+<p>You can play without an account. Your settings, personal bests, chosen face and daily results are saved only in your own browser (local storage). Online, other players in your room see the name and face you choose.</p></section>
+<section><h2>If you create an account</h2>
+<p>We store your <b>username</b>, a <b>securely hashed password</b> (never the password itself), your <b>avatar</b>, and your game results: rating, points, games played and match history. We don’t ask for your email, real name, age or location. Please don’t use your real name as your username.</p>
+<p>Signing in sets one cookie that keeps you logged in. We use no advertising or tracking cookies.</p></section>
+<section><h2>Fair play</h2>
+<p>To catch cheating, the game records how each word was entered during play: timing, whether it was typed or pasted, and whether you’re on a touch device. This is used only to spot play that isn’t humanly possible, and is never sold or shared. Words you report with “Disagree?” are stored to improve the word list.</p></section>
+<section><h2>Technical data</h2>
+<p>The site runs on Cloudflare, which processes requests (including IP addresses) to deliver the site and protect it from abuse. We store only a scrambled version of IP addresses, for rate limits, and delete those records within a day.</p></section>
+<section><h2>Children</h2>
+<p>The game is suitable for all ages and has no free-text chat (only emoji reactions). We don’t knowingly collect personal information from children; accounts need only a username and password.</p></section>
+<section><h2>Your choices</h2>
+<p>To delete your account and its data, or to ask anything about privacy, email <a href="mailto:${CONTACT}">${CONTACT}</a> from your account’s username.</p></section>`;
+  return page({ title: 'Privacy Policy | Synonym Showdown', description: 'How Synonym Showdown handles your data: guest play, accounts, cookies and fair-play checks.', path: '/privacy/', body });
+}
+
+function termsPage(): string {
+  const body = `
+<h1>Terms of <span class="hl">Use</span></h1>
+<p class="lead">Last updated ${UPDATED}. By playing Synonym Showdown you agree to these simple rules.</p>
+<section><h2>Play fair</h2>
+<p>No bots, scripts or pasting answers in from a thesaurus. Our fair-play system may tag accounts whose play looks automated; tagged accounts can keep playing but are hidden from leaderboards. Ratings and points may be corrected if they were earned unfairly.</p></section>
+<section><h2>Be kind</h2>
+<p>Usernames must not be offensive or impersonate others, including staff. We may rename or remove accounts that break this rule.</p></section>
+<section><h2>The word list</h2>
+<p>Synonym rulings come from our graded word list, built from open dictionary data. They won’t always match every dictionary; use “Disagree?” to tell us and we’ll review it.</p></section>
+<section><h2>The service</h2>
+<p>The game is provided free and “as is”. We may change features, reset ratings between seasons, or pause the service, and we’re not liable for lost progress.</p></section>
+<section><h2>Contact</h2><p><a href="mailto:${CONTACT}">${CONTACT}</a></p></section>`;
+  return page({ title: 'Terms of Use | Synonym Showdown', description: 'The rules for playing Synonym Showdown: play fair, be kind, and how word rulings work.', path: '/terms/', body });
+}
+
 function sitemap(): string {
   const urls = [
     { loc: `${SITE}/`, priority: '1.0', freq: 'weekly' },
     { loc: `${SITE}/synonyms/`, priority: '0.8', freq: 'monthly' },
+    { loc: `${SITE}/privacy/`, priority: '0.2', freq: 'yearly' },
+    { loc: `${SITE}/terms/`, priority: '0.2', freq: 'yearly' },
     ...STARTERS.map((s) => ({ loc: `${SITE}/synonyms/${s.word}/`, priority: '0.6', freq: 'monthly' })),
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -192,6 +233,10 @@ writeFileSync(join(DIST, 'synonyms', 'index.html'), indexPage());
 for (const s of STARTERS) {
   mkdirSync(join(DIST, 'synonyms', s.word), { recursive: true });
   writeFileSync(join(DIST, 'synonyms', s.word, 'index.html'), wordPage(s));
+}
+for (const [dir, html] of [['privacy', privacyPage()], ['terms', termsPage()]] as const) {
+  mkdirSync(join(DIST, dir), { recursive: true });
+  writeFileSync(join(DIST, dir, 'index.html'), html);
 }
 writeFileSync(join(DIST, 'sitemap.xml'), sitemap());
 console.log(`SEO: wrote ${STARTERS.length} synonym pages, an index and sitemap.xml`);

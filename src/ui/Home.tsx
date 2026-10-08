@@ -6,6 +6,7 @@ import { ROOM_CODE_RE } from '../game/protocol';
 import { api } from '../net/api';
 import { AccountBar, useAccount } from './account';
 import { useMusic } from './music';
+import { PORTAL } from './portal';
 import { botAvatar, useMyAvatar } from './myAvatar';
 import { TIME_CONTROLS, type AfterElimination, type BotLevel, type TimeControl } from '../game/engine';
 import type { Forgiveness } from '../game/match';
@@ -69,7 +70,8 @@ export function Home({
   useMusic('home');
   const [joinCode, setJoinCode] = useState('');
   const set = (patch: Partial<GameConfig['settings']>) => setC({ ...c, settings: { ...c.settings, ...patch } });
-  const mode = c.mode;
+  // Ranked needs an account, which portal mode hides.
+  const mode = PORTAL && c.mode === 'ranked' ? 'friends' : c.mode;
   const multiplayer = mode === 'bots' || mode === 'pass';
   const daily = getDaily(todayKey());
 
@@ -99,7 +101,7 @@ export function Home({
 
   return (
     <div className="page home">
-      <AccountBar onAdmin={onAdmin} onProfile={onProfile} />
+      {!PORTAL && <AccountBar onAdmin={onAdmin} onProfile={onProfile} />}
       <header className="title-block">
         <motion.div className="title-faces" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: 'spring', bounce: 0.6 }}>
           <Avatar id="Lexi" config={botAvatar('Lexi')} mood="worried" size={54} />
@@ -116,7 +118,7 @@ export function Home({
       </header>
 
       <section className="modes" role="radiogroup" aria-label="Game mode">
-        {MODES.map((m, i) => {
+        {MODES.filter((m) => !(PORTAL && m.id === 'ranked')).map((m, i) => {
           const ready = true;
           const active = m.id === mode;
           return (
@@ -361,7 +363,7 @@ export function Home({
             </SketchButton>
           </div>
         )}
-        {!user && (mode === 'score' || mode === 'daily' || mode === 'survival') && (
+        {!user && !PORTAL && (mode === 'score' || mode === 'daily' || mode === 'survival') && (
           <p className="muted signin-nudge">
             <button className="disagree" onClick={openSignIn}>
               Sign in
@@ -381,6 +383,11 @@ export function Home({
         </ol>
       </SketchBox>
       <AdSlot placement="home" />
+      {!PORTAL && (
+        <footer className="site-footer">
+          <a href="/synonyms/">Synonym lists</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a>
+        </footer>
+      )}
     </div>
   );
 }
