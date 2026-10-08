@@ -1,8 +1,8 @@
 // How computer opponents decide what to do on their turn.
 
-import { canChallenge, checkWord, lastPlay, timeLeft, type BotLevel, type GameState, type Player, type Rng } from './engine';
-import { findSynonym, key } from './match';
-import { STARTERS, synonymWords } from './words';
+import { canChallenge, checkWord, lastPlay, timeLeft, type BotLevel, type GameState, type Player, type Rng } from './engine.ts';
+import { findSynonym, key } from './match.ts';
+import { STARTERS, synonymWords } from './words.ts';
 
 interface Profile {
   /** Share of each synonym list the bot "knows". */

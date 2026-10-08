@@ -3,9 +3,9 @@
 //  - daily:    same as score, but everyone in the world gets the same word each day.
 //  - survival: a new word after every correct answer, with less time each round; one miss ends it.
 
-import type { Rng } from './engine';
-import { findSynonym, isSameWord, type Forgiveness } from './match';
-import { STARTERS, startersForTier, type StarterWord, type Tier } from './words';
+import type { Rng } from './engine.ts';
+import { findSynonym, isSameWord, type Forgiveness } from './match.ts';
+import { STARTERS, startersForTier, type StarterWord, type Tier } from './words.ts';
 
 export type SoloMode = 'score' | 'daily' | 'survival';
 

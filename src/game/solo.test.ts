@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { createSolo, dailyStarter, findSoloRepeat, guessSolo, survivalMs, tickSolo, type SoloState } from './solo';
-import { STARTERS } from './words';
+import { createSolo, dailyStarter, findSoloRepeat, guessSolo, survivalMs, tickSolo, type SoloState } from './solo.ts';
+import { STARTERS } from './words.ts';
 
 const rng = () => 0;
 const happy = STARTERS.find((s) => s.word === 'happy')!;

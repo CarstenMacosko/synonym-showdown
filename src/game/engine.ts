@@ -2,8 +2,8 @@
 // No timers, DOM or randomness of its own; the caller passes `now` and `rng`,
 // so the same code can referee a solo game in the browser or an online game on a server.
 
-import { findSynonym, isSameWord, type Forgiveness } from './match';
-import { startersForTier, type StarterWord, type Tier } from './words';
+import { findSynonym, isSameWord, type Forgiveness } from './match.ts';
+import { startersForTier, type StarterWord, type Tier } from './words.ts';
 
 export type TimeControl = 'blitz' | 'rapid' | 'clock';
 export type AfterElimination = 'newWord' | 'sameWord';

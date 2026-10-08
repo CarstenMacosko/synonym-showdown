@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { findSynonym, isSameWord, soundKey, stem } from './match';
-import { STARTERS, synonymWords } from './words';
+import { findSynonym, isSameWord, soundKey, stem } from './match.ts';
+import { STARTERS, synonymWords } from './words.ts';
 
 const happy = STARTERS.find((s) => s.word === 'happy')!;
 const fast = STARTERS.find((s) => s.word === 'fast')!;

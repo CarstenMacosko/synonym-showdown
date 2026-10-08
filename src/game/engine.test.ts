@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { canChallenge, challenge, findRepeat, continueGame, createGame, submitWord, timeLeft, timeout, type GameState, type Settings } from './engine';
-import { decideBotMove } from './bot';
-import { STARTERS } from './words';
+import { canChallenge, challenge, findRepeat, continueGame, createGame, submitWord, timeLeft, timeout, type GameState, type Settings } from './engine.ts';
+import { decideBotMove } from './bot.ts';
+import { STARTERS } from './words.ts';
 
 const settings: Settings = { tier: 'easy', timeControl: 'blitz', forgiveness: 'strict', afterElimination: 'newWord' };
 const setups = ['a', 'b', 'c'].map((id) => ({ id, name: id.toUpperCase(), isBot: false, color: '#000' }));

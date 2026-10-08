@@ -1,6 +1,6 @@
 // Word matching: word forms ("joyful" == "joyfully") and spelling forgiveness.
 
-import { primary, type StarterWord } from './words';
+import { primary, type StarterWord } from './words.ts';
 
 /** How forgiving the game is about spelling. Ranked always uses 'strict'. */
 export type Forgiveness = 'strict' | 'typos' | 'soundalike';
