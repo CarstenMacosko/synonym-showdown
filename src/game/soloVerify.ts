@@ -9,8 +9,8 @@ import { STARTERS, type Range, type StarterWord, type Tier } from './words.ts';
 
 export interface SoloRound {
   starter: string;
-  /** Words typed during this round, with ms since the run started. */
-  guesses: { word: string; t: number }[];
+  /** Words typed during this round, with ms since the run started (and how each was entered, for cheat detection). */
+  guesses: { word: string; t: number; typedMs?: number | null; pasted?: boolean; touch?: boolean }[];
 }
 
 export interface SoloSubmission {
@@ -70,6 +70,11 @@ export function verifySoloRun(sub: SoloSubmission, allowedDays: string[]): Verif
     const guesses = sub.rounds[r].guesses;
     for (let i = 0; i < guesses.length; i++) {
       const { word, t } = guesses[i];
+      const typing = {
+        typedMs: typeof guesses[i].typedMs === 'number' && guesses[i].typedMs! >= 0 ? guesses[i].typedMs : null,
+        pasted: guesses[i].pasted === true,
+        touch: guesses[i].touch === true,
+      };
       if (typeof word !== 'string' || word.length > 40 || typeof t !== 'number' || !(t >= lastT)) return fail('bad guess');
       state = tickSolo(state, t);
       if (state.over) return fail('guess after time ran out');
@@ -79,7 +84,7 @@ export function verifySoloRun(sub: SoloSubmission, allowedDays: string[]): Verif
         state = out.state;
         continue; // the client blocks these; harmless either way
       }
-      wordStats.push({ valid: out.result === 'ok', rarity: out.result === 'ok' ? out.entry!.rarity : null, ms: t - lastT });
+      wordStats.push({ valid: out.result === 'ok', rarity: out.result === 'ok' ? out.entry!.rarity : null, ms: t - lastT, word, ...typing });
       lastT = t;
       state = out.state;
       if (out.result === 'ok') words++;

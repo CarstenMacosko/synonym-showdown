@@ -23,7 +23,7 @@ export type ClientMessage =
   | { t: 'hello'; name: string; key?: string }
   | { t: 'settings'; settings: Settings }
   | { t: 'start' }
-  | { t: 'say'; word: string }
+  | { t: 'say'; word: string; typedMs?: number | null; pasted?: boolean; touch?: boolean }
   | { t: 'challenge' }
   | { t: 'emote'; emote: Emote }
   | { t: 'again' }

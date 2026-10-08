@@ -18,6 +18,7 @@ import type { SoloRound } from '../game/soloVerify';
 import { STARTERS, type Range, type Tier } from '../game/words';
 import { api } from '../net/api';
 import { useAccount } from './account';
+import { useTypingMeter } from './typing';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
 import { MeaningMap } from './MeaningMap';
@@ -94,6 +95,7 @@ function SoloRun({
   // Everything typed, with timing, so the server can replay the run before counting the points.
   const startAt = useRef(state.deadline - state.roundMs);
   const rounds = useRef<SoloRound[]>([{ starter: state.starter.word, guesses: [] }]);
+  const meter = useTypingMeter();
   const stateRef = useRef(state);
   stateRef.current = state;
   const inputRef = useRef<HTMLInputElement>(null);
@@ -151,7 +153,8 @@ function SoloRun({
     const t0 = Date.now();
     const r = guessSolo(state, input, t0, Math.random);
     const id = t0;
-    if (input.trim()) rounds.current.at(-1)!.guesses.push({ word: input.trim(), t: t0 - startAt.current });
+    const typing = meter.take();
+    if (input.trim()) rounds.current.at(-1)!.guesses.push({ word: input.trim(), t: t0 - startAt.current, ...typing });
     if (mode === 'survival' && r.result === 'ok') rounds.current.push({ starter: r.state.starter.word, guesses: [] });
     if (r.result === 'ok' && r.entry) {
       sfx.pop();
@@ -226,7 +229,12 @@ function SoloRun({
           <input
             ref={inputRef}
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={(e) => {
+              setInput(e.target.value);
+              meter.onInput(e.target.value);
+            }}
+            onPaste={meter.onPaste}
+            onDrop={meter.onPaste}
             placeholder="Type a synonym…"
             autoComplete="off"
             autoCorrect="off"

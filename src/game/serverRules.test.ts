@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { isProvisional, rateGame, START_RATING } from './rating.ts';
 import { dailyStarter, survivalTier } from './solo.ts';
 import { verifySoloRun } from './soloVerify.ts';
-import { assessPlay, type WordStat } from './suspicion.ts';
+import { assessPlay, shouldTag, updateBaseline, type Baseline, type WordStat } from './suspicion.ts';
 import { STARTERS } from './words.ts';
 
 describe('ratings', () => {
@@ -30,14 +30,79 @@ describe('ratings', () => {
 });
 
 describe('cheat detection', () => {
-  const words = (n: number, ms: number, rarity: 1 | 3 = 1): WordStat[] => Array.from({ length: n }, () => ({ valid: true, rarity, ms }));
-  it('leaves a strong normal player alone', () => {
-    expect(assessPlay(words(18, 3000), true).suspicious).toBe(false);
-  });
-  it('tags superhuman volume, speed, and rarity', () => {
-    expect(assessPlay(words(35, 1700), true).reasons.join()).toMatch(/correct words in one minute/);
-    expect(assessPlay(words(12, 600)).reasons.join()).toMatch(/answers typically took/);
-    expect(assessPlay(words(12, 4000, 3)).reasons.join()).toMatch(/rare/);
+  // Deterministic random numbers so the simulation gives the same result every run.
+  let seed = 42;
+  const rand = () => ((seed = (seed * 1664525 + 1013904223) % 2 ** 32) / 2 ** 32);
+  const normal = () => Math.sqrt(-2 * Math.log(rand() + 1e-9)) * Math.cos(2 * Math.PI * rand());
+  const WORDS = ['joyful', 'cheerful', 'merry', 'delighted', 'content', 'ecstatic', 'blissful', 'jubilant', 'glad', 'elated'];
+
+  interface Player {
+    medianMs: number;
+    spreadSigma: number; // log-normal spread of answer times
+    cps: number; // typing speed in letters per second
+    accuracy: number;
+    rare: number;
+    touch?: boolean;
+    paste?: boolean;
+    exactMs?: number; // scripted: fixed timing
+  }
+  function session(p: Player, n: number): WordStat[] {
+    return Array.from({ length: n }, () => {
+      const word = WORDS[Math.floor(rand() * WORDS.length)];
+      const ms = p.exactMs ? p.exactMs * (1 + normal() * 0.02) : p.medianMs * Math.exp(normal() * p.spreadSigma);
+      const valid = rand() < p.accuracy;
+      return {
+        valid,
+        rarity: valid ? (rand() < p.rare ? 3 : 1) : null,
+        ms,
+        word,
+        typedMs: p.paste ? 4 : p.touch ? 30 : (word.length / Math.max(1, p.cps * (1 + normal() * 0.25))) * 1000,
+        pasted: !!p.paste,
+        touch: !!p.touch,
+      } satisfies WordStat;
+    });
+  }
+  /** Play `games` sessions and report whether the account ended up tagged, and after how many. */
+  function career(p: Player, games: number, perMinute: boolean, n: () => number) {
+    let b: Baseline = { sessions: 0, average: 0 };
+    for (let g = 1; g <= games; g++) {
+      const a = assessPlay(session(p, n()), perMinute);
+      b = updateBaseline(b, a);
+      if (shouldTag(a, b)) return g;
+    }
+    return 0;
+  }
+
+  const humans: [string, Player][] = [
+    ['casual player', { medianMs: 5000, spreadSigma: 0.6, cps: 4, accuracy: 0.75, rare: 0.1 }],
+    ['strong player', { medianMs: 2600, spreadSigma: 0.45, cps: 8, accuracy: 0.92, rare: 0.25 }],
+    ['very fast typist', { medianMs: 2000, spreadSigma: 0.4, cps: 12, accuracy: 0.9, rare: 0.3 }],
+    ['phone player with swipe keyboard', { medianMs: 3000, spreadSigma: 0.5, cps: 6, accuracy: 0.85, rare: 0.15, touch: true }],
+  ];
+  for (const [name, p] of humans) {
+    it(`never tags a ${name} (200 careers of 30 games)`, () => {
+      let tagged = 0;
+      for (let i = 0; i < 200; i++) if (career(p, 30, i % 2 === 0, () => 8 + Math.floor(rand() * 14))) tagged++;
+      expect(tagged).toBe(0);
+    });
+  }
+
+  const cheaters: [string, Player][] = [
+    ['paster', { medianMs: 2500, spreadSigma: 0.4, cps: 6, accuracy: 1, rare: 0.4, paste: true }],
+    ['script', { medianMs: 0, spreadSigma: 0, cps: 50, accuracy: 1, rare: 0.5, exactMs: 900 }],
+    ['steady list-copier', { medianMs: 0, spreadSigma: 0, cps: 30, accuracy: 1, rare: 0.35, exactMs: 2400 }],
+  ];
+  for (const [name, p] of cheaters) {
+    it(`catches a ${name} within 2 sessions`, () => {
+      const when = career(p, 5, true, () => 24);
+      expect(when).toBeGreaterThan(0);
+      expect(when).toBeLessThanOrEqual(2);
+    });
+  }
+
+  it('explains its reasons', () => {
+    const a = assessPlay(session(cheaters[0][1], 20), true);
+    expect(a.reasons.join(' ')).toMatch(/pasted/);
   });
 });
 

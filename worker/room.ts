@@ -33,7 +33,7 @@ import {
 } from '../src/game/protocol.ts';
 import { assessPlay, type WordStat } from '../src/game/suspicion.ts';
 import { RANGE_MAX } from '../src/game/words.ts';
-import { flagUser, recordMatch } from './records.ts';
+import { recordAssessment, recordMatch } from './records.ts';
 
 const COLORS = ['#4dabf7', '#ff8787', '#69db7c', '#ffd43b', '#da77f2', '#ffa94d'];
 const RESULT_MS = 4200;
@@ -102,6 +102,12 @@ const ERRORS: Record<SubmitError, string> = {
 function cleanName(raw: unknown): string {
   const name = typeof raw === 'string' ? raw.replace(/[^\p{L}\p{N} _'-]/gu, '').trim().slice(0, 16) : '';
   return name || 'Guest';
+}
+
+/** How the browser says the word was entered (used only by the cheat detector; never trusted for scoring). */
+export function typingInfo(m: { typedMs?: unknown; pasted?: unknown; touch?: unknown }): Pick<WordStat, 'typedMs' | 'pasted' | 'touch'> {
+  const typedMs = typeof m.typedMs === 'number' && m.typedMs >= 0 && m.typedMs < 600_000 ? m.typedMs : null;
+  return { typedMs, pasted: m.pasted === true, touch: m.touch === true };
 }
 
 function validSettings(s: unknown): Settings | null {
@@ -204,7 +210,7 @@ export class GameRoom extends DurableObject<Env> {
         else if (room.stage === 'lobby' && seat.id === room.hostId) this.send(ws, { t: 'error', message: 'Waiting for your opponent.' });
         return;
       case 'say':
-        return this.say(ws, seat, typeof msg.word === 'string' ? msg.word.slice(0, 40) : '');
+        return this.say(ws, seat, typeof msg.word === 'string' ? msg.word.slice(0, 40) : '', typingInfo(msg));
       case 'challenge': {
         const game = room.game;
         if (room.stage !== 'playing' || !game || game.currentId !== seat.id || !canChallenge(game)) return;
@@ -282,7 +288,7 @@ export class GameRoom extends DurableObject<Env> {
     await this.commit();
   }
 
-  private async say(ws: WebSocket, seat: Seat, word: string) {
+  private async say(ws: WebSocket, seat: Seat, word: string, typing: Pick<WordStat, 'typedMs' | 'pasted' | 'touch'>) {
     const room = this.room!;
     const game = room.game;
     if (room.stage !== 'playing' || !game) return;
@@ -293,7 +299,7 @@ export class GameRoom extends DurableObject<Env> {
     // How this word would rule, for the cheat detector (never shown to anyone).
     const entry = findEntry(word, game.starter, game.settings.forgiveness);
     const valid = !!entry && entry.closeness <= RANGE_MAX[game.settings.range];
-    (room.stats[seat.id] ??= []).push({ valid, rarity: valid ? entry!.rarity : null, ms: now - game.turnStartedAt });
+    (room.stats[seat.id] ??= []).push({ valid, rarity: valid ? entry!.rarity : null, ms: now - game.turnStartedAt, word, ...typing });
     room.game = r.state;
     await this.commit();
   }
@@ -364,8 +370,7 @@ export class GameRoom extends DurableObject<Env> {
       for (const seat of room.seats) {
         const stats = room.stats[seat.id];
         if (seat.userId === null || !stats?.length) continue;
-        const verdict = assessPlay(stats);
-        if (verdict.suspicious) await flagUser(this.env.DB, seat.userId, 'match', verdict);
+        await recordAssessment(this.env.DB, seat.userId, 'match', assessPlay(stats));
       }
     } catch (e) {
       console.error('could not record match', e);
@@ -414,7 +419,17 @@ export class GameRoom extends DurableObject<Env> {
     await this.scheduleAlarm();
     for (const ws of this.ctx.getWebSockets()) {
       const att = ws.deserializeAttachment() as Attachment;
-      if (att.seat) this.send(ws, { t: 'room', room: this.view(att.seat) });
+      if (!att.seat) continue;
+      // A connection whose seat was removed (e.g. it dropped out of the lobby before the game started)
+      // has nothing to show: detach it rather than letting one stale socket stop everyone's updates.
+      if (!room.seats.some((s) => s.id === att.seat)) {
+        att.seat = null;
+        ws.serializeAttachment(att);
+        this.send(ws, { t: 'error', message: 'You left this room.' });
+        ws.close(4002, 'Seat removed');
+        continue;
+      }
+      this.send(ws, { t: 'room', room: this.view(att.seat) });
     }
   }
 

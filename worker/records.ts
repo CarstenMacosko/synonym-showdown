@@ -4,19 +4,33 @@ import type { User } from './auth.ts';
 import { dailyWindow, error, ipHash, json, rateLimited, readJson, recordEvent } from './http.ts';
 import { inflate, rateGame, type Rating } from '../src/game/rating.ts';
 import { verifySoloRun, type SoloSubmission } from '../src/game/soloVerify.ts';
-import { assessPlay, type Assessment } from '../src/game/suspicion.ts';
+import { assessPlay, shouldTag, updateBaseline, WORTH_LOGGING, type Assessment } from '../src/game/suspicion.ts';
 import { STARTERS } from '../src/game/words.ts';
 
 const STARTER_SET = new Set(STARTERS.map((s) => s.word));
 
-/** Tag a player for review. They keep playing; the tag is only for us to look at. */
-export async function flagUser(db: D1Database, userId: number, source: 'solo' | 'match', a: Assessment): Promise<void> {
-  await db.batch([
+/**
+ * Feed one session's assessment into the account's running record. Notable sessions are logged for the
+ * admin page; the visible "under review" tag is only added on strong or repeated evidence (see suspicion.ts).
+ */
+export async function recordAssessment(db: D1Database, userId: number, source: 'solo' | 'match', a: Assessment): Promise<void> {
+  const row = await db.prepare('SELECT cheat_score, cheat_sessions FROM users WHERE id = ?').bind(userId).first<{ cheat_score: number; cheat_sessions: number }>();
+  if (!row) return;
+  const after = updateBaseline({ sessions: row.cheat_sessions, average: row.cheat_score }, a);
+  const tag = shouldTag(a, after);
+  const stmts = [
     db
-      .prepare('INSERT INTO flags (user_id, source, reasons, details, created_at) VALUES (?, ?, ?, ?, ?)')
-      .bind(userId, source, JSON.stringify(a.reasons), JSON.stringify(a.stats), Date.now()),
-    db.prepare('UPDATE users SET suspicious = suspicious + 1 WHERE id = ?').bind(userId),
-  ]);
+      .prepare('UPDATE users SET cheat_score = ?, cheat_sessions = ?, suspicious = suspicious + ? WHERE id = ?')
+      .bind(after.average, after.sessions, tag ? 1 : 0, userId),
+  ];
+  if (tag || a.score >= WORTH_LOGGING) {
+    stmts.push(
+      db
+        .prepare('INSERT INTO flags (user_id, source, reasons, details, created_at, score, tagged) VALUES (?, ?, ?, ?, ?, ?, ?)')
+        .bind(userId, source, JSON.stringify(a.reasons), JSON.stringify(a.stats), Date.now(), a.score, tag ? 1 : 0),
+    );
+  }
+  await db.batch(stmts);
 }
 
 /** POST /api/solo: a signed-in player's finished Score Attack / Daily / Survival run. */
@@ -35,8 +49,7 @@ export async function saveSoloRun(db: D1Database, req: Request, user: User): Pro
   if (!inserted.meta.changes) return json({ counted: false, reason: 'You already played today’s word.' });
   await db.prepare('UPDATE users SET points = points + ? WHERE id = ?').bind(run.score, user.id).run();
 
-  const verdict = assessPlay(run.wordStats, sub.mode !== 'survival');
-  if (verdict.suspicious) await flagUser(db, user.id, 'solo', verdict);
+  await recordAssessment(db, user.id, 'solo', assessPlay(run.wordStats, sub.mode !== 'survival'));
   return json({ counted: true, score: run.score, points: user.points + run.score });
 }
 

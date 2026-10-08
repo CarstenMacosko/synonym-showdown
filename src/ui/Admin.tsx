@@ -47,7 +47,7 @@ export function AdminPage({ onExit }: { onExit: () => void }) {
         onChange={setTab}
         options={[
           { value: 'reports', label: `Word reports${reports ? ` (${reports.length})` : ''}` },
-          { value: 'flags', label: `Flagged players${flags ? ` (${players.size})` : ''}` },
+          { value: 'flags', label: `Cheat watch${flags ? ` (${players.size})` : ''}` },
           { value: 'accounts', label: `Accounts${accounts ? ` (${accounts.total})` : ''}` },
         ]}
       />
@@ -107,29 +107,38 @@ export function AdminPage({ onExit }: { onExit: () => void }) {
 
       {tab === 'flags' && (
         <SketchBox className="panel">
-          <h2>Flagged players</h2>
+          <h2>Cheat watch</h2>
           <p className="muted hint">
-            The cheat detector tags play that looks beyond human. Tagged players keep playing, show an “under review” tag, and are hidden from the
-            leaderboard. Clear the tag if it was a false alarm.
+            Every game gets a suspicion score (0–100) from timing, typing speed, pasting, rare words and volume. <b>Tagged</b> players had a
+            blatant session or repeated suspicion: they show “under review” and are hidden from the leaderboard. <b>Watching</b> players had
+            odd sessions but not enough evidence yet. Clear a tag if it was a false alarm.
           </p>
-          {players.size === 0 && <p>Nobody is flagged.</p>}
+          {players.size === 0 && <p>Nothing suspicious so far.</p>}
           {[...players.entries()].map(([username, list]) => (
             <div key={username} className="admin-row">
               <div>
-                <b>{username}</b> <small className="muted">· {Math.round(list[0].rating)} · {list[0].suspicious} tag(s)</small>
-                {list.slice(0, 3).map((f) => (
+                <b>{username}</b>{' '}
+                {list[0].suspicious > 0 ? <span className="flag-tag">tagged</span> : <small className="muted">watching</small>}
+                <small className="muted">
+                  {' '}
+                  · average score {Math.round(list[0].cheat_score)} over {list[0].cheat_sessions} session(s) · rating {Math.round(list[0].rating)}
+                </small>
+                {list.slice(0, 4).map((f) => (
                   <div key={f.created_at}>
                     <small className="muted">
-                      {new Date(f.created_at).toLocaleString()} ({f.source}): {(JSON.parse(f.reasons) as string[]).join('; ')}
+                      {new Date(f.created_at).toLocaleString()} ({f.source}, score {f.score ?? '?'}
+                      {f.tagged ? ', tagged' : ''}): {(JSON.parse(f.reasons) as string[]).join('; ')}
                     </small>
                   </div>
                 ))}
               </div>
-              <div className="admin-actions">
-                <button className="disagree" onClick={() => api.clearFlag(username).then(load, (e: Error) => setError(e.message))}>
-                  Clear tag
-                </button>
-              </div>
+              {list[0].suspicious > 0 && (
+                <div className="admin-actions">
+                  <button className="disagree" onClick={() => api.clearFlag(username).then(load, (e: Error) => setError(e.message))}>
+                    Clear tag
+                  </button>
+                </div>
+              )}
             </div>
           ))}
         </SketchBox>

@@ -35,9 +35,10 @@ export async function adminApi(db: D1Database, req: Request, path: string, user:
   if (path === '/api/admin/flags' && req.method === 'GET') {
     const { results } = await db
       .prepare(
-        `SELECT u.username, u.suspicious, u.rating, u.ranked_games, f.source, f.reasons, f.details, f.created_at
+        `SELECT u.username, u.suspicious, u.rating, u.ranked_games, u.cheat_score, u.cheat_sessions,
+                f.source, f.reasons, f.details, f.created_at, f.score, f.tagged
          FROM users u JOIN flags f ON f.user_id = u.id
-         WHERE u.suspicious > 0 ORDER BY f.created_at DESC LIMIT 200`,
+         WHERE u.suspicious > 0 OR u.cheat_score >= 30 ORDER BY f.created_at DESC LIMIT 300`,
       )
       .all();
     return json({ flags: results });
@@ -46,7 +47,7 @@ export async function adminApi(db: D1Database, req: Request, path: string, user:
     const b = await readJson<{ username?: string }>(req, 1_000);
     if (!b?.username) return error('Bad request.');
     // The tag history stays in the flags table; clearing just removes the visible tag.
-    await db.prepare('UPDATE users SET suspicious = 0 WHERE username = ?').bind(b.username).run();
+    await db.prepare('UPDATE users SET suspicious = 0, cheat_score = 0, cheat_sessions = 0 WHERE username = ?').bind(b.username).run();
     return json({ ok: true });
   }
   return error('Not found', 404);

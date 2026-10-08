@@ -43,6 +43,10 @@ export interface AdminFlag {
   source: string;
   reasons: string;
   created_at: number;
+  cheat_score: number;
+  cheat_sessions: number;
+  score: number | null;
+  tagged: number;
 }
 
 async function call<T>(path: string, init?: { method?: string; body?: unknown }): Promise<T> {

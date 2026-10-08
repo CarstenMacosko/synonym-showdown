@@ -15,6 +15,7 @@ import { MeaningMap } from './MeaningMap';
 import { reportRuling } from './reports';
 import { Choice, JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
+import { useTypingMeter } from './typing';
 
 const TIER_LABEL: Record<Tier, string> = { easy: 'Easy', medium: 'Medium', hard: 'Hard' };
 const RANGE_LABEL: Record<Range, string> = { close: 'Close only', standard: 'Standard', loose: 'Loose' };
@@ -313,6 +314,7 @@ function Board({
   const inputRef = useRef<HTMLInputElement>(null);
   const chainRef = useRef<HTMLDivElement>(null);
   const [formScope, animateForm] = useAnimate<HTMLFormElement>();
+  const meter = useTypingMeter();
 
   // Clock display (the server enforces the real deadline).
   useEffect(() => {
@@ -386,7 +388,7 @@ function Board({
     e.preventDefault();
     if (!myTurn || !input.trim()) return;
     setPending(input);
-    send({ t: 'say', word: input.trim() });
+    send({ t: 'say', word: input.trim(), ...meter.take() });
     inputRef.current?.focus();
   }
 
@@ -492,7 +494,12 @@ function Board({
                 <input
                   ref={inputRef}
                   value={input}
-                  onChange={(e) => setInput(e.target.value)}
+                  onChange={(e) => {
+                    setInput(e.target.value);
+                    meter.onInput(e.target.value);
+                  }}
+                  onPaste={meter.onPaste}
+                  onDrop={meter.onPaste}
                   placeholder="Type a synonym…"
                   maxLength={40}
                   autoComplete="off"
