@@ -1,0 +1,18 @@
+{
+  // Type-checking for the Cloudflare Worker (game server). Wrangler bundles it for deployment.
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "types": []
+  },
+  "include": ["**/*.ts", "../src/game/**/*.ts"],
+  "exclude": ["../src/game/**/*.test.ts"]
+}

@@ -3,7 +3,7 @@
 // so the same code can referee a solo game in the browser or an online game on a server.
 
 import { findEntry, isSameWord, type Forgiveness } from './match.ts';
-import { RANGE_MAX, startersForTier, type Range, type StarterWord, type Synonym, type Tier } from './words.ts';
+import { RANGE_MAX, startersForTier, type Range, type Sense, type StarterWord, type Synonym, type Tier } from './words.ts';
 
 export type TimeControl = 'blitz' | 'rapid' | 'clock';
 export type AfterElimination = 'newWord' | 'sameWord';
@@ -57,6 +57,8 @@ export type GameEvent =
       valid: boolean;
       /** The synonym the word matched at any closeness (shown in the reveal), even if out of range. */
       entry: Synonym | null;
+      /** The meaning that synonym belongs to (included so online clients never need the full word list). */
+      sense: Sense | null;
       eliminatedId: string;
     }
   | { kind: 'timeout'; playerId: string; eliminatedId: string };
@@ -237,6 +239,7 @@ export function challenge(state: GameState, playerId: string, now: number): Game
     word: prev.word,
     valid,
     entry,
+    sense: entry ? (state.starter.senses[entry.sense] ?? null) : null,
     eliminatedId,
   });
 }

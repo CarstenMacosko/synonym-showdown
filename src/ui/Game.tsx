@@ -475,7 +475,7 @@ function Ruling({ state, ev }: { state: GameState; ev: Extract<GameEvent, { kind
   const starter = state.starter.word;
   const entry = ev.entry;
   if (ev.valid && entry) {
-    const sense = state.starter.senses[entry.sense];
+    const sense = ev.sense;
     return (
       <div className="ruling">
         <p>

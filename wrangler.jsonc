@@ -1,0 +1,37 @@
+// Cloudflare deployment config. `npx wrangler deploy` (run automatically on every push to GitHub) uses this.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "synonym-showdown",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-06",
+  // The built website. Requests to /api/* go to the Worker code first; everything else is a static file.
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "synonymshowdown.com", "custom_domain": true },
+    { "pattern": "www.synonymshowdown.com", "custom_domain": true }
+  ],
+  // Accounts, ratings, reports, match history.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "synonym-showdown",
+      "database_id": "73dc530c-1e88-494c-b538-a4e4321aea1f",
+      "migrations_dir": "worker/migrations"
+    }
+  ],
+  // One GameRoom per room code (runs the game rules and timers); one Matchmaker for ranked.
+  "durable_objects": {
+    "bindings": [
+      { "name": "ROOMS", "class_name": "GameRoom" },
+      { "name": "MATCHMAKER", "class_name": "Matchmaker" }
+    ]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GameRoom", "Matchmaker"] }],
+  "observability": { "enabled": true }
+}

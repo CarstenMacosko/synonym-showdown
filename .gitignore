@@ -7,3 +7,4 @@ tools/wordbank/sources/
 tools/wordbank/candidates/
 tools/wordbank/.env
 *.tsbuildinfo
+.wrangler/

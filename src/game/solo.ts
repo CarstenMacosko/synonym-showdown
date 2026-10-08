@@ -48,7 +48,7 @@ export function survivalMs(round: number): number {
 }
 
 /** Survival ramps difficulty: easy words first, then medium, then hard. */
-function survivalTier(round: number): Tier {
+export function survivalTier(round: number): Tier {
   return round <= 5 ? 'easy' : round <= 12 ? 'medium' : 'hard';
 }
 
