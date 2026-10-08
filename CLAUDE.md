@@ -30,7 +30,16 @@ See README.md for modes, file layout, and roadmap.
   per room code and one `Matchmaker`). The server runs `src/game/engine.ts` as referee; clients never receive
   the synonym list during play. Accounts = username + password (PBKDF2, HttpOnly session cookie). Ranked = 1v1
   Glicko (`src/game/rating.ts`, start 1000 / RD 350). Solo runs are replayed server-side (`soloVerify.ts`) before
-  points count. Cheat detector (`suspicion.ts`) tags users (`users.suspicious`, `flags` table), never bans.
+  points count. Cheat detector (`suspicion.ts`): per-session score 0–100 from volume, speed, timing regularity,
+  typing speed (desktop only), pastes and rare words, plus a per-user running average (`users.cheat_score`);
+  tags (`users.suspicious`) only on blatant or repeated evidence, never bans. Its simulation tests must keep
+  passing (no simulated human tagged). Tagged players show "under review" and are hidden from the leaderboard.
+- Avatars: `src/game/avatar.ts` (options + server-side sanitizing), drawn by `src/ui/Avatar.tsx`; stored in
+  `users.avatar`, guests in localStorage. Profile page `src/ui/Profile.tsx`. Dev-only gallery at `/?gallery`.
+- Music: synthesized in `src/ui/music.ts` from note data in `src/ui/musicTracks.ts`; one track per lobby
+  (home, room, ranked, studio), silent during games.
+- Admin: owner account `CarstenMAdmin` (is_admin). Admin page has reports, cheat watch, accounts.
+  `npm run accounts | reports | flags | make-admin -- <name>`. Growth plan: `docs/growth-ideas.md`.
   "Disagree?" reports land in the D1 `reports` table.
 - Deploying: pushing to `main` deploys via Cloudflare's GitHub build. Database schema changes need a new file in
   `worker/migrations/` applied with `npx wrangler d1 migrations apply synonym-showdown --remote`
@@ -51,7 +60,8 @@ See README.md for modes, file layout, and roadmap.
 ## Status
 Done: Vs. Bots, Pass & Play, Score Attack, Daily Word, Survival; 300 generated starter words with meanings,
 closeness, rarity bonus points, meaning reveal, end-screen meaning map, Disagree reports, accounts, online
-rooms with codes/invite links, ranked matchmaking + leaderboard, server-verified solo points, cheat tagging.
+rooms with codes/invite links, ranked matchmaking + leaderboard, server-verified solo points, smart cheat
+detection, admin page, customizable avatars + profiles, ambient music.
 Next: owner play-testing feedback → online multiplayer (Supabase) → deploy → iOS.
 
 ## Working with the owner
