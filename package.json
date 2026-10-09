@@ -17,7 +17,8 @@
     "reports": "node tools/admin/review.ts reports",
     "flags": "node tools/admin/review.ts flags",
     "make-admin": "node tools/admin/make-admin.ts",
-    "accounts": "node tools/admin/review.ts accounts"
+    "accounts": "node tools/admin/review.ts accounts",
+    "indexnow": "node tools/seo/indexnow.ts"
   },
   "dependencies": {
     "@capacitor/core": "^8.5.2",
