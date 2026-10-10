@@ -127,6 +127,7 @@ ${senses
 <p>Synonym Showdown is a free word game: take turns naming synonyms, and call out anyone who’s bluffing. Play friends with a room code, go ranked, or race the clock in Score Attack.</p>
 <a class="play" href="/">Play now</a>
 </section>
+<p class="legend">Our word list is always growing. Missing a synonym? Suggest it at the end of any game.</p>
 <h3>More synonym lists</h3>
 <p class="related">${related(s)
     .map((r) => `<a href="/synonyms/${r.word}/">Synonyms for ${esc(r.word)}</a>`)
@@ -157,6 +158,8 @@ function indexPage(): string {
   const body = `
 <h1>Synonym <span class="hl">lists</span></h1>
 <p class="lead">Synonyms for ${STARTERS.length} words, grouped by meaning and graded from closest to looser. These are the starter words in Synonym Showdown, a free multiplayer word game.</p>
+<section class="growing"><h2>Our word list is growing</h2>
+<p>We’re actively expanding the database with more starter words and more synonyms for the ones already here. Think a synonym is missing, or one doesn’t belong? Use “Disagree?” or “Missing a synonym?” at the end of any game, and your suggestion helps improve the list for everyone.</p></section>
 ${tiers
   .map(
     ([tier, label]) => `<div class="tier"><h2>${label}</h2><p class="words">${STARTERS.filter((s) => s.tier === tier)
@@ -175,7 +178,7 @@ ${tiers
 }
 
 const CONTACT = 'hello@synonymshowdown.com';
-const UPDATED = 'October 8, 2026';
+const UPDATED = 'October 10, 2026';
 
 function privacyPage(): string {
   const body = `
@@ -187,7 +190,7 @@ function privacyPage(): string {
 <p>We store your <b>username</b>, a <b>securely hashed password</b> (never the password itself), your <b>avatar</b>, and your game results: rating, points, games played and match history. We don’t ask for your email, real name, age or location. Please don’t use your real name as your username.</p>
 <p>Signing in sets one cookie that keeps you logged in. We use no advertising or tracking cookies.</p></section>
 <section><h2>Fair play</h2>
-<p>To catch cheating, the game records how each word was entered during play: timing, whether it was typed or pasted, and whether you’re on a touch device. This is used only to spot play that isn’t humanly possible, and is never sold or shared. Words you report with “Disagree?” are stored to improve the word list.</p></section>
+<p>Synonym Showdown uses its own proprietary fair-play system to keep games fair. To do that, it uses information about how games are played (for example your answers and when you give them). This information is used only to keep the game fair and is never sold or shared. Words you report with “Disagree?” are stored to improve the word list.</p></section>
 <section><h2>Technical data</h2>
 <p>The site runs on Cloudflare, which processes requests (including IP addresses) to deliver the site and protect it from abuse. We store only a scrambled version of IP addresses, for rate limits, and delete those records within a day.</p></section>
 <section><h2>Children</h2>
@@ -202,7 +205,14 @@ function termsPage(): string {
 <h1>Terms of <span class="hl">Use</span></h1>
 <p class="lead">Last updated ${UPDATED}. By playing Synonym Showdown you agree to these simple rules.</p>
 <section><h2>Play fair</h2>
-<p>No bots, scripts or pasting answers in from a thesaurus. Our fair-play system may tag accounts whose play looks automated; tagged accounts can keep playing but are hidden from leaderboards. Ratings and points may be corrected if they were earned unfairly.</p></section>
+<p>Every answer has to come from your own head. Using a thesaurus, dictionary, search engine, AI assistant, word list, bot, script, or any other outside help while playing is cheating.</p>
+<p>We use proprietary cheat-detection technology to find unfair play. If we believe an account has cheated, we may, at our discretion and without notice:</p>
+<ul>
+<li>mark it as “under review”, visible to other players;</li>
+<li>hide it from leaderboards;</li>
+<li>remove or reset ratings, points and results that were earned unfairly;</li>
+<li>suspend or permanently close the account for repeated or serious cheating.</li>
+</ul></section>
 <section><h2>Be kind</h2>
 <p>Usernames must not be offensive or impersonate others, including staff. We may rename or remove accounts that break this rule.</p></section>
 <section><h2>The word list</h2>

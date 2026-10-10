@@ -25,6 +25,8 @@ function tone(freq: number, ms: number, type: OscillatorType = 'sine', gain = 0.
   if (muted) return;
   try {
     ctx ??= new AudioContext();
+    // Sound effects play right after taps, so this is allowed even if the system had paused audio.
+    if (ctx.state !== 'running') void ctx.resume().catch(() => {});
     const t = ctx.currentTime + delay / 1000;
     const osc = ctx.createOscillator();
     const g = ctx.createGain();

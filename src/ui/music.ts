@@ -33,6 +33,11 @@ const hz = (midi: number) => 440 * 2 ** ((midi - 69) / 12);
 function setup(): AudioContext {
   if (ctx) return ctx;
   ctx = new AudioContext();
+  // Phones pause audio for calls, Siri, notifications or locking; try to pick up again right away
+  // (the next tap also resumes it, see wake() below).
+  ctx.onstatechange = () => {
+    if (ctx && ctx.state !== 'running' && playing && document.visibilityState === 'visible') void ctx.resume().catch(() => {});
+  };
   master = ctx.createGain();
   master.gain.value = MASTER;
   const comp = ctx.createDynamicsCompressor();
@@ -185,6 +190,9 @@ function scheduleStep(p: NonNullable<typeof playing>, step: number, t: number) {
 
 function tick() {
   if (!ctx || !playing) return;
+  // If timers were slowed down (busy phone, battery saver), skip the missed beats instead of
+  // firing them all at once.
+  if (playing.nextTime < ctx.currentTime - 0.05) playing.nextTime = ctx.currentTime + 0.05;
   while (playing.nextTime < ctx.currentTime + LOOKAHEAD_S) {
     scheduleStep(playing, playing.step, playing.nextTime);
     playing.nextTime += 60 / playing.track.bpm / 4;
@@ -253,14 +261,23 @@ export function useMusic(name: TrackName | null) {
 }
 
 if (typeof window !== 'undefined') {
-  const unlock = () => {
-    if (unlocked) return;
+  // Every tap, click or key press: unlock audio the first time, and resume it if the system paused it.
+  // Browsers only grant sound permission on some of these events (e.g. a touch counts when the finger
+  // lifts), so listen to all of them.
+  const wake = () => {
     unlocked = true;
+    if (ctx && ctx.state !== 'running' && wanted && enabled && !isMuted()) void ctx.resume().catch(() => {});
     apply();
   };
-  window.addEventListener('pointerdown', unlock, { once: false, passive: true });
-  window.addEventListener('keydown', unlock, { once: false });
-  document.addEventListener('visibilitychange', apply);
+  for (const type of ['pointerdown', 'pointerup', 'touchend', 'click', 'keydown'] as const) {
+    window.addEventListener(type, wake, { passive: true, capture: true });
+  }
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && ctx && ctx.state !== 'running') void ctx.resume().catch(() => {});
+    apply();
+  });
+  // For automated checks: simulate the system pausing audio (phone call, Siri, app switch).
+  (window as unknown as { __musicInterrupt: () => Promise<void> | undefined }).__musicInterrupt = () => ctx?.suspend();
   // For automated checks: what's playing right now.
   (window as unknown as { __music: () => unknown }).__music = () => {
     let rms = 0;
