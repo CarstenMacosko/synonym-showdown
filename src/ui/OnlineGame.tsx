@@ -12,6 +12,7 @@ import { socketUrl } from '../net/api';
 import { useAccount } from './account';
 import { Avatar, type Mood } from './Avatar';
 import { Ruling } from './Game';
+import { DisputePanel } from './DisputePanel';
 import { MeaningMap } from './MeaningMap';
 import { reportRuling } from './reports';
 import { Choice, JIGGLE, SketchBox, SketchButton } from './sketch';
@@ -652,6 +653,16 @@ function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: C
         ))}
       </SketchBox>
       <MeaningMap starter={r.starter} said={new Set(r.said)} range={room.settings.range} />
+      <DisputePanel
+        starter={r.starter}
+        played={(room.play?.chain ?? []).map((c) => ({
+          word: c.word,
+          by: c.playerId === room.you ? 'you' : room.players.find((p) => p.id === c.playerId)?.name,
+        }))}
+        range={room.settings.range}
+        forgiveness={room.settings.forgiveness}
+        mode={room.ranked ? 'ranked' : 'room'}
+      />
       <div className="play-row">
         {room.ranked ? (
           <SketchButton big color="#ffd43b" onClick={onFindMatch}>

@@ -6,6 +6,7 @@ import { alivePlayers, player, type GameState } from '../game/engine';
 import { findEntry } from '../game/match';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
+import { DisputePanel } from './DisputePanel';
 import { MeaningMap } from './MeaningMap';
 import { SketchButton } from './sketch';
 
@@ -55,6 +56,13 @@ export function GameOver({
 
       {youId && <p className="muted">You said {myWords} word{myWords === 1 ? '' : 's'} on this one.</p>}
       <MeaningMap starter={state.starter} said={said} range={state.settings.range} />
+      <DisputePanel
+        starter={state.starter}
+        played={state.chain.map((p) => ({ word: p.word, by: p.playerId === youId ? 'you' : player(state, p.playerId).name }))}
+        range={state.settings.range}
+        forgiveness={state.settings.forgiveness}
+        mode={youId ? 'bots' : 'pass'}
+      />
 
       <div className="play-row">
         <SketchButton big color="#ffd43b" onClick={onAgain}>

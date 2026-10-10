@@ -7,6 +7,8 @@ export interface DailyResult {
   word: string;
   score: number;
   found: string[];
+  /** Guesses that didn't count (for the end-screen Disagree panel). */
+  tried?: string[];
 }
 
 function read<T>(key: string): T | null {

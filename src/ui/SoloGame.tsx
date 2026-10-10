@@ -23,6 +23,7 @@ import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
+import { DisputePanel } from './DisputePanel';
 import { MeaningMap } from './MeaningMap';
 import { reportRuling } from './reports';
 import { getBest, getDaily, recordBest, saveDaily, type DailyResult } from './records';
@@ -118,7 +119,7 @@ function SoloRun({
         .catch((e: Error) => setSaved(e.message));
     }
     if (mode === 'daily') {
-      const result = { word: s.starter.word, score: s.score, found: s.found };
+      const result = { word: s.starter.word, score: s.score, found: s.found, tried: s.tried };
       saveDaily(dateKey, result);
       onDailyDone(result);
       return;
@@ -380,6 +381,15 @@ function SoloOver({
       {mode === 'daily' && <p className="tagline">Come back tomorrow for a new word!</p>}
 
       {starter && <MeaningMap starter={starter} said={found} range={state?.range ?? 'standard'} />}
+      {starter && (
+        <DisputePanel
+          starter={starter}
+          played={[...found, ...(daily?.tried ?? state?.tried ?? []), ...(state?.lastWrong ? [state.lastWrong] : [])].map((word) => ({ word }))}
+          range={state?.range ?? 'standard'}
+          forgiveness={state?.forgiveness ?? 'typos'}
+          mode={mode}
+        />
+      )}
 
       <div className="play-row">
         {daily && (

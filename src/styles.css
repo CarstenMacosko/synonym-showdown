@@ -1371,3 +1371,47 @@ h2 {
 .site-footer a {
   color: inherit;
 }
+
+/* ---------- end-screen Disagree panel ---------- */
+
+.dispute-panel {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.dispute-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.dispute-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #e9ecef;
+}
+
+.dispute-list li .disagree {
+  margin-left: auto;
+}
+
+.chip.rejected-chip {
+  background: #fff5f5;
+  border-color: #ffa8a8;
+  text-decoration: line-through;
+  text-decoration-color: var(--bad);
+}
+
+.suggest-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.suggest-row .input-wrap {
+  flex: 1 1 160px;
+}
