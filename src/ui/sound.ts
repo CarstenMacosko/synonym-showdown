@@ -1,6 +1,7 @@
 // Tiny synthesized sound effects (no audio files needed).
 
-let ctx: AudioContext | null = null;
+import { audioContext } from './audio';
+
 let muted = false;
 try {
   muted = localStorage.getItem('ss-muted') === '1';
@@ -24,7 +25,7 @@ export function setMuted(m: boolean) {
 function tone(freq: number, ms: number, type: OscillatorType = 'sine', gain = 0.12, slideTo?: number, delay = 0) {
   if (muted) return;
   try {
-    ctx ??= new AudioContext();
+    const ctx = audioContext();
     // Sound effects play right after taps, so this is allowed even if the system had paused audio.
     if (ctx.state !== 'running') void ctx.resume().catch(() => {});
     const t = ctx.currentTime + delay / 1000;
