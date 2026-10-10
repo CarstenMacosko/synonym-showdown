@@ -47,6 +47,7 @@ export function App() {
     const q = new URLSearchParams(window.location.search);
     if (q.has('gallery')) return <AvatarGallery />;
     if (q.has('og')) return <OgCard />;
+    if (q.has('cover')) return <OgCard compact />;
     if (q.has('icon')) return <AppIcon size={Number(q.get('icon')) || 512} />;
   }
   return <MainApp />;

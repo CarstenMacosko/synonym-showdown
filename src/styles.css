@@ -1415,3 +1415,20 @@ h2 {
 .suggest-row .input-wrap {
   flex: 1 1 160px;
 }
+
+.og-card.compact {
+  width: 630px;
+  height: 500px;
+}
+
+.og-card.compact h1 {
+  font-size: 64px;
+}
+
+.og-card.compact p {
+  font-size: 26px;
+}
+
+.og-card.compact small {
+  font-size: 17px;
+}
