@@ -36,6 +36,8 @@ See README.md for modes, file layout, and roadmap.
   passing (no simulated human tagged). Tagged players show "under review" and are hidden from the leaderboard.
 - Avatars: `src/game/avatar.ts` (options + server-side sanitizing), drawn by `src/ui/Avatar.tsx`; stored in
   `users.avatar`, guests in localStorage. Profile page `src/ui/Profile.tsx`. Dev-only gallery at `/?gallery`.
+  Some hats unlock with account points (`UNLOCK_POINTS`: top hat 50, crown 100, wizard 250, halo 500); the
+  server rejects saving a locked hat and strips unearned hats (guests count as 0 points). Bots can wear anything.
 - Music: synthesized in `src/ui/music.ts` from note data in `src/ui/musicTracks.ts`; one track per lobby
   (home, room, ranked, studio), silent during games.
 - Admin: owner account `CarstenMAdmin` (is_admin). Admin page has reports, cheat watch, accounts.

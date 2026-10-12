@@ -1,7 +1,7 @@
 // The player's own face: from their account when signed in, otherwise kept on this device.
 
 import { useCallback, useState } from 'react';
-import { randomAvatar, sanitizeAvatar, type AvatarConfig } from '../game/avatar';
+import { lockAvatar, randomAvatar, sanitizeAvatar, type AvatarConfig } from '../game/avatar';
 import { api } from '../net/api';
 import { useAccount } from './account';
 
@@ -27,7 +27,8 @@ export function botAvatar(name: string): AvatarConfig {
 export function useMyAvatar() {
   const { user, refresh } = useAccount();
   const [local, setLocal] = useState<AvatarConfig | null>(readLocal);
-  const avatar = user?.avatar ?? local;
+  // Guests have no points, so a locked hat saved on this device comes off.
+  const avatar = user?.avatar ?? (local && lockAvatar(local, 0));
 
   const save = useCallback(
     async (a: AvatarConfig) => {

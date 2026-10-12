@@ -1213,6 +1213,15 @@ h2 {
   font-size: 0.85rem;
 }
 
+.part-option.locked > :first-child {
+  opacity: 0.35;
+  filter: grayscale(1);
+}
+
+.part-option.locked span {
+  color: #868e96;
+}
+
 .part-option.selected {
   border-color: var(--ink);
   background: #fff9db;

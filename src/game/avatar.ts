@@ -45,6 +45,24 @@ export const AVATAR_PARTS = {
   extra: EXTRAS,
 } as const;
 
+/** Hats earned with account points (from solo runs and online games). Everything else is free. */
+export const UNLOCK_POINTS: Partial<Record<(typeof HATS)[number], number>> = {
+  tophat: 50,
+  crown: 100,
+  wizard: 250,
+  halo: 500,
+};
+
+/** Points needed for an option (0 = free for everyone). */
+export function unlockCost(part: keyof typeof AVATAR_PARTS, option: string): number {
+  return part === 'hat' ? (UNLOCK_POINTS[option as (typeof HATS)[number]] ?? 0) : 0;
+}
+
+/** The face with any hat the player hasn't earned yet taken off. */
+export function lockAvatar(a: AvatarConfig, points: number): AvatarConfig {
+  return unlockCost('hat', a.hat) > points ? { ...a, hat: 'none' } : a;
+}
+
 /** Small deterministic hash, so a name always gets the same default face. */
 function hash(s: string): number {
   let h = 2166136261;
@@ -71,8 +89,10 @@ export function defaultAvatar(seed: string, colorHex?: string): AvatarConfig {
   };
 }
 
-export function randomAvatar(rng: () => number = Math.random): AvatarConfig {
+/** A random face. Pass `points` to only use hats that player has unlocked (bots can wear anything). */
+export function randomAvatar(rng: () => number = Math.random, points = Infinity): AvatarConfig {
   const pick = <T,>(xs: readonly T[]) => xs[Math.floor(rng() * xs.length)];
+  const hats = HATS.slice(1).filter((h) => unlockCost('hat', h) <= points);
   return {
     color: Math.floor(rng() * AVATAR_COLORS.length),
     accent: Math.floor(rng() * AVATAR_COLORS.length),
@@ -81,7 +101,7 @@ export function randomAvatar(rng: () => number = Math.random): AvatarConfig {
     eyes: pick(EYES),
     mouth: pick(MOUTHS),
     // Most random faces get a hat; it's the fun part.
-    hat: rng() < 0.8 ? pick(HATS.slice(1)) : 'none',
+    hat: rng() < 0.8 ? pick(hats) : 'none',
     extra: rng() < 0.5 ? pick(EXTRAS.slice(1)) : 'none',
   };
 }

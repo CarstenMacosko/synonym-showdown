@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import { AVATAR_COLORS, AVATAR_PARTS, defaultAvatar, randomAvatar, type AvatarConfig } from '../game/avatar';
+import { AVATAR_COLORS, AVATAR_PARTS, defaultAvatar, randomAvatar, unlockCost, type AvatarConfig } from '../game/avatar';
 import { api, type RecentMatch } from '../net/api';
 import { useAccount } from './account';
 import { Avatar, type Mood } from './Avatar';
@@ -52,6 +52,8 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
   const [saved, setSaved] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
   const [mood, setMood] = useState(0);
   const [recent, setRecent] = useState<RecentMatch[] | null>(null);
+  const [lockNote, setLockNote] = useState<string | null>(null);
+  const points = user?.points ?? 0;
   const dirty = JSON.stringify(draft) !== JSON.stringify(avatar);
 
   // The preview cycles through expressions so you can see your face mid-game.
@@ -66,6 +68,7 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
   const change = (patch: Partial<AvatarConfig>) => {
     sfx.pop();
     setSaved('idle');
+    setLockNote(null);
     setDraft({ ...draft, ...patch });
   };
 
@@ -97,7 +100,7 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
         </AnimatePresence>
         <h2>{user ? user.username : 'Guest'}</h2>
         <div className="play-row">
-          <SketchButton className="small" onClick={() => change(randomAvatar())}>
+          <SketchButton className="small" onClick={() => change(randomAvatar(Math.random, points))}>
             🎲 Shuffle
           </SketchButton>
           <SketchButton color="#69db7c" onClick={onSave} disabled={!dirty || saved === 'saving'}>
@@ -122,21 +125,37 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
             {(AVATAR_PARTS[tab] as readonly string[]).map((option) => {
               const preview = { ...draft, [tab]: option } as AvatarConfig;
               const selected = draft[tab] === option;
+              const cost = unlockCost(tab, option);
+              const locked = cost > points;
               return (
                 <motion.button
                   key={option}
-                  className={`part-option ${selected ? 'selected' : ''}`}
-                  onClick={() => change({ [tab]: option } as Partial<AvatarConfig>)}
+                  className={`part-option ${selected ? 'selected' : ''} ${locked ? 'locked' : ''}`}
+                  onClick={() => {
+                    if (!locked) return change({ [tab]: option } as Partial<AvatarConfig>);
+                    sfx.bad();
+                    setLockNote(
+                      user
+                        ? `${label(option)} unlocks at ${cost} points. You have ${points}, so ${cost - points} to go!`
+                        : `${label(option)} unlocks at ${cost} points. Create an account to start earning points.`,
+                    );
+                  }}
                   whileHover={{ scale: 1.08, rotate: -2 }}
-                  whileTap={{ scale: 0.92 }}
+                  whileTap={locked ? { x: [0, -5, 5, -3, 3, 0] } : { scale: 0.92 }}
                   aria-pressed={selected}
+                  aria-label={locked ? `${label(option)}, locked until ${cost} points` : undefined}
                 >
                   <Avatar id={`opt-${tab}-${option}`} config={preview} size={58} />
-                  <span>{label(option)}</span>
+                  <span>{locked ? `🔒 ${cost} pts` : label(option)}</span>
                 </motion.button>
               );
             })}
           </div>
+        )}
+        {tab === 'hat' && (
+          <p className={lockNote ? 'saved-note' : 'muted small-note'}>
+            {lockNote ?? 'Earn points in solo modes and online games to unlock the fancier hats.'}
+          </p>
         )}
       </SketchBox>
 

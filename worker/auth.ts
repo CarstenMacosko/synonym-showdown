@@ -1,7 +1,7 @@
 // Accounts: username + password, sessions in an HttpOnly cookie.
 
 import { error, ipHash, json, rateLimited, readJson, recordEvent, sha256Hex } from './http.ts';
-import { sanitizeAvatar } from '../src/game/avatar.ts';
+import { lockAvatar, sanitizeAvatar } from '../src/game/avatar.ts';
 import { isProvisional } from '../src/game/rating.ts';
 
 const COOKIE = 'ss_session';
@@ -28,10 +28,11 @@ export interface User {
   created_at: number;
 }
 
-/** The stored avatar, re-checked (null = never customized). */
+/** The stored avatar, re-checked, minus any hat not yet earned (null = never customized). */
 export function userAvatar(u: User) {
   try {
-    return u.avatar ? sanitizeAvatar(JSON.parse(u.avatar)) : null;
+    const a = u.avatar ? sanitizeAvatar(JSON.parse(u.avatar)) : null;
+    return a && lockAvatar(a, u.points);
   } catch {
     return null;
   }

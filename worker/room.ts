@@ -22,7 +22,7 @@ import {
   type Settings,
   type SubmitError,
 } from '../src/game/engine.ts';
-import { sanitizeAvatar, type AvatarConfig } from '../src/game/avatar.ts';
+import { lockAvatar, sanitizeAvatar, type AvatarConfig } from '../src/game/avatar.ts';
 import { findEntry } from '../src/game/match.ts';
 import {
   EMOTES,
@@ -101,6 +101,12 @@ const ERRORS: Record<SubmitError, string> = {
   repeat: 'Already said!',
   notYourTurn: 'Wait for your turn!',
 };
+
+/** Guests have no points, so they can't wear hats that need unlocking. */
+function guestAvatar(raw: unknown): AvatarConfig | null {
+  const a = sanitizeAvatar(raw);
+  return a && lockAvatar(a, 0);
+}
 
 function cleanName(raw: unknown): string {
   const name = typeof raw === 'string' ? raw.replace(/[^\p{L}\p{N} _'-]/gu, '').trim().slice(0, 16) : '';
@@ -255,7 +261,7 @@ export class GameRoom extends DurableObject<Env> {
         rating: user ? Math.round(user.rating) : null,
         flagged: !!user?.flagged,
         // Signed-in players' faces come from their account; guests send theirs (checked against known parts).
-        avatar: user ? (user.avatar ?? null) : sanitizeAvatar(msg.avatar),
+        avatar: user ? (user.avatar ?? null) : guestAvatar(msg.avatar),
         connected: true,
       };
       room.seats.push(seat);
