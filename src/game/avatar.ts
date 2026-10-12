@@ -16,12 +16,12 @@ export const AVATAR_COLORS = [
   '#b08968', // brown
 ] as const;
 
-export const TEXTURES = ['hachure', 'cross-hatch', 'zigzag', 'dots', 'solid', 'dashed', 'zigzag-line'] as const;
-export const SHAPES = ['round', 'square', 'blob', 'tall', 'wide'] as const;
+export const TEXTURES = ['hachure', 'cross-hatch', 'zigzag', 'dots', 'solid', 'dashed', 'zigzag-line', 'shiny'] as const;
+export const SHAPES = ['round', 'square', 'blob', 'tall', 'wide', 'diamond'] as const;
 export const EYES = ['dots', 'happy', 'wide', 'sleepy', 'wink', 'glasses', 'shades', 'star'] as const;
-export const MOUTHS = ['smile', 'grin', 'flat', 'o', 'tongue', 'smirk', 'teeth'] as const;
-export const HATS = ['none', 'cap', 'beanie', 'crown', 'tophat', 'party', 'wizard', 'headphones', 'bow', 'propeller', 'halo', 'horns'] as const;
-export const EXTRAS = ['none', 'blush', 'freckles', 'mustache', 'bandaid', 'bowtie'] as const;
+export const MOUTHS = ['smile', 'grin', 'flat', 'o', 'tongue', 'smirk', 'teeth', 'vampire'] as const;
+export const HATS = ['none', 'cap', 'beanie', 'crown', 'tophat', 'party', 'wizard', 'headphones', 'bow', 'propeller', 'halo', 'horns', 'santa'] as const;
+export const EXTRAS = ['none', 'blush', 'freckles', 'mustache', 'bandaid', 'bowtie', 'monocle'] as const;
 
 export interface AvatarConfig {
   /** Index into AVATAR_COLORS for the face. */
@@ -45,22 +45,49 @@ export const AVATAR_PARTS = {
   extra: EXTRAS,
 } as const;
 
-/** Hats earned with account points (from solo runs and online games). Everything else is free. */
-export const UNLOCK_POINTS: Partial<Record<(typeof HATS)[number], number>> = {
-  tophat: 50,
-  crown: 100,
-  wizard: 250,
-  halo: 500,
+type Part = keyof typeof AVATAR_PARTS;
+
+/** Parts earned with account points (from solo runs and online games). Everything else is free. */
+export const UNLOCK_POINTS: { [P in Part]?: Partial<Record<AvatarConfig[P], number>> } = {
+  hat: { propeller: 5, tophat: 50, santa: 75, crown: 100, wizard: 250, halo: 500 },
+  eyes: { shades: 25 },
+  mouth: { vampire: 300 },
+  shape: { diamond: 1000 },
+  extra: { monocle: 5000 },
+  texture: { shiny: 10000 },
+};
+
+/** What a player gets back when they wear something they haven't earned. */
+const PLAIN: { [P in Part]: AvatarConfig[P] } = {
+  hat: 'none',
+  eyes: 'dots',
+  mouth: 'smile',
+  shape: 'round',
+  extra: 'none',
+  texture: 'hachure',
 };
 
 /** Points needed for an option (0 = free for everyone). */
-export function unlockCost(part: keyof typeof AVATAR_PARTS, option: string): number {
-  return part === 'hat' ? (UNLOCK_POINTS[option as (typeof HATS)[number]] ?? 0) : 0;
+export function unlockCost(part: Part, option: string): number {
+  return (UNLOCK_POINTS[part] as Record<string, number> | undefined)?.[option] ?? 0;
 }
 
-/** The face with any hat the player hasn't earned yet taken off. */
+/** The first part of a face the player hasn't earned yet, if any. */
+export function lockedPart(a: AvatarConfig, points: number): { part: Part; option: string; cost: number } | null {
+  for (const part of Object.keys(PLAIN) as Part[]) {
+    const cost = unlockCost(part, a[part]);
+    if (cost > points) return { part, option: a[part], cost };
+  }
+  return null;
+}
+
+/** The face with anything the player hasn't earned yet swapped for the plain option. */
 export function lockAvatar(a: AvatarConfig, points: number): AvatarConfig {
-  return unlockCost('hat', a.hat) > points ? { ...a, hat: 'none' } : a;
+  const out = { ...a };
+  for (const part of Object.keys(PLAIN) as Part[]) {
+    if (unlockCost(part, a[part]) > points) (out as Record<Part, string>)[part] = PLAIN[part];
+  }
+  return out;
 }
 
 /** Small deterministic hash, so a name always gets the same default face. */
@@ -89,20 +116,23 @@ export function defaultAvatar(seed: string, colorHex?: string): AvatarConfig {
   };
 }
 
-/** A random face. Pass `points` to only use hats that player has unlocked (bots can wear anything). */
+/** A random face. Pass `points` to only use parts that player has unlocked (bots can wear anything). */
 export function randomAvatar(rng: () => number = Math.random, points = Infinity): AvatarConfig {
-  const pick = <T,>(xs: readonly T[]) => xs[Math.floor(rng() * xs.length)];
-  const hats = HATS.slice(1).filter((h) => unlockCost('hat', h) <= points);
+  const pick = <P extends Part>(part: P, skipFirst = false) => {
+    const all = AVATAR_PARTS[part] as readonly string[] as readonly AvatarConfig[P][];
+    const xs = all.slice(skipFirst ? 1 : 0).filter((o) => unlockCost(part, o) <= points);
+    return xs[Math.floor(rng() * xs.length)];
+  };
   return {
     color: Math.floor(rng() * AVATAR_COLORS.length),
     accent: Math.floor(rng() * AVATAR_COLORS.length),
-    texture: pick(TEXTURES),
-    shape: pick(SHAPES),
-    eyes: pick(EYES),
-    mouth: pick(MOUTHS),
+    texture: pick('texture'),
+    shape: pick('shape'),
+    eyes: pick('eyes'),
+    mouth: pick('mouth'),
     // Most random faces get a hat; it's the fun part.
-    hat: rng() < 0.8 ? pick(hats) : 'none',
-    extra: rng() < 0.5 ? pick(EXTRAS.slice(1)) : 'none',
+    hat: rng() < 0.8 ? pick('hat', true) : 'none',
+    extra: rng() < 0.5 ? pick('extra', true) : 'none',
   };
 }
 

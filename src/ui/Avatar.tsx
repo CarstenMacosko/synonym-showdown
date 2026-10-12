@@ -33,7 +33,7 @@ function drawFace(svg: SVGSVGElement, a: AvatarConfig, mood: Mood, seed: number)
   const skin: Options = {
     ...line,
     fill: color,
-    fillStyle: a.texture,
+    fillStyle: a.texture === 'shiny' ? 'solid' : a.texture,
     hachureGap: a.texture === 'dots' ? 6 : 5,
     fillWeight: a.texture === 'dots' ? 1.2 : 2,
     hachureAngle: (seed % 90) - 45,
@@ -42,7 +42,16 @@ function drawFace(svg: SVGSVGElement, a: AvatarConfig, mood: Mood, seed: number)
   else if (a.shape === 'blob') put(rc.path('M50 27 C78 25 88 48 84 66 C80 88 62 95 46 93 C24 91 14 76 16 58 C18 38 28 29 50 27 Z', skin));
   else if (a.shape === 'tall') put(rc.ellipse(50, 61, 58, 74, skin));
   else if (a.shape === 'wide') put(rc.ellipse(50, 63, 82, 60, skin));
+  else if (a.shape === 'diamond') put(rc.polygon([[30, 29], [70, 29], [86, 47], [50, 96], [14, 47]], skin));
   else put(rc.circle(50, 61, 66, skin));
+
+  // Shiny: a glossy highlight and a little sparkle.
+  if (a.texture === 'shiny') {
+    path('M27 52 Q29 38 41 34', { stroke: '#fff', strokeWidth: 5.5, roughness: 0.3 });
+    put(rc.circle(26, 59, 4, { stroke: 'none', fill: '#fff', fillStyle: 'solid', seed }));
+    path('M86 30 L86 42 M80 36 L92 36', { stroke: GOLD, strokeWidth: 2.6, roughness: 0.3 });
+    path('M14 78 L14 86 M10 82 L18 82', { stroke: GOLD, strokeWidth: 2, roughness: 0.3 });
+  }
 
   // ---- hat (behind-the-face parts first) ----
   if (a.hat === 'headphones') {
@@ -118,6 +127,9 @@ function drawFace(svg: SVGSVGElement, a: AvatarConfig, mood: Mood, seed: number)
     put(rc.ellipse(71, 68, 11, 6, { stroke: 'none', fill: PINK, fillStyle: 'solid', seed }));
   } else if (a.extra === 'freckles') {
     for (const [x, y] of [[29, 66], [33, 70], [26, 70], [71, 66], [67, 70], [74, 70]]) dot(x, y, 2.4);
+  } else if (a.extra === 'monocle') {
+    put(rc.circle(62, 55, 19, { ...line, stroke: GOLD, strokeWidth: 3, roughness: 0.4 }));
+    path('M71 59 Q79 72 73 90', { stroke: GOLD, strokeWidth: 1.4 });
   } else if (a.extra === 'bandaid') {
     put(rc.polygon([[62, 38], [76, 32], [79, 39], [65, 45]], { ...line, fill: '#ffe8cc', fillStyle: 'solid', strokeWidth: 1.4 }));
   }
@@ -150,6 +162,11 @@ function drawFace(svg: SVGSVGElement, a: AvatarConfig, mood: Mood, seed: number)
     case 'teeth':
       put(rc.rectangle(39, 71, 22, 10, { ...line, fill: '#fff', fillStyle: 'solid', roughness: 0.5 }));
       path('M50 71 L50 81 M44.5 71 L44.5 81 M55.5 71 L55.5 81', { strokeWidth: 1.2 });
+      break;
+    case 'vampire':
+      path('M37 72 Q50 84 63 72');
+      put(rc.polygon([[41, 75.3], [45.5, 77.2], [43.5, 83]], { ...line, fill: '#fff', fillStyle: 'solid', strokeWidth: 1.3, roughness: 0.3 }));
+      put(rc.polygon([[54.5, 77.2], [59, 75.3], [56.5, 83]], { ...line, fill: '#fff', fillStyle: 'solid', strokeWidth: 1.3, roughness: 0.3 }));
       break;
     default:
       path('M37 72 Q50 84 63 72');
@@ -204,6 +221,11 @@ function drawFace(svg: SVGSVGElement, a: AvatarConfig, mood: Mood, seed: number)
       break;
     case 'halo':
       put(rc.ellipse(50, 14, 46, 11, { ...line, stroke: GOLD, strokeWidth: 4 }));
+      break;
+    case 'santa':
+      path('M25 32 Q33 3 62 5 Q80 8 83 24 L76 26 Q72 17 65 17 Q70 26 74 32 Z', { ...line, ...fill('#e03131', 'hachure'), hachureAngle: 60 });
+      put(rc.rectangle(21, 28, 58, 9, { ...line, ...fill('#fff') }));
+      put(rc.circle(81, 28, 12, { ...line, ...fill('#fff') }));
       break;
     case 'horns':
       put(rc.polygon([[29, 34], [22, 10], [41, 29]], { ...line, ...fill(accent) }));

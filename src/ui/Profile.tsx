@@ -1,7 +1,7 @@
 // Profile: build your doodle face (colors, texture, shape, eyes, mouth, hat, extras) and see your stats.
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { AVATAR_COLORS, AVATAR_PARTS, defaultAvatar, randomAvatar, unlockCost, type AvatarConfig } from '../game/avatar';
 import { api, type RecentMatch } from '../net/api';
 import { useAccount } from './account';
@@ -34,12 +34,23 @@ const NICE: Record<string, string> = {
   dashed: 'Dashes',
   'zigzag-line': 'Squiggle',
   tophat: 'Top hat',
+  santa: 'Santa hat',
+  shades: 'Sunglasses',
   headphones: 'Headphones',
   bandaid: 'Bandage',
   bowtie: 'Bow tie',
   o: 'Oh!',
 };
 const label = (v: string) => NICE[v] ?? v[0].toUpperCase() + v.slice(1);
+/** 10000 → "10k", to fit under a small picture. */
+const short = (n: number) => (n >= 1000 ? `${n / 1000}k` : String(n));
+
+/** Free options first (in their usual order), then the ones earned with points, cheapest first. */
+function byCost(part: Part): string[] {
+  const all = AVATAR_PARTS[part] as readonly string[];
+  const earned = all.filter((o) => unlockCost(part, o)).sort((a, b) => unlockCost(part, a) - unlockCost(part, b));
+  return [...all.filter((o) => !unlockCost(part, o)), ...earned];
+}
 
 const MOODS: Mood[] = ['normal', 'think', 'worried', 'win'];
 
@@ -52,7 +63,7 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
   const [saved, setSaved] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
   const [mood, setMood] = useState(0);
   const [recent, setRecent] = useState<RecentMatch[] | null>(null);
-  const [lockNote, setLockNote] = useState<string | null>(null);
+  const [note, setNote] = useState<string | null>(null);
   const points = user?.points ?? 0;
   const dirty = JSON.stringify(draft) !== JSON.stringify(avatar);
 
@@ -68,7 +79,7 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
   const change = (patch: Partial<AvatarConfig>) => {
     sfx.pop();
     setSaved('idle');
-    setLockNote(null);
+    setNote(null);
     setDraft({ ...draft, ...patch });
   };
 
@@ -113,7 +124,10 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
 
       <SketchBox className="panel">
         <div className="tab-row">
-          <Choice<Tab> value={tab} onChange={setTab} color="#ffd43b" options={TABS} />
+          <Choice<Tab> value={tab} onChange={(t) => {
+              setTab(t);
+              setNote(null);
+            }} color="#ffd43b" options={TABS} />
         </div>
         {tab === 'colors' ? (
           <>
@@ -122,39 +136,45 @@ export function ProfilePage({ onExit }: { onExit: () => void }) {
           </>
         ) : (
           <div className="part-grid">
-            {(AVATAR_PARTS[tab] as readonly string[]).map((option) => {
+            {byCost(tab).map((option, i, list) => {
               const preview = { ...draft, [tab]: option } as AvatarConfig;
               const selected = draft[tab] === option;
               const cost = unlockCost(tab, option);
               const locked = cost > points;
+              const pick = () => {
+                if (locked) {
+                  sfx.bad();
+                  return setNote(
+                    user
+                      ? `🔒 ${label(option)} unlocks at ${cost.toLocaleString()} points. You have ${points.toLocaleString()}, so ${(cost - points).toLocaleString()} to go!`
+                      : `🔒 ${label(option)} unlocks at ${cost.toLocaleString()} points. Create an account to start earning points.`,
+                  );
+                }
+                change({ [tab]: option } as Partial<AvatarConfig>);
+                if (cost) setNote(`✨ ${label(option)}: unlocked by earning ${cost.toLocaleString()} points.`);
+              };
               return (
-                <motion.button
-                  key={option}
-                  className={`part-option ${selected ? 'selected' : ''} ${locked ? 'locked' : ''}`}
-                  onClick={() => {
-                    if (!locked) return change({ [tab]: option } as Partial<AvatarConfig>);
-                    sfx.bad();
-                    setLockNote(
-                      user
-                        ? `${label(option)} unlocks at ${cost} points. You have ${points}, so ${cost - points} to go!`
-                        : `${label(option)} unlocks at ${cost} points. Create an account to start earning points.`,
-                    );
-                  }}
-                  whileHover={{ scale: 1.08, rotate: -2 }}
-                  whileTap={locked ? { x: [0, -5, 5, -3, 3, 0] } : { scale: 0.92 }}
-                  aria-pressed={selected}
-                  aria-label={locked ? `${label(option)}, locked until ${cost} points` : undefined}
-                >
-                  <Avatar id={`opt-${tab}-${option}`} config={preview} size={58} />
-                  <span>{locked ? `🔒 ${cost} pts` : label(option)}</span>
-                </motion.button>
+                <Fragment key={option}>
+                  {cost > 0 && unlockCost(tab, list[i - 1]) === 0 && <p className="part-divider">★ Earned with points</p>}
+                  <motion.button
+                    className={`part-option ${selected ? 'selected' : ''} ${locked ? 'locked' : cost ? 'earned' : ''}`}
+                    onClick={pick}
+                    whileHover={{ scale: 1.08, rotate: -2 }}
+                    whileTap={locked ? { x: [0, -5, 5, -3, 3, 0] } : { scale: 0.92 }}
+                    aria-pressed={selected}
+                    aria-label={locked ? `${label(option)}, locked until ${cost} points` : undefined}
+                  >
+                    <Avatar id={`opt-${tab}-${option}`} config={preview} size={58} />
+                    <span>{locked ? `🔒 ${short(cost)} pts` : label(option)}</span>
+                  </motion.button>
+                </Fragment>
               );
             })}
           </div>
         )}
-        {tab === 'hat' && (
-          <p className={lockNote ? 'saved-note' : 'muted small-note'}>
-            {lockNote ?? 'Earn points in solo modes and online games to unlock the fancier hats.'}
+        {tab !== 'colors' && (
+          <p className={note ? 'saved-note' : 'muted small-note'}>
+            {note ?? 'Earn points in solo modes and online games to unlock the ★ parts.'}
           </p>
         )}
       </SketchBox>

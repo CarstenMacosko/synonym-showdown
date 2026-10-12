@@ -1,7 +1,7 @@
 // Database writes for scores, ratings, reports and cheat-detection tags.
 
 import { publicUser, type User } from './auth.ts';
-import { sanitizeAvatar, unlockCost } from '../src/game/avatar.ts';
+import { lockedPart, sanitizeAvatar } from '../src/game/avatar.ts';
 import { dailyWindow, error, ipHash, json, rateLimited, readJson, recordEvent } from './http.ts';
 import { inflate, rateGame, type Rating } from '../src/game/rating.ts';
 import { verifySoloRun, type SoloSubmission } from '../src/game/soloVerify.ts';
@@ -188,8 +188,8 @@ export async function saveProfile(db: D1Database, req: Request, user: User): Pro
   const body = await readJson<{ avatar?: unknown }>(req, 2_000);
   const avatar = sanitizeAvatar(body?.avatar);
   if (!avatar) return error('That face has an unknown part.');
-  const cost = unlockCost('hat', avatar.hat);
-  if (cost > user.points) return error(`That hat unlocks at ${cost} points.`);
+  const locked = lockedPart(avatar, user.points);
+  if (locked) return error(`That ${locked.part} unlocks at ${locked.cost} points.`);
   await db.prepare('UPDATE users SET avatar = ? WHERE id = ?').bind(JSON.stringify(avatar), user.id).run();
   return json({ user: publicUser({ ...user, avatar: JSON.stringify(avatar) }) });
 }
