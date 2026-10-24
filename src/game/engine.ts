@@ -3,7 +3,7 @@
 // so the same code can referee a solo game in the browser or an online game on a server.
 
 import { findEntry, isSameWord, type Forgiveness } from './match.ts';
-import { RANGE_MAX, startersForTier, type Range, type Sense, type StarterWord, type Synonym, type Tier } from './words.ts';
+import { pickStarter as pickFromPool, RANGE_MAX, startersForTier, type Range, type SeenCounts, type Sense, type StarterWord, type Synonym, type Tier } from './words.ts';
 
 export type TimeControl = 'blitz' | 'rapid' | 'clock';
 export type AfterElimination = 'newWord' | 'sameWord';
@@ -63,11 +63,21 @@ export type GameEvent =
     }
   | { kind: 'timeout'; playerId: string; eliminatedId: string };
 
+/** A finished word: the starter and everything said for it. */
+export interface Round {
+  starter: StarterWord;
+  chain: Play[];
+}
+
 export interface GameState {
   settings: Settings;
   players: Player[];
   starter: StarterWord;
   usedStarters: string[];
+  /** Earlier words this game (the current one is `starter` + `chain`). */
+  rounds: Round[];
+  /** How many of the players have seen each starter word before, so new words come first. */
+  seen: SeenCounts;
   /** Words said for the current starter word. */
   chain: Play[];
   /** Whether the last word in the chain can still be challenged. */
@@ -131,11 +141,13 @@ export function turnBudget(state: GameState): number {
   return tc.bankMs ?? tc.turnMs ?? 1;
 }
 
-function pickStarter(tier: Tier, used: string[], rng: Rng): StarterWord {
-  const pool = startersForTier(tier);
-  const fresh = pool.filter((s) => !used.includes(s.word));
-  const from = fresh.length ? fresh : pool;
-  return from[Math.floor(rng() * from.length)];
+function pickStarter(tier: Tier, used: string[], seen: SeenCounts, rng: Rng): StarterWord {
+  return pickFromPool(startersForTier(tier), used, seen, rng);
+}
+
+/** Every word this game so far, in order, including the current one. */
+export function allRounds(state: GameState): Round[] {
+  return [...(state.rounds ?? []), { starter: state.starter, chain: state.chain }];
 }
 
 /** Charge the current player's chess clock for the time this turn took. */
@@ -152,15 +164,17 @@ function eliminate(state: GameState, players: Player[], event: GameEvent): GameS
 
 // ---------- actions ----------
 
-export function createGame(settings: Settings, setups: PlayerSetup[], rng: Rng, now: number): GameState {
+export function createGame(settings: Settings, setups: PlayerSetup[], rng: Rng, now: number, seen: SeenCounts = {}): GameState {
   const tc = TIME_CONTROLS[settings.timeControl];
   const players = setups.map((s) => ({ ...s, alive: true, bankMs: tc.bankMs ?? 0 }));
-  const starter = pickStarter(settings.tier, [], rng);
+  const starter = pickStarter(settings.tier, [], seen, rng);
   return {
     settings,
     players,
     starter,
     usedStarters: [starter.word],
+    rounds: [],
+    seen,
     chain: [],
     challengeable: false,
     currentId: players[Math.floor(rng() * players.length)].id, // random first player
@@ -266,12 +280,13 @@ export function continueGame(state: GameState, rng: Rng, now: number): GameState
   if (state.settings.afterElimination === 'sameWord') {
     return { ...state, phase: 'playing', currentId: nextId, turnStartedAt: now };
   }
-  const starter = pickStarter(state.settings.tier, state.usedStarters, rng);
+  const starter = pickStarter(state.settings.tier, state.usedStarters, state.seen ?? {}, rng);
   return {
     ...state,
     phase: 'playing',
     starter,
     usedStarters: [...state.usedStarters, starter.word],
+    rounds: allRounds(state),
     chain: [],
     challengeable: false,
     currentId: nextId,

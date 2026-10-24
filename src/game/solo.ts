@@ -5,7 +5,7 @@
 
 import type { Rng } from './engine.ts';
 import { findEntry, isSameWord, type Forgiveness } from './match.ts';
-import { RANGE_MAX, STARTERS, startersForTier, type Range, type StarterWord, type Synonym, type Tier } from './words.ts';
+import { pickStarter, RANGE_MAX, STARTERS, startersForTier, type Range, type SeenCounts, type StarterWord, type Synonym, type Tier } from './words.ts';
 
 export type SoloMode = 'score' | 'daily' | 'survival';
 
@@ -19,6 +19,10 @@ export interface SoloState {
   tier: Tier;
   starter: StarterWord;
   usedStarters: string[];
+  /** Earlier words in a survival run, with what was found for each. */
+  history: { starter: StarterWord; found: string[]; tried: string[] }[];
+  /** Starter words this player has seen before, so new ones come first. */
+  seen: SeenCounts;
   /** Canonical synonyms found for the current starter. */
   found: string[];
   /** Wrong guesses for the current starter (so repeating one doesn't cost time twice). */
@@ -66,20 +70,15 @@ export function dailyStarter(dateKey: string): StarterWord {
   return STARTERS[h % STARTERS.length];
 }
 
-function pickFrom(pool: StarterWord[], used: string[], rng: Rng): StarterWord {
-  const fresh = pool.filter((s) => !used.includes(s.word));
-  const from = fresh.length ? fresh : pool;
-  return from[Math.floor(rng() * from.length)];
-}
-
 export function createSolo(
   mode: SoloMode,
-  opts: { tier: Tier; forgiveness: Forgiveness; range: Range; dateKey?: string },
+  opts: { tier: Tier; forgiveness: Forgiveness; range: Range; dateKey?: string; seen?: SeenCounts },
   rng: Rng,
   now: number,
 ): SoloState {
   const tier = mode === 'survival' ? survivalTier(1) : opts.tier;
-  const starter = mode === 'daily' ? dailyStarter(opts.dateKey ?? todayKey()) : pickFrom(startersForTier(tier), [], rng);
+  const seen = opts.seen ?? {};
+  const starter = mode === 'daily' ? dailyStarter(opts.dateKey ?? todayKey()) : pickStarter(startersForTier(tier), [], seen, rng);
   const roundMs = mode === 'survival' ? survivalMs(1) : SCORE_MS;
   return {
     mode,
@@ -89,6 +88,8 @@ export function createSolo(
     tier: starter.tier,
     starter,
     usedStarters: [starter.word],
+    history: [],
+    seen,
     found: [],
     tried: [],
     score: 0,
@@ -156,7 +157,7 @@ export function guessSolo(
   if (s.mode === 'survival') {
     const round = s.round + 1;
     const tier = survivalTier(round);
-    const starter = pickFrom(startersForTier(tier), s.usedStarters, rng);
+    const starter = pickStarter(startersForTier(tier), s.usedStarters, s.seen, rng);
     const roundMs = survivalMs(round);
     return {
       result: 'ok',
@@ -169,6 +170,7 @@ export function guessSolo(
         tier,
         starter,
         usedStarters: [...s.usedStarters, starter.word],
+        history: [...s.history, { starter: s.starter, found: [canonical], tried: s.tried }],
         found: [],
         tried: [],
         deadline: now + roundMs,

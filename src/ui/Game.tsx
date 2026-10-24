@@ -27,6 +27,7 @@ import { PLAYER_COLORS, type GameConfig } from './config';
 import { useMusic } from './music';
 import { botAvatar, useMyAvatar } from './myAvatar';
 import { reportRuling } from './reports';
+import { markSeen, seenCounts } from './seenWords';
 import { GameOver } from './GameOver';
 import { JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
@@ -46,7 +47,7 @@ const ERRORS: Record<SubmitError, string> = {
 function newGame(config: GameConfig): GameState {
   if (config.mode === 'pass') {
     const humans = config.passNames.map((name, i) => ({ id: `p${i}`, name, isBot: false, color: PLAYER_COLORS[i] }));
-    return createGame(config.settings, humans, Math.random, Date.now());
+    return createGame(config.settings, humans, Math.random, Date.now(), seenCounts());
   }
   const names = [...BOT_NAMES].sort(() => Math.random() - 0.5);
   const setups = [
@@ -59,11 +60,12 @@ function newGame(config: GameConfig): GameState {
       color: PLAYER_COLORS[i + 1],
     })),
   ];
-  return createGame(config.settings, setups, Math.random, Date.now());
+  return createGame(config.settings, setups, Math.random, Date.now(), seenCounts());
 }
 
 export function Game({ config, onExit }: { config: GameConfig; onExit: () => void }) {
   const [state, setStateRaw] = useState(() => newGame(config));
+  useEffect(() => markSeen(state.starter.word), [state.starter.word]);
   const stateRef = useRef(state);
   const setState = useCallback((s: GameState) => {
     stateRef.current = s;

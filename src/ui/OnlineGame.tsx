@@ -12,9 +12,10 @@ import { socketUrl } from '../net/api';
 import { useAccount } from './account';
 import { Avatar, type Mood } from './Avatar';
 import { Ruling } from './Game';
-import { DisputePanel } from './DisputePanel';
-import { MeaningMap } from './MeaningMap';
+import { RoundPages } from './RoundPages';
+import { loadConfig, saveConfig } from './config';
 import { reportRuling } from './reports';
+import { markSeen, seenWords } from './seenWords';
 import { Choice, JIGGLE, SketchBox, SketchButton } from './sketch';
 import { sfx } from './sound';
 import { useMusic } from './music';
@@ -53,7 +54,7 @@ function useRoomSocket(code: string, name: string, avatar: AvatarConfig | null) 
         } catch {
           /* storage unavailable */
         }
-        ws.send(JSON.stringify({ t: 'hello', name, key, avatar } satisfies ClientMessage));
+        ws.send(JSON.stringify({ t: 'hello', name, key, avatar, seen: seenWords() } satisfies ClientMessage));
       };
       ws.onmessage = (e) => {
         const m = JSON.parse(e.data) as ServerMessage;
@@ -111,6 +112,10 @@ export function OnlineGame({ code, name, onExit, onFindMatch }: { code: string; 
   useMusic(room?.stage === 'playing' ? null : room?.ranked ? 'ranked' : 'room');
   const { refresh } = useAccount();
   const stage = room?.stage;
+  const starterWord = room?.play?.starter.word;
+  useEffect(() => {
+    if (starterWord) markSeen(starterWord);
+  }, [starterWord]);
   useEffect(() => {
     if (stage === 'over') refresh(); // pick up new rating and points
   }, [stage, refresh]);
@@ -157,6 +162,7 @@ function Lobby({ room, send, onExit, notice }: { room: RoomView; send: (m: Clien
   const set = (patch: Partial<Settings>) => send({ t: 'settings', settings: { ...s, ...patch } });
   const link = `${window.location.origin}/?room=${room.code}`;
   const ready = room.players.filter((p) => p.connected).length;
+  const me = room.players.find((p) => p.id === room.you);
 
   async function share() {
     try {
@@ -214,6 +220,7 @@ function Lobby({ room, send, onExit, notice }: { room: RoomView; send: (m: Clien
             </motion.div>
           ))}
         </div>
+        {!room.ranked && me?.guest && <NameEditor current={me.name} send={send} />}
       </SketchBox>
 
       {!room.ranked && (
@@ -371,11 +378,13 @@ function Board({
   }, [play.eventCount, play.phase]);
 
   // Server rejected a word (repeat, starter…): jiggle and keep the word for the player to fix.
+  // (A notice left over from the lobby is ignored, and there's nothing to jiggle when the box isn't showing.)
+  const firstNotice = useRef(notice?.id);
   useEffect(() => {
-    if (!notice) return;
+    if (!notice || notice.id === firstNotice.current) return;
     sfx.error();
     setPending(null);
-    animateForm('.input-wrap', JIGGLE.keyframes, JIGGLE.options);
+    if (formScope.current) animateForm('.input-wrap', JIGGLE.keyframes, JIGGLE.options);
     inputRef.current?.focus();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [notice?.id]);
@@ -612,6 +621,62 @@ function Board({
   );
 }
 
+/** Guests can change the name everyone sees (and it's remembered for next time). */
+function NameEditor({ current, send }: { current: string; send: (m: ClientMessage) => void }) {
+  const [editing, setEditing] = useState(false);
+  const [name, setName] = useState(current);
+  function save(e: FormEvent) {
+    e.preventDefault();
+    const clean = name.trim();
+    if (!clean) return;
+    if (clean !== current) {
+      send({ t: 'rename', name: clean });
+      saveConfig({ ...loadConfig(), name: clean });
+      sfx.pop();
+    }
+    setEditing(false);
+  }
+  if (!editing) {
+    return (
+      <p className="name-row">
+        <span className="muted">You’re playing as</span> <b>{current}</b>
+        <button
+          className="disagree"
+          onClick={() => {
+            setName(current === 'You' ? '' : current);
+            setEditing(true);
+          }}
+        >
+          ✏️ Change name
+        </button>
+      </p>
+    );
+  }
+  return (
+    <form className="suggest-row name-row" onSubmit={save}>
+      <SketchBox className="input-wrap">
+        <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Your name"
+          maxLength={16}
+          autoFocus
+          onFocus={(e) => e.target.select()}
+          autoComplete="nickname"
+          aria-label="Your name"
+          onKeyDown={(e) => e.key === 'Escape' && setEditing(false)}
+        />
+      </SketchBox>
+      <SketchButton type="submit" className="small" color="#69db7c" disabled={!name.trim()}>
+        Save
+      </SketchButton>
+      <SketchButton type="button" className="small" onClick={() => setEditing(false)}>
+        Cancel
+      </SketchButton>
+    </form>
+  );
+}
+
 // ---------- end of game ----------
 
 function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: ClientMessage) => void; onExit: () => void; onFindMatch: () => void }) {
@@ -652,12 +717,15 @@ function Over({ room, send, onExit, onFindMatch }: { room: RoomView; send: (m: C
           </p>
         ))}
       </SketchBox>
-      <MeaningMap starter={r.starter} said={new Set(r.said)} range={room.settings.range} />
-      <DisputePanel
-        starter={r.starter}
-        played={(room.play?.chain ?? []).map((c) => ({
-          word: c.word,
-          by: c.playerId === room.you ? 'you' : room.players.find((p) => p.id === c.playerId)?.name,
+      <RoundPages
+        rounds={(r.rounds ?? [{ starter: r.starter, chain: room.play?.chain ?? [], said: r.said }]).map((round) => ({
+          starter: round.starter,
+          played: round.chain.map((c) => ({
+            word: c.word,
+            by: c.playerId === room.you ? 'you' : room.players.find((p) => p.id === c.playerId)?.name,
+            challenged: c.rejected ? ('bluff' as const) : c.confirmed ? ('real' as const) : undefined,
+          })),
+          said: new Set(round.said),
         }))}
         range={room.settings.range}
         forgiveness={room.settings.forgiveness}

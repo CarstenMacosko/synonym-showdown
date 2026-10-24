@@ -34,6 +34,14 @@ See README.md for modes, file layout, and roadmap.
   typing speed (desktop only), pastes and rare words, plus a per-user running average (`users.cheat_score`);
   tags (`users.suspicious`) only on blatant or repeated evidence, never bans. Its simulation tests must keep
   passing (no simulated human tagged). Tagged players show "under review" and are hidden from the leaderboard.
+- Fresh words: each device remembers the starter words it has seen (`src/ui/seenWords.ts`, localStorage
+  `ss-seen`; a difficulty's cycle restarts once all its words were seen). `pickStarter` in words.ts picks the
+  word the fewest players have seen; online rooms get each player's list in `hello` and add the game's words
+  when it ends.
+- End screens use `src/ui/RoundPages.tsx`: one page per starter word of the game (`allRounds(state)`; online
+  via `ResultView.rounds`, Survival via `SoloState.history`), each with the words played + Disagree buttons
+  and the full answer map.
+- Friends lobby: guests can rename (`rename` message; duplicate names rejected, joiners get "Name 2").
 - Avatars: `src/game/avatar.ts` (options + server-side sanitizing), drawn by `src/ui/Avatar.tsx`; stored in
   `users.avatar`, guests in localStorage. Profile page `src/ui/Profile.tsx`. Dev-only gallery at `/?gallery`.
   Some parts unlock with account points (`UNLOCK_POINTS` in avatar.ts: propeller 5, sunglasses 25, top hat 50,

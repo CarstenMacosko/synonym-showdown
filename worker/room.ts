@@ -11,6 +11,7 @@ import { DurableObject } from 'cloudflare:workers';
 import {
   canChallenge,
   challenge,
+  allRounds,
   continueGame,
   createGame,
   submitWord,
@@ -33,7 +34,7 @@ import {
   type ServerMessage,
 } from '../src/game/protocol.ts';
 import { assessPlay, type WordStat } from '../src/game/suspicion.ts';
-import { RANGE_MAX } from '../src/game/words.ts';
+import { cleanSeen, countSeen, RANGE_MAX } from '../src/game/words.ts';
 import { recordAssessment, recordMatch } from './records.ts';
 
 const COLORS = ['#4dabf7', '#ff8787', '#69db7c', '#ffd43b', '#da77f2', '#ffa94d'];
@@ -63,6 +64,8 @@ interface Seat {
   flagged: boolean;
   avatar: AvatarConfig | null;
   connected: boolean;
+  /** Starter words this player has already seen (from their browser), so new ones come first. */
+  seen?: string[];
 }
 
 interface Room {
@@ -111,6 +114,16 @@ function guestAvatar(raw: unknown): AvatarConfig | null {
 function cleanName(raw: unknown): string {
   const name = typeof raw === 'string' ? raw.replace(/[^\p{L}\p{N} _'-]/gu, '').trim().slice(0, 16) : '';
   return name || 'Guest';
+}
+
+/** A guest name nobody else in the room has: "Maple", then "Maple 2", "Maple 3"… */
+function uniqueName(room: Room, name: string): string {
+  const taken = (n: string) => room.seats.some((s) => s.name.toLowerCase() === n.toLowerCase());
+  if (!taken(name)) return name;
+  for (let i = 2; ; i++) {
+    const next = `${name.slice(0, 13)} ${i}`;
+    if (!taken(next)) return next;
+  }
 }
 
 /** How the browser says the word was entered (used only by the cheat detector; never trusted for scoring). */
@@ -227,6 +240,16 @@ export class GameRoom extends DurableObject<Env> {
         this.noteKnockout();
         return this.commit();
       }
+      case 'rename': {
+        // Guests can pick a new name in the lobby; accounts always play under their username.
+        if (room.stage !== 'lobby' || room.ranked || seat.userId !== null) return;
+        const name = cleanName(msg.name);
+        if (room.seats.some((s) => s !== seat && s.name.toLowerCase() === name.toLowerCase())) {
+          return this.send(ws, { t: 'error', message: 'Someone here already has that name.' });
+        }
+        seat.name = name;
+        return this.commit();
+      }
       case 'emote':
         if (EMOTES.includes(msg.emote)) this.broadcastRaw({ t: 'emote', playerId: seat.id, emote: msg.emote });
         return;
@@ -255,7 +278,7 @@ export class GameRoom extends DurableObject<Env> {
         id: crypto.randomUUID().slice(0, 8),
         key: crypto.randomUUID(),
         // Signed-in players always appear under their username, so nobody can pose as them.
-        name: user ? user.username : cleanName(msg.name),
+        name: user ? user.username : uniqueName(room, cleanName(msg.name)),
         color: COLORS.find((c) => !used.has(c)) ?? COLORS[0],
         userId: user?.id ?? null,
         rating: user ? Math.round(user.rating) : null,
@@ -266,6 +289,7 @@ export class GameRoom extends DurableObject<Env> {
       };
       room.seats.push(seat);
     }
+    if (msg.seen) seat.seen = cleanSeen(msg.seen);
     // One live connection per seat: close any older tab.
     for (const other of this.ctx.getWebSockets()) {
       if (other !== ws && (other.deserializeAttachment() as Attachment).seat === seat.id) other.close(4000, 'Opened in another tab');
@@ -294,6 +318,7 @@ export class GameRoom extends DurableObject<Env> {
       players.map((s) => ({ id: s.id, name: s.name, isBot: false, color: s.color })),
       Math.random,
       Date.now(),
+      countSeen(players.map((s) => s.seen ?? [])),
     );
     Object.assign(room, { stage: 'playing', starters: [room.game.starter.word], stats: {}, out: [], result: null });
     await this.commit();
@@ -388,10 +413,15 @@ export class GameRoom extends DurableObject<Env> {
       ratingChanges = {};
     }
 
-    const said = final.chain
-      .map((p) => findEntry(p.word, final.starter, final.settings.forgiveness)?.word)
-      .filter((w): w is string => !!w);
-    room.result = { places, ratingChanges, starter: final.starter, said };
+    // Everyone here has now seen these words.
+    for (const seat of room.seats) seat.seen = [...new Set([...(seat.seen ?? []), ...room.starters])];
+    const rounds = allRounds(final).map((r) => ({
+      starter: r.starter,
+      chain: r.chain.map(({ playerId, word, rejected, confirmed }) => ({ playerId, word, rejected, confirmed })),
+      said: r.chain.map((p) => findEntry(p.word, r.starter, final.settings.forgiveness)?.word).filter((w): w is string => !!w),
+    }));
+    const last = rounds[rounds.length - 1];
+    room.result = { places, ratingChanges, starter: last.starter, said: last.said, rounds };
     await this.commit();
   }
 

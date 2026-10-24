@@ -57,3 +57,33 @@ export function synonymsInRange(starter: StarterWord, range: Range): Synonym[] {
 export function startersForTier(tier: Tier): StarterWord[] {
   return STARTERS.filter((s) => s.tier === tier);
 }
+
+/** How many players have already seen each starter word (words nobody has seen can be left out). */
+export type SeenCounts = Record<string, number>;
+
+const STARTER_WORDS = new Set(STARTERS.map((s) => s.word));
+
+/**
+ * Pick a starter word: never one already used this game, and among the rest one the fewest players have seen,
+ * so nobody gets a word again until they've had every other word at that difficulty.
+ */
+export function pickStarter(pool: StarterWord[], used: readonly string[], seen: SeenCounts, rng: () => number): StarterWord {
+  const fresh = pool.filter((s) => !used.includes(s.word));
+  const from = fresh.length ? fresh : pool;
+  const least = Math.min(...from.map((s) => seen[s.word] ?? 0));
+  const best = from.filter((s) => (seen[s.word] ?? 0) === least);
+  return best[Math.floor(rng() * best.length)];
+}
+
+/** A list of seen starter words from a browser (untrusted): known words only, no repeats. */
+export function cleanSeen(x: unknown): string[] {
+  if (!Array.isArray(x)) return [];
+  return [...new Set(x.filter((w): w is string => typeof w === 'string' && STARTER_WORDS.has(w)))].slice(0, STARTERS.length);
+}
+
+/** Add up several players' seen lists. */
+export function countSeen(lists: readonly (readonly string[])[]): SeenCounts {
+  const counts: SeenCounts = {};
+  for (const list of lists) for (const w of list) counts[w] = (counts[w] ?? 0) + 1;
+  return counts;
+}

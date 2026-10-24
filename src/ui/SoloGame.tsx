@@ -23,8 +23,8 @@ import { useMyAvatar } from './myAvatar';
 import { useTypingMeter } from './typing';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
-import { DisputePanel } from './DisputePanel';
-import { MeaningMap } from './MeaningMap';
+import { markSeen, seenCounts } from './seenWords';
+import { RoundPages } from './RoundPages';
 import { reportRuling } from './reports';
 import { getBest, getDaily, recordBest, saveDaily, type DailyResult } from './records';
 import { JIGGLE, SketchBox, SketchButton } from './sketch';
@@ -82,7 +82,8 @@ function SoloRun({
   onDailyDone,
   onAgain,
 }: Props & { dateKey: string; onDailyDone: (r: DailyResult) => void; onAgain: () => void }) {
-  const [state, setState] = useState<SoloState>(() => createSolo(mode, { tier, forgiveness, range, dateKey }, Math.random, Date.now()));
+  const [state, setState] = useState<SoloState>(() => createSolo(mode, { tier, forgiveness, range, dateKey, seen: seenCounts() }, Math.random, Date.now()));
+  useEffect(() => markSeen(state.starter.word), [state.starter.word]);
   const [now, setNow] = useState(Date.now());
   const [input, setInput] = useState('');
   const [feedback, setFeedback] = useState<{
@@ -380,11 +381,17 @@ function SoloOver({
       {saved && <p className="saved-note">{saved}</p>}
       {mode === 'daily' && <p className="tagline">Come back tomorrow for a new word!</p>}
 
-      {starter && <MeaningMap starter={starter} said={found} range={state?.range ?? 'standard'} />}
       {starter && (
-        <DisputePanel
-          starter={starter}
-          played={[...found, ...(daily?.tried ?? state?.tried ?? []), ...(state?.lastWrong ? [state.lastWrong] : [])].map((word) => ({ word }))}
+        <RoundPages
+          rounds={[
+            // Earlier survival words, then the one the run ended on.
+            ...(state?.history ?? []).map((h) => ({ starter: h.starter, played: [...h.tried, ...h.found].map((word) => ({ word })), said: new Set(h.found) })),
+            {
+              starter,
+              played: [...found, ...(daily?.tried ?? state?.tried ?? []), ...(state?.lastWrong ? [state.lastWrong] : [])].map((word) => ({ word })),
+              said: found,
+            },
+          ]}
           range={state?.range ?? 'standard'}
           forgiveness={state?.forgiveness ?? 'typos'}
           mode={mode}

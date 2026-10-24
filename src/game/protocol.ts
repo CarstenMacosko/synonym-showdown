@@ -21,7 +21,8 @@ export const RANKED_SETTINGS: Settings = {
 };
 
 export type ClientMessage =
-  | { t: 'hello'; name: string; key?: string; avatar?: AvatarConfig | null }
+  | { t: 'hello'; name: string; key?: string; avatar?: AvatarConfig | null; seen?: string[] }
+  | { t: 'rename'; name: string }
   | { t: 'settings'; settings: Settings }
   | { t: 'start' }
   | { t: 'say'; word: string; typedMs?: number | null; pasted?: boolean; touch?: boolean }
@@ -66,6 +67,8 @@ export interface ResultView {
   /** The last starter word with all its synonyms, for the end-screen meaning map. */
   starter: StarterWord;
   said: string[];
+  /** Every word of the game in order, with all its synonyms and what was said (for the end-screen pages). */
+  rounds?: { starter: StarterWord; chain: PlayView['chain']; said: string[] }[];
 }
 
 export interface RoomView {

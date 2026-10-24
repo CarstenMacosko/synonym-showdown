@@ -1,4 +1,4 @@
-// End-of-round "Disagree with a ruling?" panel: every word played this round with how it was ruled, a
+// End-of-game "Words played" panel for one starter word: every word said with how it was ruled, a
 // Disagree button for each, and a box to suggest a synonym the game doesn't count. Stays as long as the
 // end screen does, so there's no rush.
 
@@ -13,6 +13,8 @@ export interface PlayedWord {
   word: string;
   /** Who said it (shown in multiplayer), if known. */
   by?: string;
+  /** How a challenge on this word went, if it was challenged. */
+  challenged?: 'real' | 'bluff';
 }
 
 export function DisputePanel({
@@ -63,8 +65,11 @@ export function DisputePanel({
 
   return (
     <SketchBox className="panel dispute-panel">
-      <h2>Disagree with a ruling?</h2>
-      <p className="muted hint">Think a word was ruled wrong? Tell us and we’ll review it for everyone.</p>
+      <h2>
+        Words played for <span className="hl">{starter.word}</span>
+      </h2>
+      {rows.length === 0 && <p className="muted">Nobody got a word in on this one.</p>}
+      {rows.length > 0 && <p className="muted hint">Think a word was ruled wrong? Tell us and we’ll review it for everyone.</p>}
       {rows.length > 0 && (
         <ul className="dispute-list">
           {rows.map((r) => {
@@ -75,6 +80,7 @@ export function DisputePanel({
                 <small className="muted">
                   {r.counted ? '✓ counted' : '✗ not a synonym'}
                   {r.by ? ` · ${r.by}` : ''}
+                  {r.challenged === 'bluff' ? ' · caught bluffing!' : r.challenged === 'real' ? ' · challenged, but real' : ''}
                 </small>
                 {done ? (
                   <small className="disagree done">Thanks!</small>

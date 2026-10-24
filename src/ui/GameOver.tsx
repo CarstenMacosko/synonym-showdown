@@ -1,13 +1,12 @@
-// End screen: who won, your placement, and the map of the word's meanings and synonyms.
+// End screen: who won, your placement, and a page per word played with the words said and all the answers.
 
 import { motion } from 'framer-motion';
 import type { AvatarConfig } from '../game/avatar';
-import { alivePlayers, player, type GameState } from '../game/engine';
+import { allRounds, alivePlayers, player, type GameState } from '../game/engine';
 import { findEntry } from '../game/match';
 import { AdSlot } from './AdSlot';
 import { Avatar } from './Avatar';
-import { DisputePanel } from './DisputePanel';
-import { MeaningMap } from './MeaningMap';
+import { RoundPages } from './RoundPages';
 import { SketchButton } from './sketch';
 
 /** `youId` is null in pass-and-play, where the screen just celebrates the winner. */
@@ -28,10 +27,18 @@ export function GameOver({
   const won = youId !== null && state.winnerId === youId;
   const me = youId ? player(state, youId) : winner!;
   const place = won ? 1 : alivePlayers(state).length + 1;
-  const myWords = state.chain.filter((p) => p.playerId === me.id).length;
-  const said = new Set(
-    state.chain.map((p) => findEntry(p.word, state.starter, state.settings.forgiveness)?.word).filter((w): w is string => !!w),
-  );
+  const rounds = allRounds(state);
+  const myWords = rounds.flatMap((r) => r.chain).filter((p) => p.playerId === me.id).length;
+  const f = state.settings.forgiveness;
+  const pages = rounds.map((r) => ({
+    starter: r.starter,
+    played: r.chain.map((p) => ({
+      word: p.word,
+      by: p.playerId === youId ? 'you' : player(state, p.playerId).name,
+      challenged: p.rejected ? ('bluff' as const) : p.confirmed ? ('real' as const) : undefined,
+    })),
+    said: new Set(r.chain.map((p) => findEntry(p.word, r.starter, f)?.word).filter((w): w is string => !!w)),
+  }));
   const ordinal = ['1st', '2nd', '3rd', '4th', '5th'][place - 1];
 
   return (
@@ -54,15 +61,13 @@ export function GameOver({
       </motion.h1>
       {youId && !won && winner && <p className="tagline">{winner.name} won the showdown.</p>}
 
-      {youId && <p className="muted">You said {myWords} word{myWords === 1 ? '' : 's'} on this one.</p>}
-      <MeaningMap starter={state.starter} said={said} range={state.settings.range} />
-      <DisputePanel
-        starter={state.starter}
-        played={state.chain.map((p) => ({ word: p.word, by: p.playerId === youId ? 'you' : player(state, p.playerId).name }))}
-        range={state.settings.range}
-        forgiveness={state.settings.forgiveness}
-        mode={youId ? 'bots' : 'pass'}
-      />
+      {youId && (
+        <p className="muted">
+          You said {myWords} word{myWords === 1 ? '' : 's'}
+          {rounds.length > 1 ? ` across ${rounds.length} starter words` : ' on this one'}.
+        </p>
+      )}
+      <RoundPages rounds={pages} range={state.settings.range} forgiveness={f} mode={youId ? 'bots' : 'pass'} />
 
       <div className="play-row">
         <SketchButton big color="#ffd43b" onClick={onAgain}>

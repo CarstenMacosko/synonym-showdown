@@ -1460,3 +1460,107 @@ h2 {
 .og-card.compact small {
   font-size: 17px;
 }
+
+/* ---------- end-screen pages (one per starter word) ---------- */
+
+.round-pages {
+  width: 100%;
+}
+
+.round-pager {
+  padding: 10px 12px;
+}
+
+.round-pager .sketch-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.pager-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+.pager-arrow {
+  font: inherit;
+  font-size: 1.3rem;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 2px solid var(--ink);
+  border-radius: 50% 45% 52% 48%;
+  background: #fff3bf;
+  cursor: pointer;
+}
+
+.pager-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.pager-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.pager-dots button {
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pager-dots button.on {
+  background: var(--ink);
+  transform: scale(1.25);
+}
+
+.round-page {
+  touch-action: pan-y;
+}
+
+.round-page[hidden] {
+  display: none;
+}
+
+.round-page.from-right {
+  animation: page-from-right 0.28s ease-out;
+}
+
+.round-page.from-left {
+  animation: page-from-left 0.28s ease-out;
+}
+
+@keyframes page-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+}
+
+@keyframes page-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+}
+
+.name-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px 0 0;
+}
