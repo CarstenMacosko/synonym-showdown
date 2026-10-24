@@ -1,6 +1,7 @@
 # Synonym Showdown
 
 https://synonymshowdown.com/ 
+
 A word-bluffing game. Everyone gets a starter word and takes turns naming synonyms.
 If you think the last word wasn't really a synonym, **challenge** it: if it was a real synonym the challenger is out,
 if it wasn't the bluffer is out. Last player standing wins.
