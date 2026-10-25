@@ -19,8 +19,8 @@ See README.md for modes, file layout, and roadmap.
   `npx wrangler dev --port 8811` (full sign-up/sign-in/room round trip; refused on the live site). Run the full check
   after any change to `worker/` or `src/net/`. `.github/workflows/server-check.yml` runs the live check every 6 hours.
 - Cloudflare's free plan allows 100,000 Worker requests a day **shared by every project on the account** (including
-  the owner's VirtualChatRooms Pages Functions). When it runs out, /api/* returns Cloudflare error 1027 (HTTP 429, HTML)
-  until 00:00 UTC; the client shows a "back at <time>" message. This happened on 2026-10-25.
+  the owner's VirtualChatRooms Pages Functions, which since 2026-10-25 are only a fallback: its browsers call Fly.io directly). When it runs out, /api/* returns Cloudflare error 1027 (HTTP 429, HTML)
+  until 00:00 UTC; the client shows a "back at <time>" message. Guests skip /api/me after their first visit (localStorage `ss-account`). This happened on 2026-10-25.
 - This Mac's network filter (Cisco Secure Client / GlobalProtect) resets connections to synonymshowdown.com; test the
   live site via the workers.dev URL or from GitHub Actions instead.
 - No full Xcode installed yet (macOS 14.6, Command Line Tools only), so `npm run ios` won't work until it is.
