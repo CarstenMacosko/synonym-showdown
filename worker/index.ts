@@ -1,5 +1,6 @@
 // The Worker: serves the website and the /api/* game server.
 //
+//   GET  /api/health               is the server (and its database) up? Used by tools/check/live.ts
 //   GET  /api/me                   who's signed in
 //   POST /api/register | login | logout
 //   POST /api/solo                 save a finished solo run (re-verified here)
@@ -39,6 +40,10 @@ async function api(req: Request, env: Env, path: string): Promise<Response> {
   if ((method !== 'GET' || isUpgrade) && !sameOrigin(req)) return error('Forbidden', 403);
   const db = env.DB;
 
+  if (path === '/api/health' && method === 'GET') {
+    await db.prepare('SELECT 1').first();
+    return json({ ok: true });
+  }
   if (path === '/api/me' && method === 'GET') {
     const user = await currentUser(db, req);
     return json({ user: user ? publicUser(user) : null });

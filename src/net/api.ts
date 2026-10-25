@@ -62,16 +62,54 @@ export interface AdminFlag {
   tagged: number;
 }
 
+/** The server's daily request allowance resets at midnight UTC; this is that moment in the player's own clock. */
+function resetTime(): string {
+  const next = new Date();
+  next.setUTCHours(24, 0, 0, 0);
+  return next.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+}
+
+/** Turn a failed response into something a player can act on. Our own errors carry a JSON message; Cloudflare's don't. */
+function failure(res: Response, data: { error?: string }): string {
+  if (data.error) return data.error;
+  if (res.status === 429) return `The game server is out of requests for today. Sign-in and online play are back at ${resetTime()}. Solo games still work!`;
+  if (res.status >= 500) return 'The game server is having a hiccup. Try again in a minute.';
+  return `The game server answered strangely (${res.status}). Try again in a minute.`;
+}
+
 async function call<T>(path: string, init?: { method?: string; body?: unknown }): Promise<T> {
-  const res = await fetch(path, {
-    method: init?.method ?? 'GET',
-    headers: init?.body !== undefined ? { 'content-type': 'application/json' } : undefined,
-    body: init?.body !== undefined ? JSON.stringify(init.body) : undefined,
-    credentials: 'same-origin',
-  });
+  const method = init?.method ?? 'GET';
+  let res: Response | null = null;
+  // Reads get one quiet retry for a dropped connection or a passing server error. Changes don't, so a sign-up
+  // that went through isn't sent twice.
+  for (let attempt = 0; attempt < (method === 'GET' ? 2 : 1); attempt++) {
+    try {
+      res = await fetch(path, {
+        method,
+        headers: init?.body !== undefined ? { 'content-type': 'application/json' } : undefined,
+        body: init?.body !== undefined ? JSON.stringify(init.body) : undefined,
+        credentials: 'same-origin',
+      });
+    } catch {
+      res = null;
+    }
+    if (res && res.status !== 502 && res.status !== 503 && res.status !== 504) break;
+    if (method === 'GET' && attempt === 0) await new Promise((r) => setTimeout(r, 800));
+  }
+  if (!res) throw new Error('Could not reach the server. Check your internet connection and try again.');
   const data = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(data.error ?? 'Could not reach the server.');
+  if (!res.ok) throw new Error(failure(res, data));
   return data as T;
+}
+
+/** Why the server can't be used right now, or null if it's fine (used to explain a lost game connection). */
+export async function serverTrouble(): Promise<string | null> {
+  try {
+    await call('/api/health');
+    return null;
+  } catch (e) {
+    return (e as Error).message;
+  }
 }
 
 export const api = {

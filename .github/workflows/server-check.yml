@@ -1,0 +1,19 @@
+# Checks the live game server, its database and sign-in every 6 hours (and on demand from the Actions tab).
+# If a check fails, the run fails and GitHub emails the repo owner. Read-only: it never creates accounts.
+name: Server check
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node tools/check/server.ts https://synonymshowdown.com

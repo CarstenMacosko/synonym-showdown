@@ -8,7 +8,7 @@ import type { AvatarConfig } from '../game/avatar';
 import { isSameWord, type Forgiveness } from '../game/match';
 import { EMOTES, type ClientMessage, type Emote, type QueueMessage, type RoomView, type ServerMessage } from '../game/protocol';
 import type { Range, Tier } from '../game/words';
-import { socketUrl } from '../net/api';
+import { serverTrouble, socketUrl } from '../net/api';
 import { useAccount } from './account';
 import { Avatar, type Mood } from './Avatar';
 import { Ruling } from './Game';
@@ -85,7 +85,7 @@ function useRoomSocket(code: string, name: string, avatar: AvatarConfig | null) 
         if (e.code === 4000) return setFatal('This game is open in another tab.');
         if (e.code === 4001) return setFatal('Your opponent didn’t connect. Try finding another match!');
         if (tries < 6) setTimeout(open, Math.min(8000, 500 * 2 ** tries++));
-        else setFatal('Lost the connection to the game.');
+        else serverTrouble().then((why) => setFatal(why ?? 'Lost the connection to the game.'));
       };
     };
     open();
@@ -769,7 +769,8 @@ export function RankedQueue({ onMatched, onCancel }: { onMatched: (code: string)
       else setStatus(m.message);
     };
     ws.onclose = (e) => {
-      if (e.code !== 1000) setStatus(e.code === 4000 ? 'Searching in another tab.' : 'Lost connection. Try again.');
+      if (e.code === 4000) setStatus('Searching in another tab.');
+      else if (e.code !== 1000) serverTrouble().then((why) => setStatus(why ?? 'Lost connection. Try again.'));
     };
     return () => {
       clearInterval(tick);
