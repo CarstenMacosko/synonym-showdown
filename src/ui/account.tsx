@@ -21,13 +21,37 @@ export function useAccount() {
   return useContext(Ctx);
 }
 
+// Whether this browser was signed in last time we checked. Guests then skip asking the server on every visit,
+// since each question counts against the server's daily request allowance. A first visit (no answer yet) asks once.
+const HINT = 'ss-account';
+
+function signedInHint(): boolean | null {
+  try {
+    const v = localStorage.getItem(HINT);
+    return v === null ? null : v === 'in';
+  } catch {
+    return null;
+  }
+}
+
+function rememberSignedIn(signedIn: boolean) {
+  try {
+    localStorage.setItem(HINT, signedIn ? 'in' : 'out');
+  } catch {
+    /* storage unavailable */
+  }
+}
+
 export function AccountProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<Account | null>(null);
   const [ready, setReady] = useState(false);
   const [dialog, setDialog] = useState(false);
   const refresh = useCallback(async () => {
+    if (signedInHint() === false) return setReady(true);
     try {
-      setUser(await api.me());
+      const me = await api.me();
+      setUser(me);
+      rememberSignedIn(me !== null);
     } catch {
       /* offline or server unavailable: play as a guest */
     }
@@ -46,6 +70,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         openSignIn: () => setDialog(true),
         signOut: async () => {
           await api.logout().catch(() => {});
+          rememberSignedIn(false);
           setUser(null);
         },
       }}
@@ -56,6 +81,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
           <AuthDialog
             onClose={() => setDialog(false)}
             onDone={(u) => {
+              rememberSignedIn(true);
               setUser(u);
               setDialog(false);
             }}
